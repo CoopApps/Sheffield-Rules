@@ -331,28 +331,63 @@ A comprehensive directory of the individuals who shaped Sheffield Rules football
 
 ### John Charles Shaw
 
-**Role**: Captain of Hallam Club, Sheffield FA President (1869-1883)
+**Role**: Co-founder of Hallam FC, Sheffield FA President (1869-1885), "The Gentleman Who Cannot Grow Old"
 
-**Background**:
+**Born**: 23 January 1830, Penistone
+
+**Died**: 23 November 1918, aged 88, Lydgate House, Church Road, Moseley, Birmingham
+
+**Family**:
+- Son of Benjamin and Elizabeth Shaw
+- Father was cordwainer/shoemaker
 - From Penistone and district (15 miles north of Sheffield)
-- According to Curry, area played significant part in development of modern club football in Sheffield
-- Captain of Hallam Club during Youdan Cup era
-- Worked as clerk in younger years at John Dransfield's father's solicitor chambers in Penistone
+
+**Education**:
+- Penistone Free Grammar School (during Rev. Sunderland's reign as headmaster)
+- Sheffield Collegiate School
 - Baptised by Reverend Samuel Sunderland
 - Played football on Fairfields opposite Dransfield's father's offices
 
+**Early Career**:
+- Worked as clerk in younger years at John Dransfield's father's solicitor chambers in Penistone
+- Law stationer
+- Illuminator
+
 **Key Contributions**:
 
+**26 December 1860** - World's First Club Football Match:
+- Co-founder of Hallam FC with Thomas Edward Vickers
+- **Hallam vs. Sheffield FC** at Sandygate - world's first inter-club football match
+- Both Shaw and Vickers had been members of Sheffield FC before founding Hallam
+- Did not sever ties totally with Sheffield FC
+- Shaw placed adverts in press for the match
+
+**Hallam FC Leadership**:
+- Captain
+- Secretary
+- Treasurer
+- Held multiple offices simultaneously
+
+**2 January 1865** - Nottingham Match:
+- Still represented Sheffield FC in their first out-of-town fixture
+- Shows continued connection to Sheffield FC despite founding Hallam
+
 **31 March 1866** - Battersea Park:
-- Part of Sheffield team (though still captain of Hallam Club at time)
+- Part of Sheffield team (though captain of Hallam Club at time)
 - Possibly sat with Charles Alcock during Albion Hotel dinner
 - Both had much in common: established own clubs, would achieve authority in associations
+
+**1862-1863** - Athletic Achievements:
+- Finished second in inaugural Hallam Steeplechase (1862)
+- Organized the steeplechase
+- Won the Hallam Steeplechase in 1863
+- Shows all-round athletic ability beyond football
 
 **28 January 1867**:
 - Member of Youdan Cup organizing committee
 - Represented Hallam Club interests
 
-**5 March 1867**:
+**5 March 1867** - Youdan Cup Victory:
 - Captain of Hallam Club when they won Youdan Cup
 - Defeated Norfolk 0 goals 2 rouges to 0 goals 0 rouges at Bramall Lane
 - Final attracted crowd over 3000
@@ -362,12 +397,13 @@ A comprehensive directory of the individuals who shaped Sheffield Rules football
 - After closing match of season using new Sheffield FA rules
 - Trophy still in possession of Hallam club
 
-**1869**:
+**1867**:
+- Vice-President of Sheffield Football Association
+
+**1869-1885** - Sheffield FA Presidency:
 - Became President of Sheffield Football Association
 - Replaced Harry Walker Chambers
-
-**Presidency (1869-1883)**:
-- Held "chair" for fourteen years
+- **Held "chair" for over 15 years** (not 14 as previously thought)
 - Oversaw rule changes
 - Oversaw eventual amalgamation with London in 1877
 - Most significant Sheffield football administrator of the era
@@ -387,16 +423,51 @@ A comprehensive directory of the individuals who shaped Sheffield Rules football
 - Alcock possibly sought last-minute reassurances regarding framework of Youdan Cup's success
 - Regarding his forthcoming FA Challenge Cup competition
 
+**1884** - Playing Longevity:
+- **Still playing for Hallam at age 54** as full-back
+- "The gentleman who cannot grow old"
+- Singled out for praise representing Sheffield FC's veterans against current side at Bramall Lane
+- Remarkable physical condition and dedication
+- Playing career spanned over 24 years (1860-1884 at least)
+
+**Later Career - Conservative Party Agent**:
+- Moved to Moseley, Birmingham
+- Conservative party agent
+- **Organizing secretary for whole of England and Wales**
+- Became Justice of the Peace
+- Retired 1912 (aged 82)
+
+**Death** (23 November 1918):
+- Following short illness
+- Aged 88 at home of Lydgate House, Church Road, Moseley
+- Had lived through entire development of modern football
+- Lived through: founding of Sheffield FC (1857), first club match (1860), Youdan Cup (1867), Sheffield FA formation (1867), FA Cup (1871), Sheffield-London amalgamation (1877), and into WWI era
+
+**Occupations Throughout Life**:
+- Clerk
+- Law stationer
+- Illuminator
+- Political agent
+- Footballer
+
 **New Power Dynamic**:
 - With Chambers and Chesterman out of equation
 - Shaw and Alcock became driving forces of respective organizations
 - Unlike predecessors, Shaw maintained Sheffield's independence while cooperating with London
 
 **Legacy**:
-- Longest-serving Sheffield FA President of the founding era
+> "Major force behind many aspects of Sheffield life"
+
+- Longest-serving Sheffield FA President of the founding era (over 15 years: 1869-1885)
 - Successfully navigated Sheffield-London relations
 - Oversaw critical period including amalgamation in 1877
+- **Co-founded Hallam FC** - world's second oldest football club (still in existence)
+- **Organized world's first inter-club football match** (26 December 1860)
 - Geographic connection to Penistone important for club football development
+- Brought Penistone/Thurlstone folk football traditions to Sheffield
+- One of three key figures (with Marsh and Dransfield) from Penistone area who shaped Sheffield football
+- Justice of the Peace and national political organizer
+- Extraordinary longevity in playing career and administrative roles
 
 ---
 
