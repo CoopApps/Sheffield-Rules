@@ -498,16 +498,48 @@ A comprehensive directory of the individuals who shaped Sheffield Rules football
 
 ### John Marsh
 
-**Role**: Captain of Wednesday FC, Cromwell Cup Winner
+**Role**: Co-founder and Captain of Wednesday FC, Cromwell Cup Winner, "The Little Wonder"
 
-**Background**:
-- From Penistone and district (15 miles north of Sheffield)
-- Geographic connection: same area as John Charles Shaw and John Dransfield
-- According to Curry, Penistone area played significant part in development of modern club football in Sheffield
+**Born**: 26 November 1842, Thurlstone
+
+**Died**: 21 April 1880, aged 37, Thurlstone
+
+**Family**:
+- Father: Thomas Marsh (stonemason)
+- Mother: Elizabeth Marsh (later ran Crystal Palace inn)
+- 1851 census: Family living at Dunford Bridge (near Thurlstone)
+
+**Education**:
+- Described as "scholar" in 1851 census
+- Presumably attended Penistone Free Grammar School
+- No fees levied there, only educational establishment in area
+- Doubtful educated privately at home
 - Baptised by Reverend Samuel Sunderland (same as Shaw and Dransfield)
 - Exposed to Fairfields football culture
 
+**Early Career**:
+- By 1861: Resided in Sheffield
+- Lived as lodger in house of John Goodyer at 14 Charles Street
+- Apprenticed to Goodyer (engraver and lithographer)
+- Trade: Engraver - continued throughout life
+
+**Social Class Note**:
+- As engraver, trade not socially acceptable to "gentlemen" of Sheffield FC
+- Dransfield notes Marsh serving as captain of Sheffield FC
+- Authors doubt this connection - elite club unlikely to accept tradesman
+- Dransfield may be mixing up Marsh's Wednesday captaincy with Sheffield FC
+
 **Key Contributions**:
+
+**4 September 1867** - Wednesday Football Club Founded:
+- **One of founders** of Wednesday Football Club (eventually Sheffield Wednesday)
+- Elected **secretary AND captain at first meeting**
+- Dual role from inception
+- Remained prominent member for some years
+
+**1871** - London Match:
+- Captained Sheffield Association team in initial encounter with London
+- Led team through perhaps their most successful era
 
 **Cromwell Cup 1868**:
 - Captain of Wednesday FC (first season club)
@@ -527,10 +559,48 @@ A comprehensive directory of the individuals who shaped Sheffield Rules football
 - Entire team presented on stage of Theatre Royal
 - Part of benefit evening for Oliver Cromwell (leaving the area)
 
+**1874** - Glasgow Match:
+- Captained Sheffield Association team in encounter with Glasgow
+- Part of most successful era of Sheffield Association football
+
+**"The Little Wonder" Nickname**:
+- Small but effective stature
+- Not only sportsperson described in those terms
+- Others included:
+  - Billy Mosforth (another Sheffield footballer)
+  - John Wisden (cricketer, producer of Wisden Cricketers' Almanack)
+  - Lottie Dod (tennis player)
+
+**1874** - Return to Thurlstone:
+- Took charge of Crystal Palace inn
+- Formerly run by his mother Elizabeth
+- Persevered with previous trade as engraver
+- Continued to play football
+- Became secretary and captain of local club
+- Sometimes played under title "Thurlstone Crystal Palace"
+
+**26 February 1876** - Career-Ending Injury:
+- Suffered fall during game for Thurlstone against Fir Vale
+- Resulted in broken arm which never fully mended
+- Travelled to London to have break rebound
+- Appears to have slipped into depression because of injury
+- Injury effectively ended playing career at age 33
+
+**Death** (21 April 1880):
+- Aged 37
+- At Thurlstone
+- Following depression from injury
+- Sporting obituary appeared in Sheffield Daily Telegraph (23 April 1880)
+
 **Legacy**:
 - Cromwell Cup still in possession of Sheffield Wednesday Football Club
-- Geographic link with Shaw from Penistone shows regional importance in Sheffield football development
+- Geographic link with Shaw and Dransfield from Penistone area shows regional importance
 - Led Wednesday in their first season to cup victory
+- Co-founder of club that became Sheffield Wednesday FC
+- Captained Sheffield Association in most successful era (1871-1874)
+- One of three key figures (with Shaw and Dransfield) from Penistone/Thurlstone who shaped Sheffield football
+- Brought Penistone/Thurlstone folk football traditions to Sheffield
+- Tragic early death cut short promising administrative and playing career
 
 ---
 
