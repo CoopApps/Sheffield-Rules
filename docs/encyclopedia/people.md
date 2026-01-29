@@ -1144,6 +1144,141 @@ A comprehensive directory of the individuals who shaped Sheffield Rules football
 
 ---
 
+### William Prest
+
+**Role**: Co-founder of Sheffield Football Club (1857)
+
+**Background**:
+- Generally credited alongside Nathaniel Creswick with formation of Sheffield FC
+- **First club outside school/university setting** founded with sole intention of playing football
+
+**Significance**:
+- Co-created world's first football club (1857)
+- Established model for club football organization
+- Part of Sheffield Collegiate School football culture
+- Helped create organized fixture structure
+
+**Legacy**:
+- With Creswick, pioneered concept of football club
+- Sheffield FC became template for all future clubs
+- Represents Sheffield Collegiate strand of diffusion
+
+---
+
+### John (Jack) Hunter
+
+**Role**: Great Sheffield Footballer
+
+**Era**: Mid-to-late Victorian period
+
+**Significance**:
+- Described as one of Sheffield's "great players and characters"
+- Part of generation that established Sheffield's football prominence
+- Played during critical period of Sheffield football development
+
+**Context**:
+- Emerged during Sheffield's most important footballing era
+- Contemporary with professionalization of game
+- Represents high-quality player Sheffield produced
+
+---
+
+### William (Billy) Mosforth
+
+**Role**: Great Sheffield Footballer, "The Little Wonder"
+
+**Era**: Mid-to-late Victorian period
+
+**Nickname**: "The Little Wonder"
+- Small but effective stature
+- Same epithet given to John Marsh (Wednesday captain)
+- Also shared by John Wisden (cricketer) and Lottie Dod (tennis player)
+
+**Significance**:
+- Described as one of Sheffield's "great players and characters"
+- Part of generation that established Sheffield's football prominence
+- Shows Sheffield produced players of national significance
+- Small stature didn't prevent excellence (like Marsh)
+
+**Context**:
+- Played during Sheffield's dominance in early football
+- Contemporary with emerging professionalism
+- Represents quality of Sheffield footballers
+
+---
+
+### John Charles Clegg
+
+**Role**: Administrator, Influential on National and Local Stage
+
+**Family**:
+- Brother of William Edwin Clegg
+- Father: William Clegg (aggressive teetotaller)
+- Father opposed Thomas Youdan's drinks licence applications
+
+**Era**: Mid-to-late Victorian period, into early 20th century
+
+**Administrative Role**:
+- Influential administrator at Sheffield level
+- **Influential on national stage** as well
+- Future President of the Football Association
+- One of most important football administrators of era
+
+**Sheffield Context**:
+- Part of generation following Shaw, Chambers, Chesterman
+- Represented Sheffield interests at national level
+- Continued Sheffield's influence in football governance
+
+**Father's Teetotalism**:
+- William Clegg was aggressive teetotaller
+- Refused Thomas Youdan drinks licence
+- May have contributed to Youdan losing interest in football sponsorship
+- Youdan Cup only held once (1867)
+- Shows intersection of temperance movement and football
+
+**Legacy**:
+- Became FA President
+- Long career in football administration
+- Maintained Sheffield's voice in national football
+- Family influence on Sheffield sport (teetotalism vs commercial entertainment)
+
+---
+
+### William Edwin Clegg
+
+**Role**: Administrator, Influential on National and Local Stage
+
+**Family**:
+- Brother of John Charles Clegg
+- Father: William Clegg (aggressive teetotaller)
+
+**Era**: Mid-to-late Victorian period
+
+**Administrative Role**:
+- Influential administrator at Sheffield level
+- **Influential on national stage** as well
+- Part of generation shaping modern football administration
+- Worked alongside brother in football governance
+
+**Significance**:
+- Two brothers both influential at national level
+- Unusual for one family to produce two major administrators
+- Shows importance of Sheffield families in football development
+- Clegg brothers continued Sheffield's national influence
+
+**Context**:
+- Part of broader network of Sheffield administrators
+- Following generation of Shaw, Chambers, Chesterman
+- Period when football becoming fully professionalized
+- Sheffield maintaining influence despite London centralization
+
+**Legacy**:
+- With brother, represented Sheffield at highest levels
+- Helped shape national football governance
+- Part of Sheffield's ongoing contribution to football administration
+
+---
+
 ### Nathaniel Creswick
 
 **Role**: Co-founder of Sheffield Football Club (1857)
