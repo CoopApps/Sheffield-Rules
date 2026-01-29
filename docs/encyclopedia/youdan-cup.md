@@ -196,4 +196,230 @@ Neill, Kevin. "The Youdan and Cromwell Cups: Sheffield Football's Knockout Troph
 
 ---
 
+## The Youdan Competition
+
+### Motivation and Timing
+
+**The FA Rebuke**:
+- The rebuke regarding an immediate return game may have galvanized Chambers and Chesterman into radical action
+- Sheffield FC was the premier club, members considered themselves elite
+- Their authority could not be questioned - they had forged the Sheffield rules and were guardians
+- **Need**: Draw all existing Sheffield clubs into a recognizable form accepted by London - a functioning association
+- **Timing**: Preferably before the next FA meeting
+
+**Origin of the Idea**:
+- Murphy claims it was entirely Thomas Youdan's concept
+- Westby supports this, calling it Youdan's marketing idea
+- More likely: During months following Battersea Park game, Chambers and Chesterman organized a committee
+- Committee ensured agreement and framework for competition
+- Required co-operation from clubs represented on committee
+
+**Possible Inspiration - Dodworth Cricket Tournament**:
+- June 1866: Knockout tournament at Dodworth (near Barnsley) for a silver cup
+- Only short distance from Sheffield
+- Noted by Davies and Light in *Cricket and Community in England* (1867)
+- Local press reports: Silkstone village won silver cup in knockout competition during Dodworth feast celebrations
+- Part of local cricket culture - many football players belonged to cricket fraternity
+- Could have provided catalyst for Youdan Cup
+
+### The Youdan Committee
+
+**Formation**: 28 January 1867
+- Confirmed by *Sporting Life*: "A crowded meeting of representatives of 13 football clubs of Sheffield and neighbourhood was held on Monday evening at the Adelphi Hotel to make arrangements for competing for a valuable silver cup"
+- Almost certain Sheffield Football Club representatives were at the helm
+
+**Known Committee Members**:
+- **John Charles Shaw** (Hallam FC) - member
+- **Frederick Corbett** - Honorary Secretary
+  - Originally from London
+  - On committee of Norfolk club
+  - Name appears in block adverts regarding tournament progress
+
+**Committee Activities**:
+
+*January 1867*:
+- Corbett placed advertisement "To Artists and Designers"
+- Offered cash prize for best trophy design
+- Winning design selected by committee
+
+**Committee's Achievement**:
+- No official governing body existed in Sheffield
+- Could not call it "Sheffield Association Challenge Cup"
+- No funds to promote competition
+- Still managed to organize comprehensive tournament structure
+
+### Tournament Structure and Rules
+
+**Participating Clubs** (12 teams):
+1. Hallam
+2. Heeley
+3. Norton
+4. Mechanics
+5. Norfolk
+6. Fir Vale
+7. Broomhall
+8. Pitsmoor
+9. MacKenzie
+10. Garrick
+11. Milton
+12. Wellington
+
+**Notable Absence**: Sheffield Football Club did not participate
+- Possible reasons:
+  - Had already experienced playing under London rules
+  - As guardians of Sheffield rules, their job was to oversee changes
+  - May not have wanted to be defeated by another Sheffield side
+
+**Tournament Rules**:
+
+1. **Team Size**: Games to be played 12-a-side
+
+2. **Punctuality**: Game to commence punctually at 3 o'clock. No waiting for players allowed.
+
+3. **Duration and Tiebreakers**:
+   - Game played for one hour and thirty minutes in usual way
+   - If draw at end of time: clubs toss for choice of goals and play on
+   - First point scored decides game
+   - If still drawn after one hour's extra play: adjourned to Monday at 3 o'clock
+
+4. **Officials**: Two umpires and one referee per match
+   - Umpires provided by participating clubs
+   - Neutral referees appointed
+   - **Referee's decision is final** (unique feature for football at the time)
+   - Introduced to avoid disputes
+   - **John Tomlinson** (leading Broomhall official) took charge of semi-final and final
+   - FA adopted this strategy for Challenge Cup latter stages in 1871
+
+**Additional Rule Amendments**:
+- After first round: Committee introduced clause giving referees power to award free kicks
+- Addressed infringements possibly resulting from not having Sheffield six-yard rule for throws
+
+### Rules Experimentation
+
+**Evidence of FA Rules Testing**:
+
+1. **Offside Rule**:
+   - Games were not free scoring, particularly after first round
+   - Suggests possibility of London offside rule being used
+
+2. **Throw-In**:
+   - Right-angled throw with no distance regulation from touch appears to have been applied
+   - Caused issues requiring mid-tournament free kick rule amendment
+
+3. **Rouge Method Retained**:
+   - Sheffield playing rule for differentiated scoring kept for tournament
+   - Proved particularly valuable during latter stages
+
+**Strategic Purpose**:
+- Chambers and Chesterman could either:
+  - Go back to London and accept London rules (with backing of Sheffield clubs)
+  - Persuade FA to amend rules in Sheffield's favour
+
+### Thomas Youdan - The Sponsor
+
+**Background**:
+- Owned Alexandra Music Hall on Blonk Street
+- Well known to town's footballers - favourite port of call
+- Regarded as a maverick
+- Used every marketing ploy to entice public to his establishment
+- Known for philanthropy in promoting local causes
+- Donated monies for cups and prizes
+
+**Role**:
+- **Did not create tournament structure** - merely provided sponsorship
+- Likely approached by committee member with idea
+- Benefits for Youdan:
+  - Linked with popular tournament
+  - Welcome revenue driver
+  - **Early example of commercial sponsorship**
+
+### Financial Arrangements
+
+**Player Welfare Fund**:
+- Weekly fund to support players injured in games who could not work
+- One injured player awarded five shillings during competition
+- Harvey mentions accident fund: players paid in, received eight shillings per week when unfit for work
+- Almost certainly established for season following competition
+- May have been one of the enticements to participate
+
+**Replay Scheduling**:
+- Monday scheduled for replays in event of tie
+- Example: Hallam vs. Norfolk second round game was drawn, replayed on Monday
+- "Saint Monday" (unofficial holiday) still strong in Sheffield working culture
+
+**The Theft**:
+- Vast sum of £70 stolen from Thomas Youdan's offices (£8000 by 2023 standards)
+- Westby claims this money was raised during tournament
+- Local press reports: theft occurred evening of 1 March 1867
+- **Before** gate monies taken for final (5 March) and second place game (9 March)
+- Money may have had no link with football
+- Harvey reports eventual gate money amounted to £50
+
+**Financial Questions**:
+- How did committee arrange funding for injured players?
+- What happened to gate money?
+- Possibility: clubs paid into fund prior to competition
+- Proviso: any monies raised would return to clubs
+
+### Sheffield Football Players' Accident Society
+
+**Establishment**:
+- Direct "spin-off" from Youdan competition
+- Injuries more frequent and common during tournament games
+- Indicated growing seriousness of competition
+- May indicate new set of rules being applied
+
+**Why More Injuries?**:
+
+*Sheffield Game vs. London Rules*:
+- Alcock described Sheffield game as "loose and disjointed"
+- Directly encouraged passing with players dispersed over field
+- Battersea Park game noted for physicality due to FA rules
+- Led to game of attrition between forward players
+- Injuries almost inevitable
+
+**Evidence from Match Reports**:
+
+*MacKenzie vs. Hallam (at Bramall Lane, Saturday)*:
+> "The Mackenzie and Hallam football clubs competed for this prize at Bramall lane on Saturday, and some good play was the result, although it was evident from the commencement that Hallam had the advantage, their side being a much more bulky specimen of humanity than their opponents."
+
+Critical observation:
+> "Hallam certainly showed the best play but there was far too much playing the men instead of the ball, as there generally is in these matches thus giving the advantage to heavy rough over the lighter players."
+
+**Question**: What did reporter mean by "these matches"?
+- Football in general?
+- Games played in Youdan competition under London rules?
+
+**Subsequent Season**:
+- Benefit society for players formalized under Sheffield Football Association
+- Players contributed through clubs
+- Monies not enough for amount of claims
+- Fundraising events staged to supplement benefit fund
+- Thomas Youdan assisted with evenings at Alexandra Music Hall dedicated to fund
+- Town vs. Country football match staged at Bramall Lane
+
+### Tournament Format: True Knockout
+
+**False Claims**:
+- Westby, Harvey, and Murphy claimed competition was not true knockout
+- Claimed Norfolk achieved bye to final
+- Claimed it became three-way competition
+- **These claims are incorrect**
+
+**Reality**:
+- **Was a knockout competition throughout**
+- Only after the final did committee agree to second place game
+- Reason for second place game: final attracted crowd over 3000
+  - Charging 3d each
+  - Ladies admitted free
+  - Clear financial incentive
+
+**Schedule**:
+- **First round**: Saturday, 16 February 1867
+- **Second round**: One week later (23 February 1867)
+- **Final**: 5 March 1867
+- **Second place game**: 9 March 1867 (4 days after final)
+
+---
+
 *Last updated: 2026-01-29*
