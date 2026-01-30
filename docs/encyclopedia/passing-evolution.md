@@ -1595,6 +1595,257 @@ Historical works addressing the period
 
 ---
 
+## Passing – An Act of Faith?
+
+### The Limitations of Passing
+
+**Important Caveat**: Passing in 1860s and 1870s was as much **act of faith** as decisive tactic
+
+**Why Passing Sometimes Failed**:
+- Ineffective on rough or saturated ground
+- Could be beaten by basic kick-and-rush tactics
+- Other factors equally important:
+  - Positional play
+  - Dribbling
+  - Combination play
+  - Pressing
+  - Tackling
+  - Tactical innovations (e.g., 2-3-5 formation)
+
+### Alcock's Reservations About Passing
+
+**Despite Advocating For It, Alcock Expressed Doubts**:
+> "The 'passing-on' game, which was first introduced in any great degree of perfection by the Northerners in the early matches between London and Sheffield, seems to be the whole aim of certain football elevens. **Whether such a wholesale system pays or not is a question open to doubt. For myself I think that it does not**"
+
+**Critical Point**: Even passing's pioneer (Sheffield) credited by Alcock, who then doubts wholesale passing system
+
+### 1865 Leeds Defeats Sheffield Norfolk Despite Scientific Play
+
+**Match**: Leeds v Sheffield Norfolk at Leeds Royal Park (1865)
+
+**Already Cited Above For Sheffield's Passing**, but report also noted Sheffield's defeat:
+
+**Match Report**:
+> "Even now it could be seen that Sheffield played in a more scientific manner than Leeds, the way in which the men were placed being excellent. **But it was soon seen that this would avail nothing, for Leeds, determined at once to force the game, brought most of the players up to the scratch, only one or two being left to defend the goal**"
+
+**Significance**:
+- Sheffield's scientific positioning and passing **defeated by direct play**
+- Leeds brought most players forward (pack system)
+- Direct, aggressive tactics beat organized passing
+- **Passing not always superior**
+
+### North-East England Experiments (1883-1884)
+
+**Kitching Noted**:
+> "Moreover, a number of the Northern Athletic match reports for the 1883-4 season indeed suggest that **initial experiments with passing were often unsuccessful and led to frequent loss of possession** and this may have reinforced old preferences for shoving, dribbling and for individual running with the ball (with 'backup')"
+
+**Pattern**: Early passing experiments often failed, reinforced old methods
+
+### Modern Parallels: Possession vs Results
+
+**Same Pattern in Modern Game**: High possession doesn't guarantee victory
+
+#### Spain at 2022 Qatar World Cup
+
+**vs Japan**:
+- Spain: **1,058 passes**
+- Result: Lost 1-2
+
+**vs Morocco** (knockout):
+- Spain: **1,019 passes** but only **one shot on goal**
+- Result: Lost on penalties
+
+**Implication**: Passing/possession can be sterile, unproductive
+
+### Route-One Football: Short-Circuiting Sterile Passing
+
+**"The Mixer"**: Pumping route-one ball into penalty area
+- Creates **position of maximum opportunity (POMO)**
+- Can short-circuit "occasional sterility of sideways and backwards passing"
+
+**Tactical Lesson**: Direct play sometimes more effective than elaborate passing
+
+---
+
+## A Transitional Period: Uneven Evolution and Learning Through Experience
+
+### Football Did Not Evolve Progressively Across Britain
+
+**Critical Point**: "Numerous reports from middle to late nineteenth century show that football **did not evolve progressively and evenly** across Britain"
+
+**Period Characteristics**:
+- Substantial change and transition
+- Football and rugby gradually diverging
+- **But teams continued playing both codes** depending on opponents
+- Local codes still in use
+- Tactics evolving through **trial-and-error**
+
+### "Learning Through Playing"
+
+**Kitching's Description**: Trial-and-error approach
+
+**Example - North-East England**:
+> "In fact, the northeast of England, as a relatively late starter in adopting soccer, was able to **short circuit its own learning by copying teams from Teesside and Cleveland, and (even more noticeably) from Scotland**, who had made these developments earlier"
+
+**Pattern**: Later adopters learned by copying earlier innovators
+
+### Alcock on Experience-Based Learning
+
+**Alcock Wrote**:
+> "Football, however, is of such a **Protean nature**, that it is difficult to offer a prescription for all the different phases of the game, which can **only be gained by the crucial test of experience**"
+
+**"Protean nature"**: Constantly changing, adaptable
+
+**Cannot Learn From Books**: Only from experience
+
+### Non-Linear Evolution: Reversal From Passing to Dribbling
+
+**Critical Challenge to Progress Narrative**: Evolution can **reverse**
+
+**Sheffield's Reversal**:
+> "At one time they [Sheffield] were **one of the best passing players in the kingdom**, whereas now they had become **one of the most selfish**"
+
+**Significance**:
+- Sheffield pioneered passing (1861-1865)
+- Later reverted to selfish dribbling
+- **Contradicts Kitching's teleological perspective**
+- Evolution not continuous progress
+
+### Challenging Kitching's Timeline
+
+**Kitching's Evidence**: March 1875 - March 1880
+
+**Problem**: "Do not take into account the evidence of passing we have discussed from **the previous decade and the earlier years in the 1870s**"
+
+**Implication**: Kitching's Scottish pioneering claim ignores Sheffield's 1861-1873 evidence
+
+---
+
+## Factors Beyond Tactics: Sheffield's Organizational Failures
+
+### Selection and Preparation Problems
+
+**Sheffield Association Compared Unfavorably with Glasgow**:
+- Poor selection process
+- Inadequate preparation
+- Institutional incompetence/amateurism
+
+### Unrepresentative Selections
+
+**Contemporary Reports Consensus**: "Selections were unrepresentative with players coming only from **favoured clubs**"
+
+**Clubs Overlooked**:
+- **Pitsmoor** (unfashionable but successful)
+- **Attercliffe** (unfashionable but successful)
+
+**Sheffield FC's Rejection of Local Competition**: Resented by other clubs
+
+### Talented Players Overlooked
+
+#### John Marsh
+
+**Status**: "Rated by the London press as **the best captain in the country**"
+
+**But**: "Must have upset someone" (not selected for representative matches)
+
+#### Others Overlooked
+
+**Hunter** and **Sorby**: "Fell foul of this favouritism too"
+
+**Despite**: Sheffield FC stars who deserved selection
+
+### Sheffield Independent Letters
+
+**Public Dissatisfaction Voiced**:
+> "If the association will follow the **Scotchmen's style of choosing their team**, they will find some good players, and give a deal more satisfaction"
+
+**Implication**: Glasgow's selection process superior, more meritocratic
+
+### Pierce Dix and the New Association
+
+**Pierce Dix**: Sheffield FA secretary
+
+**Rejected Overtures**: From New Association
+- New Association established for new clubs
+- Sheffield FA didn't allow clubs under two years old to enter
+- **Result**: New teams' players excluded from representative matches
+
+### Semi-Professionals Prioritized Pay Over Representation
+
+**Players Like Mosforth and Hunter**:
+- Prioritized getting paid
+- Gave themselves exhausting schedules
+- Couldn't commit to representative matches
+
+**Economic Reality**: Professional players needed income over honor
+
+### Lack of Practice Matches
+
+**Critical Preparation Failure**:
+- Sheffield sent teams North **without having played together**
+- Faced **excellently prepared Glasgow sides** picked from wider district
+- Glasgow practiced together before matches
+- **Institutionalized failure**
+
+#### Timeline of Practice Match Adoption
+
+**Before 1876**: Sheffield did not play practice matches before intercity games
+
+**1876**: Finally started preparing
+
+**1879**: Glasgow Herald lauded Sheffield's **"essay in passing"** and organisation
+
+**Significance**: When Sheffield finally prepared properly, Glasgow press recognized quality
+
+### Why Early Success Gave Way to Later Disappointments
+
+**Early Success Against London (1860s-Early 1870s)**: Remarkable given organizational incompetence
+
+**Later Disappointments (Mid-1870s+)**: Understandable given:
+1. Poor player selection (favoritism)
+2. Exclusion of best players (Marsh, Hunter, Sorby)
+3. No practice matches
+4. Semi-professionals' conflicting priorities
+5. Glasgow's superior preparation and wider selection
+
+**Conclusion**: Sheffield's later failures partly organizational/institutional, not purely tactical
+
+---
+
+## Implications for Understanding Passing Evolution
+
+### Complex Picture Emerges
+
+**Not Simple Progress Narrative**:
+1. Passing pioneered by Sheffield (1861-1865)
+2. But passing not always effective (beaten by direct play)
+3. Evolution not linear (Sheffield reverted to dribbling)
+4. Success depended on many factors beyond tactics
+5. Organizational/institutional factors crucial
+6. Learning through experience and observation
+7. Later adopters could short-circuit learning by copying
+
+### Why Sheffield's Pioneering Mattered Despite Limitations
+
+**Sheffield Demonstrated Possibility**: Even if not always effective, showed passing was viable
+
+**Spread Through Observation**: Other teams (Scotland) learned "after the Sheffield fashion"
+
+**Gradual Refinement**: Early experiments led to better understanding of when passing worked
+
+**Organizational Lessons**: Proper preparation (practice matches) made passing more effective (1879)
+
+### Modern Game Parallels
+
+**Same Debates Continue**:
+- Possession vs direct play
+- Passing vs route-one
+- Spain's possession football vs pragmatic approaches
+- No single "correct" approach
+- Context-dependent effectiveness
+
+---
+
 ## Status: NOW COMPLETE
 
 **FULLY INCLUDED** (from full article):
@@ -1621,12 +1872,18 @@ Historical works addressing the period
 - ✅ **Heading evolution** - 1861 earliest headed goal (Warburton)
 - ✅ **Sheffield-Glasgow heading** - Independent development, London surprised
 - ✅ **Complete tactical arsenal** - All elements of modern football by early 1860s
+- ✅ **Limitations of passing** - Alcock's reservations, 1865 Leeds defeat of Sheffield Norfolk
+- ✅ **Non-linear evolution** - Sheffield reverted from passing to dribbling
+- ✅ **Learning through experience** - Trial-and-error, copying other teams
+- ✅ **Organizational factors** - Sheffield's selection failures, lack of practice matches
+- ✅ **John Marsh overlooked** - Best captain in country not selected
+- ✅ **Modern parallels** - Spain 2022 World Cup, possession vs results
 
 **REMAINING** (not in sections provided):
 - Quantitative data tables (if any exist in article)
 - Impact on "one of the most important matches" (may refer to matches already covered)
 
-**Entry Is Substantially Complete**: All major tactical and historical elements documented with primary source evidence.
+**Entry Is Now Complete**: All major tactical and historical elements documented with primary source evidence, including limitations, organizational factors, and non-linear evolution.
 
 ---
 
@@ -1662,15 +1919,37 @@ Historical works addressing the period
 
 **Mechanism**: Syndicated newspapers disseminating Sheffield innovations
 
-### The Revolution
+### The Revolution (With Caveats)
 
 **Alcock's Verdict**:
 > "The dribbler pure and simple became extinct and the individual gradually became absorbed in the general mechanism of the side"
 
 **Why It Worked**: Average organized team working together beat more skillful but disorganized opponents
 
+**But Not Always**:
+- Passing could be beaten by direct play (1865 Leeds vs Sheffield Norfolk)
+- Evolution not linear (Sheffield reverted to dribbling)
+- Effectiveness depended on ground conditions, preparation, organization
+- Alcock himself doubted "wholesale system" of passing
+
+### The Complex Reality
+
+**Sheffield's Story Illustrates**:
+1. **Pioneering innovation** (1861-1865) - first to develop passing
+2. **Tactical superiority** - recognized as scientific, organized
+3. **But limitations** - passing not always effective
+4. **Organizational failures** - poor selection, no practice matches undermined tactical advantage
+5. **Non-linear development** - reverted from passing to dribbling
+6. **Later redemption** - 1879 "essay in passing" when properly prepared
+
+**Lesson**: Tactics alone don't determine success
+- Organization matters
+- Preparation matters
+- Player selection matters
+- Context matters (ground conditions, opposition tactics)
+
 ---
 
 *Last updated: 2026-01-30*
 *Source: Wilson, J.P., Stocks, J., Wood, S. and Clarke, J. (2025)*
-*Status: Substantially complete with historical passing evidence, named players, and tactical development timeline*
+*Status: Complete with historical passing evidence, named players, tactical development timeline, limitations, and organizational context*
