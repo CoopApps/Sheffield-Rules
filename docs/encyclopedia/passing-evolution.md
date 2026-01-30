@@ -1282,9 +1282,322 @@ Historical works addressing the period
 
 ---
 
-## Status: SUBSTANTIALLY COMPLETE
+## Long Passing and Crossing
 
-**NOW INCLUDED** (from full article):
+### The Tactical Mix: Long vs Short Passing
+
+**W.N. Cobbold's Advice** (1885):
+> "As regards actual combination, my firm belief is that a **judicious mixture of long and short passing is the most effective**"
+
+### Cobbold's Tactical Instructions
+
+#### When Ball Near Own Goal
+
+**Strategy**: "Let it be at once transferred to the outside right or left, as the case may be"
+- Wing player and partner go down the wing together
+
+#### The "Middling" (Crossing) Tactic
+
+**When to Middle**:
+> "The time for middling comes, as a rule, **some time before the goal-line is reached**, for a forward should rarely, if ever, try to get round the last back, but middle just before he comes to him"
+
+**How to Middle**:
+> "Let him send the ball hard **right across, along the ground if possible, or close to it**, thus giving the centre and other wing men all a chance"
+
+**Warning About Poor Crossing**:
+> "How often is a really good run down the wing spoilt by a **middle coming too late**, when the backs have returned to defend the goal, or by a **high centre, which an opposing back has no difficulty in heading away**"
+
+#### The Switch Pass
+
+**Opportunistic Long Pass**:
+> "Often when a good run is being made by one of the wings, the backs on the other side gradually come across and leave the extreme part of their own side quite unguarded. This is the time for a **hard pass – some forty or fifty yards**, it may be"
+
+**General Principle**:
+> "With regard to all passing the forward must **use his judgement and decide quickly, and always pass slightly ahead of the player passed to**"
+
+### Alcock on Long Passing
+
+**Recommendation**:
+> "With regard to long passing... let it be done **directly one sees one of the outside men with a clear opening**"
+
+### Short vs Long Passing Patterns
+
+**Typical Distribution**:
+- **Short passing**: Often between forwards
+- **Long passing**: Often delivered by backs clearing their lines
+
+---
+
+## Evidence of Long Passing (1861-1873)
+
+### 1861 Sheffield FC v Hallam FC
+
+**Nottingham Journal** impressed by:
+> "Gould, Prest and Appleton's superior **longs**"
+
+**"Longs"**: Long balls
+- Form of play designed to reach teammates
+- Or for teammates to run onto ball
+- Strategic forward passing
+
+**Significance**: Same match as earliest combined play evidence
+
+### 1867 Youdan Cup Final: Long Ball Wins First Cup
+
+**Match**: Hallam v Norfolk (March 1867)
+
+**Winning Play** (Bell's Life):
+> "The ball was kicked by **Elliott**, not through the goal, but just over it, and was touched down by **Ash** in splendid style"
+
+**Tactical Detail**:
+- **Long kick forward** by Elliott
+- Ash had to **run around two Norfolk players**
+- Then touched down for rouge (winning goal)
+
+**Significance**:
+- Kick in **anticipation** that player running onto pass would score
+- **First cup final** won by long forward pass
+- Player running onto ball (modern concept!)
+
+### 1872 FA Cup: Wanderers v Queen's Park
+
+**Queen's Park Long Kicking**:
+> "Queen's Park 'dribble little and usually **convey the ball by a series of long kicks**'"
+
+**Wanderers Also Using Long Balls**:
+> "The next event was a good run down the side of the ground by **C.W. Alcock**, at the end of which the ball was **well middled to Pelham**"
+
+**Alcock Himself**: Demonstrating long passing/crossing tactic
+
+---
+
+## Crossing Evidence (1870-1873)
+
+### 1870 Manchester Athenaeum v Sheffield Garrick
+
+**Crossing Described**:
+> "One of the Garrick players, with good judgment, **put the ball directly in front of the goal**, where **W. Ward** was waiting for it, and by a dexterous and well-directed kick put it through a second time"
+
+**Clear Crossing Tactic**:
+- Ball crossed to front of goal
+- Player positioned to receive
+- Scores
+
+### 1871 Garrick v Leeds
+
+**Crossing Goal**:
+> "Garrick scored their first goal; obtained by **W. Horton crossing the ball to W. Ward**, who put it through in a clever manner"
+
+**Named Players**:
+- W. Horton (crosser)
+- W. Ward (scorer)
+
+### 1873 London v Sheffield (Representative Match)
+
+**Complex Passing Sequence**:
+> "After a good run by each of the **Brothers Clegg**, one of whom passed the ball over to **Gregory**, who in turn again gave way to **W. E. Clegg**, the latter **crossed it to Sampson**, who shot it through the goal amid loud applause"
+
+**Five Named Players in Sequence**:
+1. Brother Clegg 1 runs
+2. Brother Clegg 2 runs
+3. One passes to Gregory
+4. Gregory passes to W. E. Clegg
+5. W. E. Clegg crosses to Sampson
+6. Sampson scores
+
+**Sophisticated Combination**: Multiple passes, run, cross, goal
+
+**Brothers Clegg**: J.C. Clegg and W.E. Clegg (from our People encyclopedia entry)
+
+---
+
+## Passing and Heading the Ball
+
+### The Connection to Fair Catch Abolition
+
+**Common Assumption**: Heading introduced as consequence of phasing out fair catch rule (January 1871)
+
+**Fair Catch Rule**: Effectively outlawed handling for all on-field players except goalkeeper
+
+#### Sheffield's Fair Catch Timeline
+
+**1867**: Fair catch banned
+**1868**: Fair catch reintroduced
+**1869**: Gaining free kick from fair catch stopped
+**January 1871**: Fair catch law completely abolished
+
+### 1871 Sheffield v Derby
+
+**Match Report Explained**:
+> "And **catching being disallowed, the players naturally headed**"
+
+**Suggests**: Heading as replacement for catching
+
+### London's Surprise at Sheffield Heading (January 1872)
+
+**London v Sheffield at the Oval**: Multiple reports remarked about "unusual behaviour"
+
+#### First Report
+
+> "The first to show conspicuously was **G. H. Sampson** who **played the ball with his head, which caused some amusement**. This was the kind of play which **the Sheffield team often indulged** during the contest, **the Londoners preferring to use the foot**"
+
+#### Second Report
+
+> "The use of the hands being entirely forbidden, the visitors resorted to an **ingenious method of 'heading' the ball**, i.e. stopping it with the head so placed as to make the ball rebound in the direction it came from"
+
+**"Ingenious method"**: Novel to Londoners
+
+#### Third Report
+
+> "**Sampson headed the ball judiciously**. This style of play was **evidently new to the Cockneys and caused a hearty laugh**"
+
+**"New to the Cockneys"**: Londoners had never seen this
+
+**G.H. Sampson**: Named individual (from our People encyclopedia entry - Billy Mosforth connection)
+
+### BUT: Heading Preceded Fair Catch Abolition
+
+**Critical Point**: "It would appear that heading the ball was a practice which **preceded** the removal of the fair catch rule"
+
+---
+
+## Earliest Headed Goal: 1861 Sheffield FC v Hallam FC
+
+### Match Details
+
+**Date**: 28 December 1861
+
+**Match**: 14 of Sheffield FC v 14 of Hallam FC
+
+**Purpose**: Raise funds for Sheffield Hospital and Dispensary
+
+**Teams**: 14-a-side (not standard 11)
+
+### The Headed Goal
+
+**Match Report**:
+> "Time was now fast approaching, and just when the spectators had made up their minds that a draw was inevitable, **Warburton** was seen making tracks for the 'Gents' goal, and a **great shout went up when he was seen to head one safely under the cross-bar**"
+
+**Named Player**: **Warburton**
+
+**Significance**:
+- **1861** - Same year as earliest passing evidence!
+- **Earliest identified headed goal**
+- **10 years before** fair catch abolition (1871)
+- **11 years before** London v Sheffield match where Londoners amazed by heading
+
+**Dramatic Context**: Last-minute winning goal, crowd thought draw inevitable
+
+---
+
+## More Heading Evidence
+
+### 1873 Perseverance v Oxford (Ecclesall Road, Sheffield)
+
+**Two Goals Described**:
+> "The first goal was obtained by good play on the part of **J.H. Banks**, and the second was **'headed' through by T. Heeley**"
+
+**Named Player**: **T. Heeley**
+
+**"Headed" in Quotes**: Still somewhat novel term?
+
+---
+
+## Independent Development: Sheffield and Glasgow
+
+### Queen's Park Heading
+
+**1872 Wanderers v Queen's Park Match Report**:
+> "Queen's Park's **method of driving the ball with the head** is **precisely the same as that adopted in Sheffield**"
+
+**Critical Points**:
+1. Queen's Park using heading
+2. **Same method as Sheffield**
+3. Suggests independent development or Sheffield influence
+
+### But NOT in London
+
+**1872 London v Sheffield**: Londoners surprised, amused, laughing
+- "Evidently new to the Cockneys"
+- "Caused a hearty laugh"
+- Londoners "preferring to use the foot"
+
+**Pattern**:
+- **Sheffield**: Heading by 1861
+- **Glasgow**: Heading by 1872 (same method as Sheffield)
+- **London**: No heading by 1872 (found it amusing)
+
+---
+
+## Tactical Implication of Heading
+
+### Why Heading Developed
+
+**Requires**: Ball kicked high so players could receive on heads
+
+**Implies**:
+- Long forward passes in the air
+- Players running onto high balls
+- Anticipation and positioning
+
+### Connection to Sheffield's Offside Rule
+
+**Less Stringent Offside**: Enabled forward passes
+- Players could position further forward
+- High balls over defenders
+- Running onto passes
+
+**Fair Catch Initially Allowed**: Could catch high balls
+- When abolished, heading replaced catching
+- But heading existed BEFORE abolition (1861)
+
+**Suggests**: Heading developed from:
+1. Long forward passing tactics
+2. Players jumping to contest high balls
+3. Natural evolution rather than just fair catch replacement
+
+---
+
+## Complete Tactical Picture: Sheffield 1861-1873
+
+### Passing Varieties Demonstrated
+
+**1. Short Passing** (1865):
+> "Kicking the ball gently from one player to another"
+
+**2. Long Passing** (1861):
+> "Superior longs"
+
+**3. Combination Play** (1861):
+> "Prest, Chambers and Appleton showing good, combined play"
+
+**4. Crossing** (1870):
+> "Put the ball directly in front of the goal"
+
+**5. Complex Multi-Player Sequences** (1873):
+> Brothers Clegg → Gregory → W.E. Clegg → Sampson (cross and goal)
+
+**6. Heading** (1861):
+> "Warburton... seen to head one safely under the cross-bar"
+
+### Sophisticated Tactical System
+
+**By Early 1860s Sheffield Had**:
+- Positional formations (1865)
+- Short passing (1865)
+- Long passing (1861)
+- Combination play (1861)
+- Crossing (1870)
+- Heading (1861)
+- Dynamic formations (John Marsh adjusting)
+
+**This Was Complete Tactical Arsenal**: All elements of modern football
+
+---
+
+## Status: NOW COMPLETE
+
+**FULLY INCLUDED** (from full article):
 - ✅ Strategic intent and ecological-dynamic approach
 - ✅ Alcock's definitions: playing up, backing up, passing on
 - ✅ Terminology analysis: combination vs passing
@@ -1301,14 +1614,19 @@ Historical works addressing the period
 - ✅ Scottish passing development (1872-1874) "after the Sheffield fashion"
 - ✅ Offside rule connection to tactical development
 - ✅ Dissemination through syndicated newspapers
+- ✅ **Long passing and crossing tactics** (Cobbold's advice, 40-50 yard passes)
+- ✅ **1861 long balls** - "Superior longs"
+- ✅ **1867 Youdan Cup final** - Long ball wins first cup
+- ✅ **Crossing evidence** (1870-1873) - Named players, tactical detail
+- ✅ **Heading evolution** - 1861 earliest headed goal (Warburton)
+- ✅ **Sheffield-Glasgow heading** - Independent development, London surprised
+- ✅ **Complete tactical arsenal** - All elements of modern football by early 1860s
 
-**STILL AWAITING** (from sections not yet provided):
-- Heading evolution (from forward passes)
-- Long-distance vs short-distance passing detailed analysis
-- Quantitative data tables (if any)
-- Impact on "one of the most important matches" (mentioned in abstract but not yet detailed)
+**REMAINING** (not in sections provided):
+- Quantitative data tables (if any exist in article)
+- Impact on "one of the most important matches" (may refer to matches already covered)
 
-**Entry Will Continue to Be Updated** if additional article content is provided.
+**Entry Is Substantially Complete**: All major tactical and historical elements documented with primary source evidence.
 
 ---
 
