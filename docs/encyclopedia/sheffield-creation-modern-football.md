@@ -105,6 +105,392 @@
 
 ---
 
+## Rules Governing Diverse Football Games (Pre-1860)
+
+### Edward Tylor's Anthropological Perspective
+
+**Edward Tylor**: Great Victorian anthropologist
+
+**Theory**: All ball games stemmed from common source
+- BUT rejected uniform linear progression
+- Different levels of complexity emerged
+
+**Research Shows**: Various ball games segregated from one another **long before** 19th century
+
+### Two Ball Games Closest to Football
+
+#### 1. Hand-Ball
+
+**Definition**: "The ball is struck from one side to the other with the open hand or fist"
+
+**Object**: To strike ball as far as possible
+
+**Popularity**: Very popular throughout Britain
+
+#### 2. Camp-Ball
+
+**Two Variants**:
+
+**"Kicking Camp"**:
+- Played with a football
+- Ball kicked
+
+**Standard Camp-Ball**:
+- Ball similar to cricket-ball
+- Object: Throw ball into goal
+- Predominantly used hands
+
+**Significance**: Football sometimes used in camp-ball → resulting game used hands
+
+---
+
+## Detailed Rules of Football in Wider Society (Pre-1860)
+
+### Sophistication of Laws Varied Considerably
+
+**Surrey Club Example**:
+- Chairman (not public school educated) framed printed rules
+- Formal codification outside public schools
+
+**More Common**: Articles and contracts drawn up for specific matches
+
+**Most Common**: Rules agreed orally, based on shared understanding
+
+### Use of Referees
+
+**Quite Common**: Referees used to administer games
+
+**Considerable Objectivity**: Bolton 1841 example
+- Umpire awarded victory to other side
+- His own team was cheating
+- Shows integrity of officiating
+
+### Team Sizes
+
+**Usually Equal Numbers**: Each side had same number of players
+
+**Size Varied**: Between 1 and 30 players per side
+
+---
+
+## Violence in Football Games (Pre-1860)
+
+### Amount of Violence Varied Substantially
+
+**Formally Linked to Wrestling**: In some games
+
+#### The Gymnastic Society (1780s)
+
+**Very First Football Club in the World**: Established 1780s
+
+**Distinctive Feature**: Fused football with wrestling
+- Specifically Westmorland and Cumberland style wrestling
+
+**Significance**: Football-wrestling combination had long history
+
+#### Irish Football and Wrestling
+
+**Particularly Fond**: Irish linking two sports
+
+**1820s Islington Match**: Spectator wrote:
+> "Some fine specimens of wrestling are occasionally exhibited"
+
+#### Wrestling Before Match Began
+
+**Most Detailed Picture**:
+> "Players pairing off before the match began and wrestling with one another as soon as the ball was thrown up to start the game, 'that party which gains the most falls will outnumber the other at the first outset'"
+
+**Strategic Element**: Wrestling bouts determined numerical advantage
+
+### Unofficial Violence
+
+**Joseph Strutt Wrote**:
+> "When the exercise becomes exceedingly violent, the players kick each others shins without the least ceremony, and some of them are overthrown at the hazard of their limbs"
+
+**Stemmed From**: Players losing their tempers
+
+### Tripping Very Common
+
+**Usual Practice**: "To get the foot inside his leg with a circular sweep"
+
+### But Usually Minimal Violence
+
+**Why Limited**:
+> "Skill in the application of a slight degree of force avails much more at this sport than greater strength unskilfully directed"
+
+**Implication**: Skillful play more effective than brute force
+
+---
+
+## Ball-Handling Rules (Pre-1860)
+
+### Varied Substantially Throughout Country
+
+**Patchy Evidence Available**
+
+**Most Football Games**: Ball either:
+- Carried in hand
+- Kicked
+
+**Both Handling and Kicking**: Common in same game
+
+### Rules in Certain Areas
+
+**Stricter Rules**: Ball "could not be carried or handled"
+
+**Exception**: Player entitled to free drop kick if caught ball in air
+- Similar to fair catch rule
+- Reward for catching skill
+
+---
+
+## Four Methods of Commencing the Game
+
+### Method 1: Wrestling Bouts (As Described Above)
+
+Game preceded by wrestling to determine numerical advantage
+
+### Method 2: Throw-Up Between Two Lines
+
+Ball thrown up in air between two lines of players from either side
+
+### Method 3: Race for Center Ball
+
+Ball placed in center, members from each side race for it at given signal
+
+### Method 4: Captain's First Kick
+
+**Description**:
+> "The ball is … placed on the ground, and the captain gives the first kick towards the opposite bounds"
+
+### FA's Consideration
+
+**Critical Note**: "When the FA came to draw up their rules they examined all but the first method as a possible way of commencing the game"
+
+**Implication**: FA drew on wider society's football practices, not just public schools
+
+---
+
+## Pitches and Playing Areas (Pre-1860)
+
+### Quality Varied Substantially
+
+**Well-Marked Touch-Lines**: Some had these
+
+**Rudimentary Indicators**: Others relied on streams
+
+### Size Varied
+
+**Factors**:
+- Number of players involved
+- Type of game played
+
+**Range**: Between 50 and 800 yards long
+- Enormous variation!
+
+---
+
+## Four Principal Types of Goals
+
+### Type 1: Objects (Buildings, Hills)
+
+**Example**: Match for 200 guineas (*The World*, 16 May 1789)
+- Goal: Hill on Dunstable Downs
+
+### Type 2: Bounds (Most Common Throughout Britain)
+
+**English Term**: "Bounds"
+**Scottish Term**: "The hailing point"
+
+**Description**:
+> "The bounds are imaginary lines drawn between two sticks fixed in the ground, at the whole breadth of the field, if an ordinary one, and consequently the game is played in a square space, with a stick at each corner, two sides of which are the bounds, and are prolonged ad infinitum. The object of each party is to kick the ball over the other's bounds"
+
+**Prevalence**:
+- Only goals in Scotland until 1850s
+- Widely used in England
+
+#### Why Difficult to Score Despite Wide Goals
+
+**Expected**: Easy to score in wide goals
+
+**Reality**: Matches often lasted long time, usually played for best of three goals
+
+**Likely Reason**: Bounds were probably extremities of field difficult to reach
+
+#### Best Evidence: Bolton 1842 Match Report
+
+**Quote**:
+> "The Fear-noughts getting the first kick, and in two minutes put the ball on their opponents headland [in Lancashire, the term headland means each extremity of the field]. This they did five times in about the same amount of time each, the browd being so dense that it was not possible to put the ball over the fence"
+
+**"Browd"**: Possibly local slang for twisted brambles
+- Might represent disused edge of field in front of fence
+
+**Speculation**: Bounds were area on far side of fence
+
+### Type 3: Two Markers (Posts or Clothing)
+
+**Indicators**: Sometimes posts, sometimes discarded items of players' clothing
+
+**Width Varied**: Between 2 and 10 feet
+
+### Type 4: Goals with Cross Bar
+
+**Scoring**: Dependent on kicking ball over cross bar
+
+---
+
+## Subsidiary Scoring Methods
+
+### Byes or By-Goals
+
+**Common**: Subsidiary methods besides principal goals
+
+**By-Goals**: Evidently inferior to through-goals
+
+**Mystery**: "It appears impossible to define exactly what they constituted and they will probably remain a mystery"
+
+### Goals, Games, and Hails
+
+**English Term**: "Goals" or "games"
+**Scottish Term**: "Hails"
+
+**Chief Aim**: Score goals
+
+**Most Matches**: Best of three goals
+
+**Time Limits**: Rarely specified
+
+---
+
+## Two Broad Sources of Football Laws by 1850s
+
+### Source 1: Public Schools
+
+**Characteristics**:
+- More formally codified
+- Heavily dependent on oral tradition
+- Largely incomprehensible to outsiders
+
+### Source 2: Wider Society
+
+**Characteristics**:
+- Sometimes printed (Surrey example)
+- Often contractual (for specific matches)
+- Usually oral agreements based on shared understanding
+
+---
+
+## Critical Argument: NO Public School Influence on Wider Society (Pre-1860)
+
+### Theoretically Possible, But No Evidence
+
+**Harvey's Examination**:
+- Copious contemporary literature examined
+- Newspaper reports
+- Periodicals
+- Later articles by 'old boys' themselves
+
+**Result**: "There is **no evidence** of such interaction occurring previous to 1860"
+
+### Two Examples Where Transmission Did NOT Occur
+
+#### Example 1: Richmond School (1854)
+
+**Setup**: Most promising circumstances for transmission
+- Master who took boys for football: **Tate**
+- Tate was noted old Rugbean sportsman
+- Perfect opportunity to transmit Rugby rules
+
+**Reality**: Football played at Richmond School **unrelated** to Rugby game
+
+**Significance**: Even direct contact with Rugby School alumnus didn't transmit rules
+
+#### Example 2: D. Cartwright's Incomprehension (1861)
+
+**D. Cartwright**: Noted journalist
+
+**Situation**: Studied Eton's rules for some time
+
+**Result**: Unable to understand them as late as 1861
+
+**Significance**: Even educated, motivated outsider couldn't decipher public school rules
+
+### Harvey's Conclusion
+
+**Until Hard Evidence Produced**: "We are fully justified in treating such views with caution"
+
+**Views to Be Treated with Caution**: Claims of public school football's influence on wider society
+
+---
+
+## Football Games: Great Variety in Both Spheres
+
+### Differentiated By
+
+**Rules Relating To**:
+- Amount of handling permitted
+- Size of pitch
+- Type of goals
+- Levels of violence
+- And such like
+
+### Closer to Wider Society Than Public Schools
+
+**Some Public School Rules**: "Clearly closer to variants practised in the wider society than they were to the football at public schools"
+
+**Implication**: Public schools drew from wider society, not vice versa
+
+### Formal Codification vs Comprehensibility
+
+**Public School Laws**:
+- Tended to be more formally codified
+- BUT still heavily dependent on oral tradition
+- Therefore largely incomprehensible to outsiders
+
+---
+
+## Sheffield FC (1857): Independent Derivation
+
+### Harvey's Critical Argument
+
+**Sheffield FC Code (1857)**: "Almost certainly derived **independently of any public school influence**"
+
+**Based Upon**: Ideas present in wider society
+
+**Evidence For Independent Derivation**:
+1. No evidence of public school influence on wider society pre-1860
+2. Richmond School (1854) and Cartwright (1861) show impossibility of transmission
+3. Public school codes incomprehensible to outsiders
+4. Sheffield's rules reflect wider society practices
+
+### The Result
+
+**Creation of Sheffield FC (1857)**: Led to "emergence of their code"
+
+**Consequence**: "Soon resulted in the blossoming of the **first large-scale football culture in Britain**, that of the Sheffield area"
+
+---
+
+## Significance: Sheffield's Independent Innovation
+
+### Not Derived From Public Schools
+
+**Critical Point**: Sheffield didn't copy public schools
+- Drew from wider society football traditions
+- Independently codified their own rules
+- Created first large-scale organized football culture
+
+### Foundation for Everything That Followed
+
+**1857 Sheffield FC**: Independent derivation from wider society
+**Result**: First large-scale football culture
+**Consequence**: Saved FA from disbandment (1867)
+**Legacy**: Created modern soccer
+
+**Without Sheffield's Independent Innovation**: Modern football might not exist
+
+---
+
 ## Sheffield's Football Culture (1857+)
 
 ### The First Large-Scale Football Culture
