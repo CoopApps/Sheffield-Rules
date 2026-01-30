@@ -438,21 +438,382 @@ Historical works addressing the period
 
 ---
 
+## Strategic Intent in Football
+
+### The Objective
+
+**John Cruyff's Dictum**:
+> "To win you have to score one more goal than your opponent"
+
+**To Successfully Achieve This**: Requires range of integrated elements
+- Technical skills
+- Strategies
+- Formations
+
+**All Gradually Evolving**: During mid-19th century
+
+### Strategy as Critical Dimension
+
+**Buekers et al.**:
+> "When asked about the importance of strategy and tactics for team sports, the answers of trainers and coaches appear to be univocal and clear. Strategy and tactics are crucial to the game as they define the intentions of the players and set the boundaries that define the defensive and offensive actions of the player"
+
+### The Interactive Relationship
+
+**Laws and Tactics Co-Evolved**:
+- Laws of game still being formulated
+- Stress-tested on playing fields
+- Interactive relationship with strategies, tactics, formations teams adopted
+
+### The Challenge: Both Teams Have Strategy
+
+**Dynamic Response**: Both teams respond to actions of the other
+
+**Mike Tyson** (ahead of fight against Tyrell Biggs):
+> "Everyone has a plan until they get hit for the first time"
+
+**"Ecological-Dynamic Approach"**: Players and teams adapt to environmental conditions in which they are operating
+
+### Strategy in Folk/Mob Football (No Rules)
+
+**Without Rules**: Few constraints about what is acceptable
+
+**Alcock's Example of Strategic Innovation**:
+> "Many tales are told of the strategy games by which the players succeeded in effecting the fall of the hostile goal. The most usual was to remove the cork shavings and smuggle the cover under a countryman's frock or woman's gown to the desired place"
+
+**Illustrates**: Ingenuity of players seeking competitive advantage
+
+**Same Imperative**: Drove teams in 19th century (and today) to seek advantageous opportunities **within laws of the game**
+
+### Individual and Team Adaptation
+
+**Individual Level**: Player self-organizing, responding to:
+- Ball's location
+- Locations of other players
+
+**Team Level**: Directions from captain or coach
+- Example: Early Sheffield players directed by captain **John Marsh**
+
+**Consequence**: Football, albeit relatively simple game, is complex and multidimensional
+
+**Why**: "The ability to transmit the football is the only action in football that makes a team a dynamical group of interacting individuals"
+
+---
+
+## Playing Up, Backing Up, and Passing On
+
+### The Individual Dribbling Problem
+
+**Mid-19th Century**: Football very much individual endeavor
+- Players dribbling ball towards opposition goal
+- Focus on one person
+- Potential for other players to take rest
+
+**Alcock's Criticism**: In "slang parlance" taking "a gentle breather"
+- Considered "discreditable"
+- Player "should be discountenanced as a pestilential person likely to contaminate and ruin a whole eleven"
+
+### The First Golden Rule: "Playing Up"
+
+**Alcock's Definition**: "Keeping on the ball throughout the game"
+- Supporting other players
+- Encouraged team approach rather than individually focused one
+
+**Alcock's Assessment**:
+> "The first and golden rule of football"
+
+### The Pack System
+
+**Typical Pattern**:
+- Individual players closely followed by teammates in pack
+- Only when about to lose possession would they:
+  - Kick ball ahead
+  - Pass on to teammate
+  - Concede possession to opposition
+
+### "Backing Up" Strategy
+
+**Alcock's Definition**:
+> "The process of following closely on a fellow player, to assist him if required, and to take on the ball if he be attacked or prevented from continuing his onward course"
+
+**Also Involved**: Closely following player to "hustle or ward off any interference by the opposite forwards or backs"
+
+**Nature**: Close transfer of ball between two team players
+- Necessitated by potential of opposing team to take control
+
+### "Passing On" vs "Backing Up"
+
+**Alcock's Key Distinction**:
+> "'Passing on' is different to 'backing-up', and it was only the evident aversion to pass on at the proper time that suggested the necessity of more general passing on, and placed dribblers comparatively at a discount. It has been the combination of dribbling and passing that has made the Queen's Park Eleven such a splendid team"
+
+**Critical Point**: Alcock recommended passing ball **before** imminent danger of losing it
+
+### Alcock on the "Passing-On Game"
+
+**Origin Attribution** (Alcock):
+> "The 'passing-on' game, which was first introduced in any great degree of perfection by the Northerners in the early matches between London and Sheffield, has certainly gained a powerful host of disciples, and, it seems to be the whole aim of certain football elevens"
+
+**"Northerners"**: Sheffield teams
+
+**"Early matches between London and Sheffield"**: 1860s matches
+
+### Alcock's Pragmatic Shift
+
+**Alcock Admired Dribbling**:
+> "To see some players guide and steer a ball through a circle of opposing legs, twisting and turning as occasion requires, is a sight not to be forgotten"
+
+**But Acknowledged**:
+- Often selfish pursuit
+- Unlikely to lead to success
+- Average organized team working together more successful than more skillful but disorganized opponents
+
+**Pragmatic Conclusion**:
+> "The dribbler pure and simple became extinct and the individual gradually became absorbed in the general mechanism of the side"
+
+---
+
+## Team Formations and Positions
+
+### Jonathan Wilson's Observation
+
+**On Modern Football**:
+> "Football is not just about players. It is about shape and about space, about the intelligent deployment of players, and their movement within that deployment"
+
+**Same Was True in 1860s Sheffield**
+
+### Earliest Reference: Richard Mulcaster (1581)
+
+**Mulcaster**: Headmaster of Merchant Taylors School, London
+
+**In 1581 book *Positions***: Wrote about health and educational benefits of "Footeball"
+
+**Described**: "Some smaller number with such overlooking, sorted into sides and standings"
+
+**"Standings"**: Indicated allocated positions for players
+- Somewhat different to "pack" game evident in 19th century
+
+### First Clear Evidence: Sheffield Norfolk vs Leeds (1865)
+
+**Match**: Leeds Football Club vs Sheffield Norfolk at Leeds Royal Park (1865)
+
+**Leeds Evening Express** reported:
+> "Sheffield kicked off, and a very cautious play took place for some time, each party watching the tactics of their adversaries. Even now it could be seen that Sheffield played in a more scientific manner than Leeds, **the way in which the men were placed being excellent**"
+
+**Significance**:
+- Tactical developments providing evidence
+- Sheffield Norfolk **intentionally planned** to place players in specific positions
+- Part of strategy to win game
+
+**Implication**: Wouldn't position players this way unless also intending to **pass ball between players**
+- To more scientifically move ball together as team
+
+### Leeds Intelligencer Report (Same 1865 Match)
+
+**Additional Observations**:
+> "Sheffield kicking off, which they did in a way altogether different from that generally practised by the Leeds club, **less-showy but more scientific and useful**. They 'dribbled' it at first **just kicking the ball gently from one player to another** and trying to run it round by stratagem"
+
+**Continued**:
+> "It was soon evident that Sheffield had **far more skill and worked together better** than they of Leeds did"
+
+**Evidence**: Sheffield team passing in fashion designed to strategically move ball around pitch
+
+### Return Match: Sheffield Norfolk Park (1865)
+
+**The Sportsman** reported:
+> "We cannot help recording the **really scientific play** with which the Sheffield men **back each other up**"
+
+**Continuing Evidence**: Team organization
+
+### Sheffield FC vs Newark (Late 1869)
+
+**Match Report Stated**:
+> "Newark's great defect is **not organising their field**"
+
+**Nottinghamshire Guardian** (same match):
+- Newark eventually heavily beaten 5-1
+- Why: "The Newark players seeming quite lost in the field and evidently **too fond of following the ball instead of playing their respective places in the field**"
+
+**Implication**: Positional play now recognized as essential for success
+
+### Manchester vs Garrick/Sheffield (Date TBD)
+
+**Match Report**:
+> "After changing sides, it was soon apparent that the Manchester Club were **short of strategy and system in placing their men**... [T]here can be little doubt that the Manchester club lost ultimately though **not placing their men**"
+
+### The Wednesday vs Derby (Date TBD)
+
+**Sheffield Daily Telegraph** advised:
+> "One of the most necessary things for the Derby players to practice is **playing to a proper system and to proper places**. By a systematic distribution of their forces and by practice they will at some future time make an excellent club"
+
+### Sheffield (3) vs London (1) at Bramall Lane (1871)
+
+**Match Report**:
+> "This victory may be attributed to the **Sheffield field being better fixed**, a fact creditable to J. Marsh (captain), both the **defensive and aggressive tactics being superior to the London team**, who play the bulk of their players in the middle"
+
+**John Marsh**: Captain credited with superior field organization
+
+### Sheffield Daily Telegraph Reflection (1871)
+
+**On Why Sheffield Successful Against London**:
+> "The only difference is the 'throw in' instead of 'kick in' from the boundary, and the off side rule. This system finds no favour in Sheffield where they have adopted a **very scientific and strategic disposition of their forces over the field**. This is our great forte, and has been the means of many brilliant victories achieved by the Sheffield clubs. **Football without a plan and system is a wild chase after the ball**, likely to bring nearly all the players together and leave the major portion of the ground entirely unprotected save by the goal keeper. **Our men have their particular spheres of action marked out for them**, and should they sometimes get beyond the boundary, are quickly brought back by the captain"
+
+**Key Points**:
+- Sheffield's "great forte" = scientific and strategic positioning
+- Means of many brilliant victories
+- Without plan = wild chase after ball
+- Players had particular spheres of action
+- Captain brought them back if strayed
+
+### First International: England vs Scotland (30 November 1872)
+
+**English Formation** (recommended by Alcock):
+- Goalkeeper
+- 2 back players
+- 7 or 8 forwards
+
+**Scottish Formation**: Worked together in pairs
+- Allowed players to support each other
+- Despite being substantially smaller in stature and weight
+- Successfully competed
+- Game ended 0-0
+
+**Significance**: Paired formation enabled Scotland to compete despite physical disadvantage
+
+---
+
+## The Cricket Connection
+
+### Why Sheffield Developed Positional Play
+
+**Sheffield FC Origins**: Formed out of Sheffield Cricket Club (October 1857)
+
+**Almost All Early Sheffield Clubs**: Emerged from existing cricket clubs
+- Including Wednesday
+
+**Crucial Factor**: Cricketing roots became crucial to how Sheffield's football developed
+
+### Cricket Tactics Transfer to Football
+
+**Cricket Teams**: Had players positioned across field
+
+**Unsurprising**: This background in use of formation transferred to football tactics
+
+**Play Guided by Captain**: Positioning players on field part of cricketing tactics long before football
+- Football captain John Marsh known to direct players on pitch
+
+### Cricket Terminology in Football
+
+**Example**:
+> "Messrs. Marsh and Stacey, at **cover point** on opposite sides, then respectively exhibited some fine specimens of heavy kicking"
+
+**"Cover point"**: Cricket fielding position used to describe football position
+
+### Alcock's Cricket-Football Connection
+
+**Alcock**: Also organized first cricket test match between England and Australia (1880)
+
+**Gave Advice**: "The best method of placing a field[er]"
+
+**Added**: "A good field[er] at cricket will have certainly the materials for a good goal-keeper"
+
+---
+
+## Dynamic Formations
+
+### Positions Not Always Fixed
+
+**Sheffield Daily Telegraph** (reporting on trial game Reds and Blues):
+> "Mr J. Marsh (the captain) by **pushing forward three men, circumscribing the area of play**, which tactics somewhat baffled his less experienced opponents"
+
+**Significance**: Formations were dynamic, not static
+- Captain could tactically adjust during game
+- Pushing players forward as strategy
+
+---
+
+## Modern Recognition of Formations
+
+### Constant Evolution
+
+**González-Rodenas et al.**: Research on Spanish La Liga (seasons 2012/13 to 2020/21)
+
+**Concluded**:
+> "There has been a constant evolution of TFs [team formations] throughout the history of soccer"
+
+### Cultural Evolution
+
+**Paper on Football Team Formations**:
+> "The history of football tactics, crystallised in the use of different formations, is a fascinating case of cultural evolution, involving cumulative change over more than a century driven by numerous innovators from across the world, each modifying what had gone before to achieve success within the tightest of margins"
+
+**Sheffield's Role**: Among earliest innovators in this cultural evolution (1860s)
+
+---
+
+## Summary of Evidence So Far
+
+### Sheffield's Tactical Innovation Timeline
+
+**1857**: Sheffield FC formed from Sheffield Cricket Club
+
+**1865**:
+- Leeds vs Sheffield Norfolk: "Excellent" positioning, "scientific manner"
+- Leeds Intelligencer: "Kicking ball gently from one player to another"
+- Return match: "Really scientific play," backing each other up
+
+**1869**: Sheffield FC vs Newark - opponents criticized for not organizing field
+
+**1871**: Sheffield (3) vs London (1) - "Sheffield field being better fixed"
+
+**1872**: First international - Scotland's paired formation
+
+### Key Concepts Defined
+
+**Playing Up**: Keeping on ball throughout game (supporting others)
+
+**Backing Up**: Following closely to assist and take ball if needed
+
+**Passing On**: Passing ball before in danger (not just when losing it)
+
+**The Evolution**: Dribbler "became extinct," individual "absorbed in general mechanism of side"
+
+### Sheffield's Distinctive Contributions
+
+1. **Positional Play**: "Particular spheres of action marked out"
+2. **Strategic Organization**: "Scientific and strategic disposition of forces"
+3. **Dynamic Tactics**: Captain (John Marsh) adjusting formations during match
+4. **Combination Play**: "Kicking ball gently from one player to another"
+5. **Cricket Transfer**: Cricketing background enabled positional understanding
+
+### Alcock's Attribution
+
+**"Northerners" (Sheffield)**: First introduced passing-on "in any great degree of perfection"
+
+**"Early matches between London and Sheffield"**: Where it was demonstrated
+
+---
+
 ## Status: Entry In Progress
 
-**Awaiting Full Article Content** to add:
-- Specific 1861/1865 match reports
-- Named individuals and passages
-- Detailed tactical evolution
-- Formation development
-- Heading evolution
-- Impact on key matches
-- Complete timeline
+**NOW INCLUDED** (from full article):
+- ✅ Strategic intent and ecological-dynamic approach
+- ✅ Alcock's definitions: playing up, backing up, passing on
+- ✅ Specific 1865 match reports (Leeds vs Sheffield Norfolk)
+- ✅ Formation development and positional play evidence
+- ✅ Cricket-football connection
+- ✅ Named individuals (John Marsh, captain)
+- ✅ Dynamic tactical adjustments
 
-**Entry Will Be Updated** when full article text is provided.
+**STILL AWAITING**:
+- Possible 1861 evidence (mentioned in abstract)
+- Long-distance passing vs short passing analysis
+- Heading evolution (from forward passes)
+- Complete quantitative timeline
+- Additional named players making specific passes
+- Impact on "one of the most important matches" (mentioned in abstract)
+
+**Entry Will Continue to Be Updated** as additional content from article is provided.
 
 ---
 
 *Last updated: 2026-01-30*
 *Source: Wilson, J.P., Stocks, J., Wood, S. and Clarke, J. (2025)*
-*Status: Preliminary entry based on abstract and introduction; awaiting full article*
+*Status: Substantially expanded with strategic intent, formations, and specific match evidence*
