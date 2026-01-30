@@ -958,18 +958,578 @@ Ball placed in center, members from each side race for it at given signal
 
 ---
 
-## The Critical Historical Moment: 1867
+## The London-Based Football Association (1863-1867)
 
-### The FA Crisis
+### London Football Scene Pre-1863
 
-**Background**: London-based Football Association founded 1863
+**Up to 1860**: Very little organized football activity in London area
 
-**By 1867**: FA faced potential disbandment
+**By 1862**: 16 teams active in region
 
-**What Saved the FA**: Sheffield's large, well-organized football culture
+**By 1863**: 25 teams
 
-**Harvey's Argument**:
-> "Had it not been for the large and well-organized football culture that existed in Sheffield by 1867, the London-based Football Association (FA) would have been effectively disbanded and might never have attempted to establish itself as the dominant regulatory body for the Association game"
+### Composition: Former Public School Boys
+
+**So Far As We Can Discern**: Little real evidence about composition
+
+**But Appears**: Middle-class teams made up largely of former public school boys from particular foundation
+
+### Unlike Sheffield: Public School Codes Dominated
+
+**Sheffield**: Public school codes entirely subordinate to Sheffield FC rules
+
+**London**: Public school codes "exerted enormous influence on teams of old boys"
+
+**Result**: Number of distinct codes in use throughout London
+
+---
+
+## The Rules Problem in London
+
+### Extremely Divisive
+
+**Problem**: Matches organized between opponents whose codes quite different
+
+**Necessitated Compromise**: Generally took one of two forms:
+
+#### Form 1: Trading Over Rules
+
+Teams reaching agreement over rules to be used, trading over particular points
+
+#### Form 2: Two Matches
+
+Play two matches, one with each code
+
+### Neither Solution Satisfactory
+
+**Clear**: Unless various public schools could reach compromise, situation inevitable
+
+**Reality**: "Vast majority of public schools rejected whole idea of competing together at football, let alone modifying their rules to do so!"
+
+**Strength of Public School Traditions**: With exception of annual Rugby-Marlborough match, rare for public schools to play each other
+
+**Consequence**: "Creation of universal public school code was impossibility"
+
+### Eccentric Compromises
+
+**Oxford Example**: Game involved using Harrow rules and very heavy Winchester ball
+
+### Dingley Dell Team Attempt
+
+**Most Sustained Attempt**: Establish compromise rules in London area
+
+**Composition**: Footballers from various public schools
+
+**Dingley Dell Rules**: Regarded by some as good universal code
+
+**But**: Existence of well-established public school codes "effectively impossible for such fusion to gain real acceptance"
+
+### Football Mushroomed Despite Rules Problems
+
+**Early 1860s London**:
+- Interest in football mushroomed
+- Matches sometimes attracted hundreds of spectators
+- Very common for difficulties over rules, no matter how sincere attempt at compromise
+
+---
+
+## The Football Association Founded (26 October 1863)
+
+### Assisted by The Times Newspaper
+
+**Effort Made**: Create code of laws to regulate football activity across entire country
+
+**Thus**: Football Association born
+
+### First Meeting (26 October 1863)
+
+**Auguries Hardly Good**: Letters from public schoolboys appeared in press
+- Reaffirming commitment to their game
+- Stating any attempt to foster contact would exacerbate feuds
+
+**Nonetheless**: 11 clubs sent delegates, nucleus established
+
+---
+
+## Considering the Laws (10 November 1863)
+
+### Breadth of Debate
+
+**Following Discussion Points** pencilled into minute book:
+
+**Basic Parameters**:
+- Length of pitch
+- Width of goals
+- Height of goals
+- Cross bar or tape
+- When goal should be considered won
+
+**Starting the Game** (6 options):
+- Place kick from half distance
+- Place kick from quarter distance
+- Throwing ball in air
+- Rolling ball down centre
+- Throwing ball in between two lines of players
+- Some other method
+
+**Other Elements**:
+- Offside
+- Touch
+- Behind goal-lines
+- Hard play
+- Hacking
+- Tripping
+- Mauling
+- Holding
+- Packs
+- **Rouges**
+- Running with ball
+- Fair catch
+- Charging
+- Settlement of disputes
+- Boots
+- Throwing the ball
+- Knocking on
+
+**Significance**: "FA adopted comprehensive approach to football and shows delegates had very **catholic outlook** concerning constituent elements of game"
+
+**Critical Note**: **Rouges** were on the agenda - Sheffield's scoring system was considered!
+
+---
+
+## FA Draws Up Initial Laws (17 November 1863)
+
+### Secretary Ebenezer Morley Drew Up 9 Rules
+
+**Following Week**: Further 14 added (total 23)
+
+**After**: Much "animated discussion" about hacking, tripping, holding
+
+### The Rugby-Influenced Laws Included
+
+#### Law 12 - Running With Ball
+> "A player is to be entitled to run with the ball in his hands if he makes a fair catch or catches the ball on the first bound"
+
+#### Law 13 - Hacking Allowed
+> "A player may be hacked on the front of the leg below the knee while running with the ball"
+
+#### Law 14 - Tripping When Running
+> "Tripping shall not be allowed except when running with the ball"
+
+#### Law 15 - Holding Allowed
+> "A player may be held when running with the ball"
+
+#### Law 16 - Hands Against Adversary
+> "Hands shall not be used against an adversary except when he is running with the ball"
+
+#### Law 17 - Fair Catch Definition
+> "A fair catch is to be when ball is coming directly off an adversaries foot or body. A catch from behind goal or out of touch is not a fair catch"
+
+#### Law 20 - Passing After Fair Catch
+> "A player may pass the ball to another player if he makes a fair catch or takes the ball on the first bound"
+
+#### Law 22 - Free Kick After Fair Catch
+> "A fair catch to entitle the player to a free kick provided he makes a mark with his heel at once, and he may go back as far as he please"
+
+**Generally**: "These rules were strongly influenced by the practices employed in Rugby's version of football"
+
+---
+
+## Laws Collated (24 November 1863)
+
+### 23 Laws Reduced to 14
+
+**Decision**: Collate 23 laws provisionally agreed into 14 that would constitute Association's Code
+
+**The Revised Laws Included**:
+
+#### Law 9 - Running With Ball
+> "A player shall be entitled to run with the ball towards his adversaries' goal if he makes a fair catch, or catches the ball on the first bound; but in the case of a fair catch, he makes his mark, he shall not run"
+
+#### Law 10 - Charge, Hold, Trip, Hack Allowed
+> "If any player shall run with the ball towards his adversaries' goal, any player in the opposite side shall be at liberty to **charge, hold, trip or hack him**, or to wrest the ball from him; but no player shall be held and hacked at the same time"
+
+#### Law 11 - Exceptions
+> "Neither tripping or hacking shall be allowed and no player shall use his hand or elbow to hold or push his adversary, except in the case provided for by law 10"
+
+---
+
+## The Cambridge Rules Intervention
+
+### Morley Drew Attention to Cambridge Code
+
+**Just Produced**: Code at Cambridge University by committee of nine public school boys
+
+**From**:
+- Eton (two delegates)
+- Harrow (two)
+- Marlborough
+- Rugby (two)
+- Shrewsbury
+- Westminster
+
+**Two Cambridge Laws Specifically Outlawed Rugby Elements**:
+
+#### Law 8 - No Handling
+> "The ball when in play may be stopped by any part of the body, but may not be held or hit by the hands, arms or shoulder"
+
+#### Law 9 - No Hacking
+> "All charging is fair; but holding, pushing with the hands, tripping up and shinning are forbidden"
+
+---
+
+## The 24 November 1863 Meeting: Critical Votes
+
+### Morley Urged Communication with Cambridge
+
+**Alcock and Turner**: Proposed committee be created for this purpose
+
+**Morley and Gregory Amendment**: Association should declare Cambridge Rules "embrace true principles of game with greatest simplicity"
+
+**Curious**: Formal vote never taken on this motion
+- Chairman only asked those in favor to show hands
+- Number totaled **eight**
+
+### Further Amendment on Running With Ball
+
+**Motion**: "That committee to be appointed be empowered not to insist on clause in Association's proposed rules which allow running with the ball"
+
+**Result**: Amendment carried
+
+**But**: "Quite clear from contemporary report that many delegates were confused over its meaning"
+- Began to protest once realized implications
+- Especially when taken with previous motion
+
+### Pember and Morley Attempted to Press Ahead
+
+**Clamour in Room**: Such that had to allow further debate
+
+### F. Campbell's Critical Motion
+
+**Campbell Put Forward**: "That committee do insist upon 'hacking', when running with the ball, in their communication with Cambridge"
+
+**Result**: **Motion passed by 10 votes to 9**
+
+**Consequence**: "Hacking was non-negotiable component of FA code"
+
+**Morley and Pember Clearly Upset**: Pember declared "vote to all intents and purposes annulled business of evening"
+
+**Meeting Adjourned**: Agreed to recommence following week
+
+---
+
+## The December 1, 1863 "Coup"
+
+### Morley's and Pember's Bitterness Became Apparent
+
+**Trouble From Very Outset**
+
+### The Minute Book Manipulation
+
+**Critical Fact**: FA had passed Campbell's amendment on 24 November
+
+**But**: **Morley had not written it in minute book**
+
+**Consequence**: When read minutes of previous meeting, **no mention of amendment**
+
+**Campbell Lodged "Protest"**: On behalf of Blackheath club
+
+**But**: Campbell's protest in vain, motion to reject minutes lost
+
+---
+
+## Harvey's Critical Analysis: "Historians Have Never Drawn Attention"
+
+### The Coup Against Consensus
+
+**Harvey**: "It is curious that historians have never drawn attention to the **reality** of the events that occurred during FA meeting of 1 December 1863"
+
+**What Actually Happened**: "Pember and Morley staged what was effectively a **coup** against existing consensus regarding rules by taking advantage of non-appearance of number of delegates who were sympathetic to football played at Rugby"
+
+### The November 24 Vote
+
+**19 Delegates Present**: Voted narrowly in favor of preserving hacking and running with ball
+
+**Likely Supporters of Hacking/Running** (10 delegates):
+- Blackheath (two)
+- Kensington School (two)
+- Perceval House (two)
+- War Office (one)
+- Blackheath Proprietary (two)
+- Cruikshank of Wimbledon School (one)
+
+**Likely Opponents** (9 delegates):
+- Barnes (two)
+- NN (Kilburn) (two)
+- Forest Leytonstone (two)
+- Crystal Palace (two)
+- Daltry of Wimbledon School (one)
+
+### The December 1 Absence of Rugby Supporters
+
+**15 Delegates Listed**: At December 1 meeting
+
+**Absent**:
+- Kensington School (no delegates)
+- Perceval House (no delegates)
+- War Office (no delegates)
+- J. Cruikshank of Wimbledon (absent)
+
+**Also**: Forest School club (opposed hacking) sent two new delegates
+
+**In Essence**: "**Six delegates sympathetic to Rugby game were absent** and **two new delegates who favoured Association game were present**"
+
+### Harvey's Verdict
+
+**"Quite Clear"**: "Morley and Pember **took advantage of absence of Rugby's supporters** to bulldoze hacking and running with ball out of Association"
+
+---
+
+## Laws 9 and 10 Expunged (1 December 1863)
+
+### Alcock Proposed Removal
+
+**Despite Campbell's Declaration**: "Blackheath club would probably withdraw from Association if proposal carried"
+
+**Laws Expunged**: And replaced by:
+
+#### Law 9 - No Carrying
+> "No player shall carry the ball"
+
+#### Law 10 - No Hacking/Tripping
+> "Neither tripping or hacking shall be allowed and no player to use his hand to push adversary"
+
+### Campbell's Response
+
+**Proposed**: "Meeting be adjourned until vacation so representatives of schools who are members of association be enabled to attend"
+
+**Result**: Motion lost by **13 votes to 4**
+
+---
+
+## The Split and Mass Exit (December 1863-January 1864)
+
+### December 8, 1863: Laws Sanctioned
+
+**FA Decided**: Allow Lillywhite to print new laws
+
+**Therefore**: Sanctioned them as official code
+
+### Campbell Withdraws Blackheath
+
+**Implications Drastic**: Campbell had been "instructed by Blackheath to withdraw"
+
+**Campbell Continued**: As treasurer temporarily
+
+**FA Agreed**: Leave issues in abeyance until following September
+
+**But**: "Definite split had occurred within FA"
+
+### Ironically: 18 Clubs Listed
+
+**That Same Meeting**: Secretary listed clubs who had joined
+
+**Total**: **18 clubs**
+- Blackheath
+- Blackheath Proprietary School
+- Blackheath Perceval House
+- War Office
+- NN (Kilburn)
+- Forest Leytonstone
+- Wimbledon
+- Forest School
+- Walthamstow
+- Kensington School
+- Royal Naval School (New Cross)
+- Surbiton
+- Crusaders
+- Lincoln
+- Aldershot
+- Royal Engineers (Chatham)
+- Uppingham School
+- **Sheffield FC**
+
+**Significance**: "Number that would **not be exceeded until 1868**"
+
+### Decision to Outlaw Hacking
+
+**Predictably**: Ensured many clubs left FA
+
+**Consequence**: "Whole status of Association was thrown into question"
+
+---
+
+## Harvey's Analysis: The Missed Opportunity
+
+### Deliberate Split
+
+**Harvey's Verdict**: "Split between Association and Rugby games was **deliberately caused** by machinations of those supporting former variant, particularly Morley and Pember"
+
+**How**: "Seized opportunity presented by non-attendance of opposing delegates to frame laws that suited their purpose"
+
+### But Were They Incompatible?
+
+**Might Be Argued**: Two varieties largely incompatible
+- Hacking would have prevented any football but Rugby-type being played
+
+**In View**: Those favoring dribbling-based game had little alternative than seek removal of hacking
+
+### The Missed Compromise
+
+**But**: "Had officials, particularly Pember and Morley, shown more flexibility there was certainly **no reason why tenable compromise could not have been reached**"
+
+**Plausible Alternative**: "Create **two distinct codes** – one excluding hacking and running with ball and other permitting them – that would be **administered under rubric of Football Association**"
+
+**In Essence**: "Two rationalized codes under auspices of FA, thus **standardizing two principal types of football**"
+
+---
+
+## Richmond FC Example: Room for Manoeuvre (November 1863-January 1864)
+
+### Played Under Three Different Codes
+
+**Richmond FC**: Largely made up of old Rugbeans, would eventually adopt Rugby code
+
+**But During FA Debates**:
+- **7 Nov, 21 Nov, 5 Dec 1863**: vs Forest FC using **Cambridge University rules** (most opposed to Rugby)
+- **19 Dec 1863**: vs Barnes under **FA code** (just produced)
+- **2 Jan 1864**: vs Blackheath under **Rugby rules**
+
+### Harvey's Point
+
+**"Clearly Room for Manoeuvre"**: Richmond example shows flexibility possible
+
+**Two Standardized Codes**: "Would have considerably simplified football by removing plethora of different variants"
+
+**But**: "Pember and Morley were **determined** that Association game should establish itself as **sole model** of Football Association game **at expense of Rugby**"
+
+---
+
+## Initial Effort at Compromise Failed (January 1864)
+
+### Battersea Park Match
+
+**Teams Led By**: Pember and Morley (firm opponents of Rugby-style)
+
+**But**: "Plenty of catching and running holding ball"
+
+**Unfortunately**: Campbell of Blackheath absent (vacation time)
+
+**Result**: "Efforts at compromise consequently unsuccessful"
+
+### Attitudes Hardened
+
+**Cartwright** (influential writer):
+- Month earlier: Regarded Cambridge rules as too extreme, supported use of touchdowns
+- After Battersea: Urged running holding ball be excluded
+
+**Conclusion**: "Compromise was becoming increasingly unlikely"
+
+---
+
+## The FA's Near Disaster (1864-1867)
+
+### Mass Exit of Teams
+
+**Cambridge Rules Adoption**: "Something of disaster"
+
+**Led To**: Mass exit of teams who preferred Rugby-style game
+
+**Consequence**: "**FA's membership fell to 9 in under a month**"
+
+### Public Schools Remained Aloof
+
+**Completely Uninfluenced**: By such disputes
+
+**Attitude**: One of aloofness
+
+**Refused All Compromise**
+
+### Near Disaster for FA
+
+**Cumulatively**:
+- Indifference of public schools
+- Hostility of London clubs favoring Rugby-style
+
+**Result**: "Spelt **near disaster** for fledgling FA's attempts to create universal code"
+
+### Cartwright Bemoaned Lack of Unified Rules
+
+**Main Disputes Identified**:
+1. Whether to begin with kick-off or bully
+2. Whether legal to carry ball if caught in air
+3. Offside
+4. Cross bar
+5. Hacking, charging and tripping
+
+---
+
+## Football Expanded, FA Credibility Declined (1864-1867)
+
+### Football Continued to Expand in London
+
+**1864**: 31 teams in region
+- Under a third were FA members
+
+**1865**: 42 teams
+
+**1866**: 58 teams
+
+**1867**: **79 teams**
+
+### FA's Position Grew Weaker
+
+**Despite Substantial Growth**: FA code "effectively ignored"
+
+**FA Members**: "Barely reached double figures"
+
+### Vast Majority Used Other Rules
+
+**Typical Example**: Edmonton club (formed 1866)
+- Fused rules from various public schools
+- Largely Eton, Harrow and Rugby
+
+### Harvey's Critical Assessment
+
+**"Essentially"**: "FA exerted **very little influence** on clubs in London area"
+
+**The Fatal Conclusion**: "The body would have **withered to irrelevance** had it not been for the activities of sympathizers in the provinces"
+
+---
+
+## Summary: The FA Crisis 1863-1867
+
+### The Trajectory
+
+**26 Oct 1863**: FA founded with 11 clubs
+
+**8 Dec 1863**: 18 clubs listed
+
+**Dec 1863-Jan 1864**: Mass exodus after hacking/running banned
+
+**Early 1864**: **Only 9 members**
+
+**1864-1867**: Membership "barely reached double figures"
+
+**Meanwhile**: London football exploded (79 teams by 1867)
+
+**But**: FA code "effectively ignored"
+
+### Why the Crisis?
+
+1. **Morley-Pember "coup"** (1 Dec 1863) against Rugby supporters
+2. **Public schools remained aloof** - refused all compromise
+3. **Mass exit** of Rugby-style clubs
+4. **FA exerted very little influence** on London clubs
+5. **Would have withered to irrelevance** without provinces
+
+### The Critical Setup
+
+**This Sets Stage For**: Sheffield's intervention to save FA
+
+**Harvey's Thesis**: Without Sheffield's "activities of sympathizers in the provinces," FA would have disbanded
+
+**Next Section Will Show**: How Sheffield saved modern football from not existing
 
 ---
 
