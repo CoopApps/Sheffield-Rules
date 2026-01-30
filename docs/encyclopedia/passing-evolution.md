@@ -791,29 +791,568 @@ Historical works addressing the period
 
 ---
 
-## Status: Entry In Progress
+## Historical Passing Before Association Football
+
+### Ancient and Early Examples
+
+**Important Context**: Passing as strategic ball transmission exists across many ball games throughout history
+
+#### Chinese Zhu Qiu (Tang and Song Dynasties)
+
+**Period**: 618-907 CE (Tang) and 960-1279 CE (Song)
+
+**Game**: Zhu Qiu (relation of cuju)
+
+**Evidence**: Early description of passing present
+
+#### Ancient Greek Harpastum
+
+**Athenaeus Wrote**:
+> "He seized the ball and passed it on to a teammate while dodging another and laughing"
+
+**Evidence**: Clear description of passing to teammate
+
+#### David Wedderburn's Vocabula (1636)
+
+**Wedderburn**: Aberdonian schoolmaster
+
+**Section**: "Pila pedalis" (ball kicking)
+
+**Content**: Short sentences for grammar school pupils to translate into Latin
+- Selection of sides
+- Kicking off
+- Scoring goals
+
+**Relevant to Passing**:
+- "Pass it here"
+- "Pass the ball back"
+
+**Significance**: Passing terminology in 17th-century Scottish football
+
+#### Edmund Waller Poem (c.1624)
+
+**Describing Shepherds Playing Football**:
+> "They ply their feet, and still the restless ball, Toss'd to and fro, is urged by them all"
+
+**"Toss'd to and fro"**: Suggests passing between players
+
+#### Richard Baxter (1650)
+
+**Description**:
+> "Like a Footbal in the midst of a crowd of Boyes, tost about in contention from one to another"
+
+**"From one to another"**: Indicates ball transmission
+
+#### Camping Football (Moor)
+
+**Description**:
+> "Throws the ball (he must in no case give it) to some less beleaguered friend more free and more in breath than himself"
+
+**Significance**: Strategic passing to less pressured player
+
+#### Walter Scott the Younger (Scottish Football)
+
+**Gibson and Pickford Described**:
+> "Amongst the heaving mass two stalwart Selkirk men were to be seen. One of them eventually got the ball and threw it to the other, who, not being so much in the thick of the fight, ran off as hard as he could towards the woods of Bow Hill, intending, albeit by a long circuit, to reach the Yarrow goal, and thus bring victory to his side. He would doubtless have succeeded had not a horseman run him down; and so keen was the excitement that the mounted man had some difficulty in getting away from the infuriated players"
+
+**Clear Passing Strategy**: One player to another to reach goal
+
+### Cannot Be Directly Transferred
+
+**Important Point**: These historical examples cannot be directly transferred to association football
+
+**But They Indicate**: Strategic intentions of winning territorial game resulted in:
+- Many experiments and innovations
+- Each team attempting to gain advantage
+
+---
+
+## FA Rule 11 (8 December 1863)
+
+### First Issued Football Association Code
+
+**Rule 11 Stated**:
+> "A player shall not be allowed to throw the ball or pass it to another with his hands"
+
+**Significance**:
+- Rule acknowledged **passing was already known**
+- Probably used during games
+- Had to be explicitly prohibited for hands (implying foot passing acceptable)
+
+---
+
+## Passing and the Combination Game: Terminology
+
+### Alcock's Definition of "Combination Game"
+
+**Alcock Stated**:
+> "Nothing succeeds better than what I may call a 'combination game'"
+
+**Defined As**:
+> "The process of following closely on a fellow player, to assist him if required, and to take on the ball if he be attacked or prevented from continuing his onward course"
+
+**Appears to Distinguish**: From action of dribbling alone
+
+### Inconsistent Use of Terms
+
+**Problem**: Term "combination" not always consistently used
+
+**Alcock Amended His View**:
+> "By combination I mean much more than the mere 'passing on' which seems to be the one common idea of perfection among a large number of English Associationists"
+
+### Saturday Review Article: "Professionals in English Sport"
+
+**Bemoaned Professionalism**:
+> "Combination and passing has replaced skill and dash"
+
+**Possible Distinction**:
+- **"Combination"**: May relate to backing up and close passing/passing on
+- **"Passing"**: More general passing
+- Tends to concur with Alcock's partial clarification above
+
+### W.N. Cobbold on Combination (1885)
+
+**Cobbold**: Old Carthusian, captain of 1885 Cambridge University eleven
+
+**Quoted by Alcock**:
+> "The first idea of any forward should be that he is only a connecting link in a chain which should, as a rule, be kept in line, and that the whole secret of good play lies in combination"
+
+#### Cobbold's Advice to Forwards
+
+**On Positioning**:
+> "Let the centre place himself judiciously, so that an inside man can give him a pass when he is clear from the centre half-back"
+
+**On Technical Skills**:
+> "A good forward must, of course, be able to pass with both the inside and outside of his feet"
+
+**On Passing Technique**:
+> "[Should] always pass slightly ahead of the player passed to"
+
+**Significance**: Sophisticated understanding of passing by 1885
+
+---
+
+## Sheffield FC v Hallam FC (1861) - THE EARLIEST EVIDENCE
+
+### Match Details
+
+**Date**: 1861
+
+**Location**: Hyde Park
+
+**Teams**: Sheffield FC v Hallam FC
+
+### Sheffield FC Archives Match Report
+
+**Quote**:
+> "**Prest, Chambers and Appleton** showing some good, **combined play**, speedily had the ball in the Hallam quarters"
+
+**Significance**:
+- **1861** - Earliest identified specific passing evidence
+- **Three named players** working together
+- **"Combined play"** = passing between players
+- **11 years before** 1872 Scotland-England international
+- **14 years before** Kitching's Scottish evidence (1875)
+
+### Nottingham Journal Report (Same Match)
+
+**Impressed By**:
+> "Gould, Prest and Appleton's superior **longs**"
+
+**"Longs"**: Long balls
+- Form of play designed to reach teammates
+- Or for teammates to run onto ball
+- Strategic forward passing
+
+---
+
+## 1865 Nottinghamshire v Sheffield
+
+### Goal Scored "Two Touched to Base"
+
+**Match Report**:
+> "Two touched to base"
+
+**Indication**: Goal created by **two players combining together**
+
+### Same Game - Another Account
+
+**Noted**:
+> "The Sheffield party, however, eventually took the lead through some **scientific movements**"
+
+**"Scientific movements"**: Organized, planned play (passing)
+
+---
+
+## 1865 Leeds v Sheffield Norfolk - DEFINITIVE EVIDENCE
+
+### Leeds Intelligencer Report
+
+**Already quoted above**, but critical evidence bears repeating:
+
+> "Sheffield kicking off, which they did in a way altogether different from that generally practised by the Leeds club, less-showy but more scientific and useful. They 'dribbled' it at first **just kicking the ball gently from one player to another** and trying to run it round by stratagem... It was soon evident that Sheffield had far more skill and worked together better than they of Leeds did"
+
+**Absolutely Clear**: "Kicking the ball gently from one player to another"
+- Unambiguous description of passing
+- Deliberate tactic ("by stratagem")
+- "Worked together better" = team coordination
+
+---
+
+## 1868 Sheffield FC v Lincoln - THREE-PLAYER COORDINATION
+
+### Match Details
+
+**Teams**: Sheffield FC v Lincoln
+
+**Rules**: Lincoln rules (included offside)
+
+### The Sportsman Report
+
+**Goal Described**:
+> "A remarkably neat and quick piece of play on the part of **K Smith, Denton & J Knowles** resulted in a goal for Sheffield"
+
+**Significance**:
+- **Three named players** coordinating
+- "Neat and quick" suggests practiced combination
+- Worked **despite offside rule** limiting expansive play
+- Sheffield's game developed to point where could operate successfully even with offside constraints
+
+**Implication**: Passing game sophisticated enough to function under different rule sets
+
+### Other 1868 Examples
+
+**Norfolk Goal** (Messrs. Barrowclough and Carr):
+> "Messrs. Barrowclough and Carr, by dexterous manoeuvring, scored the first goal for Norfolk"
+
+**Quick Goal** (Donavon to Sampson):
+> "In just five minutes **Donavon passed to Sampson** to score"
+
+**Clear Use of Word "Passed"**: Unambiguous terminology
+
+---
+
+## 1872 Derby v Sheffield FC
+
+### Match Report (Derby Mercury)
+
+**Passing Sequence**:
+> "W. Orton, by a specimen of careful play, running the ball up in close proximity to the goal, from which it was returned to **J. Marsh**, who by a fine straight shot kicked it through"
+
+**Named Players**:
+- W. Orton
+- J. Marsh (the captain)
+
+**Sequence**: Orton runs ball up, returned to Marsh, Marsh scores
+
+### Technical Innovation Described
+
+**"Corkscrew Play"**:
+> "This goal was supplemented by one of T. Butler's most successful expositions of the art of **corkscrew play and deceptive tactics** which had the effect of exciting the risibility of the spectators"
+
+**Significance**: Sophisticated dribbling combined with passing tactics
+
+---
+
+## 1872 Sheffield Club v Notts
+
+### Match Report (Same Month as Derby Match)
+
+**Only Goal Scored**:
+> "The only goal scored in the match was obtained by Sheffield, owing to a good run up the field by **Steel**, who **passed it judiciously to Matthews**, and the latter, by a good straight kick, landed it through the goal out of reach of the custodian"
+
+**Clear Passing Sequence**:
+1. Steel runs up field
+2. Steel "passed it judiciously to Matthews"
+3. Matthews shoots and scores
+
+**Use of "Passed"**: Explicit terminology
+
+---
+
+## Beyond Sheffield FC: Other Sheffield Clubs (1860s-1870s)
+
+### The Wider Sheffield Football Association
+
+**Not Just Sheffield FC**: Team formations and passing evident elsewhere
+
+**Other Clubs**:
+- Wednesday
+- Norfolk
+- Exchange
+- Heeley
+- Providence
+- Garrick
+
+**Significance**: "Added to the vitality of the first footballing culture"
+
+### References to Visiting Teams
+
+**Needed to Learn**:
+- How to place players
+- Fix a goalkeeper
+- Appoint a captain to orchestrate players
+
+**Conclusion**: "References to all forms of passing suggest it was deployed in the 1660s and firmly embedded by the mid-1870s"
+
+---
+
+## Scottish Passing Development (1872-1874)
+
+### 1872 FA Cup: Wanderers v Queen's Park (Fourth Round)
+
+**Match Report**:
+> "The Scotchmen played in such energetic style and followed the ball up so quickly, **after the Sheffield fashion**, that for the first quarter of an hour they rather surprised their English opponents... Their [Queen's Park] style of play is very much after the fashion of Sheffield, as they dribble little and usually convey the ball by a series of long kicks, combined with a judicious plan of passing on"
+
+**Critical Statement**: "After the Sheffield fashion"
+- Queen's Park explicitly playing like Sheffield
+- Sheffield style was model for Scottish passing
+
+### Terms Common Around 1872-1873 for Queen's Park
+
+**Phrases Used**:
+- "Backed each other up"
+- "Played well together"
+
+**Also Mentioned**:
+- Scrummages
+- Runs
+- Dribbling
+- Long kicks
+
+**But**: No descriptions of fixed positions in 1660s Scottish games
+
+### First International: Scotland v England (November 1872)
+
+**Match Report**:
+> "The Southrons [English], however, did not play to each other so well as their opponents, who **seem to be adepts in passing the ball**"
+
+**Scotland Ahead of England**: But where did Scotland learn it?
+
+### Earliest Named Glasgow Player-to-Player Passing
+
+**Match**: Sheffield v Glasgow at Bramall Lane (1874)
+
+**Description**:
+> "**W. McKinnon** kicked it in from the side to **Harry M'Neill**, who in turn handed it to **Anderson**"
+
+**Significance**:
+- 1874 = earliest identified named Glasgow passing sequence
+- Sheffield v Glasgow match (Sheffield influence?)
+
+### Scottish Passing Evolution
+
+**Earliest Scottish "Combined" Reference**: Mid-March 1873
+- Clydesdale v Granville: "Combined dribbling"
+
+**Earliest "Combined Play" Reference**: 7 April 1873
+- Queens Park v Glasgow Wanderers (Glasgow Herald)
+
+**Pattern**: Scottish passing appears **2 years after** England v Scotland international
+- **12 years after** Sheffield evidence (1861)
+
+### 1874 Scotland v England
+
+**West of Scotland Cricket Ground**:
+> "**Angus Mackinnon [Scotland]** soon shot out in front, and the pair, by **'passing'**, piloted the ball clean through the English backs"
+
+**Significance**: "Passing" in quotation marks (still relatively novel term?)
+
+---
+
+## Passing vs Shooting: Third Lanarkshire Rifle Volunteers v Sheffield Heeley
+
+### Cathkin Park Match
+
+**Result**:
+> "A well contested game ended in a draw, each club having **passed the ball between the posts**"
+
+**Significance**: Not all goals from shooting/heading
+- Sometimes combined play results in just passing ball into goal
+- Suggests passing so effective that goalkeeper bypassed
+
+---
+
+## Early Scottish Passing: Rudimentary Evolution
+
+### Similarity to Early Sheffield
+
+**Pattern**:
+- Early Queen's Park and Scottish passing possibly like early Sheffield passing
+- **Rudimentary**, gradually evolved from:
+  - Backing up
+  - Close combination play
+
+**Not Sudden Invention**: Gradual development
+
+---
+
+## The Offside Rule Connection
+
+### Sheffield and Scotland: Limited Offside
+
+**Both Played By**:
+- Limited offside rules
+- Compared to FA's relatively tight offside rule (three opposition players between receiver and goal)
+
+**Effect**: Less stringent offside encouraged passing
+
+### Alcock on Sheffield's Offside Rule
+
+**Quote**:
+> "The rules affected by the Sheffield Association gave rise to a loose and disjointed game, which directly **encouraged the adoption of a certain kind of passing**, and, in fact, the main feature of the general play of Sheffield teams was the **transmission of the ball from one player to another according to their stations arranged on a definite plan**"
+
+**Critical Points**:
+1. Sheffield rules "directly encouraged... passing"
+2. "Transmission... according to their stations"
+3. "Arranged on a definite plan"
+
+**Confirms**: Rules and tactics co-evolved
+- Less stringent offside enabled passing
+- Combined with positional plan
+
+---
+
+## Dissemination Through Syndicated Newspapers
+
+### Possible Separate Evolution?
+
+**Question**: Did Sheffield and Scottish styles evolve separately?
+
+**Significant Factor**: Contemporary newspapers were:
+- Syndicated
+- Widely distributed across Britain
+
+**Result**: Innovations and developments widely read
+- Teams looking for competitive advantage could learn
+- Sheffield tactics reported in newspapers reaching Scotland
+- Explains why Queen's Park played "after the Sheffield fashion"
+
+---
+
+## Complete Timeline of Named Players Passing
+
+### 1861 - Sheffield FC v Hallam FC
+
+**Players**: **Prest, Chambers, Appleton**
+- "Good, combined play"
+- Also: Gould, Prest, Appleton ("superior longs")
+
+### 1865 - Nottinghamshire v Sheffield
+
+**Players**: Not named individually, but "two touched to base"
+
+### 1865 - Leeds v Sheffield Norfolk
+
+**Players**: Not individually named, but "kicking the ball gently from one player to another"
+
+### 1868 - Sheffield FC v Lincoln
+
+**Players**: **K Smith, Denton, J Knowles**
+- "Remarkably neat and quick piece of play"
+- Three-player coordination
+
+### 1868 - Norfolk Match
+
+**Players**: **Barrowclough and Carr**
+- "Dexterous manoeuvring"
+
+### 1868 - Quick Goal
+
+**Players**: **Donavon passed to Sampson**
+
+### 1872 - Derby v Sheffield FC
+
+**Players**: **W. Orton** to **J. Marsh**
+- Also: **T. Butler** ("corkscrew play")
+
+### 1872 - Sheffield Club v Notts
+
+**Players**: **Steel passed to Matthews**
+
+### 1874 - Sheffield v Glasgow
+
+**Players**: **W. McKinnon** to **Harry M'Neill** to **Anderson**
+- First named Glasgow sequence
+
+### 1874 - Scotland v England
+
+**Players**: **Angus Mackinnon** and partner
+- "By 'passing'"
+
+---
+
+## Status: SUBSTANTIALLY COMPLETE
 
 **NOW INCLUDED** (from full article):
 - ✅ Strategic intent and ecological-dynamic approach
 - ✅ Alcock's definitions: playing up, backing up, passing on
-- ✅ Specific 1865 match reports (Leeds vs Sheffield Norfolk)
+- ✅ Terminology analysis: combination vs passing
+- ✅ Ancient and pre-1800s historical passing examples
+- ✅ FA Rule 11 (1863) acknowledging passing
+- ✅ **1861 evidence** - Sheffield FC v Hallam: Prest, Chambers, Appleton
+- ✅ **1865 match reports** - Leeds vs Sheffield Norfolk (definitive passing description)
+- ✅ **1868 three-player coordination** - K Smith, Denton, J Knowles
+- ✅ **1872 named passing sequences** - Orton to Marsh, Steel to Matthews
 - ✅ Formation development and positional play evidence
 - ✅ Cricket-football connection
-- ✅ Named individuals (John Marsh, captain)
 - ✅ Dynamic tactical adjustments
+- ✅ **Complete timeline of named players** passing (1861-1874)
+- ✅ Scottish passing development (1872-1874) "after the Sheffield fashion"
+- ✅ Offside rule connection to tactical development
+- ✅ Dissemination through syndicated newspapers
 
-**STILL AWAITING**:
-- Possible 1861 evidence (mentioned in abstract)
-- Long-distance passing vs short passing analysis
+**STILL AWAITING** (from sections not yet provided):
 - Heading evolution (from forward passes)
-- Complete quantitative timeline
-- Additional named players making specific passes
-- Impact on "one of the most important matches" (mentioned in abstract)
+- Long-distance vs short-distance passing detailed analysis
+- Quantitative data tables (if any)
+- Impact on "one of the most important matches" (mentioned in abstract but not yet detailed)
 
-**Entry Will Continue to Be Updated** as additional content from article is provided.
+**Entry Will Continue to Be Updated** if additional article content is provided.
+
+---
+
+## Summary: What We Now Know
+
+### Sheffield Pioneered Passing (1861-1865)
+
+**Definitive Evidence**:
+- **1861**: Prest, Chambers, Appleton "good, combined play"
+- **1865**: "Kicking the ball gently from one player to another"
+- **1868**: Three-player coordination (K Smith, Denton, J Knowles)
+- **1872**: Multiple named passing sequences
+
+**Predates**:
+- 1872 Scotland-England international by **7-11 years**
+- Scottish club passing by **12 years** (1861 vs 1873)
+- Kitching's Scottish evidence by **14 years** (1861 vs 1875)
+
+### Causes of Sheffield's Innovation
+
+1. **Cricket culture**: Positional understanding transferred
+2. **Less stringent offside rule**: Enabled forward passing
+3. **Strategic innovation**: Seeking competitive advantage
+4. **Positional formations**: Players spread across field needed passing
+
+### Spread to Scotland
+
+**1872 FA Cup**: Queen's Park played "after the Sheffield fashion"
+
+**1872 International**: Scotland "adepts in passing the ball"
+
+**1873-1874**: Scottish clubs developing passing
+
+**Mechanism**: Syndicated newspapers disseminating Sheffield innovations
+
+### The Revolution
+
+**Alcock's Verdict**:
+> "The dribbler pure and simple became extinct and the individual gradually became absorbed in the general mechanism of the side"
+
+**Why It Worked**: Average organized team working together beat more skillful but disorganized opponents
 
 ---
 
 *Last updated: 2026-01-30*
 *Source: Wilson, J.P., Stocks, J., Wood, S. and Clarke, J. (2025)*
-*Status: Substantially expanded with strategic intent, formations, and specific match evidence*
+*Status: Substantially complete with historical passing evidence, named players, and tactical development timeline*
