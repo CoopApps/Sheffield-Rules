@@ -593,6 +593,329 @@ This historiographical debate demonstrates:
 
 ---
 
+## The Problem of "Presentism": What Was Football?
+
+### Definition of Presentism
+
+**Core Issue**: In all historical writing, especially investigating contemporary institutions, there is tendency to project the present back onto the past
+
+**Collins' Central Critique**: Revisionists consistently lapse into this error by using word "football" to mean soccer
+
+### The Revisionists' "Presentism" Errors
+
+#### 1. Soccer as "Natural" Form of Football
+
+**Harvey's Assumption**: Modern soccer is the "natural" form of football
+
+**Example** (Harvey, Hay, Smith):
+- Early forms of football allowed handling only because:
+  - "Matches were played on uneven ground in parks, greens, domains and camps"
+  - "The balls in those days were often more ovoid than round and much given to bursting"
+
+**Problems**:
+- No supporting proof provided
+- Does not consider possibility that **picking up a ball was just as natural** an instinct as kicking it to early footballers
+
+#### 2. Ignoring Rugby's Professionalization
+
+**Harvey and Swain**: Attempting to explain rise of professionalism in 1870s
+
+**What They Ignore**: Rise of professional football in **west Yorkshire**
+- Co-terminus with rise of professional soccer in east Lancashire
+- Presumably ignored because played under rugby rules, not association rules
+
+**Effect**: Undermines understanding of broader professionalization process
+
+#### 3. "Football's Missing Link" Was Only About Soccer
+
+**Harvey's Seminal Article**: "Football's Missing Link"
+
+**Reality**: Article concerned solely with evolution of **soccer** before 1870
+
+**Problem**: Uses generic term "football" when meaning only one code
+
+### Why This Matters
+
+**Collins' Argument**:
+> "Such an approach undermines our ability to understand what makes soccer unique by abstracting it from its rivals and presenting its history as a singular linear narrative – the equivalent of writing Hamlet with only the Prince of Denmark."
+
+### The Historical Reality: "Football" as Generic Term
+
+#### Victorian Usage
+
+**Throughout 19th Century**: "Football" used as generic term for association AND rugby
+
+**Differentiation**: Hence use of "**soccer**" and "**rugger**" to differentiate variations of same game
+
+#### Further Complication
+
+**Pre-Codification Games**: Games called "football," "foot-ball," or similar names played for centuries before 1860s-1870s codifications
+
+**Bearing**: Playing bore "little or no resemblance" to rules of modern soccer or rugby
+
+#### 21st Century vs Victorian Usage
+
+**Today** (outside North America/Australia): "Football" almost universally = soccer
+
+**Victorian Britain**: Certainly NOT the case
+
+---
+
+## When Did Soccer and Rugby Differentiate?
+
+### The Modern Assumption: Kicking vs Handling
+
+**Revisionists' View**: Obvious modern differentiation (football = kicking, rugby = handling) can be extended back to at least 1850s
+
+**Irony**: They share this conception with **Eric Dunning and followers**
+
+**Both Schools Assume**: Modern soccer and rugby were clearly identifiable before either was actually codified
+
+### Harvey's Claims About Early Games
+
+**1840s-1850s Matches**:
+> "There was certainly more handling than one would see today in soccer, but the emphasis was on kicking rather than throwing the ball"
+
+**More Recent Article** (Harvey, Hay, Smith):
+> "The evidence suggests that many of them [early nineteenth century football games] are closer to association football as was codified in 1863 – basically, kicking games with the very minimum of handling"
+
+**Collins' Response**: "In neither case is any proof presented to support these claims"
+
+### The Reality: Differentiation Emerged in the 1870s
+
+**Collins' Verdict**:
+> "Clear differentiation between the association and rugby codes did not emerge until the 1870s"
+
+---
+
+## Rugby Was Actually a Kicking Game
+
+### Rugby School Football: Handling Was Minor
+
+**Contrary to Modern Perception**: Use of hands was **subordinate** to dribbling and kicking
+
+#### When RFU Formed (1871)
+
+**Play Revolved Around**:
+- Scrummaging
+- Kicking to set up scrummages
+
+**Forwards**:
+- Usually **15 of 20-a-side** teams (until 1877)
+- Aimed to break through opponents by **dribbling ball with their feet** through scrum
+
+### Rugby School Rules Severely Limited Handling
+
+#### Fair Catch Rule
+
+**If ball caught on full from kick**:
+- Catcher allowed to kick ball unhindered
+- Same as in early FA and Sheffield FA rules
+
+#### Ground Ball Rules
+
+**Ball on ground could NOT be picked up** unless bouncing
+
+**Rolling or stationary ball**:
+- Could NOT be handled
+- HAD to be kicked
+
+#### Scoring
+
+**Only by goals kicked** - no try scoring initially
+
+### Collins' Summary of Early Rugby
+
+Using Harvey's own words about soccer:
+> "Even in rugby 'the emphasis was on kicking rather than throwing the ball'"
+
+---
+
+## Soccer Had More Handling Than We Think
+
+### Scrum-Type Struggles Common in Early Soccer
+
+**Eton and Winchester**: Football games had scrum-type struggles for the ball
+
+**Sheffield Association Matches**: References to "scrimmages" not uncommon
+
+**Example** (as late as 1876):
+> "A splendid scrimmage then occurred in front of the refreshment booths in which Sorby and Gregory were prominent"
+
+### Fair Catches and Handling
+
+**Early FA and Sheffield FA**: Both allowed "fair catch"
+- Ball caught on full from kick
+- Catcher could kick unhindered
+
+**This was a handling element** in early soccer-type games
+
+---
+
+## An Alternative History
+
+### Counter-Intuitive Reality
+
+**Rugby-Type Games**: Using feet to propel ball was **major feature**
+
+**Soccer-Type Games**: Catching and handling ball also **common**
+
+### Possible Alternative Narrative
+
+**Collins' Suggestion**:
+> "It is perfectly possible to envisage an alternative narrative of the development of football in which soccer was the code that moved away from the forms of football played in the 1830-1860 period by gradually outlawing all forms of outfield handling and removing bodily contact."
+
+**Implication**: Soccer could be seen as the "deviant" code that changed, not the "natural" continuation
+
+---
+
+## The Common Ground of 1850s-1860s Football
+
+### More Similarities Than Differences
+
+**Collins' Key Point**:
+> "Most importantly, all forms of football that were played in the 1850s and 1860s had far more in common than that which set them apart."
+
+### Kicking vs Handling: A Matter of Degree
+
+**Not Fundamental Distinction**: Until early 1870s
+
+**Evidence**: Number of clubs that played **both versions** of football
+
+**Examples from Our Encyclopedia**:
+- Sheffield FC played rugby matches (1864-1870)
+- Many clubs switched between codes or played both
+
+### The Revisionist Error
+
+**Methodology**:
+- Work backwards from today's distinctive codes
+- Highlight rules indicating continuity with modern soccer
+- Downplay extensive similarities between early football codes
+
+**Collins' Critique**:
+> "The revisionists see the murky and indeterminate past of pre-codification football games through 'presentist' eyes"
+
+---
+
+## The Politics of "Football" Today
+
+### The Quest for Authenticity
+
+**Collins' Observation**:
+> "The ahistoric use of 'football' to imply soccer also highlights the importance of the quest for authenticity to many of today's soccer historians"
+
+### Greater Importance in Multi-Code Countries
+
+**Australia**:
+- Rivalry between codes involves question of which is "genuine" football
+- Word "football" still used in 19th-century generic sense (all codes)
+
+**Football Federation Australia** (since 2005):
+- Officially discouraged word "**soccer**"
+- Despite "football" referring to multiple codes in Australia
+
+**USA**: Similar dynamics to certain extent
+
+### Not Merely Methodological
+
+**Collins' Final Point**:
+> "The imprecise use of the word is therefore not merely a methodological question for historians but an issue that plays an important role in the contemporary politics of sport"
+
+---
+
+## Implications for Understanding Sheffield Rules
+
+### Sheffield's "Indeterminate" Nature Makes Sense
+
+**In 1850s-1860s Context**:
+- All football codes were hybrid
+- Kicking/handling not yet fundamental distinction
+- Clubs commonly played multiple codes
+- Rules borrowed from various sources
+
+**Sheffield FC**:
+- Playing both Sheffield rules and rugby (1864-1870)
+- Makes perfect sense in this context
+- Not unusual or contradictory
+
+### The Rouge System's Handling Element
+
+**Now Understandable**: In era when handling common across codes
+- Not anomaly or contradiction
+- Part of broader football culture
+- Borrowed from Eton (another handling element in "kicking game")
+
+### "Scrimmages" in Sheffield Matches
+
+**Natural Feature**: Part of all football codes
+- Not borrowed from rugby specifically
+- Common feature of all football games
+- Only later differentiated
+
+### Why Sheffield Eventually Chose FA Rules (1877)
+
+**Not Abandoning "True Football"**: Both codes were legitimate football
+- Choice was organizational and practical
+- FA becoming dominant organization
+- Not ideological choice between kicking and handling
+
+---
+
+## Methodological Lessons: Avoiding Presentism
+
+### For Historians
+
+**1. Define Terms Precisely**:
+- "Football" meant different things in different eras
+- Cannot use modern meaning when discussing 1850s-1860s
+
+**2. Resist Working Backwards**:
+- Don't start with modern codes and trace "ancestry"
+- Start with historical sources and trace forward
+
+**3. Acknowledge Commonalities**:
+- Focus on what united early codes, not just what divided them
+- Understand differentiation as gradual process (1870s+)
+
+**4. Consider Alternative Narratives**:
+- Soccer as code that changed (removing handling)
+- Rugby as code that changed (emphasizing handling more)
+- No single "natural" or "authentic" form
+
+**5. Be Aware of Present Politics**:
+- Quest for "authenticity" influences historical interpretation
+- Modern rivalries between codes affect how history is told
+
+### For Game Developers
+
+**1. Represent the Hybridity**:
+- 1860s football was genuinely indeterminate
+- Players didn't think in terms of "soccer vs rugby"
+- Thought in terms of "our rules vs their rules"
+
+**2. Handling in Early Soccer-Type Games**:
+- Fair catches were part of early association-style games
+- Gradual removal of handling (not sudden)
+- Can represent this evolution
+
+**3. Kicking in Early Rugby-Type Games**:
+- Scrummaging and dribbling with feet dominant
+- Passing by hand developed later
+- Can show this if representing rugby-style matches
+
+**4. Club Flexibility**:
+- Clubs playing multiple codes was normal
+- Sheffield FC's rugby matches not unusual
+- Can represent this flexibility
+
+**5. The "Football" Umbrella**:
+- All codes were "football" in Victorian era
+- Differentiation gradual, not sudden
+- Can use period-appropriate language
+
+---
+
 ## Academic References
 
 ### Books
