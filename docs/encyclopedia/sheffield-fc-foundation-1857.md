@@ -935,6 +935,196 @@ St. Paul's and Merchant Taylor's were excluded because they were day schools:
 
 **Significance**: Football integrated into broader sporting culture, not isolated
 
+**Curry's Context**: "The garrison would probably have been the one at **Hillsborough Barracks**, against whom games were a regular event"
+
+**Athletic Sports Importance**: "The sports would almost certainly have been Sheffield FC's **end of season athletic event** which was **not only important for the football club - at times it almost seemed to be more important than the football itself** - but also as a **highlight of the city's social calendar**"
+
+**Creswick's Pre-occupation**: "He does seem to be pre-occupied with the fair sex and, in this case, **their attendance at matches**, which was **a feature of comment in the early days**"
+
+---
+
+### Diary Entry 4: Rifles and SFBC Agitation (18 May 1859)
+
+**Entry**:
+
+> *I went off to cricket for the afternoon. No end of an agitation in the town relative to the Rifle Corps and SFBC and letters in the paper about the same. I've gone and been and joined the Rifles.*
+
+**SFBC Confirmed**: "SFBC was the shortened form of **Sheffield Foot Ball Club**"
+
+**Curry's Note**: "Again, the **emphasis on the word 'foot' is significant**"
+
+**Rifles Connection**: Creswick joining the Hallamshire Rifles volunteer corps
+
+**Public Controversy**: "No end of an agitation in the town" - football club and rifles generating public debate in newspapers
+
+**Significance**:
+- Football club important enough to generate newspaper letters
+- Connection between military volunteers and football
+- Public visibility of Sheffield FC by 1859
+- "Foot Ball Club" reinforcing kicking emphasis
+
+---
+
+### Diary Entry 5: Victory Against Garrison (19 December 1860)
+
+**Entry**:
+
+> *Football match with the garrison on Monday at Owlerton: a fair match, we won.*
+
+**Location**: **Owlerton** (new venue)
+
+**Day**: **Monday** (Saint Monday tradition for working-class participation)
+
+**Result**: Sheffield FC victory
+
+**Tone**: "A fair match" - sportsmanship noted
+
+**Significance**:
+- Regular matches against military garrison
+- Monday matches already established (Saint Monday)
+- Multiple venues being used (Owlerton, East Bank, Hyde Park, etc.)
+
+---
+
+### Diary Entry 6: The Hallam Scuffle (21 January 1863)
+
+**Entry**:
+
+> *Letter to a newspaper headed 'The late Hallam and Sheffield Football match' from a lover of fair play. Also entry reading, "after seeing my conduct at the foot ball match Polly certainly thought I behaved as she said, nobly." A further letter to a newspaper dated January 9 1863 in reply to first. Also opposite May/June a report on the Athletic Sports at Bramall Lane of Mackenzie Football Club.*
+
+**Context**: "The Hallam versus Sheffield match was an **especially unruly affair** and Creswick was **involved in a scuffle with Hallam player Waterfall** which resulted in a **flurry of letters to local newspapers**"
+
+**Polly**: "The subject of Nathaniel's affection at the time"
+
+**Creswick's Defense**: Polly thought he "behaved... nobly" despite the scuffle
+
+**Significance**:
+- Intense rivalry between Sheffield FC and Hallam FC
+- Physical confrontations occurring
+- Public debate in newspapers about conduct
+- Creswick defending his behavior to romantic interest
+- "Lover of fair play" - emerging sportsmanship discourse
+- Mackenzie Football Club mentioned (another club by 1863)
+
+**Connection to Match Table**: Early match table documented Sheffield v Hallam matches from 1860-1862, rivalry continuing into 1863
+
+---
+
+### Diary Entry 7: Annual Meeting and Committee Structure (13 September 1863)
+
+**Entry**:
+
+> *Newspaper report of Annual Meeting of Sheffield Football Club with Fred Ward still President and Prest and Creswick still on the Committee.*
+
+**Continuity**: Same leadership from 1858 still in place in 1863 (5 years later)
+
+**Fred Ward**: Still President (was Chairman in 1858, now President - title evolved)
+
+**Prest and Creswick**: Still on Committee
+
+**Significance**:
+- Stable leadership over time
+- Annual meetings establishing regular governance
+- Newspaper coverage of club meetings (public importance)
+
+---
+
+### Diary Entry 8: Creswick as President of York FC (14 September 1863)
+
+**Entry**:
+
+> *Annual Meeting of York Football Club. Nathaniel Creswick as President.*
+
+**Role**: Creswick serving as **President of York Football Club** while on Sheffield FC committee
+
+**Significance**:
+- Members of Sheffield FC holding leadership positions in other clubs
+- York FC (previously documented in match table) now formally organized
+- Network of interconnected clubs with shared leadership
+
+**Curry's Analysis**: "By 1863 there were **many football clubs in Sheffield** though it is fair to suggest that, although they may have thought of themselves as the **equals of Sheffield FC**, they were, for some time, **subordinate**, as the above reference notes"
+
+**Power Structure**: "Members of the senior club occupied **central positions in other organisations** almost certainly due to the **high social status of the members of Sheffield FC**"
+
+**Implication**: Sheffield FC as "parent body" with members providing leadership across club network
+
+---
+
+### Diary Entry 9: York FC Surpassing Sheffield FC (21 September 1864)
+
+**Entry**:
+
+> *Newspaper report of the York Football Club Athletic Sports at Endcliffe. 'In this respect the arrangements were far more satisfactory than at the sports of the Sheffield Football Club at Bramall Lane.'*
+
+**Venue**: Endcliffe (York FC's ground, cricket ground mentioned earlier)
+
+**Comparison**: York FC's athletic sports exceeded Sheffield FC's in quality
+
+**Curry's Irony**: "Ironically, as the quote dated 21 September 1864 mentions, the **social events of these supposedly inferior football clubs sometimes surpassed those of the 'parent' body**"
+
+**Bramall Lane**: Sheffield FC now using famous cricket ground for athletic sports
+
+**Significance**:
+- Competition between clubs not just on field but in social events
+- Athletic sports still major element of football clubs
+- York FC establishing its own identity despite Sheffield FC's seniority
+- Bramall Lane (later famous football stadium) already hosting Sheffield FC events
+
+---
+
+## Sheffield FC as "Parent Body" and Club Hierarchy (1863-1864)
+
+### Sheffield FC's Senior Status
+
+**Curry's Assessment**: "By 1863 there were **many football clubs in Sheffield**"
+
+**Perceived Equality**: Other clubs "may have thought of themselves as the **equals of Sheffield FC**"
+
+**Reality**: "They were, for some time, **subordinate**"
+
+**Mechanism**: "Members of the senior club occupied **central positions in other organisations**"
+
+**Cause**: "Almost certainly due to the **high social status of the members of Sheffield FC**"
+
+---
+
+### Network Structure
+
+**Sheffield FC**: "Parent body" - senior club
+
+**Other Clubs**: York FC, Hallam FC, Mackenzie FC, Norton, Pitsmoor, etc.
+
+**Shared Leadership**: Sheffield FC members serving as presidents/committee members of other clubs
+
+**Example**: Creswick on Sheffield FC committee (1863) AND President of York FC (1863)
+
+---
+
+### Competition and Independence
+
+**Athletic Sports**: Subordinate clubs sometimes surpassing Sheffield FC in quality
+
+**York FC (1864)**: "Arrangements were far more satisfactory" than Sheffield FC
+
+**Significance**:
+- Clubs developing their own identities
+- Competition spurring quality improvements
+- "Parent body" status not permanent - meritocracy emerging
+
+---
+
+## Assessment of Creswick's Diaries
+
+**Curry's Judgment**: "The diaries are **a little disappointing for football history enthusiasts**"
+
+**But**: "There may be some **small piece of new or confirmatory information** which could prove of some use to certain interested parties"
+
+**Value**:
+- Confirming rather than revealing
+- Primary source verification of known events
+- Personal perspective on football culture
+- Insight into social aspects (love life, sportsmanship, status)
+
 ---
 
 ## Sheffield FC Naming Convention
@@ -952,17 +1142,21 @@ St. Paul's and Merchant Taylor's were excluded because they were day schools:
 
 ---
 
-## SFBC: Sheffield Football and Cricket Club?
+## SFBC: Sheffield Foot Ball Club
 
 **From 15 October 1858 diary**: "Meeting of **SFBC** at my office"
 
-**Possible Meaning**: Sheffield Football and Cricket Club? Sheffield Foot Ball Club?
+**From 18 May 1859 diary**: "No end of an agitation in the town relative to the Rifle Corps and SFBC"
 
-**Context**: "Sheffield FC grew directly from a local cricket club"
+**Confirmed Meaning**: **Sheffield Foot Ball Club** (not "Football and Cricket Club")
 
-**Implication**: May have been combined football/cricket organization initially
+**Curry's Note**: "SFBC was the shortened form of Sheffield Foot Ball Club. Again, the **emphasis on the word 'foot' is significant**"
 
-**Seasonal Pattern**: Cricket in summer, football in winter
+**Significance**:
+- Deliberate emphasis on "foot" in official name
+- Distinguishing kicking game from handling game
+- Two words ("Foot Ball") reinforcing kicking-based code
+- Used consistently in formal contexts (committee meetings, newspaper agitation)
 
 ---
 
@@ -1057,13 +1251,13 @@ St. Paul's and Merchant Taylor's were excluded because they were day schools:
 
 ---
 
-## Timeline of Sheffield FC (1857-1859)
+## Timeline of Sheffield FC (1857-1864)
 
 **24 October 1857**: Sheffield FC officially founded
 
 **31 December 1857**: Creswick's diary confirms foundation, "most of young Sheffield come and kick"
 
-**15 October 1858**: First committee meeting, six members, Fred Ward chairman
+**15 October 1858**: First committee meeting (SFBC), six members, Fred Ward chairman
 
 **November 1858**: Play commences (first Saturday in November)
 
@@ -1071,12 +1265,28 @@ St. Paul's and Merchant Taylor's were excluded because they were day schools:
 
 **4 April 1859**: Two matches against garrison (lost first, tied second), sports day success
 
+**18 May 1859**: Public agitation about Rifle Corps and SFBC, Creswick joins Rifles
+
+**19 December 1860**: Match vs garrison at Owlerton (Monday), Sheffield FC won
+
+**21 January 1863**: Unruly Hallam vs Sheffield match, Creswick scuffle with Waterfall, newspaper letters
+
+**13 September 1863**: Annual Meeting, Fred Ward President, Prest and Creswick on Committee
+
+**14 September 1863**: Creswick elected President of York FC (while on Sheffield FC committee)
+
+**21 September 1864**: York FC athletic sports surpass Sheffield FC's in quality
+
 **Pattern**:
 - Rapid organization (Oct 1857)
 - Immediate popularity (Dec 1857)
 - Formal structure (Oct 1858)
 - Regular play and training (1858-1859)
-- External matches (1859)
+- External matches (1859+)
+- Public visibility and controversy (1859, 1863)
+- Stable leadership (1858-1863)
+- Network expansion with Sheffield FC members leading other clubs (1863)
+- Competition from subordinate clubs (1864)
 
 ---
 
@@ -1165,6 +1375,78 @@ Football part of "Sports" day (4 April 1859)
 Creswick: pedestrian, runner, cricketer, footballer
 
 Integrated into broader athletics, not isolated
+
+---
+
+### 9. Athletic Sports as "Highlight of City's Social Calendar"
+
+**Curry**: "End of season athletic event... **at times it almost seemed to be more important than the football itself**... **highlight of the city's social calendar**"
+
+**Significance**: Football clubs serving broader social function beyond just sport
+
+**1864 Evidence**: York FC's athletic sports surpassing Sheffield FC's
+
+**Implication**: Competition between clubs extending to social events
+
+---
+
+### 10. Sheffield FC as "Parent Body" with Hierarchical Network
+
+**By 1863**: "Many football clubs in Sheffield"
+
+**Hierarchy**: Other clubs "subordinate" to Sheffield FC despite thinking themselves equals
+
+**Mechanism**: Sheffield FC members occupying "central positions in other organisations"
+
+**Cause**: "High social status of the members of Sheffield FC"
+
+**Example**: Creswick President of York FC while on Sheffield FC committee
+
+**Structure**: Network with shared leadership, Sheffield FC providing governance model
+
+---
+
+### 11. Monday Matches Established by 1860
+
+**19 December 1860**: "Football match with the garrison on **Monday** at Owlerton"
+
+**Connection to Saint Monday**: Working-class labor tradition adapted for football
+
+**Significance**: Monday football established before professionalism debate
+
+---
+
+### 12. Intense Sheffield FC vs Hallam FC Rivalry
+
+**21 January 1863**: "Especially unruly affair"
+
+**Physical**: Creswick scuffle with Hallam player Waterfall
+
+**Public**: "Flurry of letters to local newspapers"
+
+**Sportsmanship Discourse**: "Lover of fair play" - emerging standards of conduct
+
+**Significance**: Local rivalries creating passionate engagement
+
+---
+
+### 13. SFBC = Sheffield Foot Ball Club (Confirmed)
+
+**18 May 1859**: Explicit reference confirming "Sheffield Foot Ball Club" abbreviation
+
+**Curry**: "Again, the emphasis on the word 'foot' is significant"
+
+**Consistent Usage**: Formal name reinforcing kicking-based code
+
+---
+
+### 14. Hillsborough Barracks as Regular Opponent
+
+**Garrison Location**: "Probably the one at Hillsborough Barracks"
+
+**Regular Games**: "Against whom games were a regular event"
+
+**Military-Civilian Connection**: Football bridging military and civilian society
 
 ---
 
@@ -1266,6 +1548,19 @@ Integrated into broader athletics, not isolated
 - ✅ **Multi-sport athletic culture** (pedestrianism, running, cricket, football)
 - ✅ **Class composition** (local middle class, not national elite)
 - ✅ **Timeline 1857-1859** (foundation → popularity → organization → matches)
+- ✅ **Additional diary entries 1859-1864** (Rifles, Owlerton, Hallam scuffle, leadership continuity)
+- ✅ **SFBC = Sheffield Foot Ball Club** (confirmed 1859, emphasis on "foot")
+- ✅ **Athletic sports importance** ("highlight of city's social calendar")
+- ✅ **Sheffield FC as "parent body"** (hierarchical network by 1863)
+- ✅ **Shared leadership across clubs** (Creswick President of York FC)
+- ✅ **Monday matches by 1860** (Owlerton garrison match)
+- ✅ **Sheffield vs Hallam rivalry** (unruly 1863 match, Waterfall scuffle)
+- ✅ **Sportsmanship discourse** ("lover of fair play" letters)
+- ✅ **Stable leadership 1858-1863** (Ward, Prest, Creswick)
+- ✅ **Hillsborough Barracks** (regular garrison opponent)
+- ✅ **Club network subordination** (York FC, Mackenzie FC, etc.)
+- ✅ **Bramall Lane usage** (Sheffield FC athletic sports by 1864)
+- ✅ **Competition in social events** (York FC surpassing Sheffield FC 1864)
 
 **AWAITING** (from upcoming sections):
 - How Sheffield Rules were created (process and participants)
