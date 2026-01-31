@@ -609,6 +609,462 @@
 
 ---
 
+## James J. Lang: His Life and Career
+
+### Early Life and Background
+
+**Born**: March 1851
+
+**Place of Birth**: Glasgow, Scotland
+
+**Occupation**: Worked in shipyard of John Brown and Company on the River Clyde in Glasgow
+
+### The Industrial Accident (1869)
+
+**What Happened**: 1869, lost sight of one eye in shipyard accident
+
+**Incredible Fact**: "Incredibly, considering his subsequent successful football career, remained on the government's official disabled list as a blind person"
+
+**Nickname**: "Reddie"
+
+**The Secret**: "Said to have guarded the secret of his disability closely, perhaps not wishing to grant his opponents any advantage"
+
+**Significance**: Played professional football at high level despite being officially registered as blind
+
+---
+
+## Early Football Career in Glasgow
+
+### Club Career in Scotland
+
+**Clubs Included**: Eastern and Clydesdale (certainly)
+
+**Possibly Others**: Not specified but likely played for additional Glasgow clubs
+
+---
+
+## Contact from Sheffield Wednesday (1876)
+
+### Two Key Matches That Led to His Move
+
+**Match 1**: Glasgow vs Sheffield (February 1876)
+- Lang played for Glasgow
+- Probably contacted by Wednesday officials, players, or both
+
+**Match 2**: Clydesdale vs Sheffield Wednesday (April 1876)
+- Lang played for Clydesdale
+- 10,000 spectators attended
+- "Invited to move to the city and play for the club"
+
+**Significance**: These representative matches served as recruitment opportunities for Sheffield clubs
+
+---
+
+## First Season in Sheffield (1876-77)
+
+### Confusion About First Match
+
+**Sparling's Claim**: "Lang's 'first match for Wednesday was on the first Saturday of October at Myrtle Road…'"
+
+**But**: No record of such fixture in Sheffield's two main newspapers of the time
+
+**Only Recorded Game**: 7 October, eleven-a-side match at Attercliffe
+- Lang's name not present in local paper's report
+
+### First Extant Mention: 25 November 1876
+
+**Match**: Sheffield Wednesday vs Hallam (friendly game)
+
+**Significance**: "Prestigious match...in the locality," but "not a cup tie"
+
+**Reporter's Discussion of Lang**:
+
+> "It may not be out of place here to state that the Lang mentioned above is the celebrated player who has been one of the representatives of Glasgow v Sheffield. He has come to reside here, and will we believe assist the Wednesday team in their cup tie against Kimberworth on Saturday next"
+
+**Key Phrase**: "Has come to **reside here**"
+
+**Implication**: By no means Lang's first match for Wednesday - he had already played several games
+
+---
+
+## Lang's 1876-77 Season Statistics
+
+### Residential Status
+
+**Evidence Indicates**: "Lang was resident in Sheffield for virtually the whole of the football season"
+
+### Matches Played for Wednesday
+
+**Total Appearances**:
+- **6 friendly matches**
+- **4 cup ties**
+- **2 representative fixtures**
+- **1 benefit game**
+
+**Cup Ties**: Present for every Sheffield Association cup tie
+
+**Friendlies**: Not present in every friendly fixture
+
+### Was Lang Employed for Whole Season or Just Cup Ties?
+
+**Curry's Assessment**: "Seems fair to presume that Lang had been **'employed' for the whole season**, rather than having been brought down from Glasgow for cup ties alone"
+
+**Evidence**: Of ten games, four were cup fixtures
+- If only brought for cups, ratio would be different
+- Played in friendlies, representative matches, benefit game
+
+**Context**: "Fixtures in the 1870s were more intermittent than now"
+- Amount of football Wednesday played "not unusual for the time"
+
+---
+
+## Multiple Club Representation: Lang Plays for Spital (Chesterfield)
+
+### December 1876: Two Weeks, Two Clubs
+
+**Successive Weeks**: Middle of December 1876
+
+**Description**: "**'The astute Scotsman'**, as the reporter described him"
+
+**Journey**: Travelled from Sheffield to Chesterfield to represent Spital club
+
+**Financial Inducement**: "No indication of financial inducement"
+
+**But**: "Injection of such footballing talent to strengthen the Spital cause may well have been rewarded"
+
+**Results**: Chesterfield side victorious in both encounters
+
+**Significance**: Lang playing for multiple clubs simultaneously while resident in Sheffield
+
+---
+
+## Monday Matches: Evidence of "Broken-Time" Payment
+
+### The Monday Match Pattern
+
+**1876-77 Season**: At least three of Lang's matches played on Monday
+
+**Significance**: "May be indicative of a tendency towards reward for those participants requiring some form of early **'broken-time' payment**"
+
+### Additional Monday Matches
+
+**1879-80 Season**: One further Monday fixture
+
+**1880-81 Season**: Three additional Monday games plus one Thursday match
+
+**Pattern**: "Whilst this practice did not seem to occur every week, there is evidence to show that it was taking place on a **fairly regular basis**"
+
+### Saint Monday
+
+**Common Practice**: "Common practice among workers around this time of failing to register for work on Monday, effectively treating the day as leisure time"
+
+**Known As**: "The day itself became known as **Saint Monday**"
+
+**Implication**: Monday matches allowed working-class players to play without missing work (since they wouldn't work Monday anyway), but may also have involved payment
+
+---
+
+## Dispute with Sheffield Association Over Team Selection
+
+### The Glasgow Selection Controversy
+
+**Issue**: Lang involved in dispute with Sheffield Association over selection of team to face Glasgow
+
+**Possible Reasons**:
+
+1. **Genuine Grievance**: "May have been genuinely aggrieved concerning the failures or otherwise of the trial process"
+
+2. **Convenient Excuse**: "May have been more than a little reticent in regard to facing his home association and found the disagreement a convenient excuse for not being involved"
+
+### The Pattern: Never Played Against Glasgow
+
+**Intriguing Trend**: "Coincidentally, Lang failed to represent Sheffield in any Inter-Association match against Glasgow"
+
+**But Did Play For Sheffield**: Six times in fixtures against:
+- Berkshire and Buckinghamshire
+- Birmingham
+- London
+- Manchester
+
+**Curry's Theory**: "It may have been that he was unwilling to play against his place of birth"
+
+---
+
+## Settled in Sheffield by End of 1876-77 Season
+
+**Evidence**: By end of football season "certainly appeared to have been relatively settled on a more permanent basis in his new home"
+
+**Proof**: "Was victorious in the novelty race at the Wednesday Club Athletic Sports!"
+
+**Significance**: Integrated into Sheffield Wednesday's social/athletic community, not just football
+
+---
+
+## Peter Andrews: The Comparison Case
+
+### Background
+
+**Who Was He**: Another Scotsman who came south and played football in England
+
+**Higher Status Than Lang**: "Much higher status than James J. Lang"
+
+### Early Career and Move South
+
+**February 1875**: Represented Glasgow against Sheffield
+- "No doubt made acquaintances with players and representatives from the Yorkshire city"
+
+**March 1875**: Capped by Scotland against England
+- Scored in 2-2 draw
+
+**Early 1876**: "Forced through his job to move to Leeds"
+
+**Still Playing for Glasgow**: February 1876 (Glasgow vs Sheffield)
+
+**April 1876**: Helped Clydesdale beat Sheffield Wednesday
+- 10,000 spectators
+- Same match where Lang also played
+- "Allowed interested officials of Sheffield clubs to inquire as to the availability" of players
+
+### Evidence of Agreement to Move
+
+**At April 1876 Match**: "Evidence to suggest that at the latter game Lang agreed to come south to play for Wednesday and Andrews may also have made a similar agreement with Heeley"
+
+---
+
+## Who Arrived First: Lang or Andrews?
+
+### The Newspaper Evidence
+
+**Lang's Admission** (newspaper article published almost 25 years later):
+- First match October 1876
+
+**But Sheffield and Rotherham Independent** (3 November 1876):
+- Specifically mentions Andrews playing for Heeley club against Thursday Wanderers in cup tie
+- "Should we choose to believe the reporter...then it was **Andrews and not Lang who was the first Scotsman to play in the city**"
+
+### Andrews' Move to Sheffield
+
+**Initially From Leeds**: "Travelling the distance from Leeds to Sheffield to play for the Heeley club appears slightly prohibitive"
+
+**Why Make the Journey**: "A Scottish international of Andrews' standard would have found South Yorkshire far more welcoming than the Leeds area in terms of footballing opportunities"
+
+**Permanent Move**: "By at least the beginning of February 1877, Andrews had moved to Sheffield on a permanent basis"
+
+---
+
+## Peter Andrews: Higher Social Status
+
+### Occupation
+
+**Sheffield Trades Directory of 1879**: Andrews listed as "agent for the Scottish Legal Insurance Company, operating from 174 Gleadless Road, Heeley, Sheffield"
+
+**Probably Operating From Home**: Address may have been company headquarters, "more likely that Andrews was operating from home"
+
+**High Status Indicator**: "Mere fact that he appeared in the directory indicates a **high status individual with the money to spend on advertising** in the form of the fee required for inclusion in the book"
+
+### 1881 Census Information
+
+**Address**: 10 Ann's Road, Heeley
+
+**Family**: Wife Anna and three children
+
+**Children's Birthplaces**:
+- Older two: Scotland
+- Youngest daughter: Sheffield (born 1879)
+
+**Confirms**: Family moved to Sheffield permanently circa 1876-1877
+
+### Social Class Assessment
+
+**Curry's Conclusion**: "Peter Andrews was indeed a person of **much higher status than James J. Lang**"
+
+**Implication**: "Makes it seem **less likely that Andrews received or indeed required money for playing football**"
+
+### Glasgow Connections
+
+**Clubs**: Eastern club (confirmed)
+
+**Hint of Link**: Queen's Park
+
+**If Queen's Park Connection True**: "Queen's Park players generally holding a relatively high position in Glasgow society, it further increases the possibility that Peter Andrews was a man of perhaps **lower middle class status**"
+
+---
+
+## Two Different Types of Migration
+
+### Peter Andrews: Work-Related Move
+
+**Curry's Assessment**: "Peter Andrews' move south was **almost certainly linked with his work**"
+
+**Pattern**: Professional/middle-class Scotsman relocating for career, happens to also play football
+
+### James J. Lang: Football-Related Move
+
+**Curry's Assessment**: "James Lang's was probably **prompted partly by Wednesday's wish to strengthen their chances of winning a trophy**"
+
+**Evidence**: One source clearly states:
+
+> "J. J. Lang – a resident of Glasgow, from which place he journeyed to Sheffield **to play for the cup** [The Sheffield Football Association Challenge Cup]"
+
+**Significance**: Move primarily motivated by football opportunity, not other employment
+
+---
+
+## The Sheffield Challenge Cup: Catalyst for Importation (1876-77)
+
+### Introduction of New Competition
+
+**Season**: 1876-77 heralded in local press "because of the introduction of this new cup competition"
+
+**Local Press Report**:
+
+> "The Challenge Cup contests are sure to create a great stir amongst the football players in the district. … There is evidently a great desire amongst the players to be selected in the contending sides, and many have been hard at work practising for a month. The prize, a £50 sterling silver cup, is to be contested for annually. … The eleven winners every year will have silver medals awarded to each of them"
+
+**Prize Value**: £50 sterling silver cup (very substantial prize)
+
+**Individual Medals**: Silver medals for each of eleven winners
+
+**Impact**: Created strong incentive for clubs to strengthen teams
+
+---
+
+## Lang's Changed Role: From Resident to Importation (1877-78)
+
+### Return to Scotland
+
+**What Changed**: "At the beginning of the 1877-8 season...had returned to Scotland"
+
+**New Club**: October 1877, began playing for 3rd Lanarkshire Rifle Volunteers (Third Lanark)
+
+**Primary Location**: "For the majority of the 1877-8 season, he played football in the city of Glasgow"
+
+### Importation for Cup Matches Only
+
+**New Pattern**: "In the New Year, he would **travel down especially to assist Wednesday in local Challenge Cup matches**"
+
+**Three Matches, All Cup Ties**:
+1. **January 1878**: vs Hallam (cup match)
+2. **February 1878**: vs Derby (cup match)
+3. **March 1878**: vs Attercliffe in Final (cup match)
+   - Wednesday won 2-0
+
+**Only Appearances**: "These three games were Lang's only appearances for the club that season"
+
+**Curry's Conclusion**: "Therefore, he seems to have been **specifically invited to play in competitive matches**"
+
+### Radical Change in Employment Model
+
+**Clear Indication**: "Data for the 1877-8 campaign clearly indicates that his services were engaged **solely for matches in the local cup competition**"
+
+**Significance**: "As such, his role and that of his 'employers' had radically changed"
+
+**Pattern**: From full-season resident player (1876-77) to imported specialist for cup matches only (1877-78)
+
+---
+
+## Scottish International Career
+
+### First Cap: Scotland vs Wales (5 March 1876)
+
+**Playing For**: Clydesdale in Glasgow
+
+**Second Cap**: Scotland vs Wales (March 1878)
+
+**Also Playing For**: Clydesdale in Glasgow
+
+### March 1878 Match: Wales Thrashed
+
+**Sheffield Newspaper Report**:
+
+> "Five minutes before time was called Lang shot the ball clean through, just below the bar. Scotland thus won by nine goals to none"
+
+**Confusion**: "One source does not have Lang among the scorers, such confusion being caused by the mass scrimmages that often occurred in front of goal"
+
+---
+
+## The 1878 Sheffield Challenge Cup Final vs Scotland International
+
+### A Revealing Conflict
+
+**Date**: 2 March 1878
+
+**Two Events Same Day**:
+1. Sheffield Challenge Cup Final (Lang played)
+2. Scotland vs England (Lang did not play)
+
+**Curry's Question**: "Did Lang prefer to play for his club for financial reward or was he simply not selected for his country?"
+
+**Assessment**: "There is no direct evidence at present to believe the former"
+
+**But Significant**: Shows potential conflict between club (paid) commitments and international (unpaid) honors
+
+---
+
+## 1878-79 Season: Remains in Scotland with Occasional Visits
+
+**Primary Club**: Third Lanark (Glasgow)
+
+**Visits to Sheffield**: Over New Year to play against Heeley
+
+**February 1879**: Took part in Scottish international trial
+
+**Pattern**: Primarily Scottish-based, occasional importation to Sheffield
+
+---
+
+## Return to Sheffield (1879-80)
+
+### Settled Back in Sheffield
+
+**Matches Played**:
+- At least 9 games for Wednesday
+- 2 for Sheffield Association representative side (vs London, vs Edinburgh)
+
+### Census Evidence for Timing
+
+**1881 Sheffield Census**: Lang's son was one and a half years old at collection in April
+
+**Calculation**: Date of birth somewhere around November 1879
+
+**Implication**: Lang had returned to Sheffield and settled with family by autumn 1879
+
+---
+
+## Multiple Club Representation Continues (1879-80)
+
+### Mid-November 1879: Wednesday vs Broomhall
+
+**Wednesday**: Playing Broomhall with "noticeably weaker side," defeated
+
+**Lang's Location**: In East Lancashire representing **Attercliffe** (another Sheffield-based eleven) against Blackburn Rovers
+
+**Curry's Analysis**:
+- Fixture against Rovers "certainly the more attractive encounter"
+- "Rovers were an emerging power at the time"
+- "But there may well have been financial inducements"
+
+**Significance**: Lang choosing to play for different Sheffield club in more prestigious match
+
+---
+
+## The Sheffield Zulus Exhibition Matches
+
+### Two Exhibition Games
+
+**First Match**: Monday 24 November 1879
+- Represented team called "Sheffield Zulus"
+- Exhibition game in Chesterfield
+
+**Second Match**: Final weekend of January 1880
+- Again for Sheffield Zulus
+- In Barnsley
+
+**Curry's Assessment**: "The story itself, in terms of emergent professional football in Sheffield, is an interesting one"
+
+**Significance**: Exhibition matches likely involved payment for participants
+
+---
+
 ## Status: PRELIMINARY ENTRY
 
 **INCLUDED SO FAR**:
