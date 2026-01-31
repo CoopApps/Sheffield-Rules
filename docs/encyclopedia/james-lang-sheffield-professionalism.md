@@ -1063,6 +1063,641 @@
 
 **Significance**: Exhibition matches likely involved payment for participants
 
+**Curry's Promise**: "Should...be re-told" - the complete story follows
+
+---
+
+## The Sheffield Zulus: Context and Formation (1879)
+
+### The Anglo-Zulu War (1879)
+
+**Timing**: "Around this time the Anglo-Zulu war was raging in Southern Africa"
+
+**Most Memorable**: Twin battles of Isandlwana and Rorke's Drift
+- Both fought same date: **22 January 1879**
+
+**British Reaction**:
+- "No doubt initially shocking the British populace"
+- "Also appeared to catch the imagination"
+- "Both sides had seemingly fought with extraordinary courage and determination"
+
+### Enterprising Footballers Seize Opportunity
+
+**Who Organized**: "Enterprising set of well-known and capable Sheffield footballers"
+
+**What They Did**: "Decided to organize a series of benefit matches"
+
+**First Match**: Monday 10 November 1879 at Bramall Lane
+
+**Charitable Purpose** (initially): "Proceeds from the initial encounter, at least, were donated to the dependents of soldiers killed in the war"
+
+---
+
+## Lang Joins the Sheffield Zulus
+
+### Not Present for First Match
+
+**First Game**: Lang "not a member of the team on the first occasion"
+
+**Second Game**: "Included in the line-up for their next fixture in Chesterfield"
+
+**Date**: Monday 24 November 1879 (as documented earlier)
+
+### The Zulus' Business Model Develops
+
+**Proved Popular**: "The idea proved so popular"
+
+**Geographic Reach**: "Played fixtures around the North, the Midlands and even Scotland"
+
+**Payment System**: "Developing a **system of charging fees for their appearance**, no doubt **levied from the gate receipts**"
+
+**Significance**: Clear evidence of professional payment structure
+
+### Lang's Role
+
+**At One Point**: "Acted as **secretary for the Zulus**"
+
+**Implication**: Organizational role in addition to playing
+
+---
+
+## Jack Hunter: The Notable England International
+
+### Who Was Jack Hunter
+
+**Born**: Sheffield, 1851 (same year as Lang)
+
+**Played**: Initial football in Sheffield
+
+**Multiple Clubs** (common career pattern at the time):
+- Crookes
+- Exchange
+- Heeley (more regular)
+- Wednesday (more regular)
+
+**Also Involved**: "Became heavily embroiled in the Zulu activities"
+
+**Among the Members**: Jack Hunter was "notable England international" in the Zulus team
+
+---
+
+## The Professionalism Accusations (End of 1879-80 Season)
+
+### Sheffield FA Takes Action
+
+**Who Accused**: "Officers of the Sheffield Football Association"
+
+**Charge**: "Accused those involved in the Zulu team of **professionalism**"
+
+**Action**: "Called a halt to their fixtures"
+
+**Timing**: End of 1879-80 season
+
+---
+
+## The January 1881 Suspensions
+
+### Another Zulu Game Discovered
+
+**What Happened**: "In January 1881, another Zulu game was found to have taken place"
+
+**Punishment**: **11 local players were suspended**
+
+### Severe Consequences for Clubs
+
+**Heeley and Wednesday**: "Deprived...of important members of their teams for an imminent cup semi-final"
+
+**Jack Hunter's Personal Impact**: "Forced Hunter, certainly one of the city's finest footballers, to miss the imminent **North v. South international trial**"
+
+**Fortunate for Hunter**: "Trial was postponed due to bad weather"
+
+### Public Controversy
+
+**Heated Correspondence**: "Saw heated correspondence in the city's local newspapers"
+
+**Resolution**: "Zulu players eventually **apologized and were re-instated**"
+
+---
+
+## Jack Hunter's Exile to Lancashire
+
+### Conscious Attempt to Alleviate Problems
+
+**Move**: "Appears to have moved to Lancashire in a **conscious attempt to alleviate this problem**"
+
+**Almost Certainly**: "Being engaged **professionally by Blackburn Olympic**"
+
+**Achievement**: Won FA Cup with Blackburn Olympic in **1882-83**
+
+### Blackburn Olympic's Swift Rise
+
+**Club Founded**: Only 1878 (just 5 years before FA Cup win)
+
+**Key to Success**: "Lay in **importation and clandestine payment**"
+
+**But Different Source**: "In this case, **from Sheffield rather than Scotland**"
+
+### The Sheffield Imports to Blackburn
+
+**Two Key Players**:
+1. **Jack Hunter**
+2. **George Wilson**
+
+**Driven From Sheffield**: "Both driven from their native city under **clouds of alleged professionalism**"
+
+**Where They Went**: "To an area with a **more lenient view of payment for playing football**"
+
+**Or At Least**: "Where administrators of clubs had found and accepted ways and means of facilitating the practice"
+
+---
+
+## Jack Hunter's Professional Status Confirmed
+
+### 1891 Blackburn Census
+
+**Address**: Living in Blackburn
+
+**Age**: 49 years old (by that time using christian name "John")
+
+**Occupation**: Described himself as **"professional footballer/turner"**
+
+**Curry's Assessment**:
+- "At 49 years of age it is doubtful that he was still playing the game for money"
+- "But it is **surely of interest that he should depict himself as a wage earner from football**"
+
+**Significance**: Openly identified as professional footballer even in official census
+
+---
+
+## The End of the Sheffield Zulus (1882)
+
+### Sheffield FA's Definitive Resolution
+
+**Date**: 1882
+
+**Resolution**: "In future **any player taking part in a Zulu match, or in any way receives remuneration for playing, be debarred from playing in any Association contest or cup tie**"
+
+**Complete Ban**: On both Zulu matches and any remuneration for playing
+
+### Historiographical Note
+
+**Worthy of Note**: "The Lang case appeared to cause **little or no adverse comment** in Sheffield when the professionalism controversy was being debated"
+
+**Rather**: "It was the **activities of the Zulus** that were considered to be **responsible for the introduction of payment** to the city's footballers"
+
+**Significance**: Zulus, not individual cases like Lang, blamed for bringing professionalism to Sheffield
+
+---
+
+## Lang's Return to Wednesday (1880-81)
+
+### Full Season Back with Wednesday
+
+**Returned**: At least for season 1880-81
+
+**Appearances**: "No fewer than **20 games** for the club"
+
+**Most Active Season**: Documented so far for Lang with Wednesday
+
+### Made Captain (Temporary)
+
+**Position**: "Made captain on a **temporary basis**"
+
+**Timing**: Early months of 1880-81 season
+
+---
+
+## The Football Dispute and Lang's Letter (1880-81)
+
+### The Incident
+
+**Match**: Wednesday vs White Cross club
+
+**Issue**: Minor incident over "disputed goal"
+
+**Lang's Capacity**: "As an officer of the Wednesday club he replied to the local press with regard to the incident"
+
+### The Letter in Full
+
+**Curry's Note**: "So little exists on a personal basis in connection with Lang, it seems appropriate, because of his centrality to this article, to reproduce the short letter in full"
+
+**The Letter**:
+
+> **The Football Dispute**
+>
+> To the editor – In reference to the Cup tie, Wednesday v White Cross, Mr. Parkin states that I refused to play unless the goal which they disputed was given to us. In the first place, the referee allowed the goal, and therefore I did not require to refuse to play. The Wednesday players got into their different positions on the field, expecting the game would proceed, but one of our opponents picked the ball up and would not allow it to be kicked off. I then asked Mr. Parkin, the White Cross captain, in the presence of the umpires and referee, if they were going on with the game. His answer was, "No, certainly not." The Wednesday players remained on the field until the referee called time.
+>
+> J.J. Lang, Captain W.F.C. (pro tem.).
+
+### What the Letter Reveals About Lang
+
+**Curry's Analysis**:
+
+1. **Literacy**: "Relatively literate"
+
+2. **Confidence**: "Confident enough to enter into public debate"
+
+3. **Status**: "Appointment as captain of the club certainly indicates that he was **held in high esteem by his team-mates**, at least in a footballing sense"
+
+4. **Leadership**: "Recognized as a man **capable of leadership on the field of play**"
+
+**Significance**: Shows Lang as respected, literate, confident leader - not just a hired player
+
+---
+
+## Continued Multiple Club Representation (1880-81)
+
+### Pattern Continues
+
+**Despite Being Wednesday Regular**: "Did not prevent him representing other clubs when the chance arose"
+
+**Usual Timing**: "Usually when Wednesday were without a fixture"
+
+**Clubs Represented**:
+- **Attercliffe** (again)
+- **Providence** (another Sheffield team)
+
+### Question of Payment
+
+**No Direct Evidence**: "There is no direct evidence of payment"
+
+**Too Easy to Assume**: "All too easy to assume that the likes of Lang, Mosforth and Hunter were in receipt of such remuneration"
+
+**Alternative Explanation**: "Just as likely that they **enjoyed playing the game** and did **not relish a weekend without their chosen enjoyment**"
+
+**Sought After**: "Their services would have been **much sought after**"
+
+**Still Legal**: "There were still **no rules that prevented them representing multiple clubs in friendly encounters**"
+
+**Curry's Caution**: Don't assume payment without evidence - love of the game also a motivation
+
+---
+
+## 1881 Census: Lang's Family in Sheffield
+
+### The Census Record
+
+**Parish**: Ecclesall Bierlow (large parish extending to south west of city)
+
+**Address**: Court 7, Number 3, Eldon Street, Sheffield
+- "Still existing today"
+- "Relatively close to and just west of the city centre"
+
+### Family Members
+
+**James J. Lang**: 30 years old
+- **Occupation**: **"Boilermaker"**
+
+**Mary** (wife): Listed as former cotton mill worker
+
+**Margaret** (daughter): 3 years old
+
+**Leonard** (son): 18 months old
+
+### Birthplaces
+
+**Born in Scotland**:
+- James J. Lang
+- Mary (wife)
+- Margaret (daughter)
+
+**Born in Sheffield**:
+- Leonard (son)
+
+**Calculation**: Leonard born circa November 1879 (as established earlier)
+
+### Significance of Census Data
+
+**Curry's Conclusion**: "The sum of this information, in particular the fact that his **whole family had made the move to South Yorkshire**, may allow us to conclude that Lang's commitment to the Sheffield area was **certainly not of a temporary nature**"
+
+**Implication**: Not just imported player but settled resident with family
+
+---
+
+## Lang's Employment: The Cover Job
+
+### Initial Employment
+
+**Company**: Knife-making firm of **Walter Fearnehough**
+
+**Location**: 18, Garden Street
+
+**Size**: "Small concern...engaged 20 to 30 men"
+
+### The Wednesday Connection
+
+**Walter Fearnehough**:
+- **Vice-president** of Wednesday Cricket Club
+- Out of which football section had sprung
+- Served on football body's committee
+
+**Significance**: Direct connection between employer and football club
+
+### The Job Was a Cover
+
+**Critical Revelation**: "However, the job merely appears to have been **a cover to justify Lang's presence in Sheffield**"
+
+**Reality**: "His time was **chiefly devoted to football and reading the news of the day in the papers**"
+
+**Implication**: Not genuinely working as boilermaker - employed to play football
+
+### Short Commute
+
+**If Living at Eldon Street**: "Walk from Eldon Street to Fearnehough's works in Garden Street would have been **no more than ten minutes**"
+
+**Significance**: Convenient arrangement for nominal employment
+
+---
+
+## 1881-82 Season: Cup Specialist Again
+
+### Reverted to Cup-Only Pattern
+
+**Pattern**: "Lang reverted to making appearances in **prestigious cup matches only**"
+
+**Timing**: "Present during the **latter part of the campaign alone**"
+
+### Three Important Matches
+
+1. **Wharncliffe Charity Cup Final**
+
+2. **FA Cup Semi-Final vs Blackburn Rovers** (and Fergus Suter)
+
+3. **Second FA Cup Semi-Final** (presumably replay or different competition)
+
+---
+
+## Blatant Importation: The Wharncliffe Cup Final
+
+### The Match
+
+**Teams**: Wednesday vs Heeley
+
+**Competition**: Wharncliffe Charity Cup Final
+
+### The Newspaper Report
+
+**Reporter's Candor**: "Quite candid about the incident"
+
+**Quote**: "**'Lang was the principal importation on the part of Wednesday and Mallinson (Goal) on the part of Heeley'**"
+
+**Significance**:
+- Newspaper openly describing it as "importation"
+- Both teams doing it
+- No pretense - widely known and accepted practice
+
+---
+
+## Final Football Reference: Northwich Victoria? (January 1884)
+
+### The Uncertain Evidence
+
+**Newspaper Report**: January 1884 records "**J. Lang of Northwich Victoria** assisted Wednesday against Bolton Wanderers over New Year period"
+
+**Curry's Assessment**: "A little uncertain, but, nevertheless, worthy of inclusion"
+
+### Why It's Probably James J. Lang
+
+**Too Coincidental**: "Seems too coincidental that someone of the same name should come to the aid of the Wednesday club"
+
+### But Some Doubt
+
+**Different Initial**: "In virtually every other newspaper report, Lang is referred to as **J.J. Lang** rather than with a single initial of 'J'"
+
+**Curry's Caution**: Evidence suggestive but not definitive
+
+---
+
+## Lang's Later Life: The Census Evidence
+
+### 1891 Census: Manchester Area
+
+**Address**: 10 Lord Street, **Blackley** (pronounced Blakeley)
+- Suburb of north Manchester
+
+**Occupation**: **General dyer employee**
+
+**Age**: 41
+
+**Wife**: Still living with Mary
+
+**Children**: "No fewer than **nine children** living with them"
+- Seven daughters
+- Two sons
+- Working as: general dyer picker, cotton winder, etc.
+
+### Missing Children from 1881
+
+**Margaret**: Eldest daughter from 1881 census - no mention
+
+**Leonard**: Son from 1881 census - no mention
+
+**Curry's Question**: "Leading us to wonder if either was still alive"
+
+### Manchester Timeline
+
+**Three Children**: Listed as born in Manchester (vs Scotland)
+
+**Eldest Manchester-Born Child**: Six years old
+
+**Calculation**: "Lang would probably have resided in the former area **from at least 1885**"
+
+---
+
+## The Northwich Victoria Geographic Problem
+
+### Links to Bolton Appearance
+
+**Information**: "Links to a large extent with Lang's appearance for Wednesday at Bolton"
+
+### But Geographic Challenge
+
+**Blackley Location**: Suburb of **north** Manchester
+
+**Northwich Location**: Some **20 miles south-west** of Manchester
+- "On the opposite side of the city to Blackley"
+
+**Problem**: "A good deal of travelling involved for Lang to even play regularly in **home fixtures** at Northwich Victoria"
+
+**Implication**: If he did play for Northwich, it was likely occasional/imported appearances, not regular employment
+
+---
+
+## Name Discrepancy: James or John?
+
+### 1891 Census Revelation
+
+**Listed As**: **"John Lang"** rather than James
+
+**Possible Explanation**: "It may be that his middle initial stood for John"
+
+**Throughout Career**: Referred to as "J.J. Lang"
+
+**Possible**: James John Lang, or John James Lang
+
+---
+
+## 1901 Census: Still in Blackley
+
+### Basic Information
+
+**Location**: "Family still resident in Blackley"
+
+**Occupation Changed**: "Cotton dyer" (from general dyer employee)
+
+### The Large Family
+
+**Four More Children**: "Meaning that between them Lang and his wife produced **at least 15 offspring**"
+
+**Total Known Children**: At least 15
+
+**Significance**: Large working-class family, settled in Manchester area for final decades
+
+---
+
+## Summary: Lang's Complete Career Arc
+
+### Phase 1: Glasgow (1851-1876)
+- Born March 1851
+- Shipyard worker, lost eye 1869
+- Played for Eastern, Clydesdale
+- Scottish international (2 caps)
+
+### Phase 2: Full-Season Sheffield Resident (1876-77)
+- Recruited after April 1876 match
+- Moved to Sheffield with family
+- "Employed" for whole season
+- 13 matches for Wednesday
+- Cover job at Fearnehough's knife works
+- "Time chiefly devoted to football"
+
+### Phase 3: Imported Cup Specialist (1877-78)
+- Returned to Scotland, joined Third Lanark
+- Traveled to Sheffield for cup matches only
+- 3 appearances, all cup ties
+- "Services engaged solely for cup competition"
+
+### Phase 4: Return to Sheffield (1879-81)
+- Settled back with family (son born Nov 1879)
+- 20 games for Wednesday (1880-81)
+- Made temporary captain
+- Sheffield Zulus exhibition matches
+- Suspended for professionalism, apologized, reinstated
+
+### Phase 5: Cup Specialist Again (1881-82)
+- "Latter part of campaign alone"
+- Cup matches only
+- Wharncliffe Cup Final - "principal importation"
+
+### Phase 6: Possible Northwich/Manchester (1884-1901)
+- Possibly J. Lang of Northwich Victoria (1884)
+- Settled in Manchester area by 1885
+- General dyer/cotton dyer
+- 15+ children
+- Lived to at least 1901 (age 50)
+
+---
+
+## Significance of Lang's Story for Understanding Professionalism
+
+### Multiple Forms Demonstrated
+
+1. **Full-Season Employment** (1876-77): Employed for whole season, cover job provided
+
+2. **Imported Specialist** (1877-78, 1881-82): Brought in specifically for cup matches
+
+3. **Exhibition Matches** (1879-80): Sheffield Zulus charging fees, levied from gate receipts
+
+4. **Multiple Club Representation**: Played for Spital, Attercliffe, Providence while with Wednesday
+
+5. **Broken-Time Payment**: Monday and Thursday matches
+
+### Evolution of Employment Models
+
+**From**: Full-season resident with cover job
+
+**To**: Imported specialist for prestigious matches only
+
+**Also**: Exhibition circuit with direct fee payments
+
+**Significance**: Shows professionalism taking multiple experimental forms before 1885 legalization
+
+### The Cover Job Revelation
+
+**Critical Evidence**: Fearnehough job "merely appears to have been a cover"
+
+**Reality**: "Time chiefly devoted to football and reading news"
+
+**Implication**: De facto professional footballer with nominal other employment
+
+**Pattern**: Would become common in later professional football (bogus jobs to maintain amateur status)
+
+### Social Class Indicators
+
+**Working Class Background**:
+- Shipyard worker
+- Officially blind/disabled
+- Boilermaker (nominal)
+- Later general dyer/cotton dyer
+- Large family (15+ children)
+
+**Contrast With**: Peter Andrews (lower middle class, insurance agent, didn't need football money)
+
+**Significance**: Payment for playing football crucial for working-class players like Lang
+
+### Geographic Mobility for Football
+
+**Moved**:
+- Glasgow to Sheffield (1876)
+- Sheffield to Glasgow and back multiple times (1877-79)
+- Sheffield to Manchester area (1885)
+
+**Traveled For Matches**:
+- Chesterfield (Spital club)
+- Throughout North, Midlands, Scotland (Zulus)
+- Possibly Northwich Victoria
+
+**Significance**: Professional football creating new patterns of labor migration
+
+---
+
+## Jack Hunter Pathway: Sheffield to Blackburn Olympic to FA Cup
+
+### Connection to Passing Evolution Entry
+
+**From Previous Entry**: Jack Hunter learned Sheffield methods, applied them at Blackburn Olympic
+
+**This Entry Shows**: How he got there - **driven from Sheffield under clouds of professionalism**
+
+**Timeline**:
+1. Played in Sheffield (Crookes, Exchange, Heeley, Wednesday)
+2. Involved in Sheffield Zulus (suspended, apologized, reinstated)
+3. "Heavily embroiled" in Zulu activities
+4. Moved to Lancashire "in conscious attempt to alleviate this problem"
+5. "Almost certainly engaged professionally by Blackburn Olympic"
+6. Won 1882-83 FA Cup
+7. 1891 census: "professional footballer/turner"
+
+**Significance**: Sheffield's professionalism controversy directly led to talent migration to Lancashire
+
+### Sheffield's Role in Spreading Professionalism
+
+**Not Just Scots Coming South**: Sheffield players going to Lancashire
+
+**Blackburn Olympic's Success**: "Lay in importation and clandestine payment, in this case, from Sheffield rather than Scotland"
+
+**Two Sheffield Imports**:
+- Jack Hunter
+- George Wilson
+
+**"Driven From Their Native City"**: Under clouds of alleged professionalism
+
+**Where They Went**: "Area with more lenient view of payment...or where administrators had found and accepted ways and means of facilitating the practice"
+
+**Result**: 1883 FA Cup win demonstrating superiority of professional methods
+
+**Complete Pathway**: Sheffield football culture → professionalism controversy → exile to Lancashire → professional innovation → FA Cup success → vindication of professionalism
+
 ---
 
 ## Status: PRELIMINARY ENTRY
