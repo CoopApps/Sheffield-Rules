@@ -1700,43 +1700,220 @@
 
 ---
 
-## Status: PRELIMINARY ENTRY
+## Lang's 1922 Testimony: Setting the Record Straight
 
-**INCLUDED SO FAR**:
-- ✅ Article overview and focus on James J. Lang
+### The Sunday Despatch Article (4 November 1922)
+
+**Context**: "Some of the footballing activities in his life had caused a good deal of controversy and, perhaps in an effort to set the record straight, he contributed an article to the Sunday Despatch on 4 November 1922"
+
+**Lang's Opening Claim**:
+
+> "I was the first Scotsman to cross the Border to play football, and there are plenty of old stalwarts living who will testify to that fact"
+
+**Significance**: Lang publicly claiming historical priority as first professional Scottish import
+
+### Distinguishing from Peter Andrews
+
+**Lang's Clarification**:
+
+> "Peter Andrews, of course, was in England before me, but he went for other reasons than playing football. I went with the express purpose of getting a game, and I got it too"
+
+**Critical Distinction**:
+- **Andrews**: Moved to England for work reasons, played football incidentally
+- **Lang**: Moved to England specifically to play football for payment
+
+**Implication**: Lang drawing line between coincidental and intentional professional migration
+
+### Lang's First Match in Sheffield (October 1876)
+
+**His Account**:
+
+> "My first game in England was in October 1876, against fourteen of a local side – the extra man being a 'bobby' who was put in at the last moment to make up the team."
+
+**Recall**: "The score escapes my memory, though I have a faint recollection that we won"
+
+**Significance**: Casual details suggesting genuine recollection rather than fabrication
+
+### Charles Clegg's Confirmation
+
+**The Statement**:
+
+> "Mr. Charles Clegg stated definitely that I was the first Scotsman to go to England to play football"
+
+**Remarkable Context**:
+- **Clegg**: FA President, Sheffield FA power broker
+- **Known Position**: Vehemently opposed to professionalism
+- **Yet Confirming**: Lang's priority as first professional import
+
+**Curry's Observation**: "It must also be remembered that **Clegg had been an opponent of professionalism** but in 1922 **was prepared to confirm Lang's place in history** in this regard"
+
+**Implication**: Even anti-professional establishment figures acknowledged Lang's historical significance
+
+### Lang's Occupation in Later Life (1920s)
+
+**Position**: "Working as **a steward at the Rangers FC ground at Ibrox**"
+
+**Significance**: Remained within football profession throughout life
+
+### Lang's Admission About Payment
+
+**His Statement**:
+
+> "I am not going to say that I crossed the Border to play for nothing, because you would not believe me if I did"
+
+**Tone**: Matter-of-fact admission of professional status
+
+**Implication**: By 1922, professionalism so normalized that Lang could openly discuss what was scandalous in 1876
+
+---
+
+## Curry's Conclusion: Lang's Historical Significance
+
+### The Express Invitation to Sheffield
+
+**Curry's Assessment**: "Lang had been **invited to Sheffield with the express intention that he should represent the Wednesday club**"
+
+**Linked to Sheffield FA Challenge Cup**: "The timing of his move **coincided with the introduction of the Sheffield FA Challenge Cup in the 1876-7 season**"
+
+**Implication**: Cup competition creating financial incentives for professionalism
+
+### Lang's Two Historical Titles
+
+#### Title 1: First Long-Term Professional
+
+**Not First Short-Term**: "The claims made on his behalf as **the first person to be paid, on a long-term basis, for his skills at football** are credible"
+
+**Distinction**:
+- **Others Before**: Short-term payments to local players (Mosforth, Cursham)
+- **Lang**: First sustained professional arrangement over multiple seasons
+
+**Specification**: "On a **long-term basis**" - emphasis on duration and commitment
+
+#### Title 2: First Scottish Import for Football
+
+**Full Title**: "He was **almost certainly the first Scotsman to be imported by an English football club for footballing reasons**"
+
+**Critical Qualifier**: "**For footballing reasons**"
+
+**Distinguishing from Andrews**:
+- **Andrews**: Moved for work, played football incidentally
+- **Lang**: Recruited specifically to play football
+
+**Three Distinctions from Other Cases**:
+
+1. **Not Local Players Selling Services** (Mosforth, Cursham)
+   - Those were Sheffield natives capitalizing on local demand
+   - Lang was imported from distant community
+
+2. **Not Work-Related Migration** (Andrews)
+   - Andrews happened to play football after moving for employment
+   - Lang moved specifically for football
+
+3. **Not Anonymous Short-Term Payment**
+   - Lang had sustained, documented professional relationship
+   - Traceable through census, newspapers, club records
+
+### The Rapid Timeline to Legalization
+
+**Curry**: "It was **less than ten years since James Lang's first game in Sheffield for professionalism to be legalized**"
+
+**Timeline**:
+- **1876**: Lang's first professional season
+- **1885**: FA officially legalizes professionalism
+- **9 years**: From scandal to acceptance
+
+**Implication**: Lang's career coincided with entire emergence and legitimation of professionalism
+
+### Final Assessment of Lang's Importance
+
+**Curry's Conclusion**:
+
+> "His importance to the professionalisation of the game, and **in particular to importation**, should not be under-estimated"
+
+**Two Areas of Impact**:
+
+1. **Professionalization Generally**: Demonstrated viability of sustained professional football employment
+
+2. **Importation Specifically**: Established precedent for recruiting players from distant communities for football reasons
+
+**"Should Not Be Under-Estimated"**: Curry arguing against historical neglect of Lang's significance
+
+**Underlying Argument**:
+- Lang's career provides concrete evidence for theoretical frameworks about professionalism
+- His trajectory from scandal (1876-1881) to acceptance (1885) to testimony (1922) documents entire historical arc
+- Sheffield's role in creating professionalism rivals its role in creating modern rules
+
+---
+
+## Cross-References to Other Encyclopedia Entries
+
+### Sheffield's Creation of Modern Football
+**Entry**: sheffield-creation-modern-football.md
+**Connection**: Lang's professionalism emerges from same Sheffield football culture that created modern rules
+**Timing**: Lang arrives (1876) nine years after Sheffield saved FA (1867)
+
+### Sheffield FA Challenge Cup
+**Relevance**: Competition introduced 1876-7, precisely when Lang recruited
+**Implication**: Cup competition creating financial pressures toward professionalism
+
+### Jack Hunter and Passing Evolution
+**Entry**: Passing evolution entry (referenced in this document)
+**Connection**: Hunter driven from Sheffield under professionalism clouds, like Lang represented Sheffield football culture spreading to Lancashire
+
+### Billy Mosforth
+**Type**: Local player selling services (different from Lang's importation model)
+**Shirt-changing incident**: 11 October 1884
+**Connection**: Represents different form of emergent professionalism (local vs imported)
+
+---
+
+## Status: COMPLETE ENTRY
+
+**COMPREHENSIVE COVERAGE**:
 - ✅ Sheffield's undervalued contribution to football history
-- ✅ Sheffield's pioneering achievements (innovations)
-- ✅ Sheffield FC foundation and rule creation (1857)
-- ✅ Anti-Rugby bias in Sheffield rules
-- ✅ Public school influence debate
-- ✅ Rouge from Eton (1861-62)
-- ✅ Sheffield as most important footballing sub-culture (early 1860s)
-- ✅ Hallam FC foundation (1860)
-- ✅ Oldest existing fixture (Sheffield vs Hallam, 1860)
-- ✅ Hallam's struggles with location and finance
+- ✅ Sheffield's pioneering achievements (corner kick, crossbar, free kick, floodlit match)
+- ✅ Sheffield FC (1857) and Hallam FC (1860) foundations
+- ✅ Rouge from Eton and public school influence debates
 - ✅ Theoretical framework (Dunning on competitiveness)
-- ✅ Three areas of social tension in early professionalism
+- ✅ Three areas of social tension (shirt-changing, importation, multiple club representation)
+- ✅ Billy Mosforth incident ("ten bob and free drinks all week")
+- ✅ Arthur William Cursham case
+- ✅ National debates over Scottish importation
+- ✅ James J. Lang complete biography (1851-1901+)
+- ✅ Industrial accident (1869) - lost eye, officially blind
+- ✅ Recruitment to Sheffield (1876)
+- ✅ Evolution from full-season resident to cup-only import
+- ✅ Cover job at Fearnehough's knife works
+- ✅ Multiple club representation (Wednesday, Spital, Rangers, Zulus)
+- ✅ Monday matches and broken-time payment
+- ✅ Peter Andrews comparison (higher class, no payment)
+- ✅ Sheffield Challenge Cup as catalyst
+- ✅ Sheffield Zulus exhibition team (1879-1882)
+- ✅ January 1881 suspensions (11 players)
+- ✅ Jack Hunter pathway to Blackburn Olympic and 1883 FA Cup
+- ✅ 1881, 1891, 1901 census data (15+ children)
+- ✅ Lang's 1922 Sunday Despatch testimony
+- ✅ Charles Clegg's confirmation despite anti-professionalism
+- ✅ Curry's conclusion and assessment of significance
+- ✅ Two historical titles (first long-term professional, first Scottish import)
+- ✅ Rapid timeline to legalization (1876-1885)
 
-**AWAITING** (from article sections not yet provided):
-- James J. Lang's career details
-- Specific evidence of payments to Lang
-- Lang's role as importation
-- Other individuals involved in Sheffield professionalism
-- Timeline of Lang's career in Sheffield
-- Impact on Sheffield football culture
-- Connection to official acceptance of professionalism (1885)
-- Other related events and careers
+**REVOLUTIONARY FINDINGS**:
+- Cover job explicitly documented: "chiefly devoted to football and reading news"
+- Evolution from resident to imported specialist traced through evidence
+- Sheffield Zulus as professionalization vehicle
+- Jack Hunter driven from Sheffield to Blackburn Olympic, winning 1883 FA Cup
+- Charles Clegg confirming Lang's significance despite opposing professionalism
+- Less than 10 years from Lang's arrival to professionalism legalization
 
-**NEXT STEPS**:
-- Continue receiving article sections
-- Document Lang's specific career
-- Analyze evidence for professional payment
-- Examine importation issues
-- Trace multiple club representation
-- Connect to broader professionalism debate
+**THEORETICAL CONTRIBUTIONS**:
+- Demonstrates Dunning's competitiveness thesis
+- Shows three distinct forms of emergent professionalism
+- Documents importation as distinct from local commercialization
+- Traces professionalism from scandal to acceptance to historical recognition
 
 ---
 
 *Last updated: 2026-01-31*
 *Source: Graham Curry (2004), "Playing for Money: James J. Lang and Emergent Soccer Professionalism in Sheffield", Soccer and Society, vol. 5, No. 3, pp. 336–355*
-*Status: Preliminary entry based on introduction - awaiting main sections on Lang's career and professionalism*
+*Status: COMPLETE - Full article analyzed and documented*
