@@ -637,9 +637,607 @@ St. Paul's and Merchant Taylor's were excluded because they were day schools:
 
 ---
 
+## Sheffield Football Club: Formation and Founders (24 October 1857)
+
+### Origin from Cricket Club
+
+**Formation**: Sheffield FC "grew directly from a local cricket club, the organisation being **formed on 24 October 1857**"
+
+**Timing**: "Pre-dating by **six years** the beginning of Association Football at the formation of the Football Association in London in 1863"
+
+**Significance**: First football club in the world with documentary evidence
+
+---
+
+## The Two Founding Leaders
+
+### Nathaniel Creswick (1831-?)
+
+#### Family Background: Ancient Sheffield Lineage
+
+**Family**: "The Creswicks were an **old Sheffield family** who had lived in the area for **many centuries**"
+
+**Born**: 1831 at Park Field in Sheffield
+
+**Father**: "Prosperous silver-plate manufacturer"
+
+**Significance**: Not newcomer or migrant - ancient local family with deep Sheffield roots
+
+**Industrial Connection**: Silver-plate manufacturing (Sheffield specialty alongside cutlery and steel)
+
+---
+
+#### Education: Sheffield Collegiate School
+
+**Institution**: "Sheffield Collegiate School, a **Church of England institution catering for local middle class boys**"
+
+**Dates**: April 1839 to June 1847 (age 8-16)
+
+**Critical Context**:
+- NOT a major public school (Eton, Harrow, Rugby, etc.)
+- Local middle-class institution
+- Church of England but not elite boarding school
+
+**Significance**: Educated locally, not at national public schools - explains absence of public school football influence
+
+**Connection to Harvey's Thesis**: Harvey argued Sheffield succeeded because of "absence of strong public school influence" - Creswick's local education confirms this pattern
+
+---
+
+#### Professional Career
+
+**Occupation**: **Solicitor** (lawyer)
+
+**Business Position**: **Chairman of Joseph Rodgers and Sons Limited**
+- Local silver-plate company
+- Continuing family business tradition
+
+**Significance**: Professional middle class, not working class but not aristocracy
+
+---
+
+#### Military Service: Hallamshire Rifles
+
+**Role**: "Worked hard to inaugurate the volunteer company of the Hallamshire Rifles"
+
+**Curry's Assessment**: "There should be no doubt that this became **'the most notable public interest in Sir Nathaniel's life'**"
+
+**Title**: "Sir Nathaniel" - achieved knighthood (timing unclear)
+
+**Connection to Football**: Military volunteers played football (documented in match table: 4th West Yorkshire Artillery, 1st West Yorkshire Engineers)
+
+---
+
+#### Athletic Career: All-Round Sportsman
+
+**Sports Participated In**:
+1. **Pedestrian** (participant in walking races)
+2. **Runner**
+3. **Cricketer** (Sheffield FC grew from cricket club)
+4. **Footballer**
+
+**Significance**: Multi-sport athlete, not football specialist - football emerging from broader athletic culture
+
+---
+
+### William Prest
+
+**Role**: "Along with **William Prest**, one of the original founders of the club"
+
+**Connection to Creswick**: "Leading lights in the Sheffield Club" (plural - partnership)
+
+**Description**: "Both keen local sportsmen"
+
+**Further Details**: Not provided in this section
+
+**Significance**: Co-founder with Creswick, also local sportsman
+
+---
+
+## Nathaniel Creswick's Diaries: Primary Source Evidence
+
+### Discovery (2007)
+
+**Context**: "As a result of publicity surrounding **Sheffield FC's 150th anniversary celebrations in 2007**"
+
+**Finder**: "A descendant of Nathaniel Creswick"
+
+**Location**: "Re-discovered diaries belonging to Nathaniel. These were **found in an attic**"
+
+**Transfer**: "Forwarded to Sheffield to another relation, **Mr. Geoffrey Norton**, where they were made available"
+
+**Significance**: Primary source evidence from founder himself, discovered only recently
+
+---
+
+### Nature of the Diaries
+
+**Scope**: "Creswick's diaries are substantial"
+
+**Limitation**: "Only tend to **provide confirmation rather than new evidence** in the Sheffield football debate"
+
+**Value**: Confirming existing theories with contemporary first-hand accounts
+
+---
+
+### Diary Entry 1: Foundation Confirmed (31 December 1857)
+
+**Entry**:
+
+> *I have established a foot ball club to which most of young Sheffield come and kick.*
+
+#### Analysis: Foundation Date
+
+**Curry's Interpretation**: "These diaries appear to confirm that Sheffield Football Club had been **established just before this date** and this fits in with the club's **official foundation date of 24 October 1857**"
+
+**Alternative Theory Negated**: "Also appears to **negate any thought that the club had been established as early as 1855**"
+
+**Significance**: Documentary evidence confirming 24 October 1857 as foundation date
+
+---
+
+#### Analysis: "Foot Ball" (Two Words)
+
+**Phrase**: "**'Foot ball'** - rather than a single word"
+
+**Significance**: "Emphasises the fact that the **foot was used in preference to the hand**, or indeed any other part of the body"
+
+**Context in Wider Football Development**: "Important in the wider picture of the development of the game as it began to **polarise in terms of the amount of use of feet and hands**"
+
+**Culmination**: "This would culminate in **December 1863** when the handlers, those following mainly Rugby School practices of play, **split with the embryonic Association followers** who preferred minimal handling and favoured use of the feet"
+
+**Sheffield's Position**: "Confirms Sheffield's preferred code as one which **emphasised use of the feet**"
+
+**Implication**: From the very beginning (1857), Sheffield football was kicking-based, not handling-based - six years before FA/Rugby split
+
+---
+
+#### Analysis: Popularity
+
+**"Most of young Sheffield come and kick"**
+
+**Significance**:
+- Not small exclusive group
+- Broad participation from "young Sheffield"
+- Open membership, not restrictive
+- Immediate popularity
+
+**Contrast with London**: Public school clubs restricted to former pupils of specific schools
+
+---
+
+### Diary Entry 2: First Committee Meeting (15 October 1858)
+
+**Entry**:
+
+> *Had the meeting of SFBC at my office last evening. Fred Ward who only got home on the evening before from his wedding trip came and was put in the chair; everything went satisfactory except that we do not commence play until the first Saturday in November which is rot. The committee consist of Ward, Creswick, Prest, Pierson, Baker and Turner.*
+
+#### Location: Creswick's Office
+
+**"At my office"** - Creswick's solicitor's office used for club meetings
+
+**Significance**:
+- Professional middle-class organizational structure
+- Formal meetings with agendas
+- Not pub-based or informal
+
+---
+
+#### Fred Ward as Chairman
+
+**"Put in the chair"** - Elected/appointed as chairman
+
+**Context**: "Only got home on the evening before from his wedding trip"
+- Immediate commitment despite just married
+- Importance of football to members
+
+**Curry's Note**: "Everything went satisfactory" - formal organizational language
+
+---
+
+#### Creswick's Complaint: Delayed Start
+
+**Issue**: "We do not commence play until the **first Saturday in November**"
+
+**Creswick's Reaction**: "**Which is rot**"
+
+**Significance**:
+- Eagerness to play immediately (mid-October)
+- Informal language ("rot") despite formal meeting
+- Impatience with administrative delays
+
+---
+
+#### The First Committee (1858)
+
+**Six Members**:
+1. **Fred Ward** (Chairman)
+2. **Nathaniel Creswick** (Founder)
+3. **William Prest** (Founder)
+4. **Pierson**
+5. **Baker**
+6. **Turner**
+
+**Structure**: Formal committee governance from the start
+
+**Significance**:
+- Democratic organization, not single-leader
+- Multiple stakeholders
+- Organized administrative structure
+
+**Class Composition**: Likely all middle class (meeting at solicitor's office, formal structure)
+
+---
+
+### Diary Entry 3: First Matches Against Garrison (12 May 1859)
+
+**Entry**:
+
+> *Since then to 4th April training for Sports. Two football matches with the garrison. Lots of ladies came to look on. I was captain and we lost the first match, the second was a tie. Our sports came off on 4th April - the sports were a decided success.*
+
+#### Training Regiment
+
+**"Training for Sports"** from sometime before to 4 April 1859
+
+**Significance**: Organized training, not just casual play
+
+---
+
+#### Matches Against Military
+
+**Opponents**: "The garrison" (military garrison stationed in Sheffield)
+
+**Number of Matches**: "Two football matches"
+
+**Results**:
+- **First Match**: Lost (Creswick was captain)
+- **Second Match**: Tie
+
+**Significance**:
+- Playing external opponents, not just internal games
+- Military teams as opponents (connection to Creswick's Hallamshire Rifles work)
+- Competitive matches with results recorded
+
+---
+
+#### Spectators: "Lots of Ladies"
+
+**"Lots of ladies came to look on"**
+
+**Significance**:
+- Football as public spectacle, not just participant activity
+- Mixed-gender audience (respectable)
+- Social event, not just sport
+- Sheffield football culture becoming community activity
+
+**Contrast**: Working-class folk football often rowdy and male-only
+
+---
+
+#### Creswick as Captain
+
+**"I was captain"**
+
+**Significance**:
+- Leadership role on field as well as administratively
+- Active participant, not just organizer
+- Founder still playing
+
+---
+
+#### Sports Day Success
+
+**"Our sports came off on 4th April - the sports were a **decided success**"**
+
+**Context**: Football matches part of larger athletics event
+
+**"Sports"**: Athletic competitions (running, walking races, football)
+
+**Significance**: Football integrated into broader sporting culture, not isolated
+
+---
+
+## Sheffield FC Naming Convention
+
+### "Sheffield Club" or "Club"
+
+**Curry's Note**: "Supporters of Sheffield FC refer to the organisation simply as **Sheffield Club** or even merely as **'Club'**"
+
+**Possible Reason**: "It may have been that early Sheffield FC players were **distinguishing their organisation from Sheffield Collegiate School and other educational establishments**"
+
+**Significance**:
+- Not school-based, wanted to emphasize that
+- "Club" as distinct from "School"
+- First use of "club" structure in football
+
+---
+
+## SFBC: Sheffield Football and Cricket Club?
+
+**From 15 October 1858 diary**: "Meeting of **SFBC** at my office"
+
+**Possible Meaning**: Sheffield Football and Cricket Club? Sheffield Foot Ball Club?
+
+**Context**: "Sheffield FC grew directly from a local cricket club"
+
+**Implication**: May have been combined football/cricket organization initially
+
+**Seasonal Pattern**: Cricket in summer, football in winter
+
+---
+
+## Class Composition and Power Structure
+
+### Middle-Class Leadership
+
+**Evidence**:
+- Nathaniel Creswick: Solicitor, Chairman of silver-plate company
+- Meetings at solicitor's office
+- Formal committee structure
+- Church of England school education
+- "Young Sheffield" participating
+
+**Not Aristocracy**:
+- Not public school educated
+- Local middle class, not national elite
+- Professional and business class
+
+**Not Working Class**:
+- Professional occupations
+- Formal organizational structures
+- Silver-plate manufacturing wealth
+
+---
+
+### Local vs. National Elite
+
+**Critical Distinction**:
+- **Local elite**: Creswick family (ancient Sheffield lineage, prosperous)
+- **NOT national elite**: No public school education, no London connections
+- **Provincial power**: Strong locally but outside national power structures
+
+**Connection to Harvey**: "Absence of strong public school influence" meant local middle class could control football development
+
+**Figurational Analysis**: Different power structure than London - local autonomy vs. national prestige
+
+---
+
+## Athletic Culture: Multi-Sport Participation
+
+### Creswick's Sports
+
+1. Pedestrianism (walking races)
+2. Running
+3. Cricket (club origin)
+4. Football
+
+**Pattern**: Athletics events combining multiple sports
+
+**4 April 1859 Sports Day**: Football matches part of broader athletic competition
+
+**Significance**: Football emerging from general athletic culture, not isolated development
+
+---
+
+## Connections to Earlier Documentation
+
+### To Match Table (1860-1862)
+
+**From this entry**: First matches against garrison (1859)
+
+**From earlier table**:
+- 24 December 1860: Officers of 58th Regiment v Sheffield FC
+- Military teams regularly playing football
+
+**Continuity**: Military opponents in 1859 (diary) and 1860 (newspaper reports)
+
+---
+
+### To Industrial Context
+
+**Creswick Family**: Silver-plate manufacturers
+- Connected to Sheffield's specialty industries (cutlery, silver-plate, steel)
+
+**Vickers Family**: Founded Hallam FC (1860)
+- Both industrial families creating football clubs
+
+**Pattern**: Industrial prosperity → middle-class leisure → football clubs
+
+---
+
+### To Public School Absence
+
+**Creswick's Education**: Sheffield Collegiate School (local, middle class)
+
+**NOT**: Eton, Harrow, Rugby, Winchester, etc.
+
+**Result**: No status rivalry, no public school rule preferences to import
+
+**Harvey's Explanation Confirmed**: Local middle class educated locally, not at national public schools
+
+---
+
+## Timeline of Sheffield FC (1857-1859)
+
+**24 October 1857**: Sheffield FC officially founded
+
+**31 December 1857**: Creswick's diary confirms foundation, "most of young Sheffield come and kick"
+
+**15 October 1858**: First committee meeting, six members, Fred Ward chairman
+
+**November 1858**: Play commences (first Saturday in November)
+
+**Early 1859**: Training for sports
+
+**4 April 1859**: Two matches against garrison (lost first, tied second), sports day success
+
+**Pattern**:
+- Rapid organization (Oct 1857)
+- Immediate popularity (Dec 1857)
+- Formal structure (Oct 1858)
+- Regular play and training (1858-1859)
+- External matches (1859)
+
+---
+
+## Revolutionary Findings from Creswick's Diaries
+
+### 1. Primary Source Evidence (2007 Discovery)
+
+**Creswick's diaries** providing first-hand contemporary account
+
+**Found in attic** 150 years later during anniversary
+
+**Confirms** rather than reveals new information, but from founder himself
+
+---
+
+### 2. "Foot Ball" (Two Words) = Kicking Emphasis
+
+From the very beginning (1857), Sheffield emphasized **foot** over hand
+
+**Six years before** FA/Rugby split (1863)
+
+Sheffield's kicking-based code predated Association Football organization
+
+---
+
+### 3. Immediate Popularity
+
+"**Most of young Sheffield** come and kick" (31 Dec 1857)
+
+Not small exclusive group - broad participation from start
+
+Contrast with London public school clubs (restricted membership)
+
+---
+
+### 4. Ancient Sheffield Family (Creswick)
+
+"**Many centuries**" in Sheffield area
+
+Deep local roots, not newcomer
+
+**Provincial autonomy**: Strong locally, independent of national elite
+
+---
+
+### 5. Local Middle-Class Education
+
+**Sheffield Collegiate School**: "Local middle class boys"
+
+**NOT** public school
+
+Harvey's "absence of public school influence" confirmed at individual level
+
+---
+
+### 6. Women Spectators (1859)
+
+"**Lots of ladies came to look on**"
+
+Football as respectable social activity
+
+Mixed-gender audience suggesting middle-class respectability
+
+Early spectator culture emerging
+
+---
+
+### 7. Formal Organization from Start
+
+**Committee** (six members)
+
+**Chairman** (Fred Ward)
+
+**Meetings** at solicitor's office
+
+**Training** regimens
+
+Democratic structure, not autocratic
+
+---
+
+### 8. Multi-Sport Athletic Culture
+
+Football part of "Sports" day (4 April 1859)
+
+Creswick: pedestrian, runner, cricketer, footballer
+
+Integrated into broader athletics, not isolated
+
+---
+
+## Cross-References to Other Encyclopedia Entries
+
+### Sheffield's Creation of Modern Football (Harvey 2001)
+
+**Harvey's Claim**: "Absence of strong public school influence" as secret to success
+
+**Confirmed Here**: Creswick educated at local Sheffield Collegiate School, not Eton/Harrow/Rugby
+
+**Power Structure**: Local middle class (ancient Sheffield families) vs. national elite (public schoolboys)
+
+### James Lang and Professionalism (Curry 2004)
+
+**Foundation Here (1857)**: Middle-class organized club structure
+
+**Professionalism Later (1876)**: Working-class participation requiring payment
+
+**Evolution**: From amateur middle-class origin to professional working-class participation
+
+### Village Structure
+
+**Creswick's Diary**: "Most of **young Sheffield**" - not specific village
+
+**But**: Committee governance model replicated in village clubs (Heeley, Crookes, Walkley)
+
+**Pattern**: Sheffield FC as template for later club proliferation
+
+---
+
+## Theoretical Framework: Figurational Sociology
+
+### Power Relationships
+
+**Local Elite** (Creswick, Prest):
+- Ancient Sheffield families
+- Middle-class professionals
+- Local education
+- Provincial power base
+
+**Vs. National Elite** (absent):
+- Public school graduates
+- London-based
+- National prestige
+- Status rivalry
+
+**Result**: Local autonomy to develop independent football culture
+
+---
+
+### Interdependencies
+
+**Industrial Level**:
+- Silver-plate/steel wealth → leisure time and resources
+- Professional class → organizational skills
+
+**Athletic Level**:
+- Cricket club → football club
+- Multi-sport culture → football as winter activity
+
+**Social Level**:
+- "Young Sheffield" → players
+- "Ladies" → spectators
+- Garrison → opponents
+
+**Network**: All elements supporting football's emergence
+
+---
+
 ## Status
 
-**PRELIMINARY ENTRY** - awaiting Sheffield FC formation details
+**PRELIMINARY ENTRY** - awaiting Sheffield Rules details
 
 **INCLUDED SO FAR**:
 - ✅ Industrial context (1736-1857)
@@ -655,16 +1253,28 @@ St. Paul's and Merchant Taylor's were excluded because they were day schools:
 - ✅ 12 clubs by 1865-66
 - ✅ Material conditions explanation
 - ✅ Theoretical framework
+- ✅ **Formation date: 24 October 1857**
+- ✅ **Origin from cricket club**
+- ✅ **Nathaniel Creswick biography** (ancient Sheffield family, solicitor, silver-plate)
+- ✅ **Sheffield Collegiate School** (local middle class, not public school)
+- ✅ **William Prest** (co-founder)
+- ✅ **Creswick's diaries** (found 2007, primary source evidence)
+- ✅ **"Foot ball" two words** (kicking emphasis from start, 1857)
+- ✅ **Immediate popularity** ("most of young Sheffield")
+- ✅ **First committee** (1858: Ward, Creswick, Prest, Pierson, Baker, Turner)
+- ✅ **Matches against garrison** (1859: two matches, ladies spectators)
+- ✅ **Multi-sport athletic culture** (pedestrianism, running, cricket, football)
+- ✅ **Class composition** (local middle class, not national elite)
+- ✅ **Timeline 1857-1859** (foundation → popularity → organization → matches)
 
 **AWAITING** (from upcoming sections):
-- Sheffield FC formation specifics (24 October 1857)
-- Who founded Sheffield FC (names, occupations, class composition)
-- Why 1857 specifically
-- How Sheffield Rules were created
-- Early Sheffield Rules content
-- Organizational structure of Sheffield FC
-- Relationship with Hallam FC
-- Development 1857-1863 (before FA formation)
+- How Sheffield Rules were created (process and participants)
+- Early Sheffield Rules content (specific rules)
+- Development 1860-1863 (growth before FA formation)
+- Relationship with Hallam FC formation (1860)
+- Sheffield vs London matches (representative games)
+- Rule negotiations with FA (1860s)
+- Sheffield's rule innovations (corner kick, crossbar, etc.)
 
 **NEXT STEPS**:
 - Continue receiving Curry's narrative of Sheffield FC formation
