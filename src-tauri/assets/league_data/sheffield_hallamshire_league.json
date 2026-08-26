@@ -1,0 +1,189 @@
+{
+  "league_name": "Sheffield and Hallamshire League (1867 Fantasy)",
+  "start_year": 1867,
+  "clubs_total": 346,
+  "divisions": [
+    {
+      "id": "div-1",
+      "name": "First Division",
+      "level": 1,
+      "region": null,
+      "clubs": 16,
+      "promotes_to": []
+    },
+    {
+      "id": "div-2",
+      "name": "Second Division",
+      "level": 2,
+      "region": null,
+      "clubs": 16,
+      "promotes_to": ["div-1"]
+    },
+    {
+      "id": "div-3",
+      "name": "Third Division",
+      "level": 3,
+      "region": null,
+      "clubs": 16,
+      "promotes_to": ["div-2"]
+    },
+    {
+      "id": "div-4",
+      "name": "Fourth Division",
+      "level": 4,
+      "region": null,
+      "clubs": 16,
+      "promotes_to": ["div-3"]
+    },
+    {
+      "id": "div-5a",
+      "name": "Fifth Division A",
+      "level": 5,
+      "region": null,
+      "clubs": 16,
+      "promotes_to": ["div-4"]
+    },
+    {
+      "id": "div-5b",
+      "name": "Fifth Division B",
+      "level": 5,
+      "region": null,
+      "clubs": 16,
+      "promotes_to": ["div-4"]
+    },
+    {
+      "id": "div-6a",
+      "name": "Sixth Division West",
+      "level": 6,
+      "region": "West",
+      "clubs": 16,
+      "promotes_to": ["div-5a"]
+    },
+    {
+      "id": "div-6b",
+      "name": "Sixth Division East",
+      "level": 6,
+      "region": "East",
+      "clubs": 16,
+      "promotes_to": ["div-5b"]
+    },
+    {
+      "id": "div-6c",
+      "name": "Sixth Division North",
+      "level": 6,
+      "region": "North",
+      "clubs": 16,
+      "promotes_to": ["div-5b"]
+    },
+    {
+      "id": "div-6d",
+      "name": "Sixth Division South",
+      "level": 6,
+      "region": "South",
+      "clubs": 16,
+      "promotes_to": ["div-5a"]
+    },
+    {
+      "id": "res-div-1",
+      "name": "Reserve Division 1",
+      "level": 1,
+      "region": null,
+      "clubs": 16,
+      "promotes_to": [],
+      "is_reserve": true
+    },
+    {
+      "id": "res-div-2",
+      "name": "Reserve Division 2",
+      "level": 2,
+      "region": null,
+      "clubs": 16,
+      "promotes_to": ["res-div-1"],
+      "is_reserve": true
+    },
+    {
+      "id": "res-div-3",
+      "name": "Reserve Division 3",
+      "level": 3,
+      "region": null,
+      "clubs": 16,
+      "promotes_to": ["res-div-2"],
+      "is_reserve": true
+    },
+    {
+      "id": "res-div-4",
+      "name": "Reserve Division 4",
+      "level": 4,
+      "region": null,
+      "clubs": 16,
+      "promotes_to": ["res-div-3"],
+      "is_reserve": true
+    },
+    {
+      "id": "res-div-5a",
+      "name": "Reserve Division 5A",
+      "level": 5,
+      "region": null,
+      "clubs": 16,
+      "promotes_to": ["res-div-4"],
+      "is_reserve": true
+    },
+    {
+      "id": "res-div-5b",
+      "name": "Reserve Division 5B",
+      "level": 5,
+      "region": null,
+      "clubs": 16,
+      "promotes_to": ["res-div-4"],
+      "is_reserve": true
+    },
+    {
+      "id": "res-div-6a",
+      "name": "Reserve Division 6A",
+      "level": 6,
+      "region": "West",
+      "clubs": 16,
+      "promotes_to": ["res-div-5a"],
+      "is_reserve": true
+    },
+    {
+      "id": "res-div-6b",
+      "name": "Reserve Division 6B",
+      "level": 6,
+      "region": "East",
+      "clubs": 16,
+      "promotes_to": ["res-div-5b"],
+      "is_reserve": true
+    },
+    {
+      "id": "res-div-6c",
+      "name": "Reserve Division 6C",
+      "level": 6,
+      "region": "North",
+      "clubs": 16,
+      "promotes_to": ["res-div-5b"],
+      "is_reserve": true
+    },
+    {
+      "id": "res-div-6d",
+      "name": "Reserve Division 6D",
+      "level": 6,
+      "region": "South",
+      "clubs": 16,
+      "promotes_to": ["res-div-5a"],
+      "is_reserve": true
+    }
+  ],
+  "club_assignments": "See separate league_clubs.json file (346 club entries)",
+  "notes": {
+    "main_pyramid": "186 historical Sheffield clubs organized into 10 divisions",
+    "reserve_pyramid": "160 reserve/junior teams (one for each main club) organized into mirrored 10-division structure",
+    "geographic_organization": "Lower divisions (6A-6D) organized by postcode region: West (S1,S3,S9), East (S2,S8,S11), North (S5,S6,S18), South (S13,S17)",
+    "promotion_pathways": {
+      "reserve": "Reserve teams follow separate promotion pathway from Reserve Div 6 up to Reserve Div 1",
+      "main": "Main teams follow 10-division pyramid from Division 1 to Division 6D with geographic regional divisions at level 6",
+      "5ab_structure": "Fifth Division split into 5A and 5B to balance promotion (both feed from 6A/6B and 6C/6D respectively)"
+    },
+    "rule_systems": "Game supports both Rouge Era (1862 rules) and No-Rouge (1867+ rules) play styles"
+  }
+}

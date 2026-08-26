@@ -1,0 +1,478 @@
+.matchday-screen {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: linear-gradient(135deg, #0f0f1e 0%, #1a1a2e 100%);
+  color: #e0e0e0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* TOP AREA: Matches (70-75% width on left, takes full height until lower area) */
+.matchday-top {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 75%;
+  padding: 20px;
+  overflow-y: auto;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.matchday-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.header-content h1 {
+  margin: 0 0 4px 0;
+  font-size: 28px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.header-content .current-date {
+  margin: 0;
+  font-size: 14px;
+  color: #999;
+}
+
+.matchday-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.action-btn {
+  padding: 8px 16px;
+  background: linear-gradient(135deg, #4ade80 0%, #22c55e 100%);
+  color: #000;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.action-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(74, 222, 128, 0.3);
+}
+
+.matches-container {
+  flex: 1;
+  overflow-y: auto;
+  padding-right: 12px;
+}
+
+.no-matches {
+  text-align: center;
+  color: #999;
+  padding: 40px 20px;
+}
+
+.matches-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  padding-bottom: 20px;
+}
+
+.match-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 16px;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.match-card:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(74, 222, 128, 0.3);
+  box-shadow: 0 4px 12px rgba(74, 222, 128, 0.1);
+}
+
+.match-header {
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.match-date {
+  font-size: 12px;
+  color: #999;
+  font-weight: 500;
+}
+
+.match-teams {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.team {
+  text-align: center;
+}
+
+.team-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #e0e0e0;
+  word-break: break-word;
+}
+
+.match-score {
+  text-align: center;
+}
+
+.score {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.vs {
+  font-size: 12px;
+  color: #999;
+}
+
+.simulate-btn {
+  padding: 8px 16px;
+  background: rgba(74, 222, 128, 0.2);
+  color: #4ade80;
+  border: 1px solid rgba(74, 222, 128, 0.4);
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.simulate-btn:hover:not(:disabled) {
+  background: rgba(74, 222, 128, 0.3);
+  border-color: #4ade80;
+}
+
+.simulate-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* SIDEBAR: Game State (25-30% width on right, full height) */
+.matchday-sidebar {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 25%;
+  height: 60%;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.3);
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  overflow-y: auto;
+}
+
+.game-state-panel {
+  display: flex;
+  flex-direction: column;
+}
+
+.game-state-panel h3 {
+  margin: 0 0 16px 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.game-state-panel h4 {
+  margin: 0 0 12px 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #e0e0e0;
+}
+
+.state-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.state-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  font-size: 13px;
+}
+
+.state-item .label {
+  color: #999;
+  font-weight: 500;
+}
+
+.state-item .value {
+  color: #fff;
+  font-weight: 600;
+}
+
+.divider {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.1);
+  margin: 12px 0;
+}
+
+.standings-mini {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.standing-row {
+  display: grid;
+  grid-template-columns: 40px 1fr 50px;
+  gap: 8px;
+  align-items: center;
+  padding: 6px;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 4px;
+  font-size: 12px;
+  transition: background 0.2s ease;
+}
+
+.standing-row.user-club {
+  background: rgba(74, 222, 128, 0.1);
+  border: 1px solid rgba(74, 222, 128, 0.2);
+}
+
+.standing-row:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.position {
+  color: #999;
+  font-weight: 600;
+}
+
+.club-name {
+  color: #e0e0e0;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.points {
+  color: #4ade80;
+  font-weight: 600;
+  text-align: right;
+}
+
+/* LOWER AREA: News Feed (full width or 70%, 40% height at bottom) */
+.matchday-lower {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 75%;
+  height: 40%;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  overflow-y: auto;
+}
+
+.news-feed-panel {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.news-feed-panel h3 {
+  margin: 0 0 12px 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.no-events {
+  color: #999;
+  font-size: 14px;
+  text-align: center;
+  padding: 20px;
+}
+
+.events-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  overflow-y: auto;
+  padding-right: 8px;
+  flex: 1;
+}
+
+.event-item {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  padding: 12px;
+  transition: all 0.2s ease;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.event-item:hover {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.event-date {
+  font-size: 11px;
+  color: #999;
+  font-weight: 600;
+  white-space: nowrap;
+  padding-top: 2px;
+}
+
+.event-content {
+  flex: 1;
+}
+
+.event-content strong {
+  color: #fff;
+  font-size: 13px;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.event-content p {
+  margin: 0;
+  font-size: 12px;
+  color: #b0b0c0;
+  line-height: 1.4;
+}
+
+.action-badge {
+  display: inline-block;
+  background: rgba(249, 115, 22, 0.2);
+  color: #f97316;
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-size: 10px;
+  font-weight: 600;
+  white-space: nowrap;
+  margin-left: auto;
+}
+
+/* Scrollbar styling */
+.matchday-top::-webkit-scrollbar,
+.matches-container::-webkit-scrollbar,
+.matchday-sidebar::-webkit-scrollbar,
+.events-list::-webkit-scrollbar,
+.matchday-lower::-webkit-scrollbar {
+  width: 8px;
+}
+
+.matchday-top::-webkit-scrollbar-track,
+.matches-container::-webkit-scrollbar-track,
+.matchday-sidebar::-webkit-scrollbar-track,
+.events-list::-webkit-scrollbar-track,
+.matchday-lower::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.matchday-top::-webkit-scrollbar-thumb,
+.matches-container::-webkit-scrollbar-thumb,
+.matchday-sidebar::-webkit-scrollbar-thumb,
+.events-list::-webkit-scrollbar-thumb,
+.matchday-lower::-webkit-scrollbar-thumb {
+  background: rgba(74, 222, 128, 0.3);
+  border-radius: 4px;
+}
+
+.matchday-top::-webkit-scrollbar-thumb:hover,
+.matches-container::-webkit-scrollbar-thumb:hover,
+.matchday-sidebar::-webkit-scrollbar-thumb:hover,
+.events-list::-webkit-scrollbar-thumb:hover,
+.matchday-lower::-webkit-scrollbar-thumb:hover {
+  background: rgba(74, 222, 128, 0.5);
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .matches-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+
+  .matchday-sidebar {
+    width: 30%;
+  }
+
+  .matchday-top {
+    width: 70%;
+  }
+
+  .matchday-lower {
+    width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  .matchday-screen {
+    flex-direction: column;
+  }
+
+  .matchday-top {
+    width: 100%;
+    height: auto;
+    border-right: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .matchday-sidebar {
+    position: static;
+    width: 100%;
+    height: auto;
+    border-left: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .matchday-lower {
+    position: static;
+    width: 100%;
+    height: auto;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .matches-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Live Match Modal Overlay */
+.live-match-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.95);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  padding: 20px;
+}
+
+.live-match-modal-overlay > * {
+  width: 100%;
+  max-width: 1200px;
+  height: 90vh;
+  max-height: 900px;
+}

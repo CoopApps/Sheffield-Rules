@@ -1,0 +1,124 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║                                                                            ║
+║         SATURDAY AT THREE - Windows Quick Start                           ║
+║                                                                            ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+THREE SIMPLE STEPS:
+
+1. RUN install-frontend.bat (one time, wait for completion)
+2. RUN start-backend.bat (keep open)
+3. RUN start-frontend.bat (keep open)
+4. OPEN http://127.0.0.1:5173 in browser
+
+═══════════════════════════════════════════════════════════════════════════
+
+DETAILED INSTRUCTIONS:
+
+STEP 1: Install Dependencies (One Time)
+──────────────────────────────────────
+Double-click: install-frontend.bat
+
+This downloads React, TypeScript, and other packages.
+Takes 2-5 minutes. Wait for the "SUCCESS!" message.
+
+STEP 2: Start Backend (Keep Open)
+──────────────────────────────────
+Double-click: start-backend.bat
+
+You should see:
+  Listening on 127.0.0.1:8080
+
+DO NOT CLOSE THIS WINDOW!
+
+STEP 3: Start Frontend (Keep Open)
+───────────────────────────────────
+Double-click: start-frontend.bat
+
+You should see:
+  Local: http://127.0.0.1:5173
+
+DO NOT CLOSE THIS WINDOW!
+
+STEP 4: Open Browser
+──────────────────────
+Go to: http://127.0.0.1:5173
+
+You should see the game!
+
+═══════════════════════════════════════════════════════════════════════════
+
+FILES IN THE PROJECT ROOT:
+
+install-frontend.bat       Run this once to install npm packages
+start-backend.bat          Double-click to start backend server
+start-frontend.bat         Double-click to start frontend server
+README_WINDOWS.md          Detailed Windows guide (read this)
+START_HERE.md              Project overview
+QUICKSTART.md              5-minute guide
+
+═══════════════════════════════════════════════════════════════════════════
+
+WHAT EACH WINDOW DOES:
+
+Backend Window (start-backend.bat)
+  - Serves game assets (player photos, backgrounds, etc.)
+  - Handles API requests
+  - Port: 8080
+
+Frontend Window (start-frontend.bat)
+  - Shows the game UI
+  - Handles user interaction
+  - Port: 5173
+
+Browser
+  - Displays the game
+  - Connects to both backend and frontend
+
+═══════════════════════════════════════════════════════════════════════════
+
+TROUBLESHOOTING:
+
+Problem: "install-frontend.bat" does nothing
+Solution: Try double-clicking it. It should open a command window.
+
+Problem: Backend/Frontend window closes immediately
+Solution: It crashed. Look at the error message before it closed.
+  (You can run it again or read README_WINDOWS.md for help)
+
+Problem: Browser shows blank page
+Solution:
+  1. Check backend window is still running
+  2. Check frontend window is still running
+  3. Try opening http://127.0.0.1:5173 again
+  4. Press F12 to see if there are errors
+
+Problem: Port 8080 or 5173 already in use
+Solution: Something else is using that port. Kill it or restart your PC.
+
+═══════════════════════════════════════════════════════════════════════════
+
+WHAT TO DO NEXT:
+
+1. Read: README_WINDOWS.md (this explains everything)
+2. Read: START_HERE.md (project overview)
+3. Explore: Click around the game UI
+4. Add: Player photos to assets/packs/historical_1888/player_portraits/
+5. Build: New screens or features
+
+═══════════════════════════════════════════════════════════════════════════
+
+REMEMBER:
+
+✓ Keep BOTH backend and frontend windows open
+✓ Don't close them while developing
+✓ To stop: Press Ctrl+C in each window
+✓ To restart: Double-click the batch file again
+
+═══════════════════════════════════════════════════════════════════════════
+
+Ready to start? Double-click install-frontend.bat!
+
+Have fun building! ⚽🎮
+
+═══════════════════════════════════════════════════════════════════════════

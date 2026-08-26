@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match 1827 Census Records - Males Only</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+
+        .container {
+            max-width: 1800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .stats {
+            background: #e3f2fd;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            display: flex;
+            gap: 30px;
+        }
+
+        .stat-item {
+            font-size: 14px;
+        }
+
+        .stat-item strong {
+            color: #1976d2;
+        }
+
+        .controls {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .search-box {
+            flex: 1;
+            min-width: 300px;
+            padding: 10px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .filter-select {
+            padding: 10px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .btn-primary {
+            background: #1976d2;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #1565c0;
+        }
+
+        .split-view {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .panel {
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .panel-header {
+            background: #333;
+            color: white;
+            padding: 15px;
+            font-weight: bold;
+        }
+
+        .panel-header.sheffield {
+            background: #2e7d32;
+        }
+
+        .panel-header.genealogy {
+            background: #1976d2;
+        }
+
+        .panel-body {
+            height: 600px;
+            overflow-y: auto;
+            background: #fafafa;
+        }
+
+        .record-card {
+            background: white;
+            margin: 10px;
+            padding: 15px;
+            border-radius: 5px;
+            border: 2px solid transparent;
+            cursor: move;
+            transition: all 0.2s;
+        }
+
+        .record-card:hover {
+            border-color: #1976d2;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .record-card.dragging {
+            opacity: 0.5;
+            border-color: #ff9800;
+        }
+
+        .record-card.drag-over {
+            background: #fff3e0;
+            border: 2px dashed #ff9800;
+        }
+
+        .record-name {
+            font-weight: bold;
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 8px;
+        }
+
+        .record-detail {
+            font-size: 13px;
+            color: #666;
+            margin: 4px 0;
+        }
+
+        .record-detail strong {
+            color: #333;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 3px;
+            font-size: 12px;
+            font-weight: 500;
+            margin-left: 5px;
+        }
+
+        .badge-head { background: #4caf50; color: white; }
+        .badge-lodger { background: #2196f3; color: white; }
+        .badge-other { background: #9e9e9e; color: white; }
+
+        .highlight {
+            background: yellow;
+            padding: 2px;
+        }
+
+        .drop-zone {
+            min-height: 100px;
+            border: 3px dashed #ccc;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #999;
+            font-style: italic;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .drop-zone.active {
+            border-color: #4caf50;
+            background: #e8f5e9;
+            color: #2e7d32;
+        }
+
+        .notification {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #4caf50;
+            color: white;
+            padding: 15px 20px;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            display: none;
+            z-index: 1000;
+        }
+
+        .notification.show {
+            display: block;
+            animation: slideIn 0.3s ease;
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateX(100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        .instructions {
+            background: #fff3e0;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            border-left: 4px solid #ff9800;
+        }
+
+        .instructions strong {
+            color: #e65100;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔍 Match 1827 Census Records - Males Only</h1>
+
+        <div class="instructions">
+            <strong>How to use:</strong> Drag a Sheffield Census record and drop it on a Genealogy record to create a match. The combined data will be saved to the database.
+        </div>
+
+        <div class="stats">
+            <div class="stat-item">
+                <strong id="sheffieldCount">0</strong> Sheffield Census (unmatched males)
+            </div>
+            <div class="stat-item">
+                <strong id="genealogyCount">0</strong> Genealogy (unmatched males)
+            </div>
+            <div class="stat-item">
+                <strong id="matchedCount">652</strong> Already matched
+            </div>
+            <div class="stat-item">
+                <strong id="sessionMatches">0</strong> Matched this session
+            </div>
+        </div>
+
+        <div class="controls">
+            <input type="text" class="search-box" id="searchBox" placeholder="Search by name...">
+            <select class="filter-select" id="relationFilter">
+                <option value="">All Relations</option>
+                <option value="Head">Head</option>
+                <option value="Lodger">Lodger</option>
+                <option value="Boarder">Boarder</option>
+                <option value="Son">Son</option>
+            </select>
+            <button class="btn btn-primary" onclick="location.reload()">Refresh</button>
+        </div>
+
+        <div class="split-view">
+            <div class="panel">
+                <div class="panel-header sheffield">Sheffield Census - Drag from here →</div>
+                <div class="panel-body" id="sheffieldPanel"></div>
+            </div>
+
+            <div class="panel">
+                <div class="panel-header genealogy">Genealogy - Drop here ←</div>
+                <div class="panel-body" id="genealogyPanel"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="notification" id="notification"></div>
+
+    <script>
+        let sheffieldData = [];
+        let genealogyData = [];
+        let sessionMatches = 0;
+
+        // Load embedded data (will be replaced by generation script)
+        const DATA_PLACEHOLDER = null;
+
+        function loadData() {
+            if (!DATA_PLACEHOLDER) {
+                alert('Error: Data not loaded. Please regenerate this file.');
+                return;
+            }
+
+            sheffieldData = DATA_PLACEHOLDER.sheffield;
+            genealogyData = DATA_PLACEHOLDER.genealogy;
+
+            document.getElementById('sheffieldCount').textContent = sheffieldData.length;
+            document.getElementById('genealogyCount').textContent = genealogyData.length;
+
+            renderPanels();
+        }
+
+        function renderPanels() {
+            renderSheffield();
+            renderGenealogy();
+        }
+
+        function renderSheffield() {
+            const search = document.getElementById('searchBox').value.toLowerCase();
+            const relationFilter = document.getElementById('relationFilter').value;
+
+            const filtered = sheffieldData.filter(r => {
+                const matchesSearch = !search || r.NAME.toLowerCase().includes(search);
+                const matchesRelation = !relationFilter || r.RELATION === relationFilter;
+                return matchesSearch && matchesRelation;
+            });
+
+            const html = filtered.map((record, idx) => {
+                const relationBadge = record.RELATION === 'Head' ? 'badge-head' :
+                                     record.RELATION === 'Lodger' ? 'badge-lodger' : 'badge-other';
+
+                return `
+                    <div class="record-card" draggable="true" data-sheffield-idx="${sheffieldData.indexOf(record)}"
+                         ondragstart="handleDragStart(event)" ondragend="handleDragEnd(event)">
+                        <div class="record-name">
+                            ${highlightSearch(record.NAME, search)}
+                            <span class="badge ${relationBadge}">${record.RELATION}</span>
+                        </div>
+                        <div class="record-detail"><strong>Parish:</strong> ${record['ECCLESIASTICAL PARISH'] || record['CIVIL PARISH']}</div>
+                        <div class="record-detail"><strong>Age:</strong> ${record.AGE}</div>
+                    </div>
+                `;
+            }).join('');
+
+            document.getElementById('sheffieldPanel').innerHTML = html || '<div class="drop-zone">No records found</div>';
+        }
+
+        function renderGenealogy() {
+            const search = document.getElementById('searchBox').value.toLowerCase();
+            const relationFilter = document.getElementById('relationFilter').value;
+
+            const filtered = genealogyData.filter(r => {
+                const matchesSearch = !search || r.Name.toLowerCase().includes(search);
+                const matchesRelation = !relationFilter || r.Relation === relationFilter;
+                return matchesSearch && matchesRelation;
+            });
+
+            const html = filtered.map((record, idx) => {
+                const relationBadge = record.Relation === 'Head' ? 'badge-head' :
+                                     record.Relation === 'Lodger' ? 'badge-lodger' : 'badge-other';
+
+                return `
+                    <div class="record-card" data-genealogy-idx="${genealogyData.indexOf(record)}"
+                         ondragover="handleDragOver(event)" ondragleave="handleDragLeave(event)"
+                         ondrop="handleDrop(event)">
+                        <div class="record-name">
+                            ${highlightSearch(record.Name, search)}
+                            <span class="badge ${relationBadge}">${record.Relation}</span>
+                        </div>
+                        <div class="record-detail"><strong>Address:</strong> ${record.Address}</div>
+                        <div class="record-detail"><strong>Profession:</strong> ${record.Profession || '(none)'}</div>
+                        ${record.Spouse ? `<div class="record-detail"><strong>Spouse:</strong> ${record.Spouse}</div>` : ''}
+                    </div>
+                `;
+            }).join('');
+
+            document.getElementById('genealogyPanel').innerHTML = html || '<div class="drop-zone">No records found</div>';
+        }
+
+        function highlightSearch(text, search) {
+            if (!search) return text;
+            const regex = new RegExp(`(${search})`, 'gi');
+            return text.replace(regex, '<span class="highlight">$1</span>');
+        }
+
+        let draggedSheffieldIdx = null;
+
+        function handleDragStart(event) {
+            draggedSheffieldIdx = parseInt(event.target.closest('.record-card').dataset.sheffieldIdx);
+            event.target.closest('.record-card').classList.add('dragging');
+        }
+
+        function handleDragEnd(event) {
+            event.target.closest('.record-card').classList.remove('dragging');
+        }
+
+        function handleDragOver(event) {
+            event.preventDefault();
+            event.target.closest('.record-card').classList.add('drag-over');
+        }
+
+        function handleDragLeave(event) {
+            event.target.closest('.record-card').classList.remove('drag-over');
+        }
+
+        async function handleDrop(event) {
+            event.preventDefault();
+            const target = event.target.closest('.record-card');
+            target.classList.remove('drag-over');
+
+            const genealogyIdx = parseInt(target.dataset.genealogyIdx);
+
+            if (draggedSheffieldIdx === null || isNaN(genealogyIdx)) return;
+
+            const sheffieldRecord = sheffieldData[draggedSheffieldIdx];
+            const genealogyRecord = genealogyData[genealogyIdx];
+
+            // Confirm match
+            if (!confirm(`Create match?\n\nSheffield: "${sheffieldRecord.NAME}"\n↓\nGenealogy: "${genealogyRecord.Name}"`)) {
+                return;
+            }
+
+            // Save to database
+            const success = await saveMatch(sheffieldRecord, genealogyRecord);
+
+            if (success) {
+                // Remove from lists
+                sheffieldData.splice(draggedSheffieldIdx, 1);
+                genealogyData.splice(genealogyIdx, 1);
+
+                sessionMatches++;
+                document.getElementById('sessionMatches').textContent = sessionMatches;
+                document.getElementById('sheffieldCount').textContent = sheffieldData.length;
+                document.getElementById('genealogyCount').textContent = genealogyData.length;
+
+                showNotification(`✓ Match created: ${genealogyRecord.Name}`);
+                renderPanels();
+            }
+
+            draggedSheffieldIdx = null;
+        }
+
+        async function saveMatch(sheffield, genealogy) {
+            try {
+                const response = await fetch('http://localhost:3000/save-match', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ sheffield, genealogy })
+                });
+
+                if (!response.ok) throw new Error('Save failed');
+                return true;
+            } catch (error) {
+                alert('Error saving match. Make sure the server is running:\nnode match_server.cjs');
+                return false;
+            }
+        }
+
+        function showNotification(message) {
+            const notification = document.getElementById('notification');
+            notification.textContent = message;
+            notification.classList.add('show');
+            setTimeout(() => {
+                notification.classList.remove('show');
+            }, 3000);
+        }
+
+        // Search box event
+        document.getElementById('searchBox').addEventListener('input', renderPanels);
+        document.getElementById('relationFilter').addEventListener('change', renderPanels);
+
+        // Load data on page load
+        loadData();
+    </script>
+</body>
+</html>

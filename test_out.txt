@@ -1,0 +1,1097 @@
+   Compiling saturday-at-three v0.1.0 (D:\projects\Saturday at Three\src-tauri)
+warning: unused import: `SqlitePool`
+ --> src-tauri\src\database\player_management.rs:1:12
+  |
+1 | use sqlx::{SqlitePool, Row};
+  |            ^^^^^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused imports: `clear_all_tables`, `create_sheffield_database`, and `initialize_schema`
+  --> src-tauri\src\database\mod.rs:12:24
+   |
+12 | pub use sheffield_db::{create_sheffield_database, initialize_schema, clear_all_tables};
+   |                        ^^^^^^^^^^^^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^^^
+
+warning: unused imports: `create_fixtures_for_season`, `initialize_standings`, `populate_clubs_for_year`, and `populate_players_for_year`
+  --> src-tauri\src\database\mod.rs:13:20
+   |
+13 | pub use populate::{populate_clubs_for_year, populate_players_for_year, initialize_standings, create_fixtures_for_season};
+   |                    ^^^^^^^^^^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused imports: `get_ruleset_for_year` and `save_ruleset_to_db`
+  --> src-tauri\src\database\mod.rs:14:20
+   |
+14 | pub use rulesets::{get_ruleset_for_year, save_ruleset_to_db};
+   |                    ^^^^^^^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `sheffield_league::populate_sheffield_league`
+  --> src-tauri\src\database\mod.rs:15:9
+   |
+15 | pub use sheffield_league::populate_sheffield_league;
+   |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused imports: `batch_update_club_divisions`, `get_division_standings_simple`, `recalculate_division_positions`, and `record_movement_event`
+  --> src-tauri\src\database\mod.rs:17:5
+   |
+17 |     get_division_standings_simple, update_club_division, batch_update_club_divisions,
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+18 |     record_movement_event, recalculate_division_positions,
+   |     ^^^^^^^^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `HashSet`
+ --> src-tauri\src\sheffield_rules\fixtures.rs:8:33
+  |
+8 | use std::collections::{HashMap, HashSet};
+  |                                 ^^^^^^^
+
+warning: unused imports: `FreeKickTrigger`, `GoalKickRule`, `HandlingRule`, `KickInRule`, `MatchRules`, `OffsideRule`, `ScoringSystem`, `SetPieceRules`, `ThrowInRule`, `TieBreakerRule`, and `default_match_rules`
+  --> src-tauri\src\sheffield_rules\mod.rs:22:14
+   |
+22 |     RuleSet, TieBreakerRule, OffsideRule, HandlingRule, FreeKickTrigger,
+   |              ^^^^^^^^^^^^^^  ^^^^^^^^^^^  ^^^^^^^^^^^^  ^^^^^^^^^^^^^^^
+23 |     SetPieceRules, ThrowInRule, KickInRule, GoalKickRule, ScoringSystem,
+   |     ^^^^^^^^^^^^^  ^^^^^^^^^^^  ^^^^^^^^^^  ^^^^^^^^^^^^  ^^^^^^^^^^^^^
+24 |     MatchRules, default_match_rules,
+   |     ^^^^^^^^^^  ^^^^^^^^^^^^^^^^^^^
+
+warning: unused imports: `Ruleset1858`, `Ruleset1859`, `Ruleset1860`, `Ruleset1861`, `Ruleset1862`, `Ruleset1863`, `Ruleset1864`, `Ruleset1865`, `Ruleset1866`, `Ruleset1867March`, `Ruleset1867October`, `Ruleset1868`, `Ruleset1869`, `Ruleset1870`, `Ruleset1871`, `Ruleset1872`, `Ruleset1873`, `Ruleset1874`, `Ruleset1875`, `Ruleset1876`, and `get_ruleset_for_year`
+  --> src-tauri\src\sheffield_rules\mod.rs:28:5
+   |
+28 |     get_ruleset_for_year, all_ruleset_years, year_changes_summary,
+   |     ^^^^^^^^^^^^^^^^^^^^
+29 |     Ruleset1858, Ruleset1859, Ruleset1860, Ruleset1861, Ruleset1862,
+   |     ^^^^^^^^^^^  ^^^^^^^^^^^  ^^^^^^^^^^^  ^^^^^^^^^^^  ^^^^^^^^^^^
+30 |     Ruleset1863, Ruleset1864, Ruleset1865, Ruleset1866, Ruleset1867March,
+   |     ^^^^^^^^^^^  ^^^^^^^^^^^  ^^^^^^^^^^^  ^^^^^^^^^^^  ^^^^^^^^^^^^^^^^
+31 |     Ruleset1867October, Ruleset1868, Ruleset1869, Ruleset1870, Ruleset1871,
+   |     ^^^^^^^^^^^^^^^^^^  ^^^^^^^^^^^  ^^^^^^^^^^^  ^^^^^^^^^^^  ^^^^^^^^^^^
+32 |     Ruleset1872, Ruleset1873, Ruleset1874, Ruleset1875, Ruleset1876,
+   |     ^^^^^^^^^^^  ^^^^^^^^^^^  ^^^^^^^^^^^  ^^^^^^^^^^^  ^^^^^^^^^^^
+
+warning: unused imports: `Fixture`, `generate_realistic_season_fixtures`, `generate_season_fixtures`, and `simulate_fixture`
+  --> src-tauri\src\sheffield_rules\mod.rs:44:5
+   |
+44 |     Fixture, generate_season_fixtures, generate_realistic_season_fixtures,
+   |     ^^^^^^^  ^^^^^^^^^^^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+45 |     simulate_fixture,
+   |     ^^^^^^^^^^^^^^^^
+
+warning: unused imports: `MatchResult`, `RougeScore`, `ScoreType`, and `simulate_rouge_match`
+  --> src-tauri\src\sheffield_rules\mod.rs:49:5
+   |
+49 |     RougeScore, ScoreType, MatchResult, simulate_rouge_match,
+   |     ^^^^^^^^^^  ^^^^^^^^^  ^^^^^^^^^^^  ^^^^^^^^^^^^^^^^^^^^
+
+warning: unused imports: `PromotionEvent`, `RelegationEvent`, `SeasonEndReport`, `calculate_promotions_from_division`, `calculate_relegations_from_division`, `distribute_div5_to_div6`, `distribute_div6_to_div5`, `get_promotion_destination`, and `get_relegation_destinations`
+  --> src-tauri\src\sheffield_rules\mod.rs:53:15
+   |
+53 |     Standing, PromotionEvent, RelegationEvent, SeasonEndReport,
+   |               ^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^^
+54 |     calculate_promotions_from_division, calculate_relegations_from_division,
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+55 |     get_promotion_destination, get_relegation_destinations,
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+56 |     distribute_div6_to_div5, distribute_div5_to_div6,
+   |     ^^^^^^^^^^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `Datelike`
+   --> src-tauri\src\season_engine\weather.rs:292:29
+    |
+292 |     use chrono::{NaiveDate, Datelike};
+    |                             ^^^^^^^^
+
+warning: unused import: `Weekday`
+  --> src-tauri\src\season_engine\newspaper.rs:12:35
+   |
+12 | use chrono::{NaiveDate, Datelike, Weekday};
+   |                                   ^^^^^^^
+
+warning: variant `FA_Rules` should have an upper camel case name
+  --> src-tauri\src\season_engine\rule_negotiation.rs:29:5
+   |
+29 |     FA_Rules { year: i64 },
+   |     ^^^^^^^^ help: convert the identifier to upper camel case: `FaRules`
+   |
+   = note: `#[warn(non_camel_case_types)]` (part of `#[warn(nonstandard_style)]`) on by default
+
+warning: unused imports: `CompleteMatchResult` and `MatchEngine`
+  --> src-tauri\src\season_engine\mod.rs:23:24
+   |
+23 | pub use match_engine::{MatchEngine, CompleteMatchResult};
+   |                        ^^^^^^^^^^^  ^^^^^^^^^^^^^^^^^^^
+
+warning: unused imports: `WeatherCondition`, `WeatherForecast`, and `WeatherSystem`
+  --> src-tauri\src\season_engine\mod.rs:24:19
+   |
+24 | pub use weather::{WeatherSystem, WeatherForecast, WeatherCondition};
+   |                   ^^^^^^^^^^^^^  ^^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^^^
+
+warning: unused imports: `InjurySeverity`, `InjurySystem`, and `Injury`
+  --> src-tauri\src\season_engine\mod.rs:25:20
+   |
+25 | pub use injuries::{InjurySystem, Injury, InjurySeverity};
+   |                    ^^^^^^^^^^^^  ^^^^^^  ^^^^^^^^^^^^^^
+
+warning: unused imports: `Formation`, `LineupSelection`, and `MatchPosition`
+  --> src-tauri\src\season_engine\mod.rs:26:28
+   |
+26 | pub use lineup_selection::{LineupSelection, Formation, MatchPosition};
+   |                            ^^^^^^^^^^^^^^^  ^^^^^^^^^  ^^^^^^^^^^^^^
+
+warning: unused imports: `FootballCode`, `NegotiationType`, and `RuleNegotiation`
+  --> src-tauri\src\season_engine\mod.rs:27:28
+   |
+27 | pub use rule_negotiation::{RuleNegotiation, FootballCode, NegotiationType};
+   |                            ^^^^^^^^^^^^^^^  ^^^^^^^^^^^^  ^^^^^^^^^^^^^^^
+
+warning: unused imports: `EventImportance`, `LocalEventGenerator`, `LocalEventType`, and `LocalEvent`
+  --> src-tauri\src\season_engine\mod.rs:28:24
+   |
+28 | pub use local_events::{LocalEventGenerator, LocalEvent, LocalEventType, EventImportance};
+   |                        ^^^^^^^^^^^^^^^^^^^  ^^^^^^^^^^  ^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^^
+
+warning: unused imports: `CooperativeMembership`, `CooperativeSystem`, `CooperativeTransaction`, `ShopItem`, and `TransactionType`
+  --> src-tauri\src\season_engine\mod.rs:29:23
+   |
+29 | pub use cooperative::{CooperativeSystem, CooperativeMembership, CooperativeTransaction, TransactionType, ShopItem};
+   |                       ^^^^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^^  ^^^^^^^^
+
+warning: unused import: `std::collections::HashMap`
+ --> src-tauri\src\match_engine\enhanced_commentary_library.rs:5:5
+  |
+5 | use std::collections::HashMap;
+  |     ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused macro definition: `variant`
+ --> src-tauri\src\match_engine\enhanced_commentary_library.rs:8:14
+  |
+8 | macro_rules! variant {
+  |              ^^^^^^^
+  |
+  = note: `#[warn(unused_macros)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused import: `BallState`
+ --> src-tauri\src\match_engine\match_simulator.rs:7:43
+  |
+7 |     PossessionEngine, PossessionSequence, BallState, ShotAttempt,
+  |                                           ^^^^^^^^^
+
+warning: unused import: `FormationPosition`
+  --> src-tauri\src\match_engine\mod.rs:13:32
+   |
+13 | pub use formation::{Formation, FormationPosition, Position2D};
+   |                                ^^^^^^^^^^^^^^^^^
+
+warning: unused imports: `EventType`, `PlayerPositionState`, and `ScorerInfo`
+  --> src-tauri\src\match_engine\mod.rs:21:18
+   |
+21 |     VisualState, PlayerPositionState, ScorerInfo, EventType
+   |                  ^^^^^^^^^^^^^^^^^^^  ^^^^^^^^^^  ^^^^^^^^^
+
+warning: unused variable: `user_response`
+   --> src-tauri\src\commands.rs:271:5
+    |
+271 |     user_response: serde_json::Value,
+    |     ^^^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_user_response`
+    |
+    = note: `#[warn(unused_variables)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused variable: `game_mode`
+   --> src-tauri\src\commands.rs:346:9
+    |
+346 |     let game_mode = sheffield_rules::create_game_mode_from_option(&game_mode_option_id)?;
+    |         ^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_game_mode`
+
+warning: variable does not need to be mutable
+   --> src-tauri\src\commands.rs:348:9
+    |
+348 |     let mut game = GameState::new(club_id);
+    |         ----^^^^
+    |         |
+    |         help: remove this `mut`
+    |
+    = note: `#[warn(unused_mut)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused variable: `match_id`
+    --> src-tauri\src\commands.rs:1705:5
+     |
+1705 |     match_id: String,
+     |     ^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_match_id`
+
+warning: value assigned to `result` is never read
+   --> src-tauri\src\database\sheffield_league.rs:467:25
+    |
+467 |                 let mut result = String::new();
+    |                         ^^^^^^
+    |
+    = help: maybe it is overwritten before being read?
+    = note: `#[warn(unused_assignments)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused variable: `idx`
+  --> src-tauri\src\database\promotion_db.rs:40:16
+   |
+40 |         .map(|(idx, (club_id, club_name, position, played, won, drawn, lost, gf, ga, points))| {
+   |                ^^^ help: if this is intentional, prefix it with an underscore: `_idx`
+
+warning: unused variable: `user_club_id`
+   --> src-tauri\src\game.rs:556:33
+    |
+556 |     fn load_historical_fixtures(user_club_id: &str) -> Vec<Match> {
+    |                                 ^^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_user_club_id`
+
+warning: unused variable: `rng`
+  --> src-tauri\src\sheffield_rules\fixtures.rs:33:13
+   |
+33 |     let mut rng = rand::thread_rng();
+   |             ^^^ help: if this is intentional, prefix it with an underscore: `_rng`
+
+warning: unused variable: `season_start_year`
+  --> src-tauri\src\sheffield_rules\fixtures.rs:29:5
+   |
+29 |     season_start_year: u32,
+   |     ^^^^^^^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_season_start_year`
+
+warning: variable does not need to be mutable
+  --> src-tauri\src\sheffield_rules\fixtures.rs:33:9
+   |
+33 |     let mut rng = rand::thread_rng();
+   |         ----^^^
+   |         |
+   |         help: remove this `mut`
+
+warning: unused variable: `i`
+   --> src-tauri\src\sheffield_rules\promotion.rs:123:37
+    |
+123 |         "div-1" => (1..=count).map(|i| {
+    |                                     ^ help: if this is intentional, prefix it with an underscore: `_i`
+
+warning: unused variable: `new_pos`
+   --> src-tauri\src\sheffield_rules\promotion.rs:245:37
+    |
+245 |                 for (idx, (club_id, new_pos)) in promoted.iter().enumerate() {
+    |                                     ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_new_pos`
+
+warning: unused variable: `day_of_week`
+   --> src-tauri\src\season_engine\local_events.rs:116:13
+    |
+116 |         let day_of_week = date.weekday();
+    |             ^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_day_of_week`
+
+warning: unused variable: `month`
+   --> src-tauri\src\season_engine\local_events.rs:117:13
+    |
+117 |         let month = date.month();
+    |             ^^^^^ help: if this is intentional, prefix it with an underscore: `_month`
+
+warning: unused variable: `current_year`
+   --> src-tauri\src\season_engine\cooperative.rs:321:36
+    |
+321 |     pub fn get_shop_catalog(&self, current_year: i64) -> Vec<ShopItem> {
+    |                                    ^^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_current_year`
+
+warning: unused variable: `headline`
+   --> src-tauri\src\season_engine\cooperative.rs:457:26
+    |
+457 |         let (event_type, headline, description) = &events[rng.gen_range(0..events.len())];
+    |                          ^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_headline`
+
+warning: method `result_string` is never used
+   --> src-tauri\src\game.rs:844:12
+    |
+843 | impl Match {
+    | ---------- method in this implementation
+844 |     pub fn result_string(&self) -> Option<String> {
+    |            ^^^^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: method `goal_difference` is never used
+   --> src-tauri\src\game.rs:861:12
+    |
+860 | impl Club {
+    | --------- method in this implementation
+861 |     pub fn goal_difference(&self) -> i16 {
+    |            ^^^^^^^^^^^^^^^
+
+warning: function `save_game_as` is never used
+   --> src-tauri\src\commands.rs:145:14
+    |
+145 | pub async fn save_game_as(game: GameState, save_name: String) -> Result<GameState, String> {
+    |              ^^^^^^^^^^^^
+
+warning: function `load_game_by_name` is never used
+   --> src-tauri\src\commands.rs:153:14
+    |
+153 | pub async fn load_game_by_name(save_name: String) -> Result<GameState, String> {
+    |              ^^^^^^^^^^^^^^^^^
+
+warning: function `get_save_list` is never used
+   --> src-tauri\src\commands.rs:158:14
+    |
+158 | pub async fn get_save_list() -> Result<Vec<String>, String> {
+    |              ^^^^^^^^^^^^^
+
+warning: function `delete_save_file` is never used
+   --> src-tauri\src\commands.rs:163:14
+    |
+163 | pub async fn delete_save_file(save_name: String) -> Result<(), String> {
+    |              ^^^^^^^^^^^^^^^^
+
+warning: function `init` is never used
+  --> src-tauri\src\database\mod.rs:44:14
+   |
+44 | pub async fn init(_app_dir: &PathBuf) -> Result<(), Box<dyn std::error::Error>> {
+   |              ^^^^
+
+warning: function `load_game_named` is never used
+   --> src-tauri\src\database\mod.rs:122:14
+    |
+122 | pub async fn load_game_named(save_name: &str) -> Result<GameState, Box<dyn std::error::Error>> {
+    |              ^^^^^^^^^^^^^^^
+
+warning: function `get_save_list` is never used
+   --> src-tauri\src\database\mod.rs:142:14
+    |
+142 | pub async fn get_save_list() -> Result<Vec<String>, Box<dyn std::error::Error>> {
+    |              ^^^^^^^^^^^^^
+
+warning: function `delete_save_file` is never used
+   --> src-tauri\src\database\mod.rs:169:14
+    |
+169 | pub async fn delete_save_file(save_name: &str) -> Result<(), Box<dyn std::error::Error>> {
+    |              ^^^^^^^^^^^^^^^^
+
+warning: function `initialize_default_league` is never used
+   --> src-tauri\src\database\mod.rs:891:14
+    |
+891 | pub async fn initialize_default_league() -> Result<(), Box<dyn std::error::Error>> {
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: struct `SheffieldClub` is never constructed
+ --> src-tauri\src\database\populate.rs:4:12
+  |
+4 | pub struct SheffieldClub {
+  |            ^^^^^^^^^^^^^
+
+warning: constant `SHEFFIELD_CLUBS` is never used
+  --> src-tauri\src\database\populate.rs:12:11
+   |
+12 | pub const SHEFFIELD_CLUBS: &[SheffieldClub] = &[
+   |           ^^^^^^^^^^^^^^^
+
+warning: function `create_fixtures_for_season` is never used
+   --> src-tauri\src\database\populate.rs:233:14
+    |
+233 | pub async fn create_fixtures_for_season(
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: struct `LeagueClubAssignment` is never constructed
+  --> src-tauri\src\database\sheffield_league.rs:16:12
+   |
+16 | pub struct LeagueClubAssignment {
+   |            ^^^^^^^^^^^^^^^^^^^^
+
+warning: struct `PromotionRule` is never constructed
+  --> src-tauri\src\database\sheffield_league.rs:24:12
+   |
+24 | pub struct PromotionRule {
+   |            ^^^^^^^^^^^^^
+
+warning: function `get_division_standings` is never used
+ --> src-tauri\src\database\promotion_db.rs:9:14
+  |
+9 | pub async fn get_division_standings(
+  |              ^^^^^^^^^^^^^^^^^^^^^^
+
+warning: function `batch_update_club_divisions` is never used
+   --> src-tauri\src\database\promotion_db.rs:147:14
+    |
+147 | pub async fn batch_update_club_divisions(
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: function `recalculate_division_positions` is never used
+   --> src-tauri\src\database\promotion_db.rs:210:14
+    |
+210 | pub async fn recalculate_division_positions(
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: function `get_all_division_clubs` is never used
+   --> src-tauri\src\database\promotion_db.rs:241:14
+    |
+241 | pub async fn get_all_division_clubs(
+    |              ^^^^^^^^^^^^^^^^^^^^^^
+
+warning: function `get_club_current_division` is never used
+   --> src-tauri\src\database\promotion_db.rs:269:14
+    |
+269 | pub async fn get_club_current_division(
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: function `get_club_position_in_division` is never used
+   --> src-tauri\src\database\promotion_db.rs:282:14
+    |
+282 | pub async fn get_club_position_in_division(
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: function `get_club_movement_history` is never used
+   --> src-tauri\src\database\promotion_db.rs:295:14
+    |
+295 | pub async fn get_club_movement_history(
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: function `simulate_match_basic` is never used
+ --> src-tauri\src\simulation.rs:4:8
+  |
+4 | pub fn simulate_match_basic(home_strength: f32, away_strength: f32) -> (u8, u8) {
+  |        ^^^^^^^^^^^^^^^^^^^^
+
+warning: methods `tiebreaker`, `offside_rule`, `handling_rules`, `free_kick_triggers`, and `set_piece_rules` are never used
+  --> src-tauri\src\sheffield_rules\ruleset.rs:15:8
+   |
+10 | pub trait RuleSet: Send + Sync {
+   |           ------- methods in this trait
+...
+15 |     fn tiebreaker(&self) -> TieBreakerRule;
+   |        ^^^^^^^^^^
+16 |     fn offside_rule(&self) -> OffsideRule;
+   |        ^^^^^^^^^^^^
+17 |     fn handling_rules(&self) -> HandlingRule;
+   |        ^^^^^^^^^^^^^^
+18 |     fn free_kick_triggers(&self) -> Vec<FreeKickTrigger>;
+   |        ^^^^^^^^^^^^^^^^^^
+19 |     fn set_piece_rules(&self) -> SetPieceRules;
+   |        ^^^^^^^^^^^^^^^
+
+warning: enum `TieBreakerRule` is never used
+  --> src-tauri\src\sheffield_rules\ruleset.rs:28:10
+   |
+28 | pub enum TieBreakerRule {
+   |          ^^^^^^^^^^^^^^
+
+warning: enum `OffsideRule` is never used
+  --> src-tauri\src\sheffield_rules\ruleset.rs:39:10
+   |
+39 | pub enum OffsideRule {
+   |          ^^^^^^^^^^^
+
+warning: enum `HandlingRule` is never used
+  --> src-tauri\src\sheffield_rules\ruleset.rs:51:10
+   |
+51 | pub enum HandlingRule {
+   |          ^^^^^^^^^^^^
+
+warning: enum `FreeKickTrigger` is never used
+  --> src-tauri\src\sheffield_rules\ruleset.rs:66:10
+   |
+66 | pub enum FreeKickTrigger {
+   |          ^^^^^^^^^^^^^^^
+
+warning: struct `SetPieceRules` is never constructed
+  --> src-tauri\src\sheffield_rules\ruleset.rs:82:12
+   |
+82 | pub struct SetPieceRules {
+   |            ^^^^^^^^^^^^^
+
+warning: enum `ThrowInRule` is never used
+  --> src-tauri\src\sheffield_rules\ruleset.rs:90:10
+   |
+90 | pub enum ThrowInRule {
+   |          ^^^^^^^^^^^
+
+warning: enum `KickInRule` is never used
+  --> src-tauri\src\sheffield_rules\ruleset.rs:97:10
+   |
+97 | pub enum KickInRule {
+   |          ^^^^^^^^^^
+
+warning: enum `GoalKickRule` is never used
+   --> src-tauri\src\sheffield_rules\ruleset.rs:103:10
+    |
+103 | pub enum GoalKickRule {
+    |          ^^^^^^^^^^^^
+
+warning: method `has_only_goals` is never used
+   --> src-tauri\src\sheffield_rules\ruleset.rs:135:12
+    |
+130 | impl ScoringSystem {
+    | ------------------ method in this implementation
+...
+135 |     pub fn has_only_goals(&self) -> bool {
+    |            ^^^^^^^^^^^^^^
+
+warning: struct `MatchRules` is never constructed
+   --> src-tauri\src\sheffield_rules\ruleset.rs:145:12
+    |
+145 | pub struct MatchRules {
+    |            ^^^^^^^^^^
+
+warning: function `default_match_rules` is never used
+   --> src-tauri\src\sheffield_rules\ruleset.rs:156:8
+    |
+156 | pub fn default_match_rules() -> MatchRules {
+    |        ^^^^^^^^^^^^^^^^^^^
+
+warning: function `simulate_fixture` is never used
+   --> src-tauri\src\sheffield_rules\fixtures.rs:142:8
+    |
+142 | pub fn simulate_fixture(fixture: &mut Fixture) {
+    |        ^^^^^^^^^^^^^^^^
+
+warning: function `poisson_random` is never used
+   --> src-tauri\src\sheffield_rules\fixtures.rs:156:4
+    |
+156 | fn poisson_random<R: Rng>(rng: &mut R, lambda: f64) -> u32 {
+    |    ^^^^^^^^^^^^^^
+
+warning: multiple methods are never used
+   --> src-tauri\src\sheffield_rules\game.rs:107:12
+    |
+ 49 | impl SheffieldGameState {
+    | ----------------------- methods in this implementation
+...
+107 |     pub fn get_current_ruleset(&self) -> std::sync::Arc<dyn RuleSet> {
+    |            ^^^^^^^^^^^^^^^^^^^
+...
+112 |     pub fn advance_day(&mut self) {
+    |            ^^^^^^^^^^^
+...
+122 |     pub fn get_upcoming_fixtures(&self, days: u8) -> Vec<Fixture> {
+    |            ^^^^^^^^^^^^^^^^^^^^^
+...
+146 |     pub fn simulate_match(&mut self, fixture_id: &str) -> bool {
+    |            ^^^^^^^^^^^^^^
+...
+169 |     fn update_standings_from_fixture(&mut self, fixture: &Fixture) {
+    |        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+...
+235 |     pub fn is_season_complete(&self) -> bool {
+    |            ^^^^^^^^^^^^^^^^^^
+...
+240 |     pub fn get_user_standing(&self) -> Option<LeagueStanding> {
+    |            ^^^^^^^^^^^^^^^^^
+
+warning: methods `away_points` and `summary` are never used
+  --> src-tauri\src\sheffield_rules\rouge.rs:65:12
+   |
+29 | impl RougeScore {
+   | --------------- methods in this implementation
+...
+65 |     pub fn away_points(&self) -> u16 {
+   |            ^^^^^^^^^^^
+...
+99 |     pub fn summary(&self) -> String {
+   |            ^^^^^^^
+
+warning: function `simulate_rouge_match` is never used
+   --> src-tauri\src\sheffield_rules\rouge.rs:129:8
+    |
+129 | pub fn simulate_rouge_match() -> RougeScore {
+    |        ^^^^^^^^^^^^^^^^^^^^
+
+warning: multiple fields are never read
+  --> src-tauri\src\sheffield_rules\promotion.rs:12:9
+   |
+ 8 | pub struct Standing {
+   |            -------- fields in this struct
+...
+12 |     pub played: i32,
+   |         ^^^^^^
+13 |     pub won: i32,
+   |         ^^^
+14 |     pub drawn: i32,
+   |         ^^^^^
+15 |     pub lost: i32,
+   |         ^^^^
+16 |     pub goals_for: i32,
+   |         ^^^^^^^^^
+17 |     pub goals_against: i32,
+   |         ^^^^^^^^^^^^^
+18 |     pub points: i32,
+   |         ^^^^^^
+   |
+   = note: `Standing` has derived impls for the traits `Clone` and `Debug`, but these are intentionally ignored during dead code analysis
+
+warning: function `distribute_div6_to_div5` is never used
+   --> src-tauri\src\sheffield_rules\promotion.rs:163:8
+    |
+163 | pub fn distribute_div6_to_div5(
+    |        ^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: function `distribute_div5_to_div6` is never used
+   --> src-tauri\src\sheffield_rules\promotion.rs:205:8
+    |
+205 | pub fn distribute_div5_to_div6(
+    |        ^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: struct `MatchEngine` is never constructed
+  --> src-tauri\src\season_engine\match_engine.rs:16:12
+   |
+16 | pub struct MatchEngine {
+   |            ^^^^^^^^^^^
+
+warning: struct `CompleteMatchResult` is never constructed
+  --> src-tauri\src\season_engine\match_engine.rs:27:12
+   |
+27 | pub struct CompleteMatchResult {
+   |            ^^^^^^^^^^^^^^^^^^^
+
+warning: methods `condition_str`, `pitch_condition_str`, `visibility_str`, and `description` are never used
+   --> src-tauri\src\season_engine\weather.rs:233:12
+    |
+232 | impl WeatherForecast {
+    | -------------------- methods in this implementation
+233 |     pub fn condition_str(&self) -> String {
+    |            ^^^^^^^^^^^^^
+...
+246 |     pub fn pitch_condition_str(&self) -> String {
+    |            ^^^^^^^^^^^^^^^^^^^
+...
+257 |     pub fn visibility_str(&self) -> String {
+    |            ^^^^^^^^^^^^^^
+...
+267 |     pub fn description(&self) -> String {
+    |            ^^^^^^^^^^^
+
+warning: associated items `new` and `generate_historical_description` are never used
+   --> src-tauri\src\season_engine\injuries.rs:55:12
+    |
+ 54 | impl InjurySystem {
+    | ----------------- associated items in this implementation
+ 55 |     pub fn new(base_injury_rate: f32) -> Self {
+    |            ^^^
+...
+175 |     pub fn generate_historical_description(
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: struct `RandomEventSystem` is never constructed
+  --> src-tauri\src\season_engine\events.rs:13:12
+   |
+13 | pub struct RandomEventSystem {
+   |            ^^^^^^^^^^^^^^^^^
+
+warning: struct `NewspaperEdition` is never constructed
+  --> src-tauri\src\season_engine\newspaper.rs:22:12
+   |
+22 | pub struct NewspaperEdition {
+   |            ^^^^^^^^^^^^^^^^
+
+warning: multiple associated items are never used
+   --> src-tauri\src\season_engine\newspaper.rs:61:12
+    |
+ 60 | impl NewspaperSystem {
+    | -------------------- associated items in this implementation
+ 61 |     pub fn new(publication_name: String, city: String) -> Self {
+    |            ^^^
+...
+ 69 |     pub fn generate_daily_edition(
+    |            ^^^^^^^^^^^^^^^^^^^^^^
+...
+290 |     fn generate_local_news_article(&self, event: &LocalEvent) -> Article {
+    |        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+...
+312 |     fn generate_industrial_news(&self, details: &str) -> String {
+    |        ^^^^^^^^^^^^^^^^^^^^^^^^
+...
+321 |     fn generate_civic_news(&self, details: &str) -> String {
+    |        ^^^^^^^^^^^^^^^^^^^
+...
+330 |     fn generate_transport_news(&self, details: &str) -> String {
+    |        ^^^^^^^^^^^^^^^^^^^^^^^
+...
+339 |     fn generate_weather_news(&self, details: &str) -> String {
+    |        ^^^^^^^^^^^^^^^^^^^^^
+...
+348 |     fn generate_entertainment_news(&self, details: &str) -> String {
+    |        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+...
+356 |     fn generate_crime_news(&self, details: &str) -> String {
+    |        ^^^^^^^^^^^^^^^^^^^
+...
+365 |     fn generate_society_news(&self, details: &str) -> String {
+    |        ^^^^^^^^^^^^^^^^^^^^^
+...
+374 |     fn generate_cooperative_news(&self, details: &str) -> String {
+    |        ^^^^^^^^^^^^^^^^^^^^^^^^^
+...
+385 |     fn generate_standings_article(&self, standings: &[Standing]) -> Article {
+    |        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+...
+415 |     fn generate_fixtures_article(&self, fixtures: &[Fixture]) -> Article {
+    |        ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: struct `Fixture` is never constructed
+   --> src-tauri\src\season_engine\newspaper.rs:462:12
+    |
+462 | pub struct Fixture {
+    |            ^^^^^^^
+
+warning: struct `Standing` is never constructed
+   --> src-tauri\src\season_engine\newspaper.rs:472:12
+    |
+472 | pub struct Standing {
+    |            ^^^^^^^^
+
+warning: struct `LineupSelection` is never constructed
+  --> src-tauri\src\season_engine\lineup_selection.rs:13:12
+   |
+13 | pub struct LineupSelection {
+   |            ^^^^^^^^^^^^^^^
+
+warning: struct `SelectedPlayer` is never constructed
+  --> src-tauri\src\season_engine\lineup_selection.rs:23:12
+   |
+23 | pub struct SelectedPlayer {
+   |            ^^^^^^^^^^^^^^
+
+warning: enum `Formation` is never used
+  --> src-tauri\src\season_engine\lineup_selection.rs:34:10
+   |
+34 | pub enum Formation {
+   |          ^^^^^^^^^
+
+warning: enum `MatchPosition` is never used
+  --> src-tauri\src\season_engine\lineup_selection.rs:44:10
+   |
+44 | pub enum MatchPosition {
+   |          ^^^^^^^^^^^^^
+
+warning: struct `PlayerWithFitness` is never constructed
+  --> src-tauri\src\season_engine\lineup_selection.rs:53:12
+   |
+53 | pub struct PlayerWithFitness {
+   |            ^^^^^^^^^^^^^^^^^
+
+warning: multiple associated items are never used
+   --> src-tauri\src\season_engine\lineup_selection.rs:66:18
+    |
+ 64 | impl LineupSelection {
+    | -------------------- associated items in this implementation
+ 65 |     /// Create suggested lineup for user approval
+ 66 |     pub async fn create_suggested_lineup(
+    |                  ^^^^^^^^^^^^^^^^^^^^^^^
+...
+124 |     pub async fn create_ai_lineup(
+    |                  ^^^^^^^^^^^^^^^^
+...
+167 |     async fn get_available_squad(
+    |              ^^^^^^^^^^^^^^^^^^^
+...
+198 |     fn calculate_effective_rating(player: &PlayerWithFitness) -> f32 {
+    |        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+...
+206 |     fn assign_position(formation: &Formation, index: usize) -> MatchPosition {
+    |        ^^^^^^^^^^^^^^^
+...
+259 |     pub async fn save(&self, pool: &SqlitePool) -> Result<(), String> {
+    |                  ^^^^
+...
+281 |     fn formation_str(&self) -> String {
+    |        ^^^^^^^^^^^^^
+
+warning: method `to_string` is never used
+   --> src-tauri\src\season_engine\lineup_selection.rs:294:12
+    |
+293 | impl MatchPosition {
+    | ------------------ method in this implementation
+294 |     pub fn to_string(&self) -> String {
+    |            ^^^^^^^^^
+
+warning: multiple associated items are never used
+   --> src-tauri\src\season_engine\rule_negotiation.rs:65:18
+    |
+ 63 | impl RuleNegotiation {
+    | -------------------- associated items in this implementation
+ 64 |     /// Negotiate rules based on club prestige and codes
+ 65 |     pub async fn negotiate(
+    |                  ^^^^^^^^^
+...
+120 |     async fn get_club_code(pool: &SqlitePool, club_id: &str) -> Result<FootballCode, String> {
+    |              ^^^^^^^^^^^^^
+...
+132 |     async fn get_club_prestige(pool: &SqlitePool, club_id: &str) -> Result<i32, String> {
+    |              ^^^^^^^^^^^^^^^^^
+...
+148 |     fn parse_code(code_str: &str, year: i64) -> FootballCode {
+    |        ^^^^^^^^^^
+...
+163 |     fn determine_negotiation_outcome(
+    |        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+...
+269 |     fn generate_narrative(
+    |        ^^^^^^^^^^^^^^^^^^
+...
+321 |     pub fn to_json(&self) -> String {
+    |            ^^^^^^^
+...
+326 |     pub fn rouge_enabled(&self) -> bool {
+    |            ^^^^^^^^^^^^^
+
+warning: struct `CooperativeMembership` is never constructed
+  --> src-tauri\src\season_engine\cooperative.rs:32:12
+   |
+32 | pub struct CooperativeMembership {
+   |            ^^^^^^^^^^^^^^^^^^^^^
+
+warning: struct `CooperativeTransaction` is never constructed
+  --> src-tauri\src\season_engine\cooperative.rs:44:12
+   |
+44 | pub struct CooperativeTransaction {
+   |            ^^^^^^^^^^^^^^^^^^^^^^
+
+warning: enum `TransactionType` is never used
+  --> src-tauri\src\season_engine\cooperative.rs:55:10
+   |
+55 | pub enum TransactionType {
+   |          ^^^^^^^^^^^^^^^
+
+warning: methods `register_club_membership`, `process_purchase`, and `generate_event` are never used
+   --> src-tauri\src\season_engine\cooperative.rs:178:18
+    |
+ 99 | impl CooperativeSystem {
+    | ---------------------- methods in this implementation
+...
+178 |     pub async fn register_club_membership(
+    |                  ^^^^^^^^^^^^^^^^^^^^^^^^
+...
+242 |     pub async fn process_purchase(
+    |                  ^^^^^^^^^^^^^^^^
+...
+417 |     pub fn generate_event(&self, current_date: NaiveDate) -> Option<CooperativeEvent> {
+    |            ^^^^^^^^^^^^^^
+
+warning: method `format_price` is never used
+   --> src-tauri\src\season_engine\cooperative.rs:478:12
+    |
+477 | impl ShopItem {
+    | ------------- method in this implementation
+478 |     pub fn format_price(&self) -> String {
+    |            ^^^^^^^^^^^^
+
+warning: struct `CommentaryVariant` is never constructed
+  --> src-tauri\src\match_engine\enhanced_commentary_library.rs:23:12
+   |
+23 | pub struct CommentaryVariant {
+   |            ^^^^^^^^^^^^^^^^^
+
+warning: enum `CommentaryContext` is never used
+  --> src-tauri\src\match_engine\enhanced_commentary_library.rs:48:10
+   |
+48 | pub enum CommentaryContext {
+   |          ^^^^^^^^^^^^^^^^^
+
+warning: struct `EnhancedCommentaryLibrary` is never constructed
+   --> src-tauri\src\match_engine\enhanced_commentary_library.rs:108:12
+    |
+108 | pub struct EnhancedCommentaryLibrary {
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: multiple associated functions are never used
+    --> src-tauri\src\match_engine\enhanced_commentary_library.rs:127:12
+     |
+ 126 | impl EnhancedCommentaryLibrary {
+     | ------------------------------ associated functions in this implementation
+ 127 |     pub fn new() -> Self {
+     |            ^^^
+...
+ 148 |     fn create_passing_commentary() -> Vec<CommentaryVariant> {
+     |        ^^^^^^^^^^^^^^^^^^^^^^^^^
+...
+ 284 |     fn create_tackle_commentary() -> Vec<CommentaryVariant> {
+     |        ^^^^^^^^^^^^^^^^^^^^^^^^
+...
+1927 |     fn create_shot_commentary() -> Vec<CommentaryVariant> {
+     |        ^^^^^^^^^^^^^^^^^^^^^^
+...
+1989 |     fn create_goal_commentary() -> Vec<CommentaryVariant> {
+     |        ^^^^^^^^^^^^^^^^^^^^^^
+...
+2067 |     fn create_near_miss_commentary() -> Vec<CommentaryVariant> {
+     |        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+...
+2109 |     fn create_weather_commentary() -> Vec<CommentaryVariant> {
+     |        ^^^^^^^^^^^^^^^^^^^^^^^^^
+...
+2201 |     fn create_crowd_commentary() -> Vec<CommentaryVariant> {
+     |        ^^^^^^^^^^^^^^^^^^^^^^^
+...
+2297 |     fn create_tactical_commentary() -> Vec<CommentaryVariant> {
+     |        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+...
+2396 |     fn create_injury_commentary() -> Vec<CommentaryVariant> {
+     |        ^^^^^^^^^^^^^^^^^^^^^^^^
+...
+2447 |     fn create_fatigue_commentary() -> Vec<CommentaryVariant> {
+     |        ^^^^^^^^^^^^^^^^^^^^^^^^^
+...
+2489 |     fn create_momentum_commentary() -> Vec<CommentaryVariant> {
+     |        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+...
+2651 |     fn create_formation_commentary() -> Vec<CommentaryVariant> {
+     |        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+...
+2684 |     fn create_historical_references() -> Vec<CommentaryVariant> {
+     |        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+...
+2762 |     fn create_abandonment_commentary() -> Vec<CommentaryVariant> {
+     |        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+...
+3029 |     fn create_rare_events() -> Vec<CommentaryVariant> {
+     |        ^^^^^^^^^^^^^^^^^^
+
+warning: associated function `attacking_2_2_6` is never used
+   --> src-tauri\src\match_engine\formation.rs:127:12
+    |
+ 51 | impl Formation {
+    | -------------- associated function in this implementation
+...
+127 |     pub fn attacking_2_2_6() -> Self {
+    |            ^^^^^^^^^^^^^^^
+
+warning: methods `calculate_passing_quality`, `calculate_dribbling_quality`, `calculate_defensive_quality`, `calculate_attacking_quality`, `calculate_pace_quality`, and `composure` are never used
+   --> src-tauri\src\match_engine\player_attributes.rs:155:12
+    |
+ 80 | impl PlayerAttributes {
+    | --------------------- methods in this implementation
+...
+155 |     pub fn calculate_passing_quality(&self) -> f32 {
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^
+...
+166 |     pub fn calculate_dribbling_quality(&self) -> f32 {
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+...
+176 |     pub fn calculate_defensive_quality(&self) -> f32 {
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+...
+186 |     pub fn calculate_attacking_quality(&self) -> f32 {
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+...
+197 |     pub fn calculate_pace_quality(&self) -> f32 {
+    |            ^^^^^^^^^^^^^^^^^^^^^^
+...
+205 |     pub fn composure(&self) -> i32 {
+    |            ^^^^^^^^^
+
+warning: associated functions `calculate_team_passing`, `calculate_team_defending`, and `calculate_team_attacking` are never used
+   --> src-tauri\src\match_engine\player_attributes.rs:252:12
+    |
+214 | impl TeamQualityCalculator {
+    | -------------------------- associated functions in this implementation
+...
+252 |     pub fn calculate_team_passing(players: &[PlayerAttributes]) -> f32 {
+    |            ^^^^^^^^^^^^^^^^^^^^^^
+...
+266 |     pub fn calculate_team_defending(players: &[PlayerAttributes]) -> f32 {
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^
+...
+280 |     pub fn calculate_team_attacking(players: &[PlayerAttributes]) -> f32 {
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: methods `set_home_goalkeeper_quality` and `set_away_goalkeeper_quality` are never used
+   --> src-tauri\src\match_engine\possession_engine.rs:180:12
+    |
+155 | impl PossessionEngine {
+    | --------------------- methods in this implementation
+...
+180 |     pub fn set_home_goalkeeper_quality(&mut self, gk_quality: f32) {
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+...
+184 |     pub fn set_away_goalkeeper_quality(&mut self, gk_quality: f32) {
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: method `set_weather` is never used
+   --> src-tauri\src\match_engine\match_simulator.rs:227:12
+    |
+137 | impl MatchSimulator {
+    | ------------------- method in this implementation
+...
+227 |     pub fn set_weather(&mut self, weather: &str, pitch_condition: &str) {
+    |            ^^^^^^^^^^^
+
+warning: `saturday-at-three` (bin "saturday-at-three" test) generated 118 warnings (run `cargo fix --bin "saturday-at-three" --tests` to apply 27 suggestions)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 3m 44s
+     Running unittests src\main.rs (D:\projects\Saturday at Three\target\debug\deps\saturday_at_three-9376ff4cad36deb9.exe)
+
+running 60 tests
+test database::rulesets::tests::test_get_ruleset_for_year ... ok
+test database::rulesets::tests::test_rouge_active_period ... ok
+test database::rulesets::tests::test_goal_dimensions ... ok
+test match_engine::formation::tests::test_field_zones ... ok
+test match_engine::formation::tests::test_position_distance ... ok
+test match_engine::formation::tests::test_formation_mirror ... ok
+test match_engine::formation::tests::test_pyramid_formation ... ok
+test match_engine::match_simulator::tests::test_weather_multiplier ... ok
+test match_engine::match_simulator::tests::test_match_simulator_creation ... ok
+test match_engine::player_attributes::tests::test_captain_cohesion ... ok
+test match_engine::player_attributes::tests::test_goalkeeper_quality ... ok
+test match_engine::player_attributes::tests::test_normalize_attribute ... ok
+test match_engine::player_attributes::tests::test_overall_quality ... ok
+test match_engine::player_attributes::tests::test_team_quality ... ok
+test match_engine::possession_engine::tests::test_ball_state_possession_switch ... ok
+test match_engine::possession_engine::tests::test_possession_engine_creation ... ok
+test match_engine::possession_engine::tests::test_rouge_scoring ... ok
+test match_engine::possession_engine::tests::test_simple_rng ... ok
+test season_engine::cooperative::tests::test_cooperative_founding ... ok
+test season_engine::cooperative::tests::test_dividend_calculation ... ok
+test season_engine::cooperative::tests::test_growth_simulation ... ok
+
+thread 'season_engine::cooperative::tests::test_shop_catalog' (27248) panicked at src-tauri\src\season_engine\cooperative.rs:549:9:
+assertion failed: !catalog_1868.iter().any(|item| item.name.contains("Shin Guards"))
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+test season_engine::injuries::tests::test_injury_healing ... ok
+test season_engine::cooperative::tests::test_shop_catalog ... FAILED
+test season_engine::injuries::tests::test_injury_generation ... ok
+test season_engine::local_events::tests::test_event_variety ... ok
+test season_engine::newspaper::tests::test_match_report_generation ... ok
+test season_engine::rule_negotiation::tests::test_hybrid_ruleset_creation ... ok
+test season_engine::rule_negotiation::tests::test_same_code_detection ... ok
+test season_engine::weather::tests::test_cancellation_logic ... ok
+test season_engine::local_events::tests::test_event_generation ... ok
+test season_engine::weather::tests::test_weather_generation ... ok
+test season_engine::local_events::tests::test_quiet_days_occur ... ok
+
+thread 'sheffield_rules::clubs::tests::test_all_clubs_count' (27616) panicked at src-tauri\src\sheffield_rules\clubs.rs:1740:9:
+assertion `left == right` failed
+  left: 186
+ right: 187
+test sheffield_rules::clubs::tests::test_all_clubs_count ... FAILED
+test sheffield_rules::clubs::tests::test_clubs_by_origin_type ... ok
+test sheffield_rules::clubs::tests::test_filter_by_year ... ok
+test sheffield_rules::clubs::tests::test_sheffield_fc_is_oldest ... ok
+test sheffield_rules::clubs::tests::test_wednesday_fc_founded_1867 ... ok
+test sheffield_rules::fixtures::tests::test_fixture_date_calculation ... ok
+test sheffield_rules::fixtures::tests::test_fixture_generation ... ok
+test sheffield_rules::game::tests::test_game_creation ... ok
+test sheffield_rules::game_mode::tests::test_create_game_mode_from_option ... ok
+test sheffield_rules::game_mode::tests::test_create_sheffield_league_from_option ... ok
+test sheffield_rules::game_mode::tests::test_game_mode_names ... ok
+test sheffield_rules::game_mode::tests::test_game_mode_options_count ... ok
+test sheffield_rules::game_mode::tests::test_is_final_season ... ok
+test sheffield_rules::game_mode::tests::test_sheffield_hallamshire_league_mode ... ok
+test sheffield_rules::game_mode::tests::test_total_seasons ... ok
+test sheffield_rules::promotion::tests::test_destination_divisions ... ok
+test sheffield_rules::promotion::tests::test_promotion_slots ... ok
+test sheffield_rules::rouge::tests::test_rouge_display_score ... ok
+test sheffield_rules::rouge::tests::test_rouge_match_result ... ok
+test sheffield_rules::rouge::tests::test_rouge_score_creation ... ok
+test sheffield_rules::rouge::tests::test_rouge_scoring ... ok
+test sheffield_rules::rulesets::tests::test_1867_month_routing ... ok
+test sheffield_rules::rulesets::tests::test_all_ruleset_years_count ... ok
+test sheffield_rules::rulesets::tests::test_get_ruleset_returns_correct_year ... ok
+
+thread 'sheffield_rules::rulesets::tests::test_invalid_year_panics' (440) panicked at src-tauri\src\sheffield_rules\rulesets\mod.rs:97:14:
+Year 1880 is outside Sheffield Rules period (1858-1877)
+test sheffield_rules::rulesets::tests::test_goal_dimensions ... ok
+test sheffield_rules::rulesets::tests::test_invalid_year_panics - should panic ... ok
+test sheffield_rules::rulesets::tests::test_rouge_presence ... ok
+test database::sheffield_db::tests::test_create_database ... ok
+
+failures:
+
+failures:
+    season_engine::cooperative::tests::test_shop_catalog
+    sheffield_rules::clubs::tests::test_all_clubs_count
+
+test result: FAILED. 58 passed; 2 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.02s
+
+error: test failed, to rerun pass `--bin saturday-at-three`

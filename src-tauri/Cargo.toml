@@ -1,0 +1,45 @@
+[package]
+name = "saturday-at-three"
+version = "0.1.0"
+description = "1888-89 Football League Management Simulator"
+authors = ["Your Name"]
+edition = "2021"
+rust-version = "1.70"
+default-run = "saturday-at-three"
+
+[build-dependencies]
+tauri-build = { version = "2.0", features = [] }
+
+[dependencies]
+serde_json = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+tauri = { version = "2.0", features = [] }
+tokio = { version = "1", features = ["full"] }
+sqlx = { version = "0.7", features = ["runtime-tokio-native-tls", "sqlite"] }
+fsim-core = { path = "../../football-sim/crates/fsim-core" }
+chrono = { version = "0.4", features = ["serde"] }
+uuid = { version = "1.0", features = ["v4", "serde"] }
+rand = "0.8"
+dirs = "5.0"
+csv = "1.3"
+regex = "1.12.3"
+warp = "0.3"
+
+[[bin]]
+name = "saturday-at-three"
+path = "src/main.rs"
+
+[[bin]]
+name = "wipe_challenges"
+path = "../wipe.rs"
+
+[[bin]]
+name = "init_database"
+path = "src/bin/init_database.rs"
+
+[features]
+# This feature is used for production builds where `devPath` points to the filesystem
+# and CORS is enabled; if you experience issues with the frontend, try disabling this feature
+default = [ "custom-protocol" ]
+# If you experience issues with the default headers, try disabling the `custom-protocol` feature
+custom-protocol = [ "tauri/custom-protocol" ]

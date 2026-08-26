@@ -1,0 +1,27 @@
+S1-S36: SHEFFIELD, DRONFIELD and HOPE VALLEY Post Towns
+
+Postcode district	Post town	Coverage	Local authority area(s)
+S1	SHEFFIELD	City Centre	Sheffield
+S2	SHEFFIELD	City Centre, Arbourthorne, Heeley, Highfield, Lowfield, Manor, Newfield Green, Norfolk Park, Park Hill, Wybourn	Sheffield
+S3	SHEFFIELD	City Centre, Broomhall, Burngreave, Neepsend, Netherthorpe, Pitsmoor	Sheffield
+S4	SHEFFIELD	Brightside, Burngreave, Grimesthorpe, Osgathorpe, Page Hall, Pitsmoor	Sheffield
+S5	SHEFFIELD	Ecclesfield, Firth Park, Fir Vale, Longley, Shirecliffe, Shiregreen, Southey, Parson Cross, Wincobank	Sheffield
+S6	SHEFFIELD	Bradfield, Dungworth, Fox Hill, Hillsborough, Holdworth, Hollow Meadows, Loxley, Malin Bridge, Middlewood, Stannington, Storrs, Upperthorpe, Wadsley, Wadsley Bridge, Walkley, Wisewood	Sheffield
+S7	SHEFFIELD	Beauchief, Carter Knowle, Millhouses, Nether Edge	Sheffield
+S8	SHEFFIELD	Batemoor, Beauchief, Greenhill, Jordanthorpe, Lowedges, Meadowhead, Meersbrook, Norton, Norton Lees, Woodseats	Sheffield
+S9	SHEFFIELD	Attercliffe, Brightside, Darnall, Handsworth Hill, Meadowhall, Tinsley, Wincobank	Sheffield
+S10	SHEFFIELD	Broomhall, Broomhill, Crookes, Crookesmoor, Crosspool, Endcliffe, Fulwood, Lodge Moor, Ranmoor	Sheffield
+S11	SHEFFIELD	Bents Green, Carter Knowle, Ecclesall, Greystones, Millhouses, Nether Edge, Parkhead, Ringinglow, Sharrow, Whirlow	Sheffield
+S12	SHEFFIELD	Frecheville, Gleadless, Hackenthorpe, Intake, Ridgeway	North East Derbyshire, Sheffield
+S13	SHEFFIELD	Handsworth, Normanton Spring, Orgreave, Richmond, Woodhouse, Woodthorpe	Rotherham, Sheffield
+S14	SHEFFIELD	Gleadless Valley	Sheffield
+S17	SHEFFIELD	Bradway, Dore, Totley	Sheffield
+S18	DRONFIELD	Dronfield, Holmesfield, Unstone	North East Derbyshire
+S20	SHEFFIELD	Beighton, Crystal Peaks, Halfway, Mosborough, Owlthorpe, Plumbley, Sothall, Waterthorpe, Westfield	Sheffield
+S21	SHEFFIELD	Eckington, Killamarsh, Marsh Lane, Middle Handley, Renishaw, Spinkhill, Troway, West Handley	North East Derbyshire
+S25	SHEFFIELD	Anston, Brookhouse, Dinnington, Laughton en le Morthen, Slade Hooton	Rotherham
+S26	SHEFFIELD	Aston, Aughton, Harthill, Kiveton Park, Swallownest, Todwick, Ulley, Wales, Waleswood, Woodall	Rotherham
+S32	HOPE VALLEY	Abney, Bretton, Calver, Curbar, Eyam, Foolow, Grindleford, Hathersage, Leam, Stoney Middleton	Derbyshire Dales
+S33	HOPE VALLEY	Aston, Bamford, Barber Booth, Bradwell, Castleton, Edale, Hope, Thornhill, Yorkshire Bridge	High Peak
+S35	SHEFFIELD	Chapeltown, Crane Moor, Ecclesfield, Green Moor, Grenoside, Hermit Hill, High Green, Oughtibridge, Thurgoland, Wharncliffe Side, Wortley, Worrall	Sheffield, Barnsley
+S36	SHEFFIELD	Bolsterstone, Carlecotes, Catshaw, Crow Edge, Deepcar, Dunford Bridge, Hoylandswaine, Ingbirchworth, Langsett, Midhopestones, Millhouse Green, Oxspring, Snowden Hill, Stocksbridge, Penistone, Thurlstone, Upper Midhope, Wigtwizzle	Barnsley, Sheffield

@@ -1,0 +1,133 @@
+Date,Gameweek,HomeTeam,HomeScore,AwayTeam,AwayScore,Venue,Attendance
+1888-09-08,1,Bolton Wanderers,3,Derby County,6,Pikes Lane Bolton,3000
+1888-09-08,1,Everton,2,Accrington,1,Anfield Liverpool,8000
+1888-09-08,1,Preston North End,5,Burnley,2,Deepdale Preston,5000
+1888-09-08,1,Stoke,0,West Bromwich Albion,2,Victoria Ground Stoke,4500
+1888-09-08,1,Wolverhampton Wanderers,1,Aston Villa,1,Dudley Road Wolverhampton,2500
+1888-09-15,2,Aston Villa,5,Stoke,1,Wellington Road Perry Barr Birmingham,4000
+1888-09-15,2,Blackburn Rovers,5,Accrington,5,Leamington Road Blackburn,4000
+1888-09-15,2,Bolton Wanderers,3,Burnley,4,Pikes Lane Bolton,4000
+1888-09-15,2,Derby County,1,West Bromwich Albion,2,Racecourse Ground Derby,3000
+1888-09-15,2,Everton,2,Notts County,1,Anfield Liverpool,7000
+1888-09-15,2,Wolverhampton Wanderers,0,Preston North End,4,Dudley Road Wolverhampton,5000
+1888-09-22,3,Aston Villa,2,Everton,1,Wellington Road Perry Barr Birmingham,4000
+1888-09-22,3,Blackburn Rovers,6,West Bromwich Albion,2,Leamington Road Blackburn,8000
+1888-09-22,3,Derby County,1,Accrington,1,Racecourse Ground Derby,3000
+1888-09-22,3,Preston North End,3,Bolton Wanderers,1,Deepdale Preston,5000
+1888-09-22,3,Stoke,3,Notts County,0,Victoria Ground Stoke,3000
+1888-09-22,3,Wolverhampton Wanderers,4,Burnley,1,Dudley Road Wolverhampton,4000
+1888-09-29,4,Aston Villa,9,Notts County,1,Wellington Road Perry Barr Birmingham,4000
+1888-09-29,4,Bolton Wanderers,6,Everton,2,Pikes Lane Bolton,5000
+1888-09-29,4,Derby County,2,Preston North End,3,Racecourse Ground Derby,6000
+1888-09-29,4,Stoke,2,Accrington,4,Victoria Ground Stoke,3000
+1888-09-29,4,West Bromwich Albion,4,Burnley,3,Stoney Lane West Bromwich,2100
+1888-09-29,4,Wolverhampton Wanderers,2,Blackburn Rovers,2,Dudley Road Wolverhampton,5000
+1888-10-06,5,Accrington,4,Wolverhampton Wanderers,4,Thorneyholme Road Accrington,4000
+1888-10-06,5,Burnley,4,Bolton Wanderers,1,Turf Moor Burnley,4000
+1888-10-06,5,Everton,2,Aston Villa,0,Anfield Liverpool,10000
+1888-10-06,5,Notts County,3,Blackburn Rovers,3,Trent Bridge Nottingham,4000
+1888-10-06,5,Preston North End,7,Stoke,0,Deepdale Preston,3000
+1888-10-06,5,West Bromwich Albion,5,Derby County,0,Stoney Lane West Bromwich,5500
+1888-10-13,6,Accrington,6,Derby County,2,Thorneyholme Road Accrington,3000
+1888-10-13,6,Burnley,4,Bolton Wanderers,1,Turf Moor Burnley,4000
+1888-10-13,6,Everton,2,Aston Villa,0,Anfield Liverpool,10000
+1888-10-13,6,Notts County,3,Blackburn Rovers,3,Trent Bridge Nottingham,4000
+1888-10-13,6,Preston North End,7,Stoke,0,Deepdale Preston,3000
+1888-10-13,6,West Bromwich Albion,5,Derby County,0,Stone Lane West Bromwich,5500
+1888-10-20,7,Accrington,0,Preston North End,0,Thorneyholme Road Accrington,6000
+1888-10-20,7,Blackburn Rovers,2,Wolverhampton Wanderers,2,Leamington Road Blackburn,3500
+1888-10-20,7,Bolton Wanderers,2,Aston Villa,3,Pikes Lane Bolton,8000
+1888-10-20,7,Derby County,2,Everton,4,Racecourse Ground Derby,2000
+1888-10-20,7,Stoke,4,Burnley,3,Victoria Ground Stoke,3000
+1888-10-20,7,West Bromwich Albion,4,Notts County,2,Stoney Lane West Bromwich,2000
+1888-10-27,8,Aston Villa,4,Accrington,3,Wellington Road Perry Barr Birmingham,600
+1888-10-27,8,Blackburn Rovers,5,Stoke,2,Leamington Road Blackburn,3000
+1888-10-27,8,Everton,6,Derby County,2,Anfield Liverpool,5000
+1888-10-27,8,Notts County,6,Burnley,1,Trent Bridge Nottingham,4000
+1888-10-27,8,Preston North End,5,Wolverhampton Wanderers,2,Deepdale Preston,5000
+1888-11-03,9,Burnley,1,Blackburn Rovers,7,Turf Moor Burnley,3000
+1888-11-03,9,Everton,2,Bolton Wanderers,1,Anfield Liverpool,8000
+1888-11-03,9,Notts County,0,Preston North End,7,Trent Bridge Nottingham,7000
+1888-11-03,9,Stoke,1,Aston Villa,1,Victoria Ground Stoke,4000
+1888-11-03,9,West Bromwich Albion,2,Accrington,2,Stoney Lane West Bromwich,1000
+1888-11-03,9,Wolverhampton Wanderers,4,Derby County,1,Dudley Road Wolverhampton,6000
+1888-11-05,9,West Bromwich Albion,1,Bolton Wanderers,5,Stoney Lane West Bromwich,4000
+1888-11-10,10,Blackburn Rovers,3,Everton,0,Leamington Road Blackburn,6000
+1888-11-10,10,Burnley,2,West Bromwich Albion,0,Turf Moor Burnley,5000
+1888-11-10,10,Notts County,3,Accrington,3,Trent Bridge Nottingham,8000
+1888-11-10,10,Preston North End,1,Aston Villa,1,Deepdale Preston,10000
+1888-11-10,10,Wolverhampton Wanderers,3,Bolton Wanderers,2,Dudley Road Wolverhampton,2000
+1888-11-12,10,Stoke,0,Preston North End,3,Victoria Ground Stoke,4500
+1888-11-17,11,Blackburn Rovers,5,Aston Villa,1,Leamington Road Blackburn,9500
+1888-11-17,11,Bolton Wanderers,1,West Bromwich Albion,2,Pikes Lane Bolton,3500
+1888-11-17,11,Burnley,2,Everton,2,Turf Moor Burnley,3000
+1888-11-17,11,Preston North End,2,Accrington,0,Deepdale Preston,7000
+1888-11-17,11,Stoke,0,Wolverhampton Wanderers,1,Victoria Ground Stoke,2500
+1888-11-24,12,Accrington,2,West Bromwich Albion,1,Thorneyholme Road Accrington,2000
+1888-11-24,12,Aston Villa,2,Wolverhampton Wanderers,1,Wellington Road Perry Barr Birmingham,6000
+1888-11-24,12,Bolton Wanderers,2,Preston North End,5,Pikes Lane Bolton,10000
+1888-11-24,12,Derby County,0,Blackburn Rovers,2,Racecourse Ground Derby,3000
+1888-11-24,12,Everton,3,Burnley,2,Anfield Liverpool,6000
+1888-11-24,12,Notts County,0,Stoke,3,Trent Bridge Nottingham,2000
+1888-12-01,13,Accrington,5,Burnley,1,Thorneyholme Road Accrington,3000
+1888-12-01,13,Everton,1,West Bromwich Albion,4,Anfield Liverpool,5000
+1888-12-01,13,Stoke,2,Blackburn Rovers,1,Victoria Ground Stoke,5000
+1888-12-08,14,Blackburn Rovers,4,Bolton Wanderers,4,Leamington Road Blackburn,4000
+1888-12-08,14,Burnley,2,Stoke,1,Turf Moor Burnley,3000
+1888-12-08,14,Notts County,2,Aston Villa,4,Trent Bridge Nottingham,2000
+1888-12-08,14,Preston North End,5,Derby County,0,Deepdale Preston,4000
+1888-12-08,14,Wolverhampton Wanderers,4,Accrington,0,Dudley Road Wolverhampton,3000
+1888-12-15,15,Accrington,1,Aston Villa,1,Thorneyholme Road Accrington,2000
+1888-12-15,15,Blackburn Rovers,5,Notts County,2,Leamington Road Blackburn,4000
+1888-12-15,15,Burnley,2,Preston North End,2,Turf Moor Burnley,10000
+1888-12-15,15,Stoke,0,Everton,0,Victoria Ground Stoke,1500
+1888-12-15,15,Wolverhampton Wanderers,2,West Bromwich Albion,1,Dudley Road Wolverhampton,3000
+1888-12-22,16,Aston Villa,4,Burnley,2,Wellington Road Perry Barr Birmingham,2000
+1888-12-22,16,Bolton Wanderers,4,Accrington,1,Pikes Lane Bolton,5000
+1888-12-22,16,Derby County,3,Notts County,2,Racecourse Ground Derby,2500
+1888-12-22,16,Preston North End,3,Everton,0,Deepdale Preston,8000
+1888-12-22,16,West Bromwich Albion,2,Blackburn Rovers,1,Stoney Lane West Bromwich,1000
+1888-12-22,16,Wolverhampton Wanderers,4,Stoke,1,Dudley Road Wolverhampton,3000
+1888-12-26,17,Derby County,2,Bolton Wanderers,3,Racecourse Ground Derby,3500
+1888-12-26,17,West Bromwich Albion,0,Preston North End,5,Stoney Lane West Bromwich,5150
+1888-12-29,18,Accrington,3,Everton,1,Thorneyholme Road Accrington,3000
+1888-12-29,18,Aston Villa,4,Derby County,2,Wellington Road Perry Barr Birmingham,4000
+1888-12-29,18,Bolton Wanderers,2,Wolverhampton Wanderers,1,Pikes Lane Bolton,5500
+1888-12-29,18,Burnley,1,Notts County,0,Turf Moor Burnley,2000
+1888-12-29,18,Preston North End,1,Blackburn Rovers,0,Deepdale Preston,8000
+1888-12-29,18,West Bromwich Albion,2,Stoke,0,Stoney Lane West Bromwich,4896
+1889-01-05,19,Burnley,4,Aston Villa,0,Turf Moor Burnley,6000
+1889-01-05,19,Preston North End,4,Notts County,1,Deepdale Preston,4000
+1889-01-05,19,West Bromwich Albion,1,Wolverhampton Wanderers,3,Stoney Lane West Bromwich,4000
+1889-01-12,20,Aston Villa,6,Bolton Wanderers,2,Wellington Road Perry Barr Birmingham,2000
+1889-01-12,20,Blackburn Rovers,2,Preston North End,2,Leamington Road Blackburn,10000
+1889-01-12,20,Burnley,2,Accrington,2,Turf Moor Burnley,6000
+1889-01-12,20,Derby County,3,Wolverhampton Wanderers,0,Racecourse Ground Derby,2000
+1889-01-12,20,Everton,2,Stoke,1,Anfield Liverpool,6000
+1889-01-12,20,Notts County,2,West Bromwich Albion,1,Trent Bridge Nottingham,2000
+1889-01-19,21,Accrington,0,Blackburn Rovers,2,Thorneyholme Road Accrington,4000
+1889-01-19,21,Aston Villa,2,West Bromwich Albion,0,Wellington Road Perry Barr Birmingham,10000
+1889-01-19,21,Burnley,1,Derby County,0,Turf Moor Burnley,3000
+1889-01-19,21,Everton,0,Preston North End,2,Anfield Liverpool,15000
+1889-01-19,21,Notts County,3,Wolverhampton Wanderers,0,Trent Bridge Nottingham,3000
+1889-01-19,21,Stoke,2,Bolton Wanderers,2,Victoria Ground Stoke,6000
+1889-01-26,22,Accrington,1,Notts County,2,Thorneyholme Road Accrington,5000
+1889-01-26,22,Bolton Wanderers,3,Blackburn Rovers,2,Pikes Lane Bolton,6000
+1889-01-26,22,Derby County,2,Stoke,1,Racecourse Ground Derby,2500
+1889-01-26,22,West Bromwich Albion,3,Aston Villa,3,Stoney Lane West Bromwich,8515
+1889-01-26,22,Wolverhampton Wanderers,5,Everton,0,Dudley Road Wolverhampton,3500
+1889-02-04,23,Blackburn Rovers,4,Burnley,2,Leamington Road Blackburn,2000
+1889-02-09,24,Aston Villa,0,Preston North End,2,Wellington Road Perry Barr Birmingham,10000
+1889-02-09,24,Everton,1,Wolverhampton Wanderers,2,Anfield Liverpool,6000
+1889-02-23,25,West Bromwich Albion,1,Everton,0,Stoney Lane West Bromwich,8000
+1889-02-23,25,Wolverhampton Wanderers,2,Notts County,1,Dudley Road Wolverhampton,4000
+1889-03-02,26,Derby County,1,Burnley,0,Racecourse Ground Derby,3000
+1889-03-05,27,Notts County,0,Bolton Wanderers,4,Castle Cricket Ground Nottingham,3000
+1889-03-09,28,Bolton Wanderers,7,Notts County,3,Pikes Lane Bolton,3000
+1889-03-09,28,Derby County,5,Aston Villa,2,Racecourse Ground Derby,3000
+1889-03-16,29,Notts County,3,Derby County,5,Castle Cricket Ground Nottingham,5000
+1889-03-23,30,Accrington,2,Bolton Wanderers,3,Thorneyholme Road Accrington,3000
+1889-03-30,31,Everton,3,Blackburn Rovers,1,Anfield Liverpool,7000
+1889-04-06,32,Stoke,1,Derby County,1,Victoria Ground Stoke,4000
+1889-04-15,33,Blackburn Rovers,3,Derby County,0,Leamington Road Blackburn,4000
+1889-04-20,34,Accrington,2,Stoke,0,Thorneyholme Road Accrington,2000

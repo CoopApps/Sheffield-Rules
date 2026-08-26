@@ -1,0 +1,14 @@
+{
+  "name": "Modern",
+  "version": "1.0.0",
+  "description": "Contemporary asset pack with modern UI aesthetics",
+  "author": "Saturday at Three",
+  "era": "modern",
+  "metadata": {
+    "color_scheme": "contemporary",
+    "photography_style": "modern_portraits",
+    "ui_style": "flat_design",
+    "font_primary": "Segoe UI",
+    "font_secondary": "Arial"
+  }
+}

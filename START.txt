@@ -1,0 +1,185 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║                                                                            ║
+║              WELCOME TO SATURDAY AT THREE                                 ║
+║         1888-89 Football League Management Simulator                      ║
+║                                                                            ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+WINDOWS USERS: Start Here!
+─────────────────────────
+
+1. Double-click: install-frontend.bat
+2. Double-click: start-backend.bat
+3. Double-click: start-frontend.bat
+4. Open: http://127.0.0.1:5173
+
+For detailed instructions, read: README_WINDOWS.md
+
+═══════════════════════════════════════════════════════════════════════════
+
+WHAT'S IN THIS PROJECT:
+
+✓ Rust Backend - Asset management + REST API
+✓ React Frontend - Game UI with generic components
+✓ Pluggable Assets - Different visual themes
+✓ Ready to Extend - Clean architecture for adding features
+✓ Complete Documentation - Step-by-step guides
+
+═══════════════════════════════════════════════════════════════════════════
+
+QUICK FILES GUIDE:
+
+Setup & Installation:
+  README_WINDOWS.md         <- Windows setup guide (start here!)
+  WINDOWS_QUICK_START.txt   <- Visual 3-step guide
+  install-frontend.bat      <- Install npm packages (run once)
+  start-backend.bat         <- Start backend server
+  start-frontend.bat        <- Start frontend server
+
+Documentation:
+  START_HERE.md             <- Project overview
+  QUICKSTART.md             <- 5-minute guide
+  README.md                 <- Full project docs
+  ARCHITECTURE.md           <- Technical details
+  NEXT_STEPS.md             <- Development roadmap
+  QUICK_REFERENCE.md        <- Handy lookup table
+
+═══════════════════════════════════════════════════════════════════════════
+
+FIRST TIME? READ THIS ORDER:
+
+1. This file (START.txt) - You're reading it!
+2. README_WINDOWS.md - Setup instructions
+3. START_HERE.md - Understand what you have
+4. Run the game! - See it in action
+5. QUICKSTART.md - Next steps
+
+═══════════════════════════════════════════════════════════════════════════
+
+RUNNING THE GAME:
+
+Three steps (Windows):
+  1. Double-click install-frontend.bat (wait for "SUCCESS!")
+  2. Double-click start-backend.bat (keep open)
+  3. Double-click start-frontend.bat (keep open)
+  4. Browser: http://127.0.0.1:5173
+
+Manual (Command Prompt):
+  cd "D:\projects\Saturday at Three"
+
+  Terminal 1:
+    cd backend
+    cargo run
+
+  Terminal 2:
+    cd frontend
+    "C:\Program Files\nodejs\npm" install
+    "C:\Program Files\nodejs\npm" run dev
+
+  Browser:
+    http://127.0.0.1:5173
+
+═══════════════════════════════════════════════════════════════════════════
+
+WHAT THE GAME LOOKS LIKE NOW:
+
+✓ Sidebar with navigation buttons
+✓ Dashboard screen with news and player highlights
+✓ Matchday screen with live match display
+✓ Theme selector (choose different visual styles)
+✓ Responsive design
+✓ Asset system (pluggable graphics)
+
+═══════════════════════════════════════════════════════════════════════════
+
+WHAT YOU CAN BUILD NEXT:
+
+Phase 1: Visual Polish
+  → Add player photos to assets/packs/historical_1888/player_portraits/
+  → Add stadium backgrounds
+  → See them render instantly
+
+Phase 2: More Screens
+  → Squad Management (player list, formations)
+  → League Standings (table, fixtures)
+  → Pre-Match Setup (team selection, tactics)
+
+Phase 3: Game Features
+  → Season progression (gameweek by gameweek)
+  → Match simulation integration
+  → Financial management
+  → Player development
+
+═══════════════════════════════════════════════════════════════════════════
+
+TECHNOLOGY:
+
+Backend:    Rust 1.70+ with Actix-web and Tokio
+Frontend:   React 18 with TypeScript and Vite
+Styling:    CSS3 with theme variables
+Database:   Ready for SQLx + SQLite
+
+═══════════════════════════════════════════════════════════════════════════
+
+PROJECT STRUCTURE:
+
+D:\projects\Saturday at Three\
+├── backend/          Rust source code (AssetManager, REST API)
+├── frontend/         React source code (UI, components, screens)
+├── assets/           Game graphics (organized by theme)
+├── Documentation/    All the *.md files
+└── Batch files/      install-frontend.bat, start-backend.bat, etc.
+
+═══════════════════════════════════════════════════════════════════════════
+
+REQUIREMENTS:
+
+✓ Rust 1.70+ (already installed)
+✓ Node.js 18+ (already installed)
+✓ npm (comes with Node.js, already installed)
+✓ A web browser (you have one)
+
+═══════════════════════════════════════════════════════════════════════════
+
+NEXT ACTIONS:
+
+Windows Users:
+  → Read: README_WINDOWS.md
+  → Run: install-frontend.bat
+  → Then: start-backend.bat and start-frontend.bat
+
+Mac/Linux Users:
+  → Read: README.md
+  → Run: backend with cargo run
+  → Run: frontend with npm install && npm run dev
+
+═══════════════════════════════════════════════════════════════════════════
+
+HELP & TROUBLESHOOTING:
+
+Read these in order:
+  1. README_WINDOWS.md (or README.md for Mac/Linux)
+  2. QUICKSTART.md
+  3. Check the error in the command window
+  4. Look in WINDOWS_SETUP.md (or WINDOWS_SETUP.md) for solutions
+
+═══════════════════════════════════════════════════════════════════════════
+
+SUMMARY:
+
+You have a complete, production-ready foundation with:
+  ✓ Working backend server
+  ✓ Working frontend UI
+  ✓ Asset management system
+  ✓ REST API endpoints
+  ✓ Comprehensive documentation
+
+Now it's time to add features and content!
+
+═══════════════════════════════════════════════════════════════════════════
+
+Ready? Open: README_WINDOWS.md
+
+Let's build an amazing game! ⚽🎮
+
+═══════════════════════════════════════════════════════════════════════════

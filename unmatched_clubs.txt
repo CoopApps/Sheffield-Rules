@@ -1,0 +1,140 @@
+UNMATCHED CLUBS (109 clubs without location/postcode data)
+
+These clubs couldn't be automatically matched to Sheffield postcodes because:
+- Ground location is unknown/uncertain
+- Location is a street name or building not in postcode.txt
+- Location is outside Sheffield (e.g., Dronfield)
+- Location is too specific (e.g., works names, church names)
+
+CLUBS NEEDING MANUAL REVIEW:
+
+Cemetery Road Church FC (1861) - played at Hunters Bar
+Milton FC (1862) - played at Cremorne Gardens, London Road
+Howard Hill Steel Bank FC (1862) - Met in Howard Hotel, Howard Road
+St George FC (1862) - From St George's Church, Broad Lane
+United Norfolk FC (1862) - Origins uncertain
+Tudor FC (1863) - [no location data]
+W & H Hutchinson's FC (1863) - [no location data]
+Hemsworth FC (1863) - [no location data]
+Garrick FC (1866) - played at East Bank
+Wellington FC (1866) - played at Hounsfield Park near Bramall Lane
+Exchange FC (1867) - played at Hallam's Farm, now Hyde Park Flats
+Tapton FC (1867) - Based at Tapton Hall
+Dronfield FC (1868) - played at Bagley's Field, Dronfield [OUTSIDE SHEFFIELD]
+Parkwood Springs FC (1869) - played at Parkwood Springs Recreation Ground
+Brincliffe FC (1868) - played at Cherry Tree Farm, near Union pub
+Stannington FC (1868) - unknown ground location
+Redhill FC (1868) - played at Winter Street, near Weston Park
+Sheffield Norfolk FC (1869) - [no location data]
+St Vincent's (1869) - from Solly Street – played at Queens Ground
+Lockwood Brothers FC (1870) - played at Hunters Bar, oldest works club
+Talbot FC (1870) - played at Norfolk Road
+Sheffield United Gymnastic Club (1870) - [no location data]
+Ecclesall College FC (1870) - [no location data]
+Sheffield Grammar School FC (1870) - [no location data]
+Surrey Catholic Club (1870) - played at The Farm, now Sheffield College
+Attercliffe (Christ Church) (1870) - played at The Old Forge Ground, Shirland Lane
+Crookes FC (1870) - played at Lydgate Lane
+Bankers / Thursday (1870) - played at Hunters Bar
+Engineers FC (1870) - Played at Endcliffe Crescent
+Attercliffe Zion FC (1871) - from Zion Church, Attercliffe
+Exchange Brewery FC (1871) - played at Fox Street, Pye Bank
+All Saints Night School FC (1871) - Hall Carr Lane, now Carwood Road
+Millhouses FC (1871) - possibly played at The Old Corn Mill
+Pye Bank FC (1872) - played at Fox Street, Pye Bank
+Brightside FC (1872) - played at Blackburn Meadows, Blackburn
+Norfolk Works FC (1872) - Played at Newhall Athletic Ground
+Eldon St Jude's FC (1872) - played at Brocco Bank
+Garden Street FC (1872) - From Garden Street, Hollins Crog
+Owlerton FC (1873) - played at Rawson's Meadow Ground, Owlerton
+Ecclesfield FC (1873) - played at Fairham's Crog
+Artillery & Hallamshire FC (1873) - Based at Endcliffe Hall (later just Artillery)
+Cherrytree FC (1873) - Possibly from Cherrytree Orphanage
+Victoria (Burngreave) FC (1873) - played at Hall Carr Lane, east end
+West End FC (1873) - played at Hunters Bar, from West End Hotel
+Bury's & Co FC (1873) - From Regents Works, now Wicks
+Beadshaw's (Baltic) FC (1873) - From Baltic Works, Attercliffe
+Weston FC (1873) - Possibly played at Weston Hall
+Wardsend Steel Works FC (1873) - From Wardsend Steel Works, Herries Road
+Owlerton Reform FC (1873) - From Wesleyan Reform Church on Borough Road, Owlerton
+Roebuck FC (1873) - Roebuck pub, played at East Bank
+Tennant Brothers & Co FC (1873) - club from Exchange Brewery
+Clifford FC (1873) - From Clifford House, Psalter Lane
+Birley FC (1873) - played at Hollinsend, Birley
+105th Regiment (1874) - Joined FA in 1874. Played in FA Cup 1875 to 1879. Nickname was 'Light Bobs'
+Hollinsend FC (1874) - [no location data]
+Handsworth FC (1874) - Ground unknown
+Atlas FC (1874) - formed from Atlas Works, East End
+Ecclesall FC (1874) - played at Hunters Bar
+Nether FC (1874) - played at Eastborne
+Broomfield FC (1874) - From Broomfield area of Sheffield
+St Mark's FC (1874) - From St Mark's Broomfield Road
+Tabernacle FC (1874) - From Tabernacle Church, Albert Terrace Road
+St Michaels Angels FC (1874) - From St Michael's Church, Parkwood Springs
+Kenwood FC (1874) - played at a ground off Abbeydale Road
+Port Mahon FC (1874) - From Port Mahon, now Ponderosa
+St Luke's FC (1874) - From St Luke's, Park (behind Midland Station)
+Shrewsbury Road FC (1874) - Road of same name behind Midland station
+Park United FC (1874) - From Park area
+White Star FC (1874) - Location origins unknown
+Good Intent FC (1874) - Likely played at Truro Ground on Matilda Street
+Mount Tabor FC (1874) - Church in city centre, now demolished
+St Jude's FC (1874) - From St Jude's church on Cupola Street
+Wingfield & Rowbotham FC (1874) - From their works on Tenter Street
+Young Broomhall FC (1874) - Ground location unknown
+L. O. Good Templars FC (1874) - Origins unknown
+Brookes & Crookes FC (1874) - From Brook Steel Works, Brook Lane
+Mill Sands FC (1874) - From Mill Sands Works, now Vulcan House
+Fenton Brothers FC (1874) - From their works, East Street, Park
+Firth's FC (1874) - From Thomas Firth & Son's, east end
+Atkin Brothers FC (1874) - From Truro Works, Matilda Street
+Unitarian FC (1874) - From Unitarian Church, Norfolk Street
+Sheaf FC (1874) - From Sheaf Works next to Victoria station
+Stag Home FC (1875) - Origins uncertain, possibly played at Kenwood
+Langsett Road FC (1875) - Likely played at Queens Ground
+Wheatman & Smith's FC (1875) - From Russell Works, near Kelham Island
+Netherthorpe FC (1875) - Ground location uncertain
+St Peter's FC (1875) - From the now Cathedral, played at Myrtle Road
+Dronfield United FC (1875) - From Dronfield [OUTSIDE SHEFFIELD]
+Brown Bailey & Dixon FC (1875) - From their Attercliffe works, Leeds Road
+Crookes United FC (1875) - Likely played at Lydgate Lane
+Hutton & Son FC (1875) - From Hutton's Works, West Street
+Malinda Works FC (1875) - From Malinda Works, Malinda Street
+Parkwood Juniors FC (1875) - From Parkwood Springs
+Washington FC (1875) - From Wostenholm's Washington Works, Washington Street, poss played at Cobden View
+St Paul's FC (1875) - From St Paul's church, now Peace Gardens
+MS&L Loco FC (1875) - Ground location unknown
+Dronfield Free Church FC (1875) - From Dronfield United Methodist Free Church [OUTSIDE SHEFFIELD]
+Atlantic (Juniors) FC (1875) - played at Cobden View
+Carbrook United FC (1875) - played behind St Bartholomew's Church Carbrook
+R Sorby & Son FC (1875) - From Kangaroo Works, Trafalgar Street
+Upperthorpe FC (1875) - played at Cobden View
+Otley & Son's FC (1875) - From Meadow Works Shalesmoor
+Weston Rovers FC (1875) - Uncertain origins
+J Round & Son FC (1875) - From Tudor Works, Tudor Street, now Tudor Sq
+Dronfield Baptists FC (1875) - From Dronfield Baptist Church [OUTSIDE SHEFFIELD]
+Pye Bank Free Church FC (1875) - Pye Bank, Sheffield
+Dronfield Independent FC (1875) - From Independent Chapel Lea Road, Dronfield [OUTSIDE SHEFFIELD]
+Kenyon's Works FC (1875) - From Kenyon Works, Hollins Crog
+Clough House FC (1875) - Likely from The Clough area near Bramall Lane
+Trinity FC (1875) - From George Butler & Co, Trinity Works
+Wostenholm FC (1875) - club from Washington Works
+Chester Brothers FC (1875) - From West End Cutlery Works West Street
+Heeley United FC (1875) - Unknown origins
+Minerva FC (1875) - From their works on John Street
+
+====================
+POTENTIAL MATCHES THAT COULD BE ADDED:
+(These require manual verification and postcode lookup)
+
+- Hunters Bar area clubs → likely S11
+- East Bank area clubs → likely S2 or S9
+- Pye Bank area clubs → likely S3
+- Parkwood Springs clubs → likely S3
+- Attercliffe clubs → likely S9
+- Crookes/Lydgate Lane clubs → likely S10
+- Dronfield clubs → S18 (Derbyshire, not Sheffield)
+- Millhouses → likely S7 or S8
+- Weston area → likely S10
+- Brincliffe → likely S11
+- Cobden View → likely S10

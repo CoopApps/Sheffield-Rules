@@ -1,0 +1,163 @@
+// Use this code to update the import_matches function in init_database.rs
+
+async fn import_matches(pool: &SqlitePool) -> Result<(), Box<dyn std::error::Error>> {
+    println!("Setting up match fixtures for 1888-89 season...");
+
+    // 1888-89 season matches with historical dates and results
+    let matches = vec![
+        (1, "bolton", "derby", "1888-09-08", 3, 6),
+        (1, "everton", "accrington", "1888-09-08", 2, 1),
+        (1, "preston", "burnley", "1888-09-08", 5, 2),
+        (1, "stoke", "wolves", "1888-09-08", 0, 2),
+        (1, "wolves", "aston-villa", "1888-09-08", 1, 1),
+        (2, "aston-villa", "stoke", "1888-09-15", 5, 1),
+        (2, "blackburn", "accrington", "1888-09-15", 5, 5),
+        (2, "bolton", "burnley", "1888-09-15", 3, 4),
+        (2, "derby", "wolves", "1888-09-15", 1, 2),
+        (2, "everton", "notts-county", "1888-09-15", 2, 1),
+        (2, "wolves", "preston", "1888-09-15", 0, 4),
+        (3, "aston-villa", "everton", "1888-09-22", 2, 1),
+        (3, "blackburn", "wolves", "1888-09-22", 6, 2),
+        (3, "derby", "accrington", "1888-09-22", 1, 1),
+        (3, "preston", "bolton", "1888-09-22", 3, 1),
+        (3, "stoke", "notts-county", "1888-09-22", 3, 0),
+        (3, "wolves", "burnley", "1888-09-22", 4, 1),
+        (4, "aston-villa", "notts-county", "1888-09-29", 9, 1),
+        (4, "bolton", "everton", "1888-09-29", 6, 2),
+        (4, "derby", "preston", "1888-09-29", 2, 3),
+        (4, "stoke", "accrington", "1888-09-29", 2, 4),
+        (4, "wolves", "blackburn", "1888-09-29", 2, 2),
+        (4, "wolves", "burnley", "1888-09-29", 2, 2),
+        (5, "accrington", "wolves", "1888-10-06", 4, 4),
+        (5, "burnley", "bolton", "1888-10-06", 4, 1),
+        (5, "everton", "aston-villa", "1888-10-06", 2, 0),
+        (5, "notts-county", "blackburn", "1888-10-06", 3, 3),
+        (5, "preston", "stoke", "1888-10-06", 7, 0),
+        (5, "wolves", "derby", "1888-10-06", 5, 0),
+        (6, "accrington", "derby", "1888-10-13", 6, 2),
+        (6, "burnley", "bolton", "1888-10-13", 4, 1),
+        (6, "everton", "aston-villa", "1888-10-13", 2, 0),
+        (6, "notts-county", "blackburn", "1888-10-13", 3, 3),
+        (6, "preston", "stoke", "1888-10-13", 7, 0),
+        (6, "wolves", "derby", "1888-10-13", 5, 0),
+        (7, "accrington", "preston", "1888-10-20", 0, 0),
+        (7, "blackburn", "wolves", "1888-10-20", 2, 2),
+        (7, "bolton", "aston-villa", "1888-10-20", 2, 3),
+        (7, "derby", "everton", "1888-10-20", 2, 4),
+        (7, "stoke", "burnley", "1888-10-20", 4, 3),
+        (7, "wolves", "notts-county", "1888-10-20", 4, 2),
+        (8, "aston-villa", "accrington", "1888-10-27", 4, 3),
+        (8, "blackburn", "stoke", "1888-10-27", 5, 2),
+        (8, "everton", "derby", "1888-10-27", 6, 2),
+        (8, "notts-county", "burnley", "1888-10-27", 6, 1),
+        (8, "preston", "wolves", "1888-10-27", 5, 2),
+        (9, "burnley", "blackburn", "1888-11-03", 1, 7),
+        (9, "everton", "bolton", "1888-11-03", 2, 1),
+        (9, "notts-county", "preston", "1888-11-03", 0, 7),
+        (9, "stoke", "aston-villa", "1888-11-03", 1, 1),
+        (9, "wolves", "accrington", "1888-11-03", 2, 2),
+        (9, "wolves", "derby", "1888-11-03", 4, 1),
+        (9, "wolves", "bolton", "1888-11-05", 1, 5),
+        (10, "blackburn", "everton", "1888-11-10", 3, 0),
+        (10, "burnley", "wolves", "1888-11-10", 2, 0),
+        (10, "notts-county", "accrington", "1888-11-10", 3, 3),
+        (10, "preston", "aston-villa", "1888-11-10", 1, 1),
+        (10, "wolves", "bolton", "1888-11-10", 3, 2),
+        (10, "stoke", "preston", "1888-11-12", 0, 3),
+        (11, "blackburn", "aston-villa", "1888-11-17", 5, 1),
+        (11, "bolton", "wolves", "1888-11-17", 1, 2),
+        (11, "burnley", "everton", "1888-11-17", 2, 2),
+        (11, "preston", "accrington", "1888-11-17", 2, 0),
+        (11, "stoke", "wolves", "1888-11-17", 0, 1),
+        (12, "accrington", "wolves", "1888-11-24", 2, 1),
+        (12, "aston-villa", "wolves", "1888-11-24", 2, 1),
+        (12, "bolton", "preston", "1888-11-24", 2, 5),
+        (12, "derby", "blackburn", "1888-11-24", 0, 2),
+        (12, "everton", "burnley", "1888-11-24", 3, 2),
+        (12, "notts-county", "stoke", "1888-11-24", 0, 3),
+        (13, "accrington", "burnley", "1888-12-01", 5, 1),
+        (13, "everton", "wolves", "1888-12-01", 1, 4),
+        (13, "stoke", "blackburn", "1888-12-01", 2, 1),
+        (14, "blackburn", "bolton", "1888-12-08", 4, 4),
+        (14, "burnley", "stoke", "1888-12-08", 2, 1),
+        (14, "notts-county", "aston-villa", "1888-12-08", 2, 4),
+        (14, "preston", "derby", "1888-12-08", 5, 0),
+        (14, "wolves", "accrington", "1888-12-08", 4, 0),
+        (15, "accrington", "aston-villa", "1888-12-15", 1, 1),
+        (15, "blackburn", "notts-county", "1888-12-15", 5, 2),
+        (15, "burnley", "preston", "1888-12-15", 2, 2),
+        (15, "stoke", "everton", "1888-12-15", 0, 0),
+        (15, "wolves", "wolves", "1888-12-15", 2, 1),
+        (16, "aston-villa", "burnley", "1888-12-22", 4, 2),
+        (16, "bolton", "accrington", "1888-12-22", 4, 1),
+        (16, "derby", "notts-county", "1888-12-22", 3, 2),
+        (16, "preston", "everton", "1888-12-22", 3, 0),
+        (16, "wolves", "blackburn", "1888-12-22", 2, 1),
+        (16, "wolves", "stoke", "1888-12-22", 4, 1),
+        (17, "derby", "bolton", "1888-12-26", 2, 3),
+        (17, "wolves", "preston", "1888-12-26", 0, 5),
+        (18, "accrington", "everton", "1888-12-29", 3, 1),
+        (18, "aston-villa", "derby", "1888-12-29", 4, 2),
+        (18, "bolton", "wolves", "1888-12-29", 2, 1),
+        (18, "burnley", "notts-county", "1888-12-29", 1, 0),
+        (18, "preston", "blackburn", "1888-12-29", 1, 0),
+        (18, "wolves", "stoke", "1888-12-29", 2, 0),
+        (19, "burnley", "aston-villa", "1889-01-05", 4, 0),
+        (19, "preston", "notts-county", "1889-01-05", 4, 1),
+        (19, "wolves", "wolves", "1889-01-05", 1, 3),
+        (20, "aston-villa", "bolton", "1889-01-12", 6, 2),
+        (20, "blackburn", "preston", "1889-01-12", 2, 2),
+        (20, "burnley", "accrington", "1889-01-12", 2, 2),
+        (20, "derby", "wolves", "1889-01-12", 3, 0),
+        (20, "everton", "stoke", "1889-01-12", 2, 1),
+        (20, "notts-county", "wolves", "1889-01-12", 2, 1),
+        (21, "accrington", "blackburn", "1889-01-19", 0, 2),
+        (21, "aston-villa", "wolves", "1889-01-19", 2, 0),
+        (21, "burnley", "derby", "1889-01-19", 1, 0),
+        (21, "everton", "preston", "1889-01-19", 0, 2),
+        (21, "notts-county", "wolves", "1889-01-19", 3, 0),
+        (21, "stoke", "bolton", "1889-01-19", 2, 2),
+        (22, "accrington", "notts-county", "1889-01-26", 1, 2),
+        (22, "bolton", "blackburn", "1889-01-26", 3, 2),
+        (22, "derby", "stoke", "1889-01-26", 2, 1),
+        (22, "wolves", "aston-villa", "1889-01-26", 3, 3),
+        (22, "wolves", "everton", "1889-01-26", 5, 0),
+        (23, "blackburn", "burnley", "1889-02-04", 4, 2),
+        (24, "aston-villa", "preston", "1889-02-09", 0, 2),
+        (24, "everton", "wolves", "1889-02-09", 1, 2),
+        (25, "wolves", "everton", "1889-02-23", 1, 0),
+        (25, "wolves", "notts-county", "1889-02-23", 2, 1),
+        (26, "derby", "burnley", "1889-03-02", 1, 0),
+        (27, "notts-county", "bolton", "1889-03-05", 0, 4),
+        (28, "bolton", "notts-county", "1889-03-09", 7, 3),
+        (28, "derby", "aston-villa", "1889-03-09", 5, 2),
+        (29, "notts-county", "derby", "1889-03-16", 3, 5),
+        (30, "accrington", "bolton", "1889-03-23", 2, 3),
+        (31, "everton", "blackburn", "1889-03-30", 3, 1),
+        (32, "stoke", "derby", "1889-04-06", 1, 1),
+        (33, "blackburn", "derby", "1889-04-15", 3, 0),
+        (34, "accrington", "stoke", "1889-04-20", 2, 0),
+    ];
+
+    for (gameweek, home, away, date, home_score, away_score) in matches {
+        let id = format!("{}-{}-{}", gameweek, home, away);
+        sqlx::query(
+            "INSERT OR IGNORE INTO matches (id, gameweek, season, home_club_id, away_club_id, home_score, away_score, match_date, played)
+             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)"
+        )
+        .bind(&id)
+        .bind(gameweek)
+        .bind(1888)
+        .bind(home)
+        .bind(away)
+        .bind(home_score)
+        .bind(away_score)
+        .bind(date)
+        .bind(1)  // Mark as played since we have final scores
+        .execute(pool)
+        .await?;
+    }
+
+    println!("✓ {} matches imported with historical dates", matches.len());
+    Ok(())
+}

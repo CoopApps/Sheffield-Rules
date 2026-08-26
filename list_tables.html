@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>List Tables</title>
+    <script type="module">
+        import { invoke } from 'https://cdn.jsdelivr.net/npm/@tauri-apps/api@2/core';
+
+        window.addEventListener('DOMContentLoaded', async () => {
+            try {
+                const tables = await invoke('db_list_all_tables');
+                document.getElementById('output').innerHTML = '<h2>Tables in Sheffield1867.db:</h2><pre>' +
+                    JSON.stringify(tables, null, 2) + '</pre>';
+            } catch (error) {
+                document.getElementById('output').innerHTML = '<h2>Error:</h2><pre>' + error + '</pre>';
+            }
+        });
+    </script>
+</head>
+<body>
+    <div id="output">Loading...</div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+Confidence,Sheffield Name,Genealogy Name,Surname Similarity %,Reason,Sheffield Parish,Sheffield Relation,Genealogy Address,Genealogy Profession,Genealogy Spouse,Genealogy Relation
+"EXACT","John Gbossg Webster","John Webster",100.0,"First name + exact surname match","St Philip","Head","36Court,WentworthStreet","Scisson Scale Manufacturer Employing 2 Female & 1 Boy","Harriett Webster","Head"
+"EXACT","Alfred Shepherd","Alfred Shepherd Shepherd",100.0,"First name + exact surname match","St Philip","Head","Crookes,MoorRoad","Auctioneer","Harriett Shepherd","Head"
+"EXACT","Alfred Shepherd","Alfred Shepherd Shepherd",100.0,"First name + exact surname match","St Philip","Head","Crookes,MoorRoad","Auctioneer","Harriett Shepherd","Head"
+"EXACT","Charles H Milner","Charles Henry Milner",100.0,"First name + exact surname match","Dyers Hill","Head","216/218,SouthStreet","Metal Smith & Grocer","Sarah A Milner","Head"
+"EXACT","Charles H Milner","Charles Henry Milner",100.0,"First name + exact surname match","Dyers Hill","Head","216/218,SouthStreet","Metal Smith & Grocer","Sarah A Milner","Head"
+"EXACT","William Hy Carnal","William Carnal",100.0,"First name + exact surname match","Pitsmoor","Head","18,BrassinghamRoad","Railway Spring Smith","","Head"
+"EXACT","John Foxcroft Lomas","John Lomas",100.0,"First name + exact surname match","Holy Trinity","Head","91,BackBramberStreet","Engine Driver","","Boarder"
+"HIGH","Thomas Markell","Thomas E Markwell",87.5,"First name + very similar surname (88% similar: "markell" vs "markwell")","Crookes","Head","MountPisyah,93,CrookesRoad","Archetect","","Head"
+"HIGH","Thomas Markell","Thomas E Markwell",87.5,"First name + very similar surname (88% similar: "markell" vs "markwell")","Crookes","Head","MountPisyah,93,CrookesRoad","Archetect","","Head"
+"HIGH","William Hy Carnal","William Carnall",85.7,"First name + very similar surname (86% similar: "carnal" vs "carnall")","Pitsmoor","Head","7,Hill,Top","Steel Convertor","","Head"

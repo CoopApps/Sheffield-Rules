@@ -1,0 +1,22 @@
+{
+  "main_league": {
+    "div-1": [
+      {"id": "sheffield-fc", "name": "Sheffield FC", "reserve_suffix": "Reserves"},
+      {"id": "hallam-fc", "name": "Hallam FC", "reserve_suffix": "Juniors"},
+      {"id": "norfolk-fc", "name": "Norfolk FC", "reserve_suffix": "B"},
+      {"id": "cemetery-road-church-fc", "name": "Cemetery Road Church FC", "reserve_suffix": "Reserves"},
+      {"id": "norton-fc", "name": "Norton FC", "reserve_suffix": "Second XI"},
+      {"id": "pitsmoor-fc", "name": "Pitsmoor FC", "reserve_suffix": "Juniors"},
+      {"id": "fir-vale-fc", "name": "Fir Vale FC", "reserve_suffix": "B"},
+      {"id": "heeley-christ-church-fc", "name": "Heeley Christ Church FC", "reserve_suffix": "Reserves"},
+      {"id": "mackenzie-fc", "name": "Mackenzie FC", "reserve_suffix": "Development"},
+      {"id": "milton-fc", "name": "Milton FC", "reserve_suffix": "Juniors"},
+      {"id": "howard-hill-steel-bank-fc", "name": "Howard Hill Steel Bank FC", "reserve_suffix": "B"},
+      {"id": "ranmoor-fc", "name": "Ranmoor FC", "reserve_suffix": "Reserves"},
+      {"id": "st-george-fc", "name": "St George FC", "reserve_suffix": "Second XI"},
+      {"id": "st-stephen-fc", "name": "St Stephen FC", "reserve_suffix": "B"},
+      {"id": "united-norfolk-fc", "name": "United Norfolk FC", "reserve_suffix": "Reserves"},
+      {"id": "crabtree-fc", "name": "Crabtree FC", "reserve_suffix": "Juniors"}
+    ]
+  }
+}

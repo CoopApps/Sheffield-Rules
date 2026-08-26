@@ -1,0 +1,66 @@
+# Rust
+backend/target/
+src-tauri/target/
+target/
+backend/Cargo.lock
+src-tauri/Cargo.lock
+**/*.rs.bk
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+node_modules/
+dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+
+# Tauri
+src-tauri/.cargo/
+.tauri/
+
+# SQLite databases (kept local — regenerable from scripts)
+*.db
+*.db-journal
+*.sqlite
+*.sqlite-journal
+
+# Large SQL dumps (>50MB, regenerable from raw CSV imports)
+import_genealogy.sql
+import_geni.sql
+
+# SQLite binaries and archive
+sqlite3.exe
+sqldiff.exe
+sqlite3_analyzer.exe
+sqlite3_rsync.exe
+sqlite-tools.zip
+
+# Raw feed folders (already imported into Sheffield1867.db)
+Genealogy/
+Geni/
+Sheffield Census/
+Whites/
+tg_*.csv
+
+# Local backup / working folders
+hold/
+backups/
+
+# Windows / stray junk
+nul
+y.year

@@ -1,0 +1,109 @@
+CLUBS THAT SHOULD HAVE MATCHED BUT DIDN'T
+================================================
+
+These clubs have area names mentioned in postcode.txt but weren't matched.
+Here's why the matching algorithm failed:
+
+CLUBS WITH "STANNINGTON" - S6 includes "Stannington"
+---------------------------------------------------
+❌ Stannington FC (1868) - "unknown ground location"
+WHY IT FAILED: Location text is "unknown ground location" - doesn't contain "Stannington"
+
+CLUBS WITH "ATTERCLIFFE" - S9 includes "Attercliffe"
+---------------------------------------------------
+❌ Attercliffe (Christ Church) (1870) - "played at The Old Forge Ground, Shirland Lane"
+WHY IT FAILED: Location says "Shirland Lane" not "Attercliffe"
+
+❌ Attercliffe Zion FC (1871) - "from Zion Church, Attercliffe"
+WHY IT FAILED: Contains "Attercliffe" but uses capital A - let me check...
+
+❌ Beadshaw's (Baltic) FC (1873) - "From Baltic Works, Attercliffe"
+WHY IT FAILED: Contains "Attercliffe" - should have matched!
+
+❌ Brown Bailey & Dixon FC (1875) - "From their Attercliffe works, Leeds Road"
+WHY IT FAILED: Contains "Attercliffe" - should have matched!
+
+CLUBS WITH "UPPERTHORPE" - S6 includes "Upperthorpe"
+---------------------------------------------------
+❌ Upperthorpe FC (1875) - "played at Cobden View"
+WHY IT FAILED: Location says "Cobden View" not "Upperthorpe"
+
+CLUBS WITH "CROOKES" - S10 includes "Crookes"
+---------------------------------------------------
+❌ Crookes FC (1870) - "played at Lydgate Lane"
+WHY IT FAILED: Location says "Lydgate Lane" not "Crookes"
+
+❌ Crookes United FC (1875) - "Likely played at Lydgate Lane"
+WHY IT FAILED: Location says "Lydgate Lane" not "Crookes"
+
+CLUBS WITH "MILLHOUSES" - S7 includes "Millhouses"
+---------------------------------------------------
+❌ Millhouses FC (1871) - "possibly played at The Old Corn Mill"
+WHY IT FAILED: Location says "Old Corn Mill" not "Millhouses"
+
+CLUBS WITH "BURNGREAVE" - S3 includes "Burngreave"
+---------------------------------------------------
+❌ Victoria (Burngreave) FC (1873) - "played at Hall Carr Lane, east end"
+WHY IT FAILED: Location says "Hall Carr Lane" not "Burngreave"
+
+CLUBS WITH "HANDSWORTH" - S13 includes "Handsworth"
+---------------------------------------------------
+❌ Handsworth FC (1874) - "Ground unknown"
+WHY IT FAILED: Location text is "Ground unknown"
+
+CLUBS WITH "ENDCLIFFE" - S10 includes "Endcliffe"
+---------------------------------------------------
+❌ Engineers FC (1870) - "Played at Endcliffe Crescent"
+WHY IT FAILED: Contains "Endcliffe" with different spelling - "Endcliffe" in postcode but "Endcliffe" in location
+
+❌ Artillery & Hallamshire FC (1873) - "Based at Endcliffe Hall (later just Artillery)"
+WHY IT FAILED: Contains "Endcliffe" - spelling variation
+
+CLUBS WITH "DRONFIELD" - S18 includes "Dronfield"
+---------------------------------------------------
+❌ Dronfield FC (1868) - "played at Bagley's Field, Dronfield"
+WHY IT FAILED: Contains "Dronfield" with different spelling? Let me check...
+
+❌ Dronfield United FC (1875) - "From Dronfield"
+WHY IT FAILED: Contains "Dronfield" - should match!
+
+❌ Dronfield Free Church FC (1875) - "From Dronfield United Methodist Free Church"
+WHY IT FAILED: Contains "Dronfield" - should match!
+
+❌ Dronfield Baptists FC (1875) - "From Dronfield Baptist Church"
+WHY IT FAILED: Contains "Dronfield" - should match!
+
+❌ Dronfield Independent FC (1875) - "From Independent Chapel Lea Road, Dronfield"
+WHY IT FAILED: Contains "Dronfield" - should match!
+
+CLUBS WITH "BROOMHILL" - S10 includes "Broomhill"
+---------------------------------------------------
+✅ York FC (1861) - MATCHED correctly to "Broomhill", S10
+
+CLUBS WITH "BROOMHALL" - S3 includes "Broomhall", S10 includes "Broomhall"
+---------------------------------------------------
+✅ Broomhall FC (1863) - MATCHED correctly
+✅ St Silas FC (1874) - MATCHED correctly
+
+CLUBS WITH "WINCOBANK" - S5 and S9 both include "Wincobank"
+---------------------------------------------------
+✅ Wincobank FC (1875) - MATCHED correctly to "Wincobank", S9
+
+
+ANALYSIS OF WHY MATCHING FAILED:
+================================
+
+1. **Spelling variations**: "Endcliffe" vs "Endcliffe" (with ligature)
+2. **Case sensitivity**: All locations converted to lowercase, so should work
+3. **Partial matches**: Location descriptions mention street names instead of area names
+4. **Missing data**: Some clubs say "unknown" or blank location
+
+ACTUALLY SHOULD HAVE MATCHED:
+- Attercliffe Zion FC - has "attercliffe" in lowercase
+- Beadshaw's (Baltic) FC - has "attercliffe" in lowercase
+- Brown Bailey & Dixon FC - has "attercliffe" in lowercase
+- Engineers FC - has "endcliffe" (spelling variation?)
+- Artillery & Hallamshire FC - has "endcliffe"
+- All 5 Dronfield clubs - have "dronfield" in lowercase
+
+Let me check if these are actually in the location mapping...

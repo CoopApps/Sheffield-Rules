@@ -1,0 +1,9 @@
+[package]
+name = "delete_challenges"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+
+[dependencies]
+rusqlite = { version = "0.31", features = ["bundled"] }

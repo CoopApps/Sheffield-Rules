@@ -1,0 +1,14 @@
+{
+  "name": "Historical 1888",
+  "version": "1.0.0",
+  "description": "Period-accurate asset pack featuring 1888-89 Football League aesthetics",
+  "author": "Saturday at Three",
+  "era": "1888",
+  "metadata": {
+    "color_scheme": "sepia_authentic",
+    "photography_style": "historical_photographs",
+    "ui_style": "victorian_industrial",
+    "font_primary": "Georgia",
+    "font_secondary": "Courier New"
+  }
+}

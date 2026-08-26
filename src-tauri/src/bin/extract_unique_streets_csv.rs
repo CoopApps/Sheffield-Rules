@@ -1,0 +1,168 @@
+use csv::ReaderBuilder;
+use std::collections::{HashMap, HashSet};
+use std::fs;
+
+#[derive(Debug, serde::Deserialize)]
+struct GenealogyRecord {
+    #[serde(rename = "Name")]
+    name: String,
+    #[serde(rename = "Spouse")]
+    spouse: String,
+    #[serde(rename = "Address")]
+    address: String,
+    #[serde(rename = "Parish")]
+    parish: String,
+    #[serde(rename = "Area")]
+    area: String,
+    #[serde(rename = "Age")]
+    age: String,
+    #[serde(rename = "Born Approx")]
+    born_approx: String,
+    #[serde(rename = "Birth Place")]
+    birth_place: String,
+    #[serde(rename = "Relation")]
+    relation: String,
+    #[serde(rename = "Profession")]
+    profession: String,
+}
+
+fn extract_street_name(address: &str) -> String {
+    let trimmed = address.trim();
+
+    // Try to extract leading number
+    let mut chars = trimmed.chars();
+    let mut number_str = String::new();
+
+    while let Some(c) = chars.next() {
+        if c.is_numeric() {
+            number_str.push(c);
+        } else if !number_str.is_empty() {
+            break;
+        }
+    }
+
+    // Extract street name (everything after the number)
+    let street = if !number_str.is_empty() {
+        trimmed[number_str.len()..].trim().to_lowercase()
+    } else {
+        trimmed.to_lowercase()
+    };
+
+    street
+}
+
+fn main() -> Result<(), Box<dyn std::error::Error>> {
+    let genealogy_dir = "D:/projects/Saturday at Three/genealogy";
+    let output_file = "D:/projects/Saturday at Three/unique_streets.csv";
+
+    println!("========================================");
+    println!("EXTRACTING UNIQUE STREET ADDRESSES TO CSV");
+    println!("========================================\n");
+
+    // Get all CSV files
+    let mut csv_files: Vec<_> = fs::read_dir(genealogy_dir)?
+        .filter_map(|entry| {
+            let entry = entry.ok()?;
+            let path = entry.path();
+            if path.extension()? == "csv" {
+                Some(path)
+            } else {
+                None
+            }
+        })
+        .collect();
+
+    csv_files.sort();
+
+    println!("Found {} CSV files\n", csv_files.len());
+
+    // Map of street name -> (example person name, example full address)
+    let mut street_examples: HashMap<String, (String, String)> = HashMap::new();
+    let mut unique_streets: HashSet<String> = HashSet::new();
+
+    let mut total_records = 0;
+    let mut file_count = 0;
+    let total_files = csv_files.len();
+
+    for csv_path in csv_files {
+        file_count += 1;
+        let filename = csv_path.file_name().unwrap().to_string_lossy();
+
+        if file_count % 100 == 0 {
+            println!("Processing file {}/{}: {} (found {} unique streets so far)",
+                     file_count, total_files, filename, unique_streets.len());
+        }
+
+        let mut reader = match ReaderBuilder::new()
+            .has_headers(true)
+            .from_path(&csv_path) {
+                Ok(r) => r,
+                Err(e) => {
+                    eprintln!("ERROR: Failed to open file {}: {}", filename, e);
+                    continue;
+                }
+            };
+
+        for result in reader.deserialize::<GenealogyRecord>() {
+            match result {
+                Ok(record) => {
+                    total_records += 1;
+
+                    if !record.address.is_empty() {
+                        let street = extract_street_name(&record.address);
+
+                        if !street.is_empty() {
+                            // Only add if we haven't seen this street before
+                            if !unique_streets.contains(&street) {
+                                unique_streets.insert(street.clone());
+                                street_examples.insert(street, (record.name.clone(), record.address.clone()));
+                            }
+                        }
+                    }
+                }
+                Err(e) => {
+                    eprintln!("Warning: Failed to parse record in {}: {}", filename, e);
+                }
+            }
+        }
+    }
+
+    println!("\n========================================");
+    println!("EXTRACTION COMPLETE");
+    println!("========================================");
+    println!("Files processed: {}", file_count);
+    println!("Total records read: {}", total_records);
+    println!("Unique streets found: {}\n", unique_streets.len());
+
+    // Sort streets alphabetically
+    let mut sorted_streets: Vec<String> = unique_streets.into_iter().collect();
+    sorted_streets.sort();
+
+    // Write to CSV file
+    println!("Writing to CSV file: {}\n", output_file);
+    let mut wtr = csv::Writer::from_path(output_file)?;
+
+    // Write header with 5 columns
+    wtr.write_record(&["Example Person", "Address Part 1", "Address Part 2", "Address Part 3", "Full Address"])?;
+
+    // Write each street with its example
+    for street in sorted_streets.iter() {
+        if let Some((example_person, example_address)) = street_examples.get(street) {
+            // Split address by commas
+            let parts: Vec<&str> = example_address.split(',').map(|s| s.trim()).collect();
+
+            let part1 = parts.get(0).copied().unwrap_or("");
+            let part2 = parts.get(1).copied().unwrap_or("");
+            let part3 = parts.get(2).copied().unwrap_or("");
+
+            wtr.write_record(&[example_person.as_str(), part1, part2, part3, example_address.as_str()])?;
+        }
+    }
+
+    wtr.flush()?;
+
+    println!("✓ Successfully wrote {} unique streets to CSV", sorted_streets.len());
+    println!("Output file: D:/projects/Saturday at Three/unique_streets.csv");
+
+    Ok(())
+}

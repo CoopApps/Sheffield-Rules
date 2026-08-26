@@ -1,0 +1,1405 @@
+/// Sheffield Rules Historical Clubs (1857-1875)
+///
+/// Contains all known Sheffield-area football clubs that played Sheffield Rules,
+/// with their founding years and ground information.
+
+use serde::{Deserialize, Serialize};
+
+#[derive(Debug, Clone, Serialize, Deserialize)]
+pub struct SheffieldClub {
+    pub id: String,
+    pub name: String,
+    pub founded_year: u32,
+    pub ground: String,
+    pub origin: String, // "Church", "Works", "Hotel", "School", "Park", "Other"
+    pub city: Option<String>, // Area name (e.g., "Loxley", "Heeley", "Dore")
+    pub region: Option<String>, // Sheffield postcode (e.g., "S6", "S2", "S17")
+}
+
+/// Get all Sheffield clubs with optional year filtering
+/// If year is provided, only returns clubs founded by that year
+pub fn get_sheffield_clubs(filter_by_year: Option<u32>) -> Vec<SheffieldClub> {
+    let all_clubs = all_clubs_data();
+
+    match filter_by_year {
+        Some(year) => all_clubs.into_iter()
+            .filter(|club| club.founded_year <= year)
+            .collect(),
+        None => all_clubs,
+    }
+}
+
+/// Get clubs available at the start of a game
+/// - Historical Timeline: only clubs formed by 1857
+/// - Ahistorical & Historical From Year: clubs formed by that year
+pub fn get_clubs_for_game_mode(start_year: u32) -> Vec<SheffieldClub> {
+    get_sheffield_clubs(Some(start_year))
+}
+
+fn all_clubs_data() -> Vec<SheffieldClub> {
+    vec![
+        // 1857-1858
+        SheffieldClub {
+            id: "sheffield-fc".to_string(),
+            name: "Sheffield FC".to_string(),
+            founded_year: 1857,
+            ground: "East Bank".to_string(),
+            origin: "Other".to_string(),
+        },
+        // 1860
+        SheffieldClub {
+            id: "hallam-fc".to_string(),
+            name: "Hallam FC".to_string(),
+            founded_year: 1860,
+            ground: "Sandygate".to_string(),
+            origin: "Other".to_string(),
+        },
+        // 1861
+        SheffieldClub {
+            id: "norfolk-fc".to_string(),
+            name: "Norfolk FC".to_string(),
+            founded_year: 1861,
+            ground: "Norfolk Park".to_string(),
+            origin: "Hotel".to_string(),
+        },
+        SheffieldClub {
+            id: "cemetery-road-church-fc".to_string(),
+            name: "Cemetery Road Church FC".to_string(),
+            founded_year: 1861,
+            ground: "Hunters Bar".to_string(),
+            origin: "Church".to_string(),
+        },
+        SheffieldClub {
+            id: "york-fc".to_string(),
+            name: "York FC".to_string(),
+            founded_year: 1861,
+            ground: "Endcliffe Cricket Ground".to_string(),
+            origin: "Hotel".to_string(),
+        },
+        SheffieldClub {
+            id: "norton-fc".to_string(),
+            name: "Norton FC".to_string(),
+            founded_year: 1861,
+            ground: "Oaks Park".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "pitsmoor-fc".to_string(),
+            name: "Pitsmoor FC".to_string(),
+            founded_year: 1861,
+            ground: "Pitsmoor CC".to_string(),
+            origin: "Other".to_string(),
+        },
+        // 1862
+        SheffieldClub {
+            id: "fir-vale-fc".to_string(),
+            name: "Fir Vale FC".to_string(),
+            founded_year: 1862,
+            ground: "Pitsmoor CC".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "heeley-christ-church-fc".to_string(),
+            name: "Heeley Christ Church FC".to_string(),
+            founded_year: 1862,
+            ground: "Meersbrook Park".to_string(),
+            origin: "Church".to_string(),
+        },
+        SheffieldClub {
+            id: "mackenzie-fc".to_string(),
+            name: "Mackenzie FC".to_string(),
+            founded_year: 1862,
+            ground: "Myrtle Road, Heeley".to_string(),
+            origin: "Works".to_string(),
+        },
+        SheffieldClub {
+            id: "milton-fc".to_string(),
+            name: "Milton FC".to_string(),
+            founded_year: 1862,
+            ground: "Cremorne Gardens, London Road".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "howard-hill-steel-bank-fc".to_string(),
+            name: "Howard Hill Steel Bank FC".to_string(),
+            founded_year: 1862,
+            ground: "Howard Hotel, Howard Road".to_string(),
+            origin: "Works".to_string(),
+        },
+        SheffieldClub {
+            id: "ranmoor-fc".to_string(),
+            name: "Ranmoor FC".to_string(),
+            founded_year: 1862,
+            ground: "Ranmoor".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "st-george-fc".to_string(),
+            name: "St George FC".to_string(),
+            founded_year: 1862,
+            ground: "Broad Lane".to_string(),
+            origin: "Church".to_string(),
+        },
+        SheffieldClub {
+            id: "st-stephen-fc".to_string(),
+            name: "St Stephen FC".to_string(),
+            founded_year: 1862,
+            ground: "Crookes".to_string(),
+            origin: "Church".to_string(),
+        },
+        SheffieldClub {
+            id: "united-norfolk-fc".to_string(),
+            name: "United Norfolk FC".to_string(),
+            founded_year: 1862,
+            ground: "Unknown".to_string(),
+            origin: "Other".to_string(),
+        },
+        // 1863
+        SheffieldClub {
+            id: "crabtree-fc".to_string(),
+            name: "Crabtree FC".to_string(),
+            founded_year: 1863,
+            ground: "Fir Vale area".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "broomhall-fc".to_string(),
+            name: "Broomhall FC".to_string(),
+            founded_year: 1863,
+            ground: "Ecclesall Road".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "tudor-fc".to_string(),
+            name: "Tudor FC".to_string(),
+            founded_year: 1863,
+            ground: "Unknown".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "w-h-hutchinson-fc".to_string(),
+            name: "W & H Hutchinson's FC".to_string(),
+            founded_year: 1863,
+            ground: "Unknown".to_string(),
+            origin: "Works".to_string(),
+        },
+        SheffieldClub {
+            id: "hemsworth-fc".to_string(),
+            name: "Hemsworth FC".to_string(),
+            founded_year: 1863,
+            ground: "Unknown".to_string(),
+            origin: "Other".to_string(),
+        },
+        // 1865
+        SheffieldClub {
+            id: "united-mechanics".to_string(),
+            name: "United Mechanics".to_string(),
+            founded_year: 1865,
+            ground: "Norfolk Park".to_string(),
+            origin: "Works".to_string(),
+        },
+        // 1866
+        SheffieldClub {
+            id: "garrick-fc".to_string(),
+            name: "Garrick FC".to_string(),
+            founded_year: 1866,
+            ground: "East Bank".to_string(),
+            origin: "Hotel".to_string(),
+        },
+        SheffieldClub {
+            id: "wellington-fc".to_string(),
+            name: "Wellington FC".to_string(),
+            founded_year: 1866,
+            ground: "Hounsfield Park".to_string(),
+            origin: "Hotel".to_string(),
+        },
+        SheffieldClub {
+            id: "loxley-fc".to_string(),
+            name: "Loxley FC".to_string(),
+            founded_year: 1866,
+            ground: "The Rodney Inn, Loxley".to_string(),
+            origin: "Hotel".to_string(),
+        },
+        // 1867
+        SheffieldClub {
+            id: "wednesday-fc".to_string(),
+            name: "Wednesday FC".to_string(),
+            founded_year: 1867,
+            ground: "Highfields, now Hillsborough".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "exchange-fc".to_string(),
+            name: "Exchange FC".to_string(),
+            founded_year: 1867,
+            ground: "Hallam's Farm, now Hyde Park Flats".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "dore-fc".to_string(),
+            name: "Dore FC".to_string(),
+            founded_year: 1867,
+            ground: "The Devonshire Arms, Dore".to_string(),
+            origin: "Hotel".to_string(),
+        },
+        SheffieldClub {
+            id: "tapton-fc".to_string(),
+            name: "Tapton FC".to_string(),
+            founded_year: 1867,
+            ground: "Tapton Hall".to_string(),
+            origin: "Other".to_string(),
+        },
+        // 1868
+        SheffieldClub {
+            id: "dronfield-fc".to_string(),
+            name: "Dronfield FC".to_string(),
+            founded_year: 1868,
+            ground: "Bagley's Field, Dronfield".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "brincliffe-fc".to_string(),
+            name: "Brincliffe FC".to_string(),
+            founded_year: 1868,
+            ground: "Cherry Tree Farm".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "hanover-united-fc".to_string(),
+            name: "Hanover United FC".to_string(),
+            founded_year: 1868,
+            ground: "Crookes".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "stannington-fc".to_string(),
+            name: "Stannington FC".to_string(),
+            founded_year: 1868,
+            ground: "Unknown".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "redhill-fc".to_string(),
+            name: "Redhill FC".to_string(),
+            founded_year: 1868,
+            ground: "Winter Street, near Weston Park".to_string(),
+            origin: "Other".to_string(),
+        },
+        // 1869
+        SheffieldClub {
+            id: "parkwood-springs-fc".to_string(),
+            name: "Parkwood Springs FC".to_string(),
+            founded_year: 1869,
+            ground: "Parkwood Springs Recreation Ground".to_string(),
+            origin: "Park".to_string(),
+        },
+        SheffieldClub {
+            id: "oxford-fc".to_string(),
+            name: "Oxford FC".to_string(),
+            founded_year: 1869,
+            ground: "Ecclesall Road".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "totley-fc".to_string(),
+            name: "Totley FC".to_string(),
+            founded_year: 1869,
+            ground: "Cross Scythes Inn, Totley".to_string(),
+            origin: "Hotel".to_string(),
+        },
+        SheffieldClub {
+            id: "sheffield-norfolk-fc".to_string(),
+            name: "Sheffield Norfolk FC".to_string(),
+            founded_year: 1869,
+            ground: "Unknown".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "st-vincent-fc".to_string(),
+            name: "St Vincent's".to_string(),
+            founded_year: 1869,
+            ground: "Queens Ground".to_string(),
+            origin: "Church".to_string(),
+        },
+        SheffieldClub {
+            id: "st-james-church-fc".to_string(),
+            name: "St James Church FC".to_string(),
+            founded_year: 1869,
+            ground: "Norton Lees Lane".to_string(),
+            origin: "Church".to_string(),
+        },
+        // 1870
+        SheffieldClub {
+            id: "lockwood-brothers-fc".to_string(),
+            name: "Lockwood Brothers FC".to_string(),
+            founded_year: 1870,
+            ground: "Hunters Bar".to_string(),
+            origin: "Works".to_string(),
+        },
+        SheffieldClub {
+            id: "talbot-fc".to_string(),
+            name: "Talbot FC".to_string(),
+            founded_year: 1870,
+            ground: "Norfolk Road".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "sheffield-united-gymnastic-club".to_string(),
+            name: "Sheffield United Gymnastic Club".to_string(),
+            founded_year: 1870,
+            ground: "Unknown".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "ecclesall-college-fc".to_string(),
+            name: "Ecclesall College FC".to_string(),
+            founded_year: 1870,
+            ground: "Unknown".to_string(),
+            origin: "School".to_string(),
+        },
+        SheffieldClub {
+            id: "sheffield-grammar-school-fc".to_string(),
+            name: "Sheffield Grammar School FC".to_string(),
+            founded_year: 1870,
+            ground: "Unknown".to_string(),
+            origin: "School".to_string(),
+        },
+        SheffieldClub {
+            id: "surrey-catholic-club".to_string(),
+            name: "Surrey Catholic Club".to_string(),
+            founded_year: 1870,
+            ground: "The Farm, now Sheffield College".to_string(),
+            origin: "Church".to_string(),
+        },
+        SheffieldClub {
+            id: "attercliffe-christ-church".to_string(),
+            name: "Attercliffe (Christ Church)".to_string(),
+            founded_year: 1870,
+            ground: "The Old Forge Ground, Shirland Lane".to_string(),
+            origin: "Church".to_string(),
+        },
+        SheffieldClub {
+            id: "walkey-new-connexion-fc".to_string(),
+            name: "Walkey New Connexion FC".to_string(),
+            founded_year: 1870,
+            ground: "Queens Ground, Hillsborough".to_string(),
+            origin: "Church".to_string(),
+        },
+        SheffieldClub {
+            id: "crookes-fc".to_string(),
+            name: "Crookes FC".to_string(),
+            founded_year: 1870,
+            ground: "Lydgate Lane".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "bankers-thursday".to_string(),
+            name: "Bankers / Thursday".to_string(),
+            founded_year: 1870,
+            ground: "Hunters Bar".to_string(),
+            origin: "Works".to_string(),
+        },
+        SheffieldClub {
+            id: "alliance-fc".to_string(),
+            name: "Alliance FC".to_string(),
+            founded_year: 1870,
+            ground: "Norfolk Park".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "perseverance-fc".to_string(),
+            name: "Perseverance FC".to_string(),
+            founded_year: 1870,
+            ground: "Norfolk Park".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "gleadless-fc".to_string(),
+            name: "Gleadless FC".to_string(),
+            founded_year: 1870,
+            ground: "Charnock Hall, Gleadless".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "engineers-fc".to_string(),
+            name: "Engineers FC".to_string(),
+            founded_year: 1870,
+            ground: "Endcliffe Crescent".to_string(),
+            origin: "Works".to_string(),
+        },
+        // 1871
+        SheffieldClub {
+            id: "attercliffe-zion-fc".to_string(),
+            name: "Attercliffe Zion FC".to_string(),
+            founded_year: 1871,
+            ground: "Unknown".to_string(),
+            origin: "Church".to_string(),
+        },
+        SheffieldClub {
+            id: "grimesthorpe-fc".to_string(),
+            name: "Grimesthorpe FC".to_string(),
+            founded_year: 1871,
+            ground: "Victoria Hotel, Grimesthorpe".to_string(),
+            origin: "Hotel".to_string(),
+        },
+        SheffieldClub {
+            id: "exchange-brewery-fc".to_string(),
+            name: "Exchange Brewery FC".to_string(),
+            founded_year: 1871,
+            ground: "Fox Street, Pye Bank".to_string(),
+            origin: "Works".to_string(),
+        },
+        SheffieldClub {
+            id: "all-saints-night-school-fc".to_string(),
+            name: "All Saints Night School FC".to_string(),
+            founded_year: 1871,
+            ground: "Hall Carr Lane, now Carwood Road".to_string(),
+            origin: "School".to_string(),
+        },
+        SheffieldClub {
+            id: "millhouses-fc".to_string(),
+            name: "Millhouses FC".to_string(),
+            founded_year: 1871,
+            ground: "The Old Corn Mill".to_string(),
+            origin: "Other".to_string(),
+        },
+        // 1872
+        SheffieldClub {
+            id: "albion-fc".to_string(),
+            name: "Albion FC".to_string(),
+            founded_year: 1872,
+            ground: "Ecclesall Road".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "pye-bank-fc".to_string(),
+            name: "Pye Bank FC".to_string(),
+            founded_year: 1872,
+            ground: "Fox Street, Pye Bank".to_string(),
+            origin: "Works".to_string(),
+        },
+        SheffieldClub {
+            id: "brightside-fc".to_string(),
+            name: "Brightside FC".to_string(),
+            founded_year: 1872,
+            ground: "Blackburn Meadows".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "norfolk-works-fc".to_string(),
+            name: "Norfolk Works FC".to_string(),
+            founded_year: 1872,
+            ground: "Newhall Athletic Ground".to_string(),
+            origin: "Works".to_string(),
+        },
+        SheffieldClub {
+            id: "eldon-st-jude-fc".to_string(),
+            name: "Eldon St Jude's FC".to_string(),
+            founded_year: 1872,
+            ground: "Brocco Bank".to_string(),
+            origin: "Church".to_string(),
+        },
+        SheffieldClub {
+            id: "garden-street-fc".to_string(),
+            name: "Garden Street FC".to_string(),
+            founded_year: 1872,
+            ground: "Hollins Crog".to_string(),
+            origin: "Other".to_string(),
+        },
+        // 1873 - Major expansion
+        SheffieldClub {
+            id: "sharrow-rangers-fc".to_string(),
+            name: "Sharrow Rangers FC".to_string(),
+            founded_year: 1873,
+            ground: "Crescent Road, Sharrow".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "endcliffe-fc".to_string(),
+            name: "Endcliffe FC".to_string(),
+            founded_year: 1873,
+            ground: "Ecclesall Road".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "owlerton-fc".to_string(),
+            name: "Owlerton FC".to_string(),
+            founded_year: 1873,
+            ground: "Rawson's Meadow Ground, Owlerton".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "ecclesfield-fc".to_string(),
+            name: "Ecclesfield FC".to_string(),
+            founded_year: 1873,
+            ground: "Fairham's Crog".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "philadelphia-fc".to_string(),
+            name: "Philadelphia FC".to_string(),
+            founded_year: 1873,
+            ground: "Queens Ground, Hillsborough".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "artillery-hallamshire-fc".to_string(),
+            name: "Artillery & Hallamshire FC".to_string(),
+            founded_year: 1873,
+            ground: "Endcliffe Hall".to_string(),
+            origin: "Military".to_string(),
+        },
+        SheffieldClub {
+            id: "intake-fc".to_string(),
+            name: "Intake FC".to_string(),
+            founded_year: 1873,
+            ground: "Intake".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "cherrytree-fc".to_string(),
+            name: "Cherrytree FC".to_string(),
+            founded_year: 1873,
+            ground: "Cherrytree Orphanage".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "victoria-burngreave-fc".to_string(),
+            name: "Victoria (Burngreave) FC".to_string(),
+            founded_year: 1873,
+            ground: "Hall Carr Lane".to_string(),
+            origin: "Hotel".to_string(),
+        },
+        SheffieldClub {
+            id: "west-end-fc".to_string(),
+            name: "West End FC".to_string(),
+            founded_year: 1873,
+            ground: "Hunters Bar".to_string(),
+            origin: "Hotel".to_string(),
+        },
+        SheffieldClub {
+            id: "bury-co-fc".to_string(),
+            name: "Bury's & Co FC".to_string(),
+            founded_year: 1873,
+            ground: "Regents Works".to_string(),
+            origin: "Works".to_string(),
+        },
+        SheffieldClub {
+            id: "beadshaw-baltic-fc".to_string(),
+            name: "Beadshaw's (Baltic) FC".to_string(),
+            founded_year: 1873,
+            ground: "Baltic Works, Attercliffe".to_string(),
+            origin: "Works".to_string(),
+        },
+        SheffieldClub {
+            id: "oughtibridge-fc".to_string(),
+            name: "Oughtibridge FC".to_string(),
+            founded_year: 1873,
+            ground: "Oughtibridge".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "weston-fc".to_string(),
+            name: "Weston FC".to_string(),
+            founded_year: 1873,
+            ground: "Weston Hall".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "wardsend-steel-works-fc".to_string(),
+            name: "Wardsend Steel Works FC".to_string(),
+            founded_year: 1873,
+            ground: "Herries Road".to_string(),
+            origin: "Works".to_string(),
+        },
+        SheffieldClub {
+            id: "owlerton-reform-fc".to_string(),
+            name: "Owlerton Reform FC".to_string(),
+            founded_year: 1873,
+            ground: "Borough Road, Owlerton".to_string(),
+            origin: "Church".to_string(),
+        },
+        SheffieldClub {
+            id: "roebuck-fc".to_string(),
+            name: "Roebuck FC".to_string(),
+            founded_year: 1873,
+            ground: "East Bank".to_string(),
+            origin: "Hotel".to_string(),
+        },
+        SheffieldClub {
+            id: "tennant-brothers-fc".to_string(),
+            name: "Tennant Brothers & Co FC".to_string(),
+            founded_year: 1873,
+            ground: "Exchange Brewery".to_string(),
+            origin: "Works".to_string(),
+        },
+        SheffieldClub {
+            id: "crosspool-rangers-fc".to_string(),
+            name: "Crosspool Rangers FC".to_string(),
+            founded_year: 1873,
+            ground: "Crosspool".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "clifford-fc".to_string(),
+            name: "Clifford FC".to_string(),
+            founded_year: 1873,
+            ground: "Psalter Lane".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "grange-fc".to_string(),
+            name: "Grange FC".to_string(),
+            founded_year: 1873,
+            ground: "Intake Road".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "pitsmoor-coal-company-fc".to_string(),
+            name: "Pitsmoor Coal Company FC".to_string(),
+            founded_year: 1873,
+            ground: "Brightside".to_string(),
+            origin: "Works".to_string(),
+        },
+        SheffieldClub {
+            id: "boston-street-fc".to_string(),
+            name: "Boston Street FC".to_string(),
+            founded_year: 1873,
+            ground: "Heeley".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "birley-fc".to_string(),
+            name: "Birley FC".to_string(),
+            founded_year: 1873,
+            ground: "Hollinsend".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "sherrington-fc".to_string(),
+            name: "Sherrington FC".to_string(),
+            founded_year: 1873,
+            ground: "Norfolk Park".to_string(),
+            origin: "Other".to_string(),
+        },
+        // 1874 - Continued expansion
+        SheffieldClub {
+            id: "105th-regiment".to_string(),
+            name: "105th Regiment".to_string(),
+            founded_year: 1874,
+            ground: "Unknown".to_string(),
+            origin: "Military".to_string(),
+        },
+        SheffieldClub {
+            id: "carnforth-fc".to_string(),
+            name: "Carnforth FC".to_string(),
+            founded_year: 1874,
+            ground: "Sharrow Vale Road".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "hollinsend-fc".to_string(),
+            name: "Hollinsend FC".to_string(),
+            founded_year: 1874,
+            ground: "Unknown".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "providence-fc".to_string(),
+            name: "Providence FC".to_string(),
+            founded_year: 1874,
+            ground: "Park Hill Lane".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "handsworth-fc".to_string(),
+            name: "Handsworth FC".to_string(),
+            founded_year: 1874,
+            ground: "Unknown".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "woodseats-fc".to_string(),
+            name: "Woodseats FC".to_string(),
+            founded_year: 1874,
+            ground: "Woodseats Hotel".to_string(),
+            origin: "Hotel".to_string(),
+        },
+        SheffieldClub {
+            id: "oak-street-fc".to_string(),
+            name: "Oak Street FC".to_string(),
+            founded_year: 1874,
+            ground: "Heeley".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "atlas-fc".to_string(),
+            name: "Atlas FC".to_string(),
+            founded_year: 1874,
+            ground: "East End".to_string(),
+            origin: "Works".to_string(),
+        },
+        SheffieldClub {
+            id: "ecclesall-fc".to_string(),
+            name: "Ecclesall FC".to_string(),
+            founded_year: 1874,
+            ground: "Hunters Bar".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "nether-fc".to_string(),
+            name: "Nether FC".to_string(),
+            founded_year: 1874,
+            ground: "Eastborne".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "broomfield-fc".to_string(),
+            name: "Broomfield FC".to_string(),
+            founded_year: 1874,
+            ground: "Broomfield".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "st-mark-fc".to_string(),
+            name: "St Mark's FC".to_string(),
+            founded_year: 1874,
+            ground: "Broomfield Road".to_string(),
+            origin: "Church".to_string(),
+        },
+        SheffieldClub {
+            id: "tabernacle-fc".to_string(),
+            name: "Tabernacle FC".to_string(),
+            founded_year: 1874,
+            ground: "Albert Terrace Road".to_string(),
+            origin: "Church".to_string(),
+        },
+        SheffieldClub {
+            id: "st-michael-angels-fc".to_string(),
+            name: "St Michaels Angels FC".to_string(),
+            founded_year: 1874,
+            ground: "Parkwood Springs".to_string(),
+            origin: "Church".to_string(),
+        },
+        SheffieldClub {
+            id: "kenwood-fc".to_string(),
+            name: "Kenwood FC".to_string(),
+            founded_year: 1874,
+            ground: "Abbeydale Road".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "port-mahon-fc".to_string(),
+            name: "Port Mahon FC".to_string(),
+            founded_year: 1874,
+            ground: "Port Mahon".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "st-luke-fc".to_string(),
+            name: "St Luke's FC".to_string(),
+            founded_year: 1874,
+            ground: "Park".to_string(),
+            origin: "Church".to_string(),
+        },
+        SheffieldClub {
+            id: "heeley-victoria-fc".to_string(),
+            name: "Heeley Victoria FC".to_string(),
+            founded_year: 1874,
+            ground: "Heeley".to_string(),
+            origin: "Hotel".to_string(),
+        },
+        SheffieldClub {
+            id: "shrewsbury-road-fc".to_string(),
+            name: "Shrewsbury Road FC".to_string(),
+            founded_year: 1874,
+            ground: "Behind Midland Station".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "park-united-fc".to_string(),
+            name: "Park United FC".to_string(),
+            founded_year: 1874,
+            ground: "Park".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "white-star-fc".to_string(),
+            name: "White Star FC".to_string(),
+            founded_year: 1874,
+            ground: "Unknown".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "good-intent-fc".to_string(),
+            name: "Good Intent FC".to_string(),
+            founded_year: 1874,
+            ground: "Truro Ground, Matilda Street".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "mount-tabor-fc".to_string(),
+            name: "Mount Tabor FC".to_string(),
+            founded_year: 1874,
+            ground: "City Centre".to_string(),
+            origin: "Church".to_string(),
+        },
+        SheffieldClub {
+            id: "st-jude-fc".to_string(),
+            name: "St Jude's FC".to_string(),
+            founded_year: 1874,
+            ground: "Cupola Street".to_string(),
+            origin: "Church".to_string(),
+        },
+        SheffieldClub {
+            id: "wingfield-rowbotham-fc".to_string(),
+            name: "Wingfield & Rowbotham FC".to_string(),
+            founded_year: 1874,
+            ground: "Tenter Street".to_string(),
+            origin: "Works".to_string(),
+        },
+        SheffieldClub {
+            id: "young-broomhall-fc".to_string(),
+            name: "Young Broomhall FC".to_string(),
+            founded_year: 1874,
+            ground: "Unknown".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "regents-works-fc".to_string(),
+            name: "Regents Works FC".to_string(),
+            founded_year: 1874,
+            ground: "Penistone Road".to_string(),
+            origin: "Works".to_string(),
+        },
+        SheffieldClub {
+            id: "lo-good-templars-fc".to_string(),
+            name: "L. O. Good Templars FC".to_string(),
+            founded_year: 1874,
+            ground: "Unknown".to_string(),
+            origin: "Church".to_string(),
+        },
+        SheffieldClub {
+            id: "brookes-crookes-fc".to_string(),
+            name: "Brookes & Crookes FC".to_string(),
+            founded_year: 1874,
+            ground: "Brook Lane".to_string(),
+            origin: "Works".to_string(),
+        },
+        SheffieldClub {
+            id: "polar-star-fc".to_string(),
+            name: "Polar Star FC".to_string(),
+            founded_year: 1874,
+            ground: "Norfolk Park".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "norton-mount-view-fc".to_string(),
+            name: "Norton Mount View FC".to_string(),
+            founded_year: 1874,
+            ground: "Norton Lees".to_string(),
+            origin: "Church".to_string(),
+        },
+        SheffieldClub {
+            id: "mill-sands-fc".to_string(),
+            name: "Mill Sands FC".to_string(),
+            founded_year: 1874,
+            ground: "Mill Sands Works".to_string(),
+            origin: "Works".to_string(),
+        },
+        SheffieldClub {
+            id: "fenton-brothers-fc".to_string(),
+            name: "Fenton Brothers FC".to_string(),
+            founded_year: 1874,
+            ground: "East Street, Park".to_string(),
+            origin: "Works".to_string(),
+        },
+        SheffieldClub {
+            id: "sir-john-brown-fc".to_string(),
+            name: "Sir John Brown's FC".to_string(),
+            founded_year: 1874,
+            ground: "Osgathorpe".to_string(),
+            origin: "Works".to_string(),
+        },
+        SheffieldClub {
+            id: "st-silas-fc".to_string(),
+            name: "St Silas FC".to_string(),
+            founded_year: 1874,
+            ground: "Broomhall".to_string(),
+            origin: "Church".to_string(),
+        },
+        SheffieldClub {
+            id: "ecclesall-church-fc".to_string(),
+            name: "Ecclesall Church FC".to_string(),
+            founded_year: 1874,
+            ground: "Ecclesall".to_string(),
+            origin: "Church".to_string(),
+        },
+        SheffieldClub {
+            id: "firth-fc".to_string(),
+            name: "Firth's FC".to_string(),
+            founded_year: 1874,
+            ground: "East End".to_string(),
+            origin: "Works".to_string(),
+        },
+        SheffieldClub {
+            id: "owlerton-united-fc".to_string(),
+            name: "Owlerton United FC".to_string(),
+            founded_year: 1874,
+            ground: "Wadsley Bridge".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "atkin-brothers-fc".to_string(),
+            name: "Atkin Brothers FC".to_string(),
+            founded_year: 1874,
+            ground: "Matilda Street".to_string(),
+            origin: "Works".to_string(),
+        },
+        SheffieldClub {
+            id: "unitarian-fc".to_string(),
+            name: "Unitarian FC".to_string(),
+            founded_year: 1874,
+            ground: "Norfolk Street".to_string(),
+            origin: "Church".to_string(),
+        },
+        SheffieldClub {
+            id: "deep-pits-fc".to_string(),
+            name: "Deep Pits FC".to_string(),
+            founded_year: 1874,
+            ground: "City Road".to_string(),
+            origin: "Works".to_string(),
+        },
+        SheffieldClub {
+            id: "sheaf-fc".to_string(),
+            name: "Sheaf FC".to_string(),
+            founded_year: 1874,
+            ground: "Victoria Station".to_string(),
+            origin: "Works".to_string(),
+        },
+        SheffieldClub {
+            id: "montague-fc".to_string(),
+            name: "Montague FC".to_string(),
+            founded_year: 1874,
+            ground: "Sharrow".to_string(),
+            origin: "Other".to_string(),
+        },
+        // 1875 - Final major expansion before FA standardization
+        SheffieldClub {
+            id: "collegiate-fc".to_string(),
+            name: "Collegiate FC".to_string(),
+            founded_year: 1875,
+            ground: "Unknown".to_string(),
+            origin: "School".to_string(),
+        },
+        SheffieldClub {
+            id: "stag-home-fc".to_string(),
+            name: "Stag Home FC".to_string(),
+            founded_year: 1875,
+            ground: "Unknown".to_string(),
+            origin: "Hotel".to_string(),
+        },
+        SheffieldClub {
+            id: "stanley-street-fc".to_string(),
+            name: "Stanley Street FC".to_string(),
+            founded_year: 1875,
+            ground: "Norfolk Park".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "langsett-road-fc".to_string(),
+            name: "Langsett Road FC".to_string(),
+            founded_year: 1875,
+            ground: "Queens Ground".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "manor-fc".to_string(),
+            name: "Manor FC".to_string(),
+            founded_year: 1875,
+            ground: "Manor Lane".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "wheatman-smith-fc".to_string(),
+            name: "Wheatman & Smith's FC".to_string(),
+            founded_year: 1875,
+            ground: "Russell Works".to_string(),
+            origin: "Works".to_string(),
+        },
+        SheffieldClub {
+            id: "netherthorpe-fc".to_string(),
+            name: "Netherthorpe FC".to_string(),
+            founded_year: 1875,
+            ground: "Unknown".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "st-peter-fc".to_string(),
+            name: "St Peter's FC".to_string(),
+            founded_year: 1875,
+            ground: "Myrtle Road".to_string(),
+            origin: "Church".to_string(),
+        },
+        SheffieldClub {
+            id: "st-philip-fc".to_string(),
+            name: "St Philip's FC".to_string(),
+            founded_year: 1875,
+            ground: "Netherthorpe".to_string(),
+            origin: "Church".to_string(),
+        },
+        SheffieldClub {
+            id: "dronfield-united-fc".to_string(),
+            name: "Dronfield United FC".to_string(),
+            founded_year: 1875,
+            ground: "Dronfield".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "hope-club".to_string(),
+            name: "Hope Club".to_string(),
+            founded_year: 1875,
+            ground: "Weston Field".to_string(),
+            origin: "Works".to_string(),
+        },
+        SheffieldClub {
+            id: "brown-bailey-dixon-fc".to_string(),
+            name: "Brown Bailey & Dixon FC".to_string(),
+            founded_year: 1875,
+            ground: "Attercliffe".to_string(),
+            origin: "Works".to_string(),
+        },
+        SheffieldClub {
+            id: "ward-payne-fc".to_string(),
+            name: "Ward & Payne's FC".to_string(),
+            founded_year: 1875,
+            ground: "Limbrick Works, Hillsborough".to_string(),
+            origin: "Works".to_string(),
+        },
+        SheffieldClub {
+            id: "crookes-united-fc".to_string(),
+            name: "Crookes United FC".to_string(),
+            founded_year: 1875,
+            ground: "Lydgate Lane".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "harold-fc".to_string(),
+            name: "Harold FC".to_string(),
+            founded_year: 1875,
+            ground: "Walkley".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "huffton-son-fc".to_string(),
+            name: "Huffton & Son FC".to_string(),
+            founded_year: 1875,
+            ground: "West Street".to_string(),
+            origin: "Works".to_string(),
+        },
+        SheffieldClub {
+            id: "malinda-works-fc".to_string(),
+            name: "Malinda Works FC".to_string(),
+            founded_year: 1875,
+            ground: "Malinda Street".to_string(),
+            origin: "Works".to_string(),
+        },
+        SheffieldClub {
+            id: "parkwood-juniors-fc".to_string(),
+            name: "Parkwood Juniors FC".to_string(),
+            founded_year: 1875,
+            ground: "Parkwood Springs".to_string(),
+            origin: "Park".to_string(),
+        },
+        SheffieldClub {
+            id: "aston-fc".to_string(),
+            name: "Aston FC".to_string(),
+            founded_year: 1875,
+            ground: "Aston".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "washington-fc".to_string(),
+            name: "Washington FC".to_string(),
+            founded_year: 1875,
+            ground: "Washington Street".to_string(),
+            origin: "Works".to_string(),
+        },
+        SheffieldClub {
+            id: "st-paul-fc".to_string(),
+            name: "St Paul's FC".to_string(),
+            founded_year: 1875,
+            ground: "Peace Gardens".to_string(),
+            origin: "Church".to_string(),
+        },
+        SheffieldClub {
+            id: "south-view-fc".to_string(),
+            name: "South View FC".to_string(),
+            founded_year: 1875,
+            ground: "Machon Bank".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "ecclesall-united-fc".to_string(),
+            name: "Ecclesall United FC".to_string(),
+            founded_year: 1875,
+            ground: "Ecclesall".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "msl-loco-fc".to_string(),
+            name: "MS&L Loco FC".to_string(),
+            founded_year: 1875,
+            ground: "Unknown".to_string(),
+            origin: "Works".to_string(),
+        },
+        SheffieldClub {
+            id: "oxford-wanderers-fc".to_string(),
+            name: "Oxford Wanderers FC".to_string(),
+            founded_year: 1875,
+            ground: "Norfolk Park".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "dronfield-free-church-fc".to_string(),
+            name: "Dronfield Free Church FC".to_string(),
+            founded_year: 1875,
+            ground: "Dronfield".to_string(),
+            origin: "Church".to_string(),
+        },
+        SheffieldClub {
+            id: "atlantic-juniors-fc".to_string(),
+            name: "Atlantic (Juniors) FC".to_string(),
+            founded_year: 1875,
+            ground: "Cobden View".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "wincobank-fc".to_string(),
+            name: "Wincobank FC".to_string(),
+            founded_year: 1875,
+            ground: "Wincobank".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "alexandra-fc".to_string(),
+            name: "Alexandra FC".to_string(),
+            founded_year: 1875,
+            ground: "Alexandra Road, Heeley".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "carbrook-united-fc".to_string(),
+            name: "Carbrook United FC".to_string(),
+            founded_year: 1875,
+            ground: "Carbrook".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "r-sorby-son-fc".to_string(),
+            name: "R Sorby & Son FC".to_string(),
+            founded_year: 1875,
+            ground: "Trafalgar Street".to_string(),
+            origin: "Works".to_string(),
+        },
+        SheffieldClub {
+            id: "upperthorpe-fc".to_string(),
+            name: "Upperthorpe FC".to_string(),
+            founded_year: 1875,
+            ground: "Cobden View".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "howard-street-fc".to_string(),
+            name: "Howard Street FC".to_string(),
+            founded_year: 1875,
+            ground: "Heeley".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "otley-son-fc".to_string(),
+            name: "Otley & Son's FC".to_string(),
+            founded_year: 1875,
+            ground: "Shalesmoor".to_string(),
+            origin: "Works".to_string(),
+        },
+        SheffieldClub {
+            id: "hillsborough-school-fc".to_string(),
+            name: "Hillsborough / Hillsborough School FC".to_string(),
+            founded_year: 1875,
+            ground: "Hillsborough".to_string(),
+            origin: "School".to_string(),
+        },
+        SheffieldClub {
+            id: "bellefield-fc".to_string(),
+            name: "Bellefield FC".to_string(),
+            founded_year: 1875,
+            ground: "Bellefield Lane, Netherthorpe".to_string(),
+            origin: "Works".to_string(),
+        },
+        SheffieldClub {
+            id: "red-rose-fc".to_string(),
+            name: "Red Rose FC".to_string(),
+            founded_year: 1875,
+            ground: "Unknown".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "weston-rovers-fc".to_string(),
+            name: "Weston Rovers FC".to_string(),
+            founded_year: 1875,
+            ground: "Unknown".to_string(),
+            origin: "Other".to_string(),
+        },
+        SheffieldClub {
+            id: "j-round-son-fc".to_string(),
+            name: "J Round & Son FC".to_string(),
+            founded_year: 1875,
+            ground: "Tudor Street".to_string(),
+            origin: "Works".to_string(),
+        },
+        SheffieldClub {
+            id: "dronfield-baptist-fc".to_string(),
+            name: "Dronfield Baptist FC".to_string(),
+            founded_year: 1875,
+            ground: "Dronfield".to_string(),
+            origin: "Church".to_string(),
+        },
+        SheffieldClub {
+            id: "pye-bank-free-church-fc".to_string(),
+            name: "Pye Bank Free Church FC".to_string(),
+            founded_year: 1875,
+            ground: "Pye Bank".to_string(),
+            origin: "Church".to_string(),
+        },
+        SheffieldClub {
+            id: "dronfield-independent-fc".to_string(),
+            name: "Dronfield Independent FC".to_string(),
+            founded_year: 1875,
+            ground: "Dronfield".to_string(),
+            origin: "Church".to_string(),
+        },
+        SheffieldClub {
+            id: "ebenezer-reform-fc".to_string(),
+            name: "Ebenezer Reform FC".to_string(),
+            founded_year: 1875,
+            ground: "Unknown".to_string(),
+            origin: "Church".to_string(),
+        },
+        SheffieldClub {
+            id: "clough-house-fc".to_string(),
+            name: "Clough House FC".to_string(),
+            founded_year: 1875,
+            ground: "Clough area near Bramall Lane".to_string(),
+            origin: "Local".to_string(),
+        },
+        SheffieldClub {
+            id: "trinity-fc".to_string(),
+            name: "Trinity FC".to_string(),
+            founded_year: 1875,
+            ground: "Trinity Works".to_string(),
+            origin: "Works".to_string(),
+        },
+        SheffieldClub {
+            id: "wostenholm-fc".to_string(),
+            name: "Wostenholm FC".to_string(),
+            founded_year: 1875,
+            ground: "Washington Works".to_string(),
+            origin: "Works".to_string(),
+        },
+        SheffieldClub {
+            id: "bee-hive-works-fc".to_string(),
+            name: "Bee Hive Works FC".to_string(),
+            founded_year: 1875,
+            ground: "Bee Hive Works, Neepsend".to_string(),
+            origin: "Works".to_string(),
+        },
+        SheffieldClub {
+            id: "chester-brothers-fc".to_string(),
+            name: "Chester Brothers FC".to_string(),
+            founded_year: 1875,
+            ground: "West End Cutlery Works, West Street".to_string(),
+            origin: "Works".to_string(),
+        },
+        SheffieldClub {
+            id: "heeley-united-fc".to_string(),
+            name: "Heeley United FC".to_string(),
+            founded_year: 1875,
+            ground: "Unknown".to_string(),
+            origin: "Local".to_string(),
+        },
+        SheffieldClub {
+            id: "cornish-place-fc".to_string(),
+            name: "Cornish Place FC".to_string(),
+            founded_year: 1875,
+            ground: "Cornish Works, Neepsend".to_string(),
+            origin: "Works".to_string(),
+        },
+        SheffieldClub {
+            id: "minerva-fc".to_string(),
+            name: "Minerva FC".to_string(),
+            founded_year: 1875,
+            ground: "John Street".to_string(),
+            origin: "Works".to_string(),
+        },
+        SheffieldClub {
+            id: "woodhouse-fc".to_string(),
+            name: "Woodhouse FC".to_string(),
+            founded_year: 1875,
+            ground: "Woodhouse".to_string(),
+            origin: "Local".to_string(),
+        },
+        SheffieldClub {
+            id: "kenyons-works-fc".to_string(),
+            name: "Kenyon's Works FC".to_string(),
+            founded_year: 1875,
+            ground: "Hollins Crog".to_string(),
+            origin: "Works".to_string(),
+        },
+    ]
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_all_clubs_count() {
+        assert_eq!(all_clubs_data().len(), 187);
+    }
+
+    #[test]
+    fn test_sheffield_fc_is_oldest() {
+        let clubs = all_clubs_data();
+        let oldest = clubs.iter().min_by_key(|c| c.founded_year).unwrap();
+        assert_eq!(oldest.name, "Sheffield FC");
+        assert_eq!(oldest.founded_year, 1857);
+    }
+
+    #[test]
+    fn test_filter_by_year() {
+        let clubs_by_1862 = get_sheffield_clubs(Some(1862));
+        let clubs_by_1873 = get_sheffield_clubs(Some(1873));
+
+        assert!(clubs_by_1862.len() < clubs_by_1873.len());
+    }
+
+    #[test]
+    fn test_wednesday_fc_founded_1867() {
+        let clubs = get_sheffield_clubs(Some(1867));
+        let wednesday = clubs.iter()
+            .find(|c| c.name == "Wednesday FC")
+            .unwrap();
+        assert_eq!(wednesday.founded_year, 1867);
+    }
+
+    #[test]
+    fn test_clubs_by_origin_type() {
+        let all = all_clubs_data();
+        let church_clubs = all.iter().filter(|c| c.origin == "Church").count();
+        let works_clubs = all.iter().filter(|c| c.origin == "Works").count();
+
+        assert!(church_clubs > 0);
+        assert!(works_clubs > 0);
+    }
+}

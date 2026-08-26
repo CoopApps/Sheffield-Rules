@@ -1,0 +1,114 @@
+/* Sheffield Rules Setup Screen Styles */
+
+.sheffield-rules-setup-screen {
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  background: transparent;
+  position: relative;
+}
+
+.setup-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image:
+    radial-gradient(circle at 20% 50%, rgba(255, 255, 255, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(255, 255, 255, 0.05) 0%, transparent 50%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.setup-content {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: none;
+}
+
+.test-v2-button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  padding: 12px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  z-index: 10000;
+  box-shadow: 0 4px 12px rgba(255, 152, 0, 0.4);
+  transition: all 0.2s ease;
+}
+
+.test-v2-button:hover {
+  background-color: #f57c00;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(255, 152, 0, 0.5);
+}
+
+.test-v2-button:active {
+  transform: translateY(0);
+}
+
+.back-button {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  z-index: 10;
+}
+
+.back-button:hover {
+  background: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: translateX(-4px);
+}
+
+.back-button:active {
+  transform: translateX(-2px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .sheffield-rules-setup-screen {
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .setup-content {
+    padding: 15px;
+  }
+
+  .back-button {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .setup-content {
+    padding: 10px;
+  }
+
+  .back-button {
+    padding: 6px 10px;
+    font-size: 0.85rem;
+  }
+}

@@ -1,0 +1,277 @@
+[package]
+name = "db_viewer"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+
+[[bin]]
+name = "view_db"
+path = "view_db.rs"
+
+[[bin]]
+name = "assign_ids"
+path = "assign_ids.rs"
+
+[[bin]]
+name = "assign_ids_simple"
+path = "assign_ids_simple.rs"
+
+[[bin]]
+name = "check_ids"
+path = "check_ids.rs"
+
+[[bin]]
+name = "link_unique_businesses"
+path = "link_unique_businesses.rs"
+
+[[bin]]
+name = "link_fast"
+path = "link_fast.rs"
+
+[[bin]]
+name = "repopulate_professions"
+path = "repopulate_professions.rs"
+
+[[bin]]
+name = "link_remaining"
+path = "link_remaining.rs"
+
+[[bin]]
+name = "repopulate_groups"
+path = "repopulate_groups.rs"
+
+[[bin]]
+name = "check_health"
+path = "check_health.rs"
+
+[[bin]]
+name = "verify_ids"
+path = "verify_ids.rs"
+
+[[bin]]
+name = "fix_duplicate_ids"
+path = "fix_duplicate_ids.rs"
+
+[[bin]]
+name = "reassign_unique_ids"
+path = "reassign_unique_ids.rs"
+
+[[bin]]
+name = "compare_backups"
+path = "compare_backups.rs"
+
+[[bin]]
+name = "check_backup_data"
+path = "check_backup_data.rs"
+
+[[bin]]
+name = "check_b_health"
+path = "check_b_health.rs"
+
+[[bin]]
+name = "assign_6digit_ids"
+path = "assign_6digit_ids.rs"
+
+[[bin]]
+name = "create_fresh_c_db"
+path = "create_fresh_c_db.rs"
+
+[[bin]]
+name = "copy_data_ignore_corruption"
+path = "copy_data_ignore_corruption.rs"
+
+[[bin]]
+name = "bulk_copy_fast"
+path = "bulk_copy_fast.rs"
+
+[[bin]]
+name = "analyze_rowid_corruption"
+path = "analyze_rowid_corruption.rs"
+
+[[bin]]
+name = "rescue_sheffield_people"
+path = "rescue_sheffield_people.rs"
+
+[[bin]]
+name = "check_rescued_db"
+path = "check_rescued_db.rs"
+
+[[bin]]
+name = "check_source_of_truth"
+path = "check_source_of_truth.rs"
+
+[[bin]]
+name = "check_duplicate_clubs"
+path = "check_duplicate_clubs.rs"
+
+[[bin]]
+name = "check_unassigned_clubs"
+path = "check_unassigned_clubs.rs"
+
+[[bin]]
+name = "find_club_related_tables"
+path = "find_club_related_tables.rs"
+
+[[bin]]
+name = "check_league_column"
+path = "check_league_column.rs"
+
+[[bin]]
+name = "redistribute_all_clubs"
+path = "redistribute_all_clubs.rs"
+
+[[bin]]
+name = "check_cup_competitions"
+path = "check_cup_competitions.rs"
+
+[[bin]]
+name = "list_sheffield_tables"
+path = "list_sheffield_tables.rs"
+
+[[bin]]
+name = "add_cup_competitions"
+path = "add_cup_competitions.rs"
+
+[[bin]]
+name = "compare_schema"
+path = "compare_schema.rs"
+
+[[bin]]
+name = "check_institutions"
+path = "check_institutions.rs"
+
+[[bin]]
+name = "populate_institutional_tables"
+path = "populate_institutional_tables.rs"
+
+[[bin]]
+name = "find_institutional_addresses"
+path = "find_institutional_addresses.rs"
+
+[[bin]]
+name = "copy_institutional_tables"
+path = "copy_institutional_tables.rs"
+
+[[bin]]
+name = "list_all_tables"
+path = "list_all_tables.rs"
+
+[[bin]]
+name = "populate_categorization_tables"
+path = "populate_categorization_tables.rs"
+
+[[bin]]
+name = "copy_clubs"
+path = "copy_clubs.rs"
+
+[[bin]]
+name = "list_rescued_tables"
+path = "list_rescued_tables.rs"
+
+[[bin]]
+name = "check_welsh_person"
+path = "check_welsh_person.rs"
+
+[[bin]]
+name = "check_parish"
+path = "check_parish.rs"
+
+[[bin]]
+name = "check_postcode"
+path = "check_postcode.rs"
+
+[[bin]]
+name = "import_businesses"
+path = "import_businesses.rs"
+
+[[bin]]
+name = "check_business_dupes"
+path = "check_business_dupes.rs"
+
+[[bin]]
+name = "match_businesses"
+path = "match_businesses.rs"
+
+[[bin]]
+name = "check_matches"
+path = "check_matches.rs"
+
+[[bin]]
+name = "find_cutlery_manufacturers"
+path = "find_cutlery_manufacturers.rs"
+
+[[bin]]
+name = "find_missing_ids"
+path = "find_missing_ids.rs"
+
+[[bin]]
+name = "recover_missing"
+path = "recover_missing.rs"
+
+[[bin]]
+name = "recover_from_genealogy"
+path = "recover_from_genealogy.rs"
+
+[[bin]]
+name = "create_businessmen"
+path = "create_businessmen.rs"
+
+[[bin]]
+name = "find_employers"
+path = "find_employers.rs"
+
+[[bin]]
+name = "dump_occupations"
+path = "dump_occupations.rs"
+
+[[bin]]
+name = "dump_professions"
+path = "dump_professions.rs"
+
+[[bin]]
+name = "import_cutlery_firms"
+path = "import_cutlery_firms.rs"
+
+[[bin]]
+name = "create_clergy"
+path = "create_clergy.rs"
+
+[[bin]]
+name = "find_clergy"
+path = "find_clergy.rs"
+
+[[bin]]
+name = "top_professions"
+path = "top_professions.rs"
+
+[[bin]]
+name = "create_profession_tables"
+path = "create_profession_tables.rs"
+
+[[bin]]
+name = "create_prof_tables"
+path = "create_prof_tables.rs"
+
+[[bin]]
+name = "create_footballers"
+path = "create_footballers.rs"
+
+[[bin]]
+name = "check_footballer_dupes"
+path = "check_footballer_dupes.rs"
+
+[[bin]]
+name = "check_footballer_names"
+path = "check_footballer_names.rs"
+
+[[bin]]
+name = "show_clubs"
+path = "show_clubs.rs"
+
+[[bin]]
+name = "import_clubs"
+path = "import_clubs.rs"
+
+[dependencies]
+rusqlite = { version = "0.30", features = ["bundled"] }

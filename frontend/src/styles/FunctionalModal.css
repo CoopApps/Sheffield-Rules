@@ -1,0 +1,148 @@
+/* Shared styling for real, functional panels (Training, Committee, Co-op) —
+   the same Victorian-parchment language as the letter modal, not the generic
+   "coming soon" placeholder look. */
+
+.functional-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  animation: functionalModalFadeIn 0.2s ease;
+}
+
+.functional-modal {
+  background: linear-gradient(135deg, #f5f5dc 0%, #faf8f1 50%, #f5f5dc 100%);
+  width: 90%;
+  max-width: 520px;
+  max-height: 85vh;
+  border-radius: 8px;
+  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.6);
+  border: 3px solid #8b7355;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  animation: functionalModalSlideIn 0.2s ease;
+}
+
+@keyframes functionalModalFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes functionalModalSlideIn {
+  from { transform: translateY(-20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.functional-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  background: linear-gradient(135deg, #2c5f8a 0%, #234b6e 100%);
+  border-bottom: 2px solid #8b7355;
+}
+
+.functional-modal-header h2 {
+  margin: 0;
+  font-family: Georgia, serif;
+  font-size: 20px;
+  color: #f5f5dc;
+}
+
+.functional-modal-close {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.12);
+  border: 2px solid rgba(255, 255, 255, 0.35);
+  color: #f5f5dc;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.functional-modal-close:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.functional-modal-body {
+  padding: 20px 24px;
+  overflow-y: auto;
+  color: #3a2f22;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.functional-modal-body p {
+  margin: 0 0 10px 0;
+}
+
+.functional-modal-body hr {
+  border: none;
+  border-top: 1px solid #cbbfa4;
+  margin: 14px 0;
+}
+
+.functional-modal-body ul {
+  margin: 0 0 10px 0;
+  padding-left: 20px;
+}
+
+.functional-modal-section-title {
+  font-weight: 700;
+  color: #234b6e;
+  font-family: Georgia, serif;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.functional-modal-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(139, 115, 85, 0.25);
+}
+.functional-modal-row:last-child {
+  border-bottom: none;
+}
+
+.functional-modal-btn {
+  background: linear-gradient(135deg, #2c5f8a 0%, #234b6e 100%);
+  color: #f5f5dc;
+  border: 1px solid #1a3a5c;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.functional-modal-btn:hover {
+  background: linear-gradient(135deg, #34719e 0%, #2c5f8a 100%);
+}
+.functional-modal-btn:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.functional-modal-footer {
+  padding: 14px 20px;
+  border-top: 1px solid #cbbfa4;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.functional-modal-error {
+  color: #a02020;
+  font-weight: 600;
+}

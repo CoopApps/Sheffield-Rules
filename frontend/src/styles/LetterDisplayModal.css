@@ -1,0 +1,282 @@
+/* Letter Display Modal Styles */
+
+.letter-display-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  animation: fadeIn 0.3s ease;
+}
+
+.letter-display-modal {
+  background: linear-gradient(135deg, #f5f5dc 0%, #faf8f1 50%, #f5f5dc 100%);
+  width: 85%;
+  max-width: 800px;
+  max-height: 90vh;
+  border-radius: 8px;
+  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+  animation: slideIn 0.3s ease;
+  position: relative;
+  border: 3px solid #8b7355;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Close button */
+.letter-close-btn {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.1);
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  color: #5a5a5a;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  z-index: 10;
+}
+
+.letter-close-btn:hover {
+  background: rgba(0, 0, 0, 0.2);
+  color: #2c3e50;
+  transform: rotate(90deg);
+}
+
+/* Wax seal decoration */
+.wax-seal {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 3px solid rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  z-index: 5;
+}
+
+.seal-text {
+  font-size: 32px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Letter content */
+.letter-content {
+  padding: 80px 60px 40px 60px;
+  overflow-y: auto;
+  max-height: calc(90vh - 120px);
+  font-family: 'Georgia', 'Times New Roman', serif;
+  color: #2c3e50;
+  line-height: 1.8;
+  position: relative;
+}
+
+.letter-content::-webkit-scrollbar {
+  width: 8px;
+}
+
+.letter-content::-webkit-scrollbar-track {
+  background: rgba(139, 115, 85, 0.1);
+  border-radius: 4px;
+}
+
+.letter-content::-webkit-scrollbar-thumb {
+  background: rgba(139, 115, 85, 0.3);
+  border-radius: 4px;
+}
+
+.letter-content::-webkit-scrollbar-thumb:hover {
+  background: rgba(139, 115, 85, 0.5);
+}
+
+/* Letter header */
+.letter-header {
+  margin-bottom: 24px;
+  font-size: 0.9rem;
+  color: #5a5a5a;
+  font-style: italic;
+}
+
+.letter-address {
+  margin: 2px 0;
+  line-height: 1.4;
+}
+
+/* Date */
+.letter-date {
+  text-align: right;
+  margin-bottom: 24px;
+  font-size: 0.9rem;
+  color: #7f8c8d;
+  font-style: italic;
+}
+
+/* Letter body */
+.letter-body {
+  font-size: 1.05rem;
+  line-height: 1.9;
+  text-align: justify;
+  margin-bottom: 32px;
+}
+
+.letter-body p {
+  margin: 16px 0;
+}
+
+.letter-body strong {
+  color: #34495e;
+  font-weight: 600;
+}
+
+/* Status badge */
+.letter-status-badge {
+  display: inline-block;
+  padding: 10px 24px;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.letter-status-badge.accepted {
+  background: linear-gradient(135deg, #2ecc71 0%, #27ae60 100%);
+  color: white;
+  border: 2px solid #27ae60;
+}
+
+.letter-status-badge.declined {
+  background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+  color: white;
+  border: 2px solid #c0392b;
+}
+
+/* Footer */
+.letter-footer {
+  padding: 20px 60px;
+  background: rgba(139, 115, 85, 0.1);
+  border-top: 2px solid rgba(139, 115, 85, 0.3);
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.letter-btn {
+  padding: 12px 32px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+.letter-btn.primary {
+  background: linear-gradient(135deg, #34495e 0%, #2c3e50 100%);
+  color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.letter-btn.primary:hover {
+  background: linear-gradient(135deg, #2c3e50 0%, #1a252f 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.letter-btn.primary:active {
+  transform: translateY(0);
+}
+
+/* Parchment texture effect */
+.letter-display-modal::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image:
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 2px,
+      rgba(139, 115, 85, 0.02) 2px,
+      rgba(139, 115, 85, 0.02) 4px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgba(139, 115, 85, 0.02) 2px,
+      rgba(139, 115, 85, 0.02) 4px
+    );
+  pointer-events: none;
+  z-index: 1;
+}
+
+.letter-content {
+  position: relative;
+  z-index: 2;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .letter-display-modal {
+    width: 95%;
+    max-width: none;
+  }
+
+  .letter-content {
+    padding: 60px 30px 30px 30px;
+  }
+
+  .letter-footer {
+    padding: 16px 30px;
+  }
+
+  .wax-seal {
+    width: 50px;
+    height: 50px;
+  }
+
+  .seal-text {
+    font-size: 24px;
+  }
+}

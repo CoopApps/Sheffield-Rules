@@ -1,0 +1,48 @@
+.coming-soon-modal {
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+  padding: 40px 30px;
+}
+
+.coming-soon-icon {
+  font-size: 3em;
+  margin-bottom: 20px;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.coming-soon-modal h2 {
+  margin: 0 0 16px 0;
+  color: #333;
+  font-size: 24px;
+  font-family: Georgia, serif;
+}
+
+.coming-soon-modal p {
+  color: #666;
+  font-size: 14px;
+  margin: 0 0 12px 0;
+  line-height: 1.5;
+}
+
+.coming-soon-modal .coming-soon-text {
+  color: #f39c12;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 20px 0 24px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.coming-soon-modal .btn {
+  margin-top: 10px;
+}

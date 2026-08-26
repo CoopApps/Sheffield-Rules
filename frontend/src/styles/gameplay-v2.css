@@ -1,0 +1,222 @@
+.gameplay-v2-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  background: white;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+/* Top section: Left (4/5) + Right (1/5) */
+.gameplay-v2-top {
+  display: flex;
+  flex: 0 0 auto;
+  width: 100%;
+  height: 540px;
+  gap: 0;
+  padding: 0;
+  margin: 0;
+}
+
+/* Left: Main gameplay area */
+.gameplay-v2-main {
+  flex: 4;
+  background-color: white;
+  padding: 16px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gameplay-v2-content {
+  text-align: center;
+}
+
+.gameplay-v2-content p {
+  margin: 8px 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.gameplay-v2-subtitle {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Right: Sidebar */
+.gameplay-v2-sidebar {
+  flex: 1;
+  background: white;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #e0e0e0;
+  overflow-y: auto;
+}
+
+.gameplay-v2-sidebar-header {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 10px;
+}
+
+.gameplay-v2-sidebar-header h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.gameplay-v2-info-block {
+  margin-bottom: 15px;
+}
+
+.gameplay-v2-info-block strong {
+  display: block;
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 4px;
+}
+
+.gameplay-v2-info-block p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+/* Action buttons */
+.gameplay-v2-buttons {
+  display: flex;
+  gap: 12px;
+  padding: 12px 16px;
+  width: 100%;
+  background: #f5f5f5;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  border-top: none;
+}
+
+.gameplay-v2-btn {
+  flex: 1;
+  min-width: 120px;
+  max-width: 180px;
+  padding: 10px 16px;
+  background: linear-gradient(135deg, #34495e 0%, #34495e 100%);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  white-space: nowrap;
+}
+
+.gameplay-v2-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(52, 152, 219, 0.3);
+}
+
+.gameplay-v2-btn:active {
+  transform: translateY(0);
+}
+
+.gameplay-v2-btn-icon {
+  font-size: 0.9rem;
+  flex-shrink: 0;
+}
+
+.gameplay-v2-btn-text {
+  display: none;
+}
+
+@media (min-width: 250px) {
+  .gameplay-v2-btn-text {
+    display: inline;
+  }
+}
+
+/* Footer/Info box */
+.gameplay-v2-footer {
+  display: flex;
+  width: 50%;
+  background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
+  padding: 20px 16px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  gap: 30px;
+  align-items: center;
+  font-size: 0.85rem;
+  min-height: 80px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.gameplay-v2-info-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.gameplay-v2-info-label {
+  font-size: 0.8rem;
+  color: #666;
+  font-weight: 600;
+}
+
+.gameplay-v2-info-value {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .gameplay-v2-top {
+    flex-direction: column;
+  }
+
+  .gameplay-v2-main {
+    flex: 1;
+    border-right: none;
+    border-bottom: 1px solid #e0e0e0;
+  }
+
+  .gameplay-v2-sidebar {
+    flex: 1;
+    border-left: none;
+  }
+
+  .gameplay-v2-btn {
+    font-size: 0.75rem;
+    min-width: 90px;
+  }
+}
+
+@media (max-width: 480px) {
+  .gameplay-v2-buttons {
+    gap: 8px;
+    padding: 8px 12px;
+  }
+
+  .gameplay-v2-btn {
+    min-width: 70px;
+    max-width: none;
+    padding: 8px 12px;
+    font-size: 0.7rem;
+  }
+
+  .gameplay-v2-main {
+    padding: 8px;
+  }
+
+  .gameplay-v2-sidebar {
+    padding: 8px;
+  }
+}

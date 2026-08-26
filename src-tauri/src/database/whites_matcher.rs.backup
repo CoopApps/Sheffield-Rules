@@ -1,0 +1,549 @@
+/// Whites Directory Matcher
+///
+/// Matches Whites Directory business entries to existing players in the Sheffield database
+/// based on name, address, profession, and parish. Supports both automatic matching and
+/// manual drag-and-drop matching through the GUI.
+
+use sqlx::{SqlitePool, FromRow};
+use serde::{Deserialize, Serialize};
+
+#[derive(Debug, Clone, Serialize, Deserialize, FromRow)]
+pub struct WhitesEntry {
+    pub id: String,
+    pub name: String,
+    pub first_name: Option<String>,
+    pub surname: Option<String>,
+    pub business_name: Option<String>,
+    pub business_type: Option<String>,
+    pub profession: Option<String>,
+    pub street_address: String,
+    pub district: Option<String>,
+    pub parish: Option<String>,
+    pub postcode: Option<String>,
+    pub notes: Option<String>,
+    pub year: i32,
+    pub page_number: Option<i32>,
+    pub is_matched: bool,
+    pub matched_player_id: Option<String>,
+    pub match_confidence: Option<f32>,
+    pub match_method: Option<String>,
+}
+
+#[derive(Debug, Clone, Serialize, Deserialize, FromRow)]
+pub struct PlayerCandidate {
+    pub id: String,
+    pub name: String,
+    pub first_name: Option<String>,
+    pub surname: Option<String>,
+    pub birth_year: Option<i32>,
+    pub profession: Option<String>,
+    pub street_address: Option<String>,
+    pub civil_parish: Option<String>,
+    pub ecclesiastical_parish: Option<String>,
+    pub where_born: Option<String>,
+}
+
+#[derive(Debug, Serialize)]
+pub struct WhitesMatchSuggestion {
+    pub whites_entry: WhitesEntry,
+    pub candidates: Vec<PlayerCandidateWithScore>,
+}
+
+#[derive(Debug, Serialize)]
+pub struct PlayerCandidateWithScore {
+    pub player: PlayerCandidate,
+    pub confidence_score: f32,
+    pub match_factors: MatchFactors,
+    pub match_reason: String,
+}
+
+#[derive(Debug, Serialize, Deserialize)]
+pub struct MatchFactors {
+    pub name_score: f32,
+    pub address_score: f32,
+    pub profession_score: f32,
+    pub parish_score: f32,
+}
+
+#[derive(Debug, Serialize)]
+pub struct WhitesMatchStats {
+    pub total_whites_entries: usize,
+    pub matched_entries: usize,
+    pub unmatched_entries: usize,
+    pub suggestions_generated: usize,
+}
+
+/// Parse a full name into first name and surname
+fn parse_name(full_name: &str) -> (String, String) {
+    let parts: Vec<&str> = full_name.trim().split_whitespace().collect();
+
+    if parts.is_empty() {
+        return (String::new(), String::new());
+    }
+
+    if parts.len() == 1 {
+        return (String::new(), parts[0].to_string());
+    }
+
+    let first_name = parts[0].to_string();
+    let surname = parts.last().unwrap().to_string();
+
+    (first_name, surname)
+}
+
+/// Normalize text for fuzzy matching
+fn normalize_text(text: &str) -> String {
+    text.to_lowercase()
+        .replace("street", "st")
+        .replace("road", "rd")
+        .replace("lane", "ln")
+        .replace("avenue", "ave")
+        .replace(".", "")
+        .replace(",", "")
+        .trim()
+        .to_string()
+}
+
+/// Normalize parish name for matching
+fn normalize_parish(parish: &str) -> String {
+    parish
+        .to_lowercase()
+        .replace("brightside bierlow", "brightside")
+        .replace("ecclesall bierlow", "ecclesall")
+        .replace("nether hallam", "hallam")
+        .replace("upper hallam", "hallam")
+        .replace("st philip", "philip")
+        .replace("st george", "george")
+        .replace("st mary", "mary")
+        .replace("st paul", "paul")
+        .trim()
+        .to_string()
+}
+
+/// Calculate name similarity score (0.0 - 1.0)
+fn calculate_name_score(whites_name: &str, player_name: &str) -> f32 {
+    let (w_first, w_surname) = parse_name(whites_name);
+    let (p_first, p_surname) = parse_name(player_name);
+
+    let w_surname_norm = normalize_text(&w_surname);
+    let p_surname_norm = normalize_text(&p_surname);
+    let w_first_norm = normalize_text(&w_first);
+    let p_first_norm = normalize_text(&p_first);
+
+    let mut score = 0.0;
+
+    // Surname match is most important (0.7 weight)
+    if w_surname_norm == p_surname_norm {
+        score += 0.7;
+    } else if !w_surname_norm.is_empty() && !p_surname_norm.is_empty() {
+        if p_surname_norm.contains(&w_surname_norm) || w_surname_norm.contains(&p_surname_norm) {
+            score += 0.5;
+        }
+    }
+
+    // First name match (0.3 weight)
+    if !w_first_norm.is_empty() && !p_first_norm.is_empty() {
+        if w_first_norm == p_first_norm {
+            score += 0.3;
+        } else if w_first_norm.starts_with(&p_first_norm.chars().next().unwrap_or(' ').to_string())
+            || p_first_norm.starts_with(&w_first_norm.chars().next().unwrap_or(' ').to_string())
+        {
+            score += 0.15; // Initial match
+        }
+    }
+
+    score
+}
+
+/// Calculate address similarity score (0.0 - 1.0)
+fn calculate_address_score(whites_address: &str, player_address: Option<&String>) -> f32 {
+    let Some(player_addr) = player_address else {
+        return 0.0;
+    };
+
+    let w_norm = normalize_text(whites_address);
+    let p_norm = normalize_text(player_addr);
+
+    if w_norm == p_norm {
+        return 1.0;
+    }
+
+    // Extract house numbers
+    let w_number: Option<i32> = w_norm
+        .split_whitespace()
+        .next()
+        .and_then(|s| s.parse().ok());
+    let p_number: Option<i32> = p_norm
+        .split_whitespace()
+        .next()
+        .and_then(|s| s.parse().ok());
+
+    let mut score = 0.0;
+
+    // Check if addresses contain each other
+    if w_norm.contains(&p_norm) || p_norm.contains(&w_norm) {
+        score += 0.8;
+    } else {
+        // Check street name similarity
+        let w_parts: Vec<&str> = w_norm.split_whitespace().skip(1).collect();
+        let p_parts: Vec<&str> = p_norm.split_whitespace().skip(1).collect();
+
+        let w_street = w_parts.join(" ");
+        let p_street = p_parts.join(" ");
+
+        if w_street == p_street && !w_street.is_empty() {
+            score += 0.5;
+        }
+    }
+
+    // House number match bonus
+    if let (Some(w_num), Some(p_num)) = (w_number, p_number) {
+        if w_num == p_num {
+            score += 0.5;
+        }
+    }
+
+    score.min(1.0)
+}
+
+/// Calculate profession similarity score (0.0 - 1.0)
+fn calculate_profession_score(
+    whites_profession: Option<&String>,
+    player_profession: Option<&String>,
+) -> f32 {
+    let Some(w_prof) = whites_profession else {
+        return 0.0;
+    };
+    let Some(p_prof) = player_profession else {
+        return 0.0;
+    };
+
+    let w_norm = normalize_text(w_prof);
+    let p_norm = normalize_text(p_prof);
+
+    if w_norm == p_norm {
+        return 1.0;
+    }
+
+    if w_norm.contains(&p_norm) || p_norm.contains(&w_norm) {
+        return 0.7;
+    }
+
+    // Check for common profession synonyms
+    let synonyms = vec![
+        (vec!["cutler", "knife maker"], vec!["cutler", "knife maker"]),
+        (vec!["innkeeper", "publican", "landlord"], vec!["innkeeper", "publican", "landlord"]),
+        (vec!["grocer", "shopkeeper"], vec!["grocer", "shopkeeper"]),
+        (vec!["blacksmith", "farrier"], vec!["blacksmith", "farrier"]),
+    ];
+
+    for (group1, group2) in synonyms {
+        let w_in_group = group1.iter().any(|s| w_norm.contains(s));
+        let p_in_group = group2.iter().any(|s| p_norm.contains(s));
+        if w_in_group && p_in_group {
+            return 0.8;
+        }
+    }
+
+    0.0
+}
+
+/// Calculate parish similarity score (0.0 - 1.0)
+fn calculate_parish_score(
+    whites_parish: Option<&String>,
+    player_parish: Option<&String>,
+) -> f32 {
+    let Some(w_parish) = whites_parish else {
+        return 0.0;
+    };
+    let Some(p_parish) = player_parish else {
+        return 0.0;
+    };
+
+    let w_norm = normalize_parish(w_parish);
+    let p_norm = normalize_parish(p_parish);
+
+    if w_norm == p_norm {
+        return 1.0;
+    }
+
+    if w_norm.contains(&p_norm) || p_norm.contains(&w_norm) {
+        return 0.7;
+    }
+
+    0.0
+}
+
+/// Calculate overall match confidence with weighted factors
+fn calculate_match_confidence(
+    whites_entry: &WhitesEntry,
+    player: &PlayerCandidate,
+) -> (f32, MatchFactors, String) {
+    // Calculate individual factor scores
+    let name_score = calculate_name_score(&whites_entry.name, &player.name);
+    let address_score = calculate_address_score(
+        &whites_entry.street_address,
+        player.street_address.as_ref(),
+    );
+    let profession_score = calculate_profession_score(
+        whites_entry.profession.as_ref(),
+        player.profession.as_ref(),
+    );
+
+    // Use either civil or ecclesiastical parish
+    let player_parish = player
+        .ecclesiastical_parish
+        .as_ref()
+        .or(player.civil_parish.as_ref());
+    let parish_score = calculate_parish_score(whites_entry.parish.as_ref(), player_parish);
+
+    let factors = MatchFactors {
+        name_score,
+        address_score,
+        profession_score,
+        parish_score,
+    };
+
+    // Weighted combination
+    // Name is most important (0.4), then address (0.3), profession (0.2), parish (0.1)
+    let confidence = name_score * 0.4 + address_score * 0.3 + profession_score * 0.2 + parish_score * 0.1;
+
+    // Build reason string
+    let mut reasons = Vec::new();
+    if name_score >= 0.7 {
+        reasons.push("strong name match");
+    } else if name_score >= 0.5 {
+        reasons.push("partial name match");
+    }
+    if address_score >= 0.8 {
+        reasons.push("address match");
+    }
+    if profession_score >= 0.7 {
+        reasons.push("profession match");
+    }
+    if parish_score >= 0.7 {
+        reasons.push("parish match");
+    }
+
+    let reason = if reasons.is_empty() {
+        "weak match".to_string()
+    } else {
+        reasons.join(", ")
+    };
+
+    (confidence, factors, reason)
+}
+
+/// Get all unmatched Whites directory entries
+pub async fn get_unmatched_whites_entries(
+    pool: &SqlitePool,
+) -> Result<Vec<WhitesEntry>, sqlx::Error> {
+    sqlx::query_as::<_, WhitesEntry>(
+        r#"
+        SELECT
+            id, name, first_name, surname, business_name, business_type, profession,
+            street_address, district, parish, postcode, notes, year, page_number,
+            is_matched, matched_player_id, match_confidence, match_method
+        FROM sheffield_whites_entries
+        WHERE is_matched = 0
+        ORDER BY surname, first_name
+        "#
+    )
+    .fetch_all(pool)
+    .await
+}
+
+/// Get all player candidates (excluding those already matched to whites entries)
+pub async fn get_player_candidates(
+    pool: &SqlitePool,
+) -> Result<Vec<PlayerCandidate>, sqlx::Error> {
+    sqlx::query_as!(
+        PlayerCandidate,
+        r#"
+        SELECT
+            id, name, first_name, surname, birth_year, profession, street_address,
+            civil_parish, ecclesiastical_parish, where_born
+        FROM sheffield_players
+        WHERE id NOT IN (
+            SELECT matched_player_id
+            FROM sheffield_whites_entries
+            WHERE is_matched = 1 AND matched_player_id IS NOT NULL
+        )
+        ORDER BY surname, first_name
+        "#
+    )
+    .fetch_all(pool)
+    .await
+}
+
+/// Generate match suggestions for all unmatched whites entries
+pub async fn generate_match_suggestions(
+    pool: &SqlitePool,
+    min_confidence: f32,
+    max_suggestions_per_entry: usize,
+) -> Result<Vec<WhitesMatchSuggestion>, sqlx::Error> {
+    let whites_entries = get_unmatched_whites_entries(pool).await?;
+    let players = get_player_candidates(pool).await?;
+
+    let mut suggestions = Vec::new();
+
+    for whites_entry in whites_entries {
+        let mut candidates = Vec::new();
+
+        for player in &players {
+            let (confidence, factors, reason) =
+                calculate_match_confidence(&whites_entry, player);
+
+            if confidence >= min_confidence {
+                candidates.push(PlayerCandidateWithScore {
+                    player: player.clone(),
+                    confidence_score: confidence,
+                    match_factors: factors,
+                    match_reason: reason,
+                });
+            }
+        }
+
+        // Sort by confidence descending
+        candidates.sort_by(|a, b| b.confidence_score.partial_cmp(&a.confidence_score).unwrap());
+
+        // Take top N candidates
+        candidates.truncate(max_suggestions_per_entry);
+
+        if !candidates.is_empty() {
+            suggestions.push(WhitesMatchSuggestion {
+                whites_entry,
+                candidates,
+            });
+        }
+    }
+
+    Ok(suggestions)
+}
+
+/// Accept a manual match (from drag-and-drop)
+pub async fn accept_manual_match(
+    pool: &SqlitePool,
+    whites_entry_id: &str,
+    player_id: &str,
+) -> Result<(), sqlx::Error> {
+    // Get the whites entry and player to calculate confidence
+    let whites_entry = sqlx::query_as!(
+        WhitesEntry,
+        r#"
+        SELECT
+            id, name, first_name, surname, business_name, business_type, profession,
+            street_address, district, parish, postcode, notes, year, page_number,
+            is_matched as "is_matched: bool", matched_player_id, match_confidence, match_method
+        FROM sheffield_whites_entries
+        WHERE id = ?
+        "#,
+        whites_entry_id
+    )
+    .fetch_one(pool)
+    .await?;
+
+    let player = sqlx::query_as!(
+        PlayerCandidate,
+        r#"
+        SELECT
+            id, name, first_name, surname, birth_year, profession, street_address,
+            civil_parish, ecclesiastical_parish, where_born
+        FROM sheffield_players
+        WHERE id = ?
+        "#,
+        player_id
+    )
+    .fetch_one(pool)
+    .await?;
+
+    let (confidence, factors, reason) = calculate_match_confidence(&whites_entry, &player);
+    let now = chrono::Utc::now().to_rfc3339();
+
+    // Update the whites entry
+    sqlx::query!(
+        r#"
+        UPDATE sheffield_whites_entries
+        SET is_matched = 1,
+            matched_player_id = ?,
+            match_confidence = ?,
+            match_method = 'manual',
+            match_timestamp = ?
+        WHERE id = ?
+        "#,
+        player_id,
+        confidence,
+        now,
+        whites_entry_id
+    )
+    .execute(pool)
+    .await?;
+
+    // Record in match history
+    let match_factors_json = serde_json::to_string(&factors).unwrap_or_default();
+    sqlx::query!(
+        r#"
+        INSERT INTO sheffield_whites_match_history
+        (whites_entry_id, player_id, confidence_score, match_factors, match_reason, status, decided_by, decided_at)
+        VALUES (?, ?, ?, ?, ?, 'accepted', 'user', ?)
+        "#,
+        whites_entry_id,
+        player_id,
+        confidence,
+        match_factors_json,
+        reason,
+        now
+    )
+    .execute(pool)
+    .await?;
+
+    Ok(())
+}
+
+/// Reject a match suggestion
+pub async fn reject_match(
+    pool: &SqlitePool,
+    whites_entry_id: &str,
+    player_id: &str,
+    notes: Option<String>,
+) -> Result<(), sqlx::Error> {
+    let now = chrono::Utc::now().to_rfc3339();
+
+    sqlx::query!(
+        r#"
+        INSERT INTO sheffield_whites_match_history
+        (whites_entry_id, player_id, confidence_score, match_reason, status, decided_by, decided_at, notes)
+        VALUES (?, ?, 0.0, 'manually rejected', 'rejected', 'user', ?, ?)
+        "#,
+        whites_entry_id,
+        player_id,
+        now,
+        notes
+    )
+    .execute(pool)
+    .await?;
+
+    Ok(())
+}
+
+/// Get match statistics
+pub async fn get_match_stats(pool: &SqlitePool) -> Result<WhitesMatchStats, sqlx::Error> {
+    let total = sqlx::query_scalar!("SELECT COUNT(*) FROM sheffield_whites_entries")
+        .fetch_one(pool)
+        .await?
+        .unwrap_or(0) as usize;
+
+    let matched = sqlx::query_scalar!(
+        "SELECT COUNT(*) FROM sheffield_whites_entries WHERE is_matched = 1"
+    )
+    .fetch_one(pool)
+    .await?
+    .unwrap_or(0) as usize;
+
+    Ok(WhitesMatchStats {
+        total_whites_entries: total,
+        matched_entries: matched,
+        unmatched_entries: total - matched,
+        suggestions_generated: 0, // Will be updated when suggestions are generated
+    })
+}

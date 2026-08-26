@@ -1,0 +1,353 @@
+/* Standings Screen */
+.standings-screen {
+  padding: 0;
+  background-color: var(--background);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.standings-screen h1 {
+  font-family: Georgia, serif;
+  font-size: 2.5em;
+  color: var(--accent);
+  margin: 0;
+  padding: 20px 20px 0 20px;
+}
+
+.standings-header {
+  margin-bottom: 0;
+  border-bottom: 3px solid var(--accent);
+  padding: 20px;
+  padding-bottom: 15px;
+}
+
+.standings-info {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.info-box {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.info-label {
+  font-size: 0.8em;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+.info-value {
+  font-size: 1.3em;
+  color: var(--accent);
+  font-weight: bold;
+  font-family: Georgia, serif;
+}
+
+.standings-header h2 {
+  font-family: Georgia, serif;
+  font-size: 1.5em;
+  color: var(--accent);
+  margin: 0;
+}
+
+.division-selector {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.division-selector label {
+  font-weight: 600;
+  color: var(--text);
+}
+
+.division-selector select {
+  padding: 8px 12px;
+  background-color: var(--secondary);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  font-size: 0.95em;
+  cursor: pointer;
+  min-width: 250px;
+}
+
+.division-selector select:hover {
+  border-color: var(--accent);
+}
+
+.division-selector select:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(255, 193, 7, 0.2);
+}
+
+.standings-table-container {
+  background-color: rgba(22, 33, 62, 0.5);
+  border: none;
+  border-radius: 0;
+  overflow: auto;
+  box-shadow: none;
+  height: 50vh;
+}
+
+.standings-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95em;
+}
+
+.standings-table thead {
+  background: linear-gradient(135deg, #34495e 0%, #34495e 100%);
+  border-bottom: 2px solid var(--border);
+}
+
+.standings-table th {
+  padding: 35px 16px;
+  text-align: left;
+  color: #bdc3c7;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  letter-spacing: 0.5px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.standings-table tbody tr {
+  border-bottom: 1px solid var(--border);
+  transition: all 0.2s ease;
+}
+
+.standings-table tbody tr:hover {
+  background-color: rgba(15, 52, 96, 0.3);
+}
+
+.standings-table td {
+  padding: 12px 12px;
+  color: var(--text);
+}
+
+/* Zone color coding */
+.standings-table tbody tr.promotion-zone {
+  background-color: rgba(76, 175, 80, 0.1);
+  border-left: 4px solid #4CAF50;
+}
+
+.standings-table tbody tr.promotion-zone:hover {
+  background-color: rgba(76, 175, 80, 0.2);
+}
+
+.standings-table tbody tr.relegation-zone {
+  background-color: rgba(244, 67, 54, 0.1);
+  border-left: 4px solid #f44336;
+}
+
+.standings-table tbody tr.relegation-zone:hover {
+  background-color: rgba(244, 67, 54, 0.2);
+}
+
+.standings-table tbody tr.mid-table {
+  border-left: 4px solid var(--border);
+}
+
+/* User team highlighting */
+.standings-table tbody tr.user-team {
+  font-weight: 600;
+}
+
+.standings-table tbody tr.user-team.promotion-zone {
+  background-color: rgba(76, 175, 80, 0.2);
+}
+
+.standings-table tbody tr.user-team.relegation-zone {
+  background-color: rgba(244, 67, 54, 0.2);
+}
+
+.standings-table tbody tr.user-team.mid-table {
+  background-color: rgba(33, 150, 243, 0.1);
+}
+
+/* Column specific styling */
+.standings-table .position {
+  font-weight: bold;
+  color: var(--accent);
+  min-width: 40px;
+}
+
+.standings-table .team-name {
+  font-weight: 600;
+  color: var(--text);
+  min-width: 150px;
+}
+
+.standings-table .goal-diff {
+  font-weight: 600;
+  text-align: center;
+}
+
+.standings-table .goal-diff.positive {
+  color: #4CAF50;
+}
+
+.standings-table .goal-diff.negative {
+  color: #f44336;
+}
+
+.standings-table .points {
+  font-weight: 700;
+  color: var(--accent);
+  font-size: 1.1em;
+  text-align: center;
+  min-width: 40px;
+}
+
+/* Legend/Footer info */
+.standings-legend {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 15px 20px;
+  background-color: transparent;
+  border-radius: 0;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.9em;
+  color: var(--text-muted);
+}
+
+.legend-color {
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+  border-left: 4px solid;
+}
+
+.legend-color.promotion {
+  background-color: rgba(76, 175, 80, 0.2);
+  border-left-color: #4CAF50;
+}
+
+.legend-color.mid-table {
+  background-color: rgba(100, 100, 100, 0.2);
+  border-left-color: #888;
+}
+
+.legend-color.relegation {
+  background-color: rgba(244, 67, 54, 0.2);
+  border-left-color: #f44336;
+}
+
+.legend-btn {
+  padding: 10px 16px;
+  background-color: var(--secondary);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  font-size: 0.9em;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-weight: 500;
+}
+
+.legend-btn:hover {
+  background-color: var(--accent);
+  color: var(--background);
+  border-color: var(--accent);
+}
+
+.legend-btn:active {
+  transform: scale(0.98);
+}
+
+.other-division-container {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: rgba(22, 33, 62, 0.5);
+  border-top: 2px solid var(--accent);
+}
+
+.other-division-container h3 {
+  font-family: Georgia, serif;
+  font-size: 1.3em;
+  color: var(--accent);
+  margin: 0 0 15px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.division-table {
+  margin-top: 15px;
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95em;
+}
+
+.division-table thead {
+  background: linear-gradient(135deg, #34495e 0%, #34495e 100%);
+  border-bottom: 2px solid var(--border);
+}
+
+.division-table thead th {
+  padding: 35px 16px !important;
+  text-align: left;
+  color: #bdc3c7;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  letter-spacing: 0.5px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.division-table tbody tr {
+  border-bottom: 1px solid var(--border);
+  transition: all 0.2s ease;
+}
+
+.division-table tbody tr:hover {
+  background-color: rgba(15, 52, 96, 0.3);
+}
+
+.division-table td {
+  padding: 12px 12px;
+  color: var(--text);
+}
+
+/* Division table responsive styling */
+
+/* Responsive */
+@media (max-width: 768px) {
+  .standings-screen {
+    padding: 12px;
+  }
+
+  .standings-table {
+    font-size: 0.85em;
+  }
+
+  .standings-table th,
+  .standings-table td {
+    padding: 8px 6px;
+  }
+
+  .standings-legend {
+    flex-direction: column;
+    gap: 15px;
+  }
+}

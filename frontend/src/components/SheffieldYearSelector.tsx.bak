@@ -1,0 +1,439 @@
+import React, { useState } from 'react'
+import '../styles/sheffield-year-selector.css'
+
+// SVG Icons
+const CrownIcon = () => (
+  <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+  </svg>
+)
+
+const RougeIcon = () => (
+  <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+    <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2" fill="none"/>
+    <circle cx="12" cy="12" r="3" fill="currentColor"/>
+  </svg>
+)
+
+const CalendarIcon = () => (
+  <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+    <rect x="3" y="4" width="18" height="18" rx="2" fill="none" stroke="currentColor" strokeWidth="2"/>
+    <line x1="16" y1="2" x2="16" y2="6" stroke="currentColor" strokeWidth="2"/>
+    <line x1="8" y1="2" x2="8" y2="6" stroke="currentColor" strokeWidth="2"/>
+    <line x1="3" y1="10" x2="21" y2="10" stroke="currentColor" strokeWidth="2"/>
+  </svg>
+)
+
+const SoccerBallIcon = () => (
+  <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+    <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" strokeWidth="2"/>
+    <path d="M12 2v20M2 12h20M6 6l12 12M6 18l12-12" stroke="currentColor" strokeWidth="1"/>
+  </svg>
+)
+
+const TrophyIcon = () => (
+  <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+    <path d="M3 6h2v9c0 2.2 1.8 4 4 4h6c2.2 0 4-1.8 4-4V6h2V4H3v2zm4 11c-1.1 0-2-.9-2-2v-8h10v8c0 1.1-.9 2-2 2H7z"/>
+    <path d="M8 1h8v2H8z"/>
+  </svg>
+)
+
+const LocationIcon = () => (
+  <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+    <path d="M12 2C7.58 2 4 5.58 4 10c0 5.25 8 13 8 13s8-7.75 8-13c0-4.42-3.58-8-8-8zm0 11c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"/>
+  </svg>
+)
+
+interface YearData {
+  year: number
+  name: string
+  isOfficial: boolean
+  changes: string[]
+  rougeActive: boolean
+  significance: string
+}
+
+const SHEFFIELD_RULES_YEARS: YearData[] = [
+  {
+    year: 1858,
+    name: '1858 - The Start',
+    isOfficial: false,
+    changes: ['Sheffield FC matches begin', 'First standardized goals introduced'],
+    rougeActive: false,
+    significance: 'Sheffield FA rules enter play'
+  },
+  {
+    year: 1859,
+    name: '1859',
+    isOfficial: false,
+    changes: ['Handling rules refined', 'Offside rule clarified'],
+    rougeActive: false,
+    significance: 'Rules stabilizing in early period'
+  },
+  {
+    year: 1860,
+    name: '1860',
+    isOfficial: false,
+    changes: ['Goal dimensions established', 'Match duration standardized'],
+    rougeActive: false,
+    significance: 'First major standardizations'
+  },
+  {
+    year: 1861,
+    name: '1861',
+    isOfficial: false,
+    changes: ['Set piece rules formalized', 'Throw-in procedures introduced'],
+    rougeActive: false,
+    significance: 'Set piece system emerges'
+  },
+  {
+    year: 1862,
+    name: '1862 - Rouge Era Begins',
+    isOfficial: false,
+    changes: ['Rouge scoring system introduced', 'Goal worth 2 points, rouge worth 1 point'],
+    rougeActive: true,
+    significance: 'Revolutionary scoring mechanic debuts'
+  },
+  {
+    year: 1863,
+    name: '1863 - FA Formed',
+    isOfficial: false,
+    changes: ['FA founded in England', 'Sheffield Rules coexist with FA Rules'],
+    rougeActive: true,
+    significance: 'Two competing rule systems now exist'
+  },
+  {
+    year: 1864,
+    name: '1864 - Rouge Refinements',
+    isOfficial: false,
+    changes: ['Rouge scoring clarified', 'Touchdown requirement for rouge established'],
+    rougeActive: true,
+    significance: 'Rouge system matures'
+  },
+  {
+    year: 1865,
+    name: '1865 - Cross Goal Innovation',
+    isOfficial: false,
+    changes: ['Cross-goal attempts refined', 'Safe scoring areas defined'],
+    rougeActive: true,
+    significance: 'Game tactics evolving'
+  },
+  {
+    year: 1866,
+    name: '1866 - Refinements',
+    isOfficial: false,
+    changes: ['Offside rule enforcement tightened', 'Fair catching formalized'],
+    rougeActive: true,
+    significance: 'Rules becoming more stringent'
+  },
+  {
+    year: 1867,
+    name: '1867 - Sheffield FA Founded',
+    isOfficial: true,
+    changes: ['Sheffield Football Association officially founded', 'FA rules beginning to influence', 'Rouge still active and important'],
+    rougeActive: true,
+    significance: 'The birth of the association - OFFICIAL START YEAR'
+  },
+  {
+    year: 1868,
+    name: '1868 - Post-Rouge Era',
+    isOfficial: false,
+    changes: ['Rouge system abolished', 'Goals-only scoring adopted', 'Corner kicks introduced'],
+    rougeActive: false,
+    significance: 'End of rouge, modern era begins'
+  },
+  {
+    year: 1869,
+    name: '1869 - FA Influence Growing',
+    isOfficial: false,
+    changes: ['FA rules gaining prominence', 'Goalkeeper handling restrictions eased'],
+    rougeActive: false,
+    significance: 'Convergence toward standardization'
+  },
+  {
+    year: 1870,
+    name: '1870',
+    isOfficial: false,
+    changes: ['Offside simplified', 'Penalty area concept emerging'],
+    rougeActive: false,
+    significance: 'Modern structure forming'
+  },
+  {
+    year: 1871,
+    name: '1871',
+    isOfficial: false,
+    changes: ['Goal-kick rules standardized', 'Throw-in distance regulations'],
+    rougeActive: false,
+    significance: 'Set pieces modernizing'
+  },
+  {
+    year: 1872,
+    name: '1872 - International Era',
+    isOfficial: false,
+    changes: ['First international match (England vs Scotland)', 'FA rules becoming dominant'],
+    rougeActive: false,
+    significance: 'International standardization begins'
+  },
+  {
+    year: 1873,
+    name: '1873',
+    isOfficial: false,
+    changes: ['Throw-in rules clarified', 'Corner kick procedures established'],
+    rougeActive: false,
+    significance: 'Set piece rules solidify'
+  },
+  {
+    year: 1874,
+    name: '1874 - Peak Stability',
+    isOfficial: false,
+    changes: ['Rules largely stabilized', 'Offside rule near final form'],
+    rougeActive: false,
+    significance: 'The stable modern era'
+  },
+  {
+    year: 1875,
+    name: '1875 - Stable Era',
+    isOfficial: false,
+    changes: ['Rules nearly identical to modern', 'FA dominance nearly complete'],
+    rougeActive: false,
+    significance: 'Almost modern football achieved'
+  },
+  {
+    year: 1876,
+    name: '1876',
+    isOfficial: false,
+    changes: ['Sheffield Rules still separate', 'But convergence with FA continues'],
+    rougeActive: false,
+    significance: 'Final separate era'
+  },
+  {
+    year: 1877,
+    name: '1877 - Sheffield Rules End',
+    isOfficial: false,
+    changes: ['Sheffield Rules formally merge with FA', 'Unified football rules established'],
+    rougeActive: false,
+    significance: 'Sheffield Rules era concludes'
+  }
+]
+
+interface SheffieldYearSelectorProps {
+  onSelectYear: (year: number) => void
+  onSelectGameMode?: (gameMode: 'historical-timeline' | 'ahistorical' | 'historical-from-year', year?: number) => void
+}
+
+export function SheffieldYearSelector({ onSelectYear, onSelectGameMode }: SheffieldYearSelectorProps) {
+  const [selectedYear, setSelectedYear] = useState<number | null>(1867)
+  const [hoveredYear, setHoveredYear] = useState<number | null>(null)
+  const [showDetails, setShowDetails] = useState(true)
+
+  const handleYearClick = (year: number) => {
+    setSelectedYear(year)
+    onSelectYear(year)
+  }
+
+  const getYearPeriod = (year: number): string => {
+    if (year < 1862) return 'early'
+    if (year >= 1862 && year <= 1868) return 'rouge-era'
+    if (year >= 1869 && year <= 1877) return 'late'
+    return 'early'
+  }
+
+  const selectedYearData = SHEFFIELD_RULES_YEARS.find(y => y.year === selectedYear)
+
+  return (
+    <div className="sheffield-year-selector">
+      <div className="year-selector-header">
+        <h2>Sheffield Rules Timeline</h2>
+        <p className="timeline-subtitle">
+          Select a year to experience the evolution of football (1857-1877)
+        </p>
+      </div>
+
+      <div className="year-selector-container">
+        {/* Flow Chart / Timeline */}
+        <div className="year-flowchart">
+          <div className="timeline-line"></div>
+
+          <div className="years-grid">
+            {SHEFFIELD_RULES_YEARS.map((yearData, index) => {
+              const period = getYearPeriod(yearData.year)
+              const isSelected = selectedYear === yearData.year
+              const isHovered = hoveredYear === yearData.year
+
+              return (
+                <div
+                  key={yearData.year}
+                  className={`year-node period-${period} ${isSelected ? 'selected' : ''} ${isHovered ? 'hovered' : ''} ${yearData.isOfficial ? 'official' : ''}`}
+                  onClick={() => handleYearClick(yearData.year)}
+                  onMouseEnter={() => setHoveredYear(yearData.year)}
+                  onMouseLeave={() => setHoveredYear(null)}
+                >
+                  {yearData.isOfficial && <div className="official-circle-ring"></div>}
+
+                  <div className="year-node-inner">
+                    <div className="year-number">{yearData.year}</div>
+                  </div>
+
+                  <div className={`period-label ${period}`}>
+                    {period === 'early' && 'EARLY'}
+                    {period === 'rouge-era' && 'ROUGE'}
+                    {period === 'late' && 'LATE'}
+                  </div>
+
+                  <div className="year-tooltip">
+                    <div className="tooltip-year">{yearData.year}</div>
+                    <div className="tooltip-name">{yearData.name}</div>
+                    {yearData.rougeActive && (
+                      <div className="tooltip-rouge">
+                        <RougeIcon />
+                        <span>Rouge Scoring Active</span>
+                      </div>
+                    )}
+                  </div>
+                </div>
+              )
+            })}
+          </div>
+        </div>
+
+        {/* Details Panel */}
+        {selectedYearData && (
+          <div className="year-details-panel">
+            <div className="details-header">
+              <h3>{selectedYearData.name}</h3>
+              {selectedYearData.isOfficial && (
+                <div className="official-label">
+                  RECOMMENDED START YEAR
+                </div>
+              )}
+            </div>
+
+            <div className="significance">
+              <strong>Historical Significance:</strong>
+              <p>{selectedYearData.significance}</p>
+            </div>
+
+            <div className="changes">
+              <strong>Rule Changes & Events:</strong>
+              <ul>
+                {selectedYearData.changes.map((change, idx) => (
+                  <li key={idx}>{change}</li>
+                ))}
+              </ul>
+            </div>
+
+            {selectedYearData.rougeActive && (
+              <div className="rouge-info">
+                <div className="rouge-badge">
+                  <span>ROUGE SCORING ACTIVE</span>
+                </div>
+                <p>
+                  When a ball is kicked between the uprights below the crossbar, it counts
+                  as a rouge and is worth 1 point, while a goal (above the crossbar) is worth 2 points.
+                </p>
+              </div>
+            )}
+
+            <div className="period-context">
+              {selectedYearData.year < 1862 && (
+                <div className="context-early">
+                  <strong>Early Period (Pre-Rouge):</strong>
+                  <p>The formative years of organized football rules, before the introduction of the rouge scoring system.</p>
+                </div>
+              )}
+              {selectedYearData.year === 1862 && (
+                <div className="context-rouge-start">
+                  <strong>Rouge Era Begins:</strong>
+                  <p>The introduction of the revolutionary rouge scoring system changes football forever.</p>
+                </div>
+              )}
+              {selectedYearData.year === 1868 && (
+                <div className="context-rouge-end">
+                  <strong>Post-Rouge Era:</strong>
+                  <p>The rouge system is abolished, but Sheffield Rules continue to evolve toward modern football.</p>
+                </div>
+              )}
+              {selectedYearData.year > 1868 && selectedYearData.year < 1877 && (
+                <div className="context-late">
+                  <strong>Late Period (Post-Rouge):</strong>
+                  <p>Sheffield Rules progressively converge with FA Rules, setting the foundation for modern football.</p>
+                </div>
+              )}
+              {selectedYearData.year === 1877 && (
+                <div className="context-end">
+                  <strong>Era Conclusion:</strong>
+                  <p>Sheffield Rules formally merge with FA Rules, marking the end of this unique period in football history.</p>
+                </div>
+              )}
+            </div>
+
+            <div className="game-mode-selection">
+              <strong>How would you like to play?</strong>
+              <div className="mode-buttons">
+                <button
+                  className="mode-button historical"
+                  onClick={() => onSelectGameMode?.('historical-timeline')}
+                >
+                  <span className="icon"><CalendarIcon /></span>
+                  <div className="button-text">
+                    <span className="label">Historical Timeline</span>
+                    <span className="description">1858-1877 with automatic rule progression</span>
+                  </div>
+                </button>
+
+                <button
+                  className="mode-button ahistorical"
+                  onClick={() => onSelectGameMode?.("ahistorical-1862")}
+                >
+                  <span className="icon"><RougeIcon /></span>
+                  <div className="button-text">
+                    <span className="label">Rouge Era (1862)</span>
+                    <span className="description">Play indefinitely with rouge scoring active</span>
+                  </div>
+                </button>
+
+                <button
+                  className="mode-button ahistorical"
+                  onClick={() => onSelectGameMode?.("ahistorical-1868")}
+                >
+                  <span className="icon"><SoccerBallIcon /></span>
+                  <div className="button-text">
+                    <span className="label">Post-Rouge (1868)</span>
+                    <span className="description">Play indefinitely with goals-only scoring</span>
+                  </div>
+                </button>
+
+                <button
+                  className="mode-button ahistorical"
+                  onClick={() => onSelectGameMode?.("ahistorical-1875")}
+                >
+                  <span className="icon"><TrophyIcon /></span>
+                  <div className="button-text">
+                    <span className="label">Stable Era (1875)</span>
+                    <span className="description">Play indefinitely with most balanced rules</span>
+                  </div>
+                </button>
+
+                {selectedYear !== 1858 && (
+                  <button
+                    className="mode-button historical-from"
+                    onClick={() => onSelectGameMode?.("historical-from-year", selectedYear)}
+                  >
+                    <span className="icon"><LocationIcon /></span>
+                    <div className="button-text">
+                      <span className="label">Historical From {selectedYear}</span>
+                      <span className="description">Start {selectedYear}, rules evolve to 1877</span>
+                    </div>
+                  </button>
+                )}
+              </div>
+            </div>
+          </div>
+        )}
+      </div>
+
+    </div>
+  )
+}
+
+export default SheffieldYearSelector

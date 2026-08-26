@@ -1,0 +1,98 @@
+Short:    HD-Installer for SWOS
+Author:   Galahad of Fairlight (GLDFLT@AOL.COM)
+Version:  1.7
+Type:     game/patch
+
+This patch applies to SWOS, ©1994-97 Sensible Software
+
+                      /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+                      PLEASE NOTE NEW E-MAIL ADDRESS
+                      \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+
+NOTE TO UAE/FELLOW USERS:
+- This WHDload patch is configured and made possible using a REAL Amiga!
+If you are able to play this install on your emulator, this comes with no
+assurances that the install will be trouble free, and as such, NO mail can
+be answered in relation to bugs occuring on anything other than a
+REAL Amiga!  If any serious problems occur as a result of using this patch
+on your emulated machine, please consider reporting the problem to the 
+author of the emulator you are using.
+
+Currently supported versions:
+------------------------------------
+SWOS v0.9       94-95 2 Disk version
+SWOS v1.1       94-95 2 Disk version
+SWOS            95-96 2 Disk version
+SWOS UPDATE     95-96 2 Disk version
+SWOS v1.0       94-95 2 Disk version
+SWOS EURO96     95-96 2 Disk version
+SWOS v1.52 (v1) 96-97 2 Disk version
+SWOS v1.52 (v2) 96-97 2 Disk version*	F I N A L
+------------------------------------
+(*) added support since last slave release)
+
+There are no more versions (!) of SWOS to support, just the speed fix!
+
+
+REQUIREMENTS:
+- Slave requires WHDLOAD V12+.
+- Game requires 2.0 MB Chip Mem (+ 1.8 other memory for preload option)
+
+FEATURES:
+- Full load from Hard drive (REAL files)
+- Lame-o-Protect removed (Copylock)/(2x Copylock in versions 1.52)
+- Load/Save Seasons/Tactics/Leagues/Careers/Highlights/Diy to Hard Drive
+- Memory bus error fixed!
+- Bus error fixed! (Highlights)
+- CACR code removed
+- Divide by Zero code removed
+- RomIcon, NewIcon (x2) and GlowIcon (also x2) (all created by Frank!)
+- Quit option is 'Del'
+
+Thanks goto the following guys for making this install possible:
+-----------------------------------------------
+Vulture			;Initial two versions
+Dr.Zarkov		;Six move versions
+Mario Sarno		;Latest version
+James-Maurice Battle	;ANOTHER latest version
+John Regent		;The FINAL version!
+Frank			;For the great icons
+-----------------------------------------------
+Their testing and patience have enabled SWOS WHDLoad to become a reality!
+
+Thanks also to the MANY people that have sent email thanking me for
+this install.
+
+EXTRA NOTES:
+These currently supported versions of SWOS have been tested on 68o3o
+and 68o6o and now operate as they should.
+
+45 Seperate saves are still allowed.
+
+KNOWN BUGS:
+SWOS still has one bug in the game which is present in the original.
+
+If you want to view a HIGHLIGHT, you MUST have already loaded a game and
+played!  It does not matter if you only play on the pitch for 2 seconds or
+2 hours, the HIGHLIGHTS option expects you to have already loaded a game,
+otherwise it will hang.
+
+For purists of SWOS, you know this already ;)
+
+OTHER NOTE:
+
+If you are having slowdown problems, could you please try the NOVBRMOVE
+option and tell me if there are any improvements or whether or not
+SWOS is still the same.
+
+Reply via the usual EMAIL address (GLDFLT@AOL.COM)
+
+Once I get a few things sorted, perhaps we can nail this slowdown bug on
+faster processors.
+
+
+Signed Galahad of Fairlight
+
+
+         Bug report form, full WHDLoad package and other installs:
+                          http://www.whdload.org

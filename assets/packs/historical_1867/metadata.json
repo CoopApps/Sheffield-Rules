@@ -1,0 +1,22 @@
+{
+  "name": "Historical 1867",
+  "version": "1.0.0",
+  "description": "Victorian-era asset pack. Sheffield FC rules, 1867. Long trousers, flat caps, leather footballs.",
+  "author": "Saturday at Three",
+  "era": "1867",
+  "metadata": {
+    "color_scheme": "sepia_victorian",
+    "photography_style": "victorian_daguerreotype",
+    "ui_style": "victorian_industrial",
+    "font_primary": "Georgia",
+    "font_secondary": "Courier New",
+    "palette_bg": "#1a1208",
+    "palette_primary": "#3d2b0e",
+    "palette_accent": "#8b6914",
+    "palette_text": "#e8d5a0",
+    "sprite_layers_player": "background,shirt,trousers,socks,boots,hair",
+    "sprite_layers_gk": "background,waistcoat,trousers,socks,boots,hair",
+    "sprite_count_player": "106",
+    "sprite_count_gk": "58"
+  }
+}
